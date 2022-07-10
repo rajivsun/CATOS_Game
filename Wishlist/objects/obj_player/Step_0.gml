@@ -38,11 +38,12 @@ if (place_meeting(x,y + vspd, obj_wall))
 }
 y = y + vspd;
 
-// Animation
+//----------------- Animation------------------
 if (!place_meeting(x,y+1,obj_wall))
 {
 	sprite_index = spr_idle;
 }
+
 else
 {
 	if (hspd == 0)
