@@ -1,59 +1,27 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-right = keyboard_check(vk_right);
-left = keyboard_check(vk_left);
+right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+left = keyboard_check(vk_left) or keyboard_check(ord("Q")); 
 jump = keyboard_check(vk_space);
+interact = keyboard_check(ord("E"));
 
-var move = right - left;
-hspd = move * walkspd;
-vspd = vspd + grav;
+//--------------- movement --------------------
+player_movement();
 
-//jump
-//if (place_meeting(x,y+1,obj_wall)) && jump
-//{
-//	vspd = -5;
-//}
-
-// Collisions horizontales
-if (place_meeting(x + hspd, y, obj_wall))
+var _list = ds_list_create();
+var _num = instance_place_list(x, y, obj_NPC, _list, false);
+if _num > 0
 {
-	while (!place_meeting(x + sign(hspd),y,obj_wall))
-	{
-		x = x + sign(hspd);
-	}
-	hspd = 0;
+    for (var i = 0; i < _num; ++i;)
+    {
+        if _list[| i].talkable == true and interact and !instance_exists(obj_textbox)
+		{
+			create_textbox(_list[| i]);
+			//_list[| i].talk_sign_show = true;
+			
+		}
+    }
 }
 
-x = x + hspd;
-
-// Collisions verticales
-if (place_meeting(x,y + vspd, obj_wall))
-{
-	while(!place_meeting(x, y + sign(vspd), obj_wall))
-	{
-		y = y + sign(vspd);
-	}
-	vspd = 0;
-}
-y = y + vspd;
-
-//----------------- Animation------------------
-if (!place_meeting(x,y+1,obj_wall))
-{
-	sprite_index = spr_idle;
-}
-
-else
-{
-	if (hspd == 0)
-	{
-		sprite_index = spr_idle;
-	}
-	else
-	{
-		sprite_index = spr_walk;
-	}
-}
-
-if (hspd != 0 ) image_xscale = sign(hspd);
+ds_list_destroy(_list);

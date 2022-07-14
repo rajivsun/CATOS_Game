@@ -5,6 +5,7 @@
 hspd = 0;
 vspd = 0;
 
+
 // -------info--------
 walkspd = 0.7;
 grav = 1;

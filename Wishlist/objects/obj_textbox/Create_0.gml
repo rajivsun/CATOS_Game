@@ -1,33 +1,43 @@
 /// @description Insert description here
 // You can write your code in this editor
-spr_box = spr_textbox;
-alarm[0] = 5;
-//frame = spr_portrait_frame;
-//spr_portrait = spr_portraits;
-text_maxwidth = 500*2;
-counter = 0;
-//portrait_index = 0;
-text = ["i am blind i am blind i am blind i am blind i am blind i am blind i am blind",
-		"i love you i love you i love you i love you i love you i love you i love you "
-		];
-//portraits = [0,0];
-speakers = [obj_player,obj_player];
-draw_set_font(ft_chinese)
-text_height = string_height("M");
-text_height = 50;
+
+// -------- textbox paramters -------------
+spr_box = spr_textbox; 
+//textbox_width = 100;
+//textbox_height = 200;
+textbox_x = window_get_width()/2;
+textbox_y = 200;
+text_x = 700;
+text_y = 150;
+portrait_x = 450; 
+portrait_y = 150;
+line_sep = 45;
+line_width = 1300;
+
+//------------- textbox initialization ---------------
+destroying = false;
+xscale = 0; 
+yscale = 0;
+opbox_xscale = 0;
+opbox_yscale = 0;
+//textbox_img = 0;
+//textbox_img_spd = 0;
+
+//the text
+txt[0] = "这是一个很长的文字哦，这是一个很长的文字哦，\n这是一个很长的文字哦，这是一个很长的文字哦";
 page = 0;
+page_number = 0;
+text_length[0] = string_length(txt[0]);
+draw_char = 0;
+text_spd = 1;
 
+setup = false;
 
-//playerstate = obj_player.state;
+// ----------------- portrait enum -------------------
+enum portrait
+{
+	none = 0,
+	player = 1,
+	robotU = 2,
+}
 
-sp = virtual_key_add(50,410,1200,200,vk_space);
-
-y_buff = 0;
-sgn = 1;
-
-//with obj_player{
-//	image_speed = 0;
-//	sprite_index = spr_idle;
-//	image_index = face;
-//	state = "cutscene";
-//}
