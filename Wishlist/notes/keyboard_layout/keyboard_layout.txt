@@ -1,0 +1,5 @@
+QZSD: movement
+R : game restart
+E : interact
+space : next dialogue
+P : telephone

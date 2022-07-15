@@ -12,10 +12,11 @@ function src_game_text(_text_id){
 }
 
 
-function create_textbox(_text_id)
+function create_textbox(_txt,_current_node)
 {
 	with (instance_create_depth(0,0,-9999,obj_textbox))
 	{
-		txt = _text_id.txt;
+		txt = _txt;
+		current_node = _current_node;
 	}
 }

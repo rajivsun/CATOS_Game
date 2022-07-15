@@ -15,6 +15,8 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-54.0,"y":30.0,"resourceVersion":"1.0","name":"inst_5F792E0C_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-50.0,"y":-1.0,"resourceVersion":"1.0","name":"inst_2E8ED1F2","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_telephone","path":"objects/obj_telephone/obj_telephone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":531.0,"y":184.0,"resourceVersion":"1.0","name":"inst_14F153A","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"system","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_bar_table","path":"objects/obj_bar_table/obj_bar_table.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":218.0,"y":111.0,"resourceVersion":"1.0","name":"inst_7D36571E_1","tags":[],"resourceType":"GMRInstance",},
@@ -56,6 +58,8 @@
     {"name":"inst_44A48340","path":"rooms/rm_HOME/rm_HOME.yy",},
     {"name":"inst_5F486924","path":"rooms/rm_HOME/rm_HOME.yy",},
     {"name":"inst_5F792E0C_1","path":"rooms/rm_HOME/rm_HOME.yy",},
+    {"name":"inst_2E8ED1F2","path":"rooms/rm_HOME/rm_HOME.yy",},
+    {"name":"inst_14F153A","path":"rooms/rm_HOME/rm_HOME.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
