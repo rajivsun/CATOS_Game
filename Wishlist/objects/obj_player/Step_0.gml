@@ -17,19 +17,10 @@ else
 }
 
 //-------------- interact --------------------
-var _list = ds_list_create();
-var _num = instance_place_list(x, y, obj_NPC, _list, false);
-if _num > 0
+nearest =instance_nearest(x,y,obj_interactable);
+if interact
 {
-    for (var i = 0; i < _num; ++i;)
-    {
-        if _list[| i].talkable == true and interact and !instance_exists(obj_textbox)
-		{
-			create_textbox(_list[| i].txt,0);
-			//_list[| i].talk_sign_show = true;
-			
-		}
-    }
+	player_interact();
 }
 
-ds_list_destroy(_list);
+

@@ -8,9 +8,7 @@ function src_game_text(_text_id){
 			src_text("Hi, master!");
 			break;
 	}
-
 }
-
 
 function create_textbox(_txt,_current_node)
 {

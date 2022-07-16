@@ -39,5 +39,6 @@ enum portrait
 	player = 1,
 	robotU = 2,
 	boss = 3,
+	robot_hunter = 4,
 }
 

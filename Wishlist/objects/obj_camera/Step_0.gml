@@ -24,9 +24,7 @@ if follow != noone
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
 
-if room == rm_CITY_NIGHT
+if room == rm_HOME
 {
-	if layer_exists("BG_mountain_night") layer_x("BG_mountain_night",x/1.5);
-	if layer_exists("BG_building_night") layer_x("BG_building_night",x/2);
-	if layer_exists("BG_cloud") layer_x("BG_cloud",x/1.5);
+	if layer_exists("bg_far") layer_x("bg_far",x/1.5);
 }

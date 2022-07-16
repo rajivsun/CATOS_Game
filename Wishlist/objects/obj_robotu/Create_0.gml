@@ -18,6 +18,7 @@ txt[1] = [
 ];
 
 txt[2] = [
+["我想玩游戏。",portrait.player],
 ["主人我实在太累了，我现在电量不够玩游戏了。",portrait.robotU],
 ["好的小U，那你快去充电吧。",portrait.player],
 ["好的主人！",portrait.robotU],

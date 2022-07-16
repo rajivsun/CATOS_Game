@@ -1,12 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// ---------initialization----------
+// --------- initialization ----------
 hspd = 0;
 vspd = 0;
+nearest = 0;
 
 
-// -------info--------
+// ------- info --------
 walkspd = 0.7;
 grav = 1;
 spr_idle = spr_player;
