@@ -40,5 +40,6 @@ enum portrait
 	robotU = 2,
 	boss = 3,
 	robot_hunter = 4,
+	sign_board = 5,
 }
 

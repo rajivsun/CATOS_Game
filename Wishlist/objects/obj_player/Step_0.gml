@@ -5,9 +5,15 @@ right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 left = keyboard_check(vk_left) or keyboard_check(ord("Q")); 
 //jump = keyboard_check(vk_space);
 interact = keyboard_check(ord("E"));
+sprint = keyboard_check(vk_shift);
+
+
+
 
 //--------------- movement --------------------
-if instance_exists(obj_textbox)
+player_run();
+
+if instance_exists(obj_textbox) //or obj_controller.cutscene_on == true
 {
 	sprite_index = spr_idle;
 }

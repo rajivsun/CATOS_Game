@@ -5,7 +5,7 @@ if follow != noone
 {
 	//update destination
 	xTo = follow.x;
-	yTo = follow.y;	
+	yTo = follow.y-dist_player_cam;	
 	//update object position
 	x += (xTo - x)/25;
 	y += (yTo - y)/25;
@@ -27,4 +27,12 @@ if follow != noone
 if room == rm_HOME
 {
 	if layer_exists("bg_far") layer_x("bg_far",x/1.5);
+}
+
+if room == rm_FOREST
+{
+	//if layer_exists("bg_near") layer_x("bg_near",1.5*x);
+	if layer_exists("bg_far") layer_x("bg_far",x/2);
+	if layer_exists("bg_further") layer_x("bg_further",x/1.5);
+	if layer_exists("bg_furthest") layer_x("bg_furthest",x/1.2);	
 }

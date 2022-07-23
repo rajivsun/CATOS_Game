@@ -6,12 +6,9 @@ hspd = 0;
 vspd = 0;
 nearest = 0;
 
-
 // ------- info --------
-walkspd = 0.7;
+
 grav = 1;
 spr_idle = spr_player;
-spr_walk = spr_playerWALK;
-//spr_walk = spr_playerRUN;
-
+run = false;
 

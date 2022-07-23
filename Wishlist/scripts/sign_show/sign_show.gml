@@ -16,13 +16,13 @@ function sign_show(_sign_to_show,_sign_xscale,_sign_yscale){
 	{	
 		sign_xscale = lerp(sign_xscale,_sign_xscale,0.1);
 		sign_yscale = lerp(sign_yscale,_sign_xscale,0.1);
-		draw_sprite_ext(_sign_to_show,0,x,y-sprite_height/2,sign_xscale,sign_yscale,0,c_white,1);
+		draw_sprite_ext(_sign_to_show,0,x,y-sprite_height/2+sign_y_buffer,sign_xscale,sign_yscale,0,c_white,1);
 	}
 	else
 	{
 		sign_xscale = lerp(sign_xscale,0,0.1);
 		sign_yscale = lerp(sign_yscale,0,0.1);
-		draw_sprite_ext(_sign_to_show,0,x,y-sprite_height/2,sign_xscale,sign_yscale,0,c_white,1);	
+		draw_sprite_ext(_sign_to_show,0,x,y-sprite_height/2+sign_y_buffer,sign_xscale,sign_yscale,0,c_white,1);	
 	}
 
 

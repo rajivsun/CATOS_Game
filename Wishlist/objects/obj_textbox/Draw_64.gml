@@ -3,7 +3,6 @@
 
 accept_key = keyboard_check_pressed(vk_space);
 
-
 //setup
 if setup == false
 {
@@ -72,7 +71,7 @@ if ! destroying
 
 //draw portrait
 if ! destroying
-	draw_sprite_ext(spr_portrait,txt[current_node][page][1]-1,portrait_x,portrait_y,xscale*4,xscale*4,0,c_white,1);
+	draw_sprite_ext(spr_portrait,txt[current_node][page][1]-1,portrait_x,portrait_y,xscale*3,xscale*3,0,c_white,1);
 
 //draw options
 if txt[current_node][page+1][0] == 0 and draw_char == text_length[page]
