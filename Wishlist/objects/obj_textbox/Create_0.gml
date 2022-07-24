@@ -3,12 +3,12 @@
 
 // -------- textbox paramters -------------
 spr_box = spr_textbox;
-textbox_x = window_get_width()/2;
+textbox_x = display_get_gui_width()/2;
 textbox_y = 200;
 text_x = 700;
 text_y = 150;
-portrait_x = 450;
-portrait_y = 150;
+portrait_x = display_get_gui_width()/1920 * 450;
+portrait_y = display_get_gui_height()/1080 * 150;
 line_sep = 45;
 line_width = 1300;
 key_1 = virtual_key_add(476,310,920-476,425-310,vk_numpad1);
@@ -42,4 +42,12 @@ enum portrait
 	robot_hunter = 4,
 	sign_board = 5,
 }
+
+ls_portrait_name = ds_list_create();
+ds_list_add(ls_portrait_name,"0");
+ds_list_add(ls_portrait_name,"1");
+ds_list_add(ls_portrait_name,"2");
+ds_list_add(ls_portrait_name,"3");
+ds_list_add(ls_portrait_name,"4");
+ds_list_add(ls_portrait_name,"5");
 

@@ -28,6 +28,7 @@
         {"FrameId":{"name":"e1410a3a-c75c-4e24-8520-4761beee07f2","path":"sprites/spr_grass_near/spr_grass_near.yy",},"LayerId":{"name":"77b75063-aecc-45e8-8e2f-cc144f2df976","path":"sprites/spr_grass_near/spr_grass_near.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"e1410a3a-c75c-4e24-8520-4761beee07f2","path":"sprites/spr_grass_near/spr_grass_near.yy",},"LayerId":{"name":"f0ba5043-3041-473e-81f0-ea8ac2cb8148","path":"sprites/spr_grass_near/spr_grass_near.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"e1410a3a-c75c-4e24-8520-4761beee07f2","path":"sprites/spr_grass_near/spr_grass_near.yy",},"LayerId":{"name":"f384fc20-33b4-4eb7-bfd3-79563c698377","path":"sprites/spr_grass_near/spr_grass_near.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"e1410a3a-c75c-4e24-8520-4761beee07f2","path":"sprites/spr_grass_near/spr_grass_near.yy",},"LayerId":{"name":"8b3c3203-d7c3-4186-8ecd-cca278276983","path":"sprites/spr_grass_near/spr_grass_near.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_grass_near","path":"sprites/spr_grass_near/spr_grass_near.yy",},"resourceVersion":"1.0","name":"e1410a3a-c75c-4e24-8520-4761beee07f2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

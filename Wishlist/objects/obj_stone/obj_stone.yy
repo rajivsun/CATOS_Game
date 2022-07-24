@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_stone",
-    "path": "sprites/spr_stone/spr_stone.yy",
+    "name": "spr_stone_sword",
+    "path": "sprites/spr_stone_sword/spr_stone_sword.yy",
   },
   "solid": false,
   "visible": true,
