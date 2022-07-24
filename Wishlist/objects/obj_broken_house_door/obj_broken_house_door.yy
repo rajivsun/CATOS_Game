@@ -1,14 +1,17 @@
 {
   "spriteId": {
-    "name": "spr_broken_house",
-    "path": "sprites/spr_broken_house/spr_broken_house.yy",
+    "name": "spr_broken_house_door",
+    "path": "sprites/spr_broken_house_door/spr_broken_house_door.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_normal_door",
+    "path": "objects/obj_normal_door/obj_normal_door.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,15 +24,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "DOOR",
+    "path": "folders/Objects/DOOR.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_house_dream",
+  "name": "obj_broken_house_door",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -19,7 +19,7 @@ function player_interact(){
 	}
 	ds_list_destroy(_list);
 	
-	// door
+	// home door
 	var _list = ds_list_create();
 	var _num = instance_place_list(x, y, obj_door, _list, false);
 	if _num > 0
@@ -31,6 +31,24 @@ function player_interact(){
 			{
 				
 				script_execute(door_interact,_list[| i]);
+			}
+	    }
+	}
+	ds_list_destroy(_list);
+	
+	// normal door
+	var _list = ds_list_create();
+	var _num = instance_place_list(x, y, obj_normal_door, _list, false);
+	if _num > 0
+	{
+	    for (var i = 0; i < _num; ++i;)
+	    {
+	        if !instance_exists(obj_textbox) 
+			and _list[| i] == nearest and _list[| i].interactable == true
+			{
+				fade(_list[| i].room_go_to,60,c_black,obj_player,80,105);
+				
+				//script_execute(door_interact,_list[| i]);
 			}
 	    }
 	}

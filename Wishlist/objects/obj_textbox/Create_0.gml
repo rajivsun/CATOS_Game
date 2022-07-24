@@ -42,6 +42,7 @@ enum portrait
 	robot_hunter = 4,
 	sign_board = 5,
 	mo = 6,
+	phone = 7,
 }
 
 ls_portrait_name = ds_list_create();
@@ -52,3 +53,4 @@ ds_list_add(ls_portrait_name,"老板");
 ds_list_add(ls_portrait_name,"机器人收资官");
 ds_list_add(ls_portrait_name,"告示牌");
 ds_list_add(ls_portrait_name,"墨墨");
+ds_list_add(ls_portrait_name,"电话");
