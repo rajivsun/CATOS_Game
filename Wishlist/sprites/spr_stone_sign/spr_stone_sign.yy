@@ -9,8 +9,8 @@
   "swfPrecision": 2.525,
   "bbox_left": 17,
   "bbox_right": 47,
-  "bbox_top": 4,
-  "bbox_bottom": 61,
+  "bbox_top": 1,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -25,9 +25,9 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"b79d0ee0-c5e0-4b00-8bc3-a5310d6ef9e5","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b79d0ee0-c5e0-4b00-8bc3-a5310d6ef9e5","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"LayerId":{"name":"0352ecc2-b2a4-44c8-8413-0e28290da71c","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"b79d0ee0-c5e0-4b00-8bc3-a5310d6ef9e5","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"LayerId":{"name":"347ecc97-e698-42a8-83f1-2ddc8b799af5","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"b79d0ee0-c5e0-4b00-8bc3-a5310d6ef9e5","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"LayerId":{"name":"b71bbdd1-5238-4f16-a4fd-4b19673f95d8","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b79d0ee0-c5e0-4b00-8bc3-a5310d6ef9e5","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"LayerId":{"name":"347ecc97-e698-42a8-83f1-2ddc8b799af5","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b79d0ee0-c5e0-4b00-8bc3-a5310d6ef9e5","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"LayerId":{"name":"0352ecc2-b2a4-44c8-8413-0e28290da71c","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_stone_sign","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"resourceVersion":"1.0","name":"b79d0ee0-c5e0-4b00-8bc3-a5310d6ef9e5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

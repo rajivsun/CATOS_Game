@@ -6,7 +6,7 @@ spr_box = spr_textbox;
 textbox_x = display_get_gui_width()/2;
 textbox_y = 200;
 text_x = 700;
-text_y = 150;
+text_y = 170;
 portrait_x = display_get_gui_width()/1920 * 450;
 portrait_y = display_get_gui_height()/1080 * 150;
 line_sep = 45;
@@ -29,7 +29,7 @@ page = 0;
 page_number = 0;
 text_length[0] = string_length(txt[0]);
 draw_char = 0;
-text_spd = 1;
+text_spd = 0.5;
 setup = false;
 
 // ----------------- portrait enum -------------------
@@ -41,13 +41,14 @@ enum portrait
 	boss = 3,
 	robot_hunter = 4,
 	sign_board = 5,
+	mo = 6,
 }
 
 ls_portrait_name = ds_list_create();
 ds_list_add(ls_portrait_name,"0");
-ds_list_add(ls_portrait_name,"1");
-ds_list_add(ls_portrait_name,"2");
-ds_list_add(ls_portrait_name,"3");
-ds_list_add(ls_portrait_name,"4");
-ds_list_add(ls_portrait_name,"5");
-
+ds_list_add(ls_portrait_name,"让");
+ds_list_add(ls_portrait_name,"小U");
+ds_list_add(ls_portrait_name,"老板");
+ds_list_add(ls_portrait_name,"机器人收资官");
+ds_list_add(ls_portrait_name,"告示牌");
+ds_list_add(ls_portrait_name,"墨墨");

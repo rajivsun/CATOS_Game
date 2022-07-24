@@ -69,6 +69,7 @@ var _drawtext = string_copy(txt[current_node][page][0],1,draw_char);
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 if ! destroying
+	draw_text_ext(text_x,text_y-45,ls_portrait_name[| txt[current_node][page][1]]+":",line_sep,line_width);
 	draw_text_ext(text_x,text_y,_drawtext,line_sep,line_width);
 
 //draw portrait

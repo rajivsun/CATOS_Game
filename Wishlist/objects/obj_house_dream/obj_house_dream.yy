@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_house_dream",
-    "path": "sprites/spr_house_dream/spr_house_dream.yy",
+    "name": "spr_house",
+    "path": "sprites/spr_house/spr_house.yy",
   },
   "solid": false,
   "visible": true,

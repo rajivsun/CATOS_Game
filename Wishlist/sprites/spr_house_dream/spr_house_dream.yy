@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f000fcdc-e20a-48c6-af34-2aae4ab5dcc4","path":"sprites/spr_house_dream/spr_house_dream.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f000fcdc-e20a-48c6-af34-2aae4ab5dcc4","path":"sprites/spr_house_dream/spr_house_dream.yy",},"LayerId":{"name":"ecf2d209-ac24-4fe3-b17a-83b510cc23ce","path":"sprites/spr_house_dream/spr_house_dream.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f000fcdc-e20a-48c6-af34-2aae4ab5dcc4","path":"sprites/spr_house_dream/spr_house_dream.yy",},"LayerId":{"name":"9d82d7cc-5d54-4faf-8022-d1d403784276","path":"sprites/spr_house_dream/spr_house_dream.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f000fcdc-e20a-48c6-af34-2aae4ab5dcc4","path":"sprites/spr_house_dream/spr_house_dream.yy",},"LayerId":{"name":"ecf2d209-ac24-4fe3-b17a-83b510cc23ce","path":"sprites/spr_house_dream/spr_house_dream.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_house_dream","path":"sprites/spr_house_dream/spr_house_dream.yy",},"resourceVersion":"1.0","name":"f000fcdc-e20a-48c6-af34-2aae4ab5dcc4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
