@@ -57,7 +57,7 @@
     "spriteId": {"name":"spr_flower_lifecycle","path":"sprites/spr_flower_lifecycle/spr_flower_lifecycle.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 5.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
