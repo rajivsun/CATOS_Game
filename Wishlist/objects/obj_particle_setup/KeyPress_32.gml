@@ -1,10 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-count = 0;
-knock = false;
 
-
-
-
-
+//part_particles_create(particle_system,mouse_x,mouse_y,particletype_smoke,50)

@@ -20,3 +20,13 @@ if room == rm_FOREST and cutscene_on
 	//draw_rectangle_color(0,0,window_get_width(),window_get_height(),0,0,0,0,false);
 	draw_set_alpha(1)
 }
+
+
+if game_mode == "mobile"
+{
+	draw_sprite(spr_key_left,0,99,904);
+	draw_sprite(spr_key_right,0,408,904);
+	draw_sprite(spr_key_E,0,1617,904);
+	draw_sprite(spr_key_space,0,1337,904);
+	draw_sprite(spr_key_shift,0,1089,904);
+}
