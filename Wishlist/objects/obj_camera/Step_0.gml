@@ -1,7 +1,7 @@
 /// @description update camera
 // You can write your code in this editor
 
-if follow != noone
+if instance_exists(follow)
 {
 	//update destination
 	xTo = follow.x;
@@ -40,7 +40,7 @@ if room == rm_FOREST
 if room == rm_CITY_TOP
 {
 	//if layer_exists("bg_near") layer_x("bg_near",1.5*x);
-	if layer_exists("bg_far") layer_x("bg_far",x/2);
+	if layer_exists("bg_far") layer_x("bg_far",x/1.5);
 	//if layer_exists("bg_further") layer_x("bg_further",x/1.5);
 	//if layer_exists("bg_furthest") layer_x("bg_furthest",x/1.2);	
 }

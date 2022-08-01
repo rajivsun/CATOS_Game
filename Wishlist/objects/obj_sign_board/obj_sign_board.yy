@@ -32,8 +32,8 @@
     {"propertyId":{"name":"sign_y_buffer","path":"objects/obj_interactable/obj_interactable.yy",},"objectId":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},"value":"-15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "FOREST",
+    "path": "folders/Objects/FOREST.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_sign_board",

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "HOME",
+    "path": "folders/Sprites/HOME.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_telephone",

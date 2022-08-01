@@ -3,3 +3,4 @@ R : game restart
 E : interact
 space : next dialogue
 P : telephone
+Alt : robot cleaner start

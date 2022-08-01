@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "CITY_NIGHT",
+    "path": "folders/Objects/CITY_NIGHT.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_skyscraper",

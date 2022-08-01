@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"008c0357-bb24-4c2f-afb2-a94936286dd6","path":"sprites/spr_door_sign/spr_door_sign.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"008c0357-bb24-4c2f-afb2-a94936286dd6","path":"sprites/spr_door_sign/spr_door_sign.yy",},"LayerId":{"name":"4c190e60-3023-4ac6-b0a9-efe5d76bd1d1","path":"sprites/spr_door_sign/spr_door_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"008c0357-bb24-4c2f-afb2-a94936286dd6","path":"sprites/spr_door_sign/spr_door_sign.yy",},"LayerId":{"name":"a8087571-34fe-4b34-92a8-4e1d36c40c50","path":"sprites/spr_door_sign/spr_door_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"008c0357-bb24-4c2f-afb2-a94936286dd6","path":"sprites/spr_door_sign/spr_door_sign.yy",},"LayerId":{"name":"4c190e60-3023-4ac6-b0a9-efe5d76bd1d1","path":"sprites/spr_door_sign/spr_door_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_door_sign","path":"sprites/spr_door_sign/spr_door_sign.yy",},"resourceVersion":"1.0","name":"008c0357-bb24-4c2f-afb2-a94936286dd6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

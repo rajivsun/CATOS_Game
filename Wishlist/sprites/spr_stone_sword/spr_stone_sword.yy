@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "FOREST",
+    "path": "folders/Sprites/FOREST.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_stone_sword",

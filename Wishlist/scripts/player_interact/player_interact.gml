@@ -28,8 +28,7 @@ function player_interact(){
 	    {
 	        if !instance_exists(obj_textbox) 
 			and _list[| i] == nearest and _list[| i].interactable == true
-			{
-				
+			{	
 				script_execute(door_interact,_list[| i]);
 			}
 	    }
@@ -46,9 +45,29 @@ function player_interact(){
 	        if !instance_exists(obj_textbox) 
 			and _list[| i] == nearest and _list[| i].interactable == true
 			{
-				fade(_list[| i].room_go_to,60,c_black,obj_player,80,105);
+				if _list[| i].object_index == obj_elevator_skycraper 
+					fade(_list[| i].room_go_to,120,c_black,obj_player,80,105);
+				else
+					fade(_list[| i].room_go_to,60,c_black,obj_player,80,105);
 				
 				//script_execute(door_interact,_list[| i]);
+			}
+	    }
+	}
+	ds_list_destroy(_list);
+	
+	//interactable object
+	var _list = ds_list_create();
+	var _num = instance_place_list(x, y, obj_robotcleaner_terminal, _list, false);
+	if _num > 0
+	{
+	    for (var i = 0; i < _num; ++i;)
+	    {
+	        if !instance_exists(obj_textbox) 
+			and _list[| i] == nearest and _list[| i].interactable == true
+			{
+				fade(rm_ROBOT_CLEANER,30,c_black,0,0,0);
+
 			}
 	    }
 	}

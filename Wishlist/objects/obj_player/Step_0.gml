@@ -8,12 +8,10 @@ interact = keyboard_check(ord("E"));
 sprint = keyboard_check(vk_shift);
 
 
-
-
 //--------------- movement --------------------
 player_run();
 
-if instance_exists(obj_textbox) //or obj_controller.cutscene_on == true
+if instance_exists(obj_textbox) or instance_exists(obj_fade)//or obj_controller.cutscene_on == true
 {
 	sprite_index = spr_idle;
 }
