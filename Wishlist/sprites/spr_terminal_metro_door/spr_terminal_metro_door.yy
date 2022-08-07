@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","path":"sprites/spr_terminal_metro_door/spr_terminal_metro_door.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","path":"sprites/spr_terminal_metro_door/spr_terminal_metro_door.yy",},"LayerId":{"name":"011c5534-dc81-4b4b-b7b6-50eba9b3a6fb","path":"sprites/spr_terminal_metro_door/spr_terminal_metro_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","path":"sprites/spr_terminal_metro_door/spr_terminal_metro_door.yy",},"LayerId":{"name":"05ddfe90-cca3-4bb0-9272-bb0b97b5cea6","path":"sprites/spr_terminal_metro_door/spr_terminal_metro_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","path":"sprites/spr_terminal_metro_door/spr_terminal_metro_door.yy",},"LayerId":{"name":"011c5534-dc81-4b4b-b7b6-50eba9b3a6fb","path":"sprites/spr_terminal_metro_door/spr_terminal_metro_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_terminal_metro_door","path":"sprites/spr_terminal_metro_door/spr_terminal_metro_door.yy",},"resourceVersion":"1.0","name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
