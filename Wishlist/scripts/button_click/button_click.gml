@@ -11,10 +11,27 @@ function button_click(_pos_x,_pos_y,_width=200,_height=100){
 	}
 }
 
-
 function button_show(_pos_x,_pos_y,_alpha=1,_color=c_black,_width=200,_height=100){
 	draw_set_alpha(_alpha);
 	draw_rectangle_color(_pos_x-_width/2,_pos_y-_height/2,_pos_x+_width/2,_pos_y+_height/2,_color,_color,_color,_color,false);
 	draw_set_alpha(1);
 
+}
+
+function high_light_selected(_pos_x,_pos_y,_width=200,_height=100,_color=c_white){
+	draw_rectangle_color(_pos_x-_width/2,_pos_y-_height/2,_pos_x+_width/2,_pos_y+_height/2,
+	_color,_color,_color,_color,true);
+	
+}
+
+
+function button_click_multi(_pos_x,_pos_y,_width=200,_height=100){
+	
+	for (var i=0;i<array_length(_pos_x);i++)
+	{
+		if button_click(_pos_x[i],_pos_y[i])
+		{
+			return i
+		}
+	}
 }

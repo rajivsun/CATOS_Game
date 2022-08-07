@@ -13,16 +13,19 @@ options =
 	["open",#4C7F58],
 	["close",#4C7F58],
 
-]
-;
+];
+
+select = 0;
 
 pos1_txt = ["false",#995B5D];
 pos2_txt = ["close",#4C7F58];
+pos_txt = [pos1_txt,pos2_txt];
 pos1 = false;
 pos2 = "close";
 pos1_x = 670; 
 pos1_y = 194;
-
 pos2_x = 554;
 pos2_y = 339;
+pos_x = [pos1_x,pos2_x];
+pos_y = [pos1_y,pos2_y];
 

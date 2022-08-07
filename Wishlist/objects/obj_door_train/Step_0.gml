@@ -10,3 +10,9 @@ else
 {
 	image_alpha = 0.2;
 }
+
+
+if state == "open"
+{
+	image_index = 1;
+}

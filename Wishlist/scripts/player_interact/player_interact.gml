@@ -85,9 +85,17 @@ function player_interact(){
 			{
 				if obj_controller_metro.blackout == true
 				{
-					if !instance_exists(obj_terminal_train_door)
+					if _list[| i].state == "close"
 					{
-						instance_create_layer(0,0,"system",obj_terminal_train_door);
+						if !instance_exists(obj_terminal_train_door)
+						{
+						
+							instance_create_layer(0,0,"system",obj_terminal_train_door);
+						}
+					}
+					else if _list[| i].state == "open"
+					{
+						
 					}
 				}
 			}

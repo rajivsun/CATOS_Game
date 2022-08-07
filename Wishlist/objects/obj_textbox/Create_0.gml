@@ -51,7 +51,7 @@ ds_list_add(ls_portrait_name,"0");
 ds_list_add(ls_portrait_name,"让");
 ds_list_add(ls_portrait_name,"小U");
 ds_list_add(ls_portrait_name,"老板");
-ds_list_add(ls_portrait_name,"机器人收资官");
+ds_list_add(ls_portrait_name,"神秘人");
 ds_list_add(ls_portrait_name,"告示牌");
 ds_list_add(ls_portrait_name,"墨墨");
 ds_list_add(ls_portrait_name,"电话");
