@@ -13,7 +13,7 @@ if keyboard_check_pressed(vk_escape)
 	instance_destroy();
 } 
 
-// draw options
+// draw code options
 for (var i=0;i<array_length(options);i++)
 {
 	draw_set_alpha(0.2);
@@ -26,3 +26,13 @@ for (var i=0;i<array_length(options);i++)
 	var _color = options[i][1];
 	draw_text_color(1454,315+i*120,options[i][0],_color,_color,_color,_color,1);
 }
+
+// draw the run time
+draw_healthbar(250,870,1130,950,100*(-alarm[0]/60+1),c_black,#4C7F58,#4C7F58,-1,1,1);
+
+// draw working code
+draw_set_valign(fa_middle);
+draw_set_halign(fa_center);
+draw_set_font(ft_text_big);
+draw_text_color(pos1_x,pos1_y,pos1_txt[0],pos1_txt[1],pos1_txt[1],pos1_txt[1],pos1_txt[1],1);
+draw_text_color(pos2_x,pos2_y,pos2_txt[0],pos2_txt[1],pos2_txt[1],pos2_txt[1],pos2_txt[1],1);
