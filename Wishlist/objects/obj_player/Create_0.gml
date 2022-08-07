@@ -5,10 +5,12 @@
 hspd = 0;
 vspd = 0;
 nearest = 0;
+state = "idle";
 
 // ------- info --------
 
 grav = 1;
 spr_idle = spr_player;
+spr_sit = spr_playerSIT;
 run = false;
 

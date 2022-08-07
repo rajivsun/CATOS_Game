@@ -9,22 +9,32 @@ sprint = keyboard_check(vk_shift);
 
 
 //--------------- movement --------------------
-player_run();
+switch (state){
+	
+	case "idle":	
+	
+		player_run();
 
-if instance_exists(obj_textbox) or instance_exists(obj_fade)//or obj_controller.cutscene_on == true
-{
-	sprite_index = spr_idle;
-}
-else
-{
-	player_movement();
-}
+		if instance_exists(obj_textbox) or instance_exists(obj_fade)//or obj_controller.cutscene_on == true
+		{
+			sprite_index = spr_idle;
+		}
+		else
+		{
+			player_movement();
+		}
+		//-------------- interact --------------------
+		nearest =instance_nearest(x,y,obj_interactable);
+		if interact
+		{
+			player_interact();
+		}
+		break;
+		
+	case "sit":
+		sprite_index = spr_sit;
+		break;
 
-//-------------- interact --------------------
-nearest =instance_nearest(x,y,obj_interactable);
-if interact
-{
-	player_interact();
 }
 
 
