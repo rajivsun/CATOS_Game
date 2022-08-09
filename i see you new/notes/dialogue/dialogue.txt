@@ -1,8 +1,0 @@
-if obj_main.language == "chinese"
-{
-
-}
-else if obj_main.language == "english"
-{
-
-}

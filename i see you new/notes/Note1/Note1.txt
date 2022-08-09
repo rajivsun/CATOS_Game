@@ -1,5 +1,0 @@
-分为 场景furniture互动 和 物体item互动
-
-场景互动主要是action DIY
-
-物体item互动主要是interactable
