@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function fade(_room,_duration,_color,_id,_x,_y){
+function fade(_room,_duration,_color=c_black,_id=0,_x=0,_y=0){
 	if !instance_exists(obj_fade){
 		with instance_create_depth(0,0,-9999,obj_fade){
 			

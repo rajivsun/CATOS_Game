@@ -6,3 +6,4 @@ P : telephone
 Alt : robot cleaner start
 ESC : close the terminal window
 O : run terminal
+num1-5: generator UI switchs

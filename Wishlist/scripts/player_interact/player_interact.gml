@@ -3,6 +3,7 @@
 function player_interact(){
 	
 	// NPC
+	#region
 	var _list = ds_list_create();
 	var _num = instance_place_list(x, y, obj_NPC, _list, false);
 	if _num > 0
@@ -18,8 +19,10 @@ function player_interact(){
 	    }
 	}
 	ds_list_destroy(_list);
+	#endregion
 	
 	// home door
+	#region
 	var _list = ds_list_create();
 	var _num = instance_place_list(x, y, obj_door, _list, false);
 	if _num > 0
@@ -34,8 +37,10 @@ function player_interact(){
 	    }
 	}
 	ds_list_destroy(_list);
+	#endregion
 	
 	// normal door
+	#region
 	var _list = ds_list_create();
 	var _num = instance_place_list(x, y, obj_normal_door, _list, false);
 	if _num > 0
@@ -55,8 +60,10 @@ function player_interact(){
 	    }
 	}
 	ds_list_destroy(_list);
+	#endregion
 	
-	//interactable object
+	// robotcleaner terminal object
+	#region
 	var _list = ds_list_create();
 	var _num = instance_place_list(x, y, obj_robotcleaner_terminal, _list, false);
 	if _num > 0
@@ -72,8 +79,10 @@ function player_interact(){
 	    }
 	}
 	ds_list_destroy(_list);
+	#endregion
 	
-	//metro door
+	// metro door
+	#region
 	var _list = ds_list_create();
 	var _num = instance_place_list(x, y, obj_door_train, _list, false);
 	if _num > 0
@@ -95,11 +104,32 @@ function player_interact(){
 					}
 					else if _list[| i].state == "open"
 					{
-						
+						fade(rm_METRO_STATION,30,c_black,obj_player,213,156);
 					}
 				}
 			}
 	    }
 	}
 	ds_list_destroy(_list);
+	#endregion
+	
+	// generator
+	#region
+	var _list = ds_list_create();
+	var _num = instance_place_list(x, y, obj_generator, _list, false);
+	if _num > 0
+	{
+	    for (var i = 0; i < _num; ++i;)
+	    {
+	        
+			if _list[| i] == nearest and _list[| i].interactable == true
+			{
+				if !instance_exists(obj_generator_UI){
+					instance_create_layer(x,y,"system",obj_generator_UI);
+				}
+			}
+	    }
+	}
+	ds_list_destroy(_list);
+	#endregion	
 }

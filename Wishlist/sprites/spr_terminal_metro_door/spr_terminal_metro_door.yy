@@ -71,8 +71,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "METRO",
+    "path": "folders/Sprites/METRO.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_terminal_metro_door",

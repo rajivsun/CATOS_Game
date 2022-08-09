@@ -16,13 +16,13 @@ if state == 0{
 		if targetroom != false
 		room_goto(targetroom);
 		
-		else {
-			if instance_exists(obj_player){
-				obj_camera.x = obj_player.x;
-				obj_camera.y = obj_player.y;
-			}
-		}
 		
+		if instance_exists(obj_player){
+			obj_camera.x = obj_player.x;
+			obj_camera.y = obj_player.y;
+		}
+				
+				
 		if instance_exists(obj_cutscene) {
 			with obj_cutscene end_scene();
 		}

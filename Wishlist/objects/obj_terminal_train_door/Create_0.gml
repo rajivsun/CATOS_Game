@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 key_esc = virtual_key_add(1615,90,100,100,vk_escape);
-key_esc = virtual_key_add(1328,798,1615-1328,907-798,ord("O"));
+key_O = virtual_key_add(1328,798,1615-1328,907-798,ord("O"));
 
 
 //virtual_key_show(key_esc);

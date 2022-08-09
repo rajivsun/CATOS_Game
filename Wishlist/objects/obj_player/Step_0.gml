@@ -12,7 +12,6 @@ sprint = keyboard_check(vk_shift);
 switch (state){
 	
 	case "idle":	
-	
 		player_run();
 
 		if instance_exists(obj_textbox) or instance_exists(obj_fade)//or obj_controller.cutscene_on == true
