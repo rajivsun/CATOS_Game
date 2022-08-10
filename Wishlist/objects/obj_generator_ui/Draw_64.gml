@@ -11,5 +11,16 @@ for (var i=0;i<=4;i++)
 	draw_sprite_ext(spr_generator_switch,lights[i],550+i*200,520,3.5,3.5,0,c_white,1);
 }
 
-
+// esc button
 draw_sprite_ext(spr_esc_button,0,1732,216,4,4,0,c_white,1);
+
+// if got the right anwser
+if alarm[0] > 0
+{
+	draw_text(1920/2,1080/2,"power retablished!");
+}
+
+
+draw_text(100,100,lights)
+draw_text(100,200,right_answer)
+draw_text(100,300,alarm[0])

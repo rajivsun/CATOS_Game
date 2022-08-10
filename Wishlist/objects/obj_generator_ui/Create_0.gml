@@ -5,6 +5,7 @@ key_esc = virtual_key_add(1736-45,216-45,90,90,vk_escape);
 //virtual_key_show(key_esc);
 
 lights = [1,1,1,1,1];
+right_answer = [0,0,0,1,1];
 
 
 vk_keys = [vk_numpad1,vk_numpad2,vk_numpad3,vk_numpad4,vk_numpad5];

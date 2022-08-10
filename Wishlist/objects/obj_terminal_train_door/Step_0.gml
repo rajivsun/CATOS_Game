@@ -7,6 +7,7 @@ if alarm[1] > 0 exit;
 if button_click(pos1_x,pos1_y) select = 1;
 if button_click(pos2_x,pos2_y) select = 2;
 
+
 if select != 0
 {
 	for (var i=0;i<array_length(options);i++)
