@@ -4,4 +4,4 @@
 key_esc = virtual_key_add(1736-45,216-45,90,90,vk_escape);
 
 
-
+text = "This is a test text!";

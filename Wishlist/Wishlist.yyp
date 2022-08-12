@@ -48,6 +48,7 @@
     {"id":{"name":"obj_singer","path":"objects/obj_singer/obj_singer.yy",},"order":4,},
     {"id":{"name":"obj_train","path":"objects/obj_train/obj_train.yy",},"order":3,},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},"order":0,},
+    {"id":{"name":"spr_terminal_metro_station_UI","path":"sprites/spr_terminal_metro_station_UI/spr_terminal_metro_station_UI.yy",},"order":9,},
     {"id":{"name":"spr_robotU","path":"sprites/spr_robotU/spr_robotU.yy",},"order":5,},
     {"id":{"name":"obj_bar_chair","path":"objects/obj_bar_chair/obj_bar_chair.yy",},"order":3,},
     {"id":{"name":"ft_text_big","path":"fonts/ft_text_big/ft_text_big.yy",},"order":1,},
