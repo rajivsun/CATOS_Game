@@ -33,7 +33,7 @@
     "path": "folders/Objects/METRO.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_terminal_train_door",
+  "name": "obj_terminal_UI_train_door",
   "tags": [],
   "resourceType": "GMObject",
 }

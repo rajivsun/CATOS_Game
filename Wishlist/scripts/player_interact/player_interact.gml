@@ -96,10 +96,10 @@ function player_interact(){
 				{
 					if _list[| i].state == "close"
 					{
-						if !instance_exists(obj_terminal_train_door)
+						if !instance_exists(obj_terminal_UI_train_door)
 						{
 						
-							instance_create_layer(0,0,"system",obj_terminal_train_door);
+							instance_create_layer(0,0,"system",obj_terminal_UI_train_door);
 						}
 					}
 					else if _list[| i].state == "open"
@@ -131,5 +131,27 @@ function player_interact(){
 	    }
 	}
 	ds_list_destroy(_list);
+	#endregion
+	
+	// terminal metro station
+	#region
+	var _list = ds_list_create();
+	var _num = instance_place_list(x, y, obj_terminal_metro_station, _list, false);
+	if _num > 0
+	{
+	    for (var i = 0; i < _num; ++i;)
+	    {
+	        
+			if _list[| i] == nearest and _list[| i].interactable == true
+			{
+				if !instance_exists(obj_terminal_metro_station_UI){
+					instance_create_layer(x,y,"system",obj_terminal_metro_station_UI);
+				}
+			}
+	    }
+	}
+	ds_list_destroy(_list);
 	#endregion	
+	
+	
 }

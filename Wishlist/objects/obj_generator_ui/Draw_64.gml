@@ -1,10 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 draw_set_alpha(0.8);
 draw_rectangle_color(0,0,1920,1080,c_black,c_black,c_black,c_black,0);
 draw_set_alpha(1);
 draw_sprite_ext(spr_generator_UI,0,1920/2,1080/2,5,5,0,c_white,1);
+
 
 for (var i=0;i<=4;i++)
 {
@@ -21,6 +23,6 @@ if alarm[0] > 0
 }
 
 
-draw_text(100,100,lights)
-draw_text(100,200,right_answer)
-draw_text(100,300,alarm[0])
+//draw_text(100,100,lights)
+//draw_text(100,200,right_answer)
+//draw_text(100,300,alarm[0])

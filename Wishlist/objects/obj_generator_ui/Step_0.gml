@@ -10,6 +10,7 @@ if keyboard_check_pressed(vk_escape)
 	instance_destroy();
 }
 
+// different number buttons
 for (var i=0;i<=4;i++)
 {
 	if keyboard_check_pressed(vk_keys[i])
