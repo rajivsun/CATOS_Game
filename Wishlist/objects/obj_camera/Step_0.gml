@@ -45,3 +45,8 @@ if room == rm_METRO_STATION
 {
 	//if layer_exists("bg_fond") layer_x("bg_fond",x/5);
 }
+if room == rm_CITY_STREET
+{	
+	if layer_exists("bg_far") layer_x("bg_far",x/1.5);
+	//if layer_exists("bg_near") layer_x("bg_near",x);	
+}

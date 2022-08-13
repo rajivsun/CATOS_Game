@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "CITY_NIGHT",
-    "path": "folders/Sprites/CITY_NIGHT.yy",
+    "name": "CITY_NIGHT_TOP",
+    "path": "folders/Sprites/CITY_NIGHT_TOP.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skyscraper",

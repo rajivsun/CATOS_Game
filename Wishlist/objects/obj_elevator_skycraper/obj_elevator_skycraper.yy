@@ -32,8 +32,8 @@
     {"propertyId":{"name":"room_go_to","path":"objects/obj_normal_door/obj_normal_door.yy",},"objectId":{"name":"obj_normal_door","path":"objects/obj_normal_door/obj_normal_door.yy",},"value":"rm_METRO","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "CITY_NIGHT",
-    "path": "folders/Objects/CITY_NIGHT.yy",
+    "name": "CITY_NIGHT_TOP",
+    "path": "folders/Objects/CITY_NIGHT_TOP.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_elevator_skycraper",

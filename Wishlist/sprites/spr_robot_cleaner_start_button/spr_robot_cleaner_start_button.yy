@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"5fca680f-1b2a-422d-89b8-33713bdcb4d0","path":"sprites/spr_robot_cleaner_start_button/spr_robot_cleaner_start_button.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5fca680f-1b2a-422d-89b8-33713bdcb4d0","path":"sprites/spr_robot_cleaner_start_button/spr_robot_cleaner_start_button.yy",},"LayerId":{"name":"552cb74c-5c29-48c9-9dae-99c1e406cca0","path":"sprites/spr_robot_cleaner_start_button/spr_robot_cleaner_start_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"5fca680f-1b2a-422d-89b8-33713bdcb4d0","path":"sprites/spr_robot_cleaner_start_button/spr_robot_cleaner_start_button.yy",},"LayerId":{"name":"6f89d800-d2bd-48ce-ab9e-3249147a91f7","path":"sprites/spr_robot_cleaner_start_button/spr_robot_cleaner_start_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"5fca680f-1b2a-422d-89b8-33713bdcb4d0","path":"sprites/spr_robot_cleaner_start_button/spr_robot_cleaner_start_button.yy",},"LayerId":{"name":"552cb74c-5c29-48c9-9dae-99c1e406cca0","path":"sprites/spr_robot_cleaner_start_button/spr_robot_cleaner_start_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_robot_cleaner_start_button","path":"sprites/spr_robot_cleaner_start_button/spr_robot_cleaner_start_button.yy",},"resourceVersion":"1.0","name":"5fca680f-1b2a-422d-89b8-33713bdcb4d0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -71,8 +71,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "CITY_NIGHT",
-    "path": "folders/Sprites/CITY_NIGHT.yy",
+    "name": "CITY_NIGHT_TOP",
+    "path": "folders/Sprites/CITY_NIGHT_TOP.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_robot_cleaner_start_button",

@@ -32,8 +32,8 @@
     {"propertyId":{"name":"sign_y_buffer","path":"objects/obj_interactable/obj_interactable.yy",},"objectId":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "CITY_NIGHT",
-    "path": "folders/Objects/CITY_NIGHT.yy",
+    "name": "CITY_NIGHT_TOP",
+    "path": "folders/Objects/CITY_NIGHT_TOP.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_robotcleaner_terminal",

@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CITY_NIGHT",
-    "path": "folders/Objects/CITY_NIGHT.yy",
+    "name": "CITY_NIGHT_TOP",
+    "path": "folders/Objects/CITY_NIGHT_TOP.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mark",
