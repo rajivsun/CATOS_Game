@@ -3,7 +3,8 @@
 
 
 start_pos = 272;
-end_pos = 1562;
+end_pos = 990;
 start = false;
+elevator_speed = 1;
 
 dir = "down";

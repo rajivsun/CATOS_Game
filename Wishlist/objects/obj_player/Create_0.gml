@@ -9,7 +9,7 @@ state = "idle";
 
 // ------- info --------
 
-grav = 0.5;
+grav = 0;
 spr_idle = spr_player;
 spr_sit = spr_playerSIT;
 run = false;

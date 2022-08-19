@@ -35,13 +35,12 @@ function player_movement(){
 	y = y + vspd;
 
 	//----------------- Animation------------------
-	if (!place_meeting(x,y+1,obj_wall))
-	{
-		sprite_index = spr_idle;
-	}
-
-	else
-	{
+	//if (!place_meeting(x,y+1,obj_wall))
+	//{
+	//	sprite_index = spr_idle;
+	//}
+	//else
+	//{
 		if (hspd == 0)
 		{
 			sprite_index = spr_idle;
@@ -50,7 +49,7 @@ function player_movement(){
 		{
 			sprite_index = spr_walk;
 		}
-	}
+	//}
 
 	if (hspd != 0 ) image_xscale = sign(hspd);
 }
