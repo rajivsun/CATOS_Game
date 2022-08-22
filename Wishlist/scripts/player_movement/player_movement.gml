@@ -1,9 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function player_movement(){
+function player_movement_ground(){
 	var move = right - left;
+	var vertical = down - up;
+	vspd = vertical * walkspd;
 	hspd = move * walkspd;
-	vspd = vspd + grav;
+	
+	//vspd = vspd + grav;
 
 	//jump
 	//if (place_meeting(x,y+1,obj_wall)) && jump
@@ -32,7 +35,18 @@ function player_movement(){
 		}
 		vspd = 0;
 	}
-	y = y + vspd;
+	
+	// stairs
+	if place_meeting(x,y+2,obj_stairs)
+	{
+		var _inst = instance_place(x,y+2,obj_stairs);
+		if (y + 17 + vspd >= _inst.y - 101*_inst.image_yscale )
+		and ( y + 17 + vspd <= _inst.y + 100 * _inst.image_yscale) 
+		{
+			y = y + vspd;
+		}
+	}
+
 
 	//----------------- Animation------------------
 	//if (!place_meeting(x,y+1,obj_wall))
@@ -41,6 +55,7 @@ function player_movement(){
 	//}
 	//else
 	//{
+		
 		if (hspd == 0)
 		{
 			sprite_index = spr_idle;

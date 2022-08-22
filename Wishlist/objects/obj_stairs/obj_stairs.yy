@@ -1,17 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_feibiaobro",
-    "path": "sprites/spr_feibiaobro/spr_feibiaobro.yy",
+    "name": "spr_stairs",
+    "path": "sprites/spr_stairs/spr_stairs.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_NPC",
-    "path": "objects/obj_NPC/obj_NPC.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,9 +21,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +29,7 @@
     "path": "folders/Objects/BAR.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_feibiaobro",
+  "name": "obj_stairs",
   "tags": [],
   "resourceType": "GMObject",
 }

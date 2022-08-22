@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_singer",
+    "path": "sprites/spr_singer/spr_singer.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

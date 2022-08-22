@@ -3,6 +3,8 @@
 
 right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 left = keyboard_check(vk_left) or keyboard_check(ord("Q")); 
+down = keyboard_check(vk_down) or keyboard_check(ord("S"));
+up = keyboard_check(vk_up) or keyboard_check(ord("Z"));
 //jump = keyboard_check(vk_space);
 interact = keyboard_check(ord("E"));
 sprint = keyboard_check(vk_shift);
@@ -20,14 +22,15 @@ switch (state){
 		}
 		else
 		{
-			player_movement();
+			player_movement_ground();
 		}
-		//-------------- interact --------------------
+		// -------------- interact --------------------
 		nearest =instance_nearest(x,y,obj_interactable);
 		if interact
 		{
 			player_interact();
 		}
+		
 		break;
 		
 	case "sit":
