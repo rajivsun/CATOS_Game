@@ -136,7 +136,7 @@
     {"id":{"name":"rm_CITY_STREET","path":"rooms/rm_CITY_STREET/rm_CITY_STREET.yy",},"order":1,},
     {"id":{"name":"spr_bridge","path":"sprites/spr_bridge/spr_bridge.yy",},"order":14,},
     {"id":{"name":"future_projects_innovative_largeid","path":"sprites/future_projects_innovative_largeid/future_projects_innovative_largeid.yy",},"order":33,},
-    {"id":{"name":"rm_secret_room","path":"rooms/rm_secret_room/rm_secret_room.yy",},"order":12,},
+    {"id":{"name":"rm_SECRET_ROOM","path":"rooms/rm_SECRET_ROOM/rm_SECRET_ROOM.yy",},"order":12,},
     {"id":{"name":"spr_portrait","path":"sprites/spr_portrait/spr_portrait.yy",},"order":2,},
     {"id":{"name":"obj_broken_house_door","path":"objects/obj_broken_house_door/obj_broken_house_door.yy",},"order":1,},
     {"id":{"name":"spr_elevator_skycraper","path":"sprites/spr_elevator_skycraper/spr_elevator_skycraper.yy",},"order":7,},
@@ -227,6 +227,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_SECRET_ROOM","path":"rooms/rm_SECRET_ROOM/rm_SECRET_ROOM.yy",},},
     {"roomId":{"name":"rm_BAR","path":"rooms/rm_BAR/rm_BAR.yy",},},
     {"roomId":{"name":"rm_CITY_TOP","path":"rooms/rm_CITY_TOP/rm_CITY_TOP.yy",},},
     {"roomId":{"name":"rm_METRO","path":"rooms/rm_METRO/rm_METRO.yy",},},
@@ -239,7 +240,6 @@
     {"roomId":{"name":"rm_DREAM","path":"rooms/rm_DREAM/rm_DREAM.yy",},},
     {"roomId":{"name":"rm_PRE","path":"rooms/rm_PRE/rm_PRE.yy",},},
     {"roomId":{"name":"rm_clean_model","path":"rooms/rm_clean_model/rm_clean_model.yy",},},
-    {"roomId":{"name":"rm_secret_room","path":"rooms/rm_secret_room/rm_secret_room.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
