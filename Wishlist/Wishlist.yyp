@@ -99,6 +99,7 @@
     {"id":{"name":"obj_fade_seperate","path":"objects/obj_fade_seperate/obj_fade_seperate.yy",},"order":1,},
     {"id":{"name":"spr_grass_near","path":"sprites/spr_grass_near/spr_grass_near.yy",},"order":0,},
     {"id":{"name":"textbox_number","path":"notes/textbox_number/textbox_number.yy",},"order":1,},
+    {"id":{"name":"spr_display","path":"sprites/spr_display/spr_display.yy",},"order":23,},
     {"id":{"name":"door_interact","path":"scripts/door_interact/door_interact.yy",},"order":2,},
     {"id":{"name":"spr_stone_sign","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"order":12,},
     {"id":{"name":"rm_METRO","path":"rooms/rm_METRO/rm_METRO.yy",},"order":3,},

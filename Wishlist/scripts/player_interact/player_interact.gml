@@ -180,7 +180,7 @@ function player_interact(){
 	    {
 			if _list[| i] == nearest and _list[| i].interactable == true
 			{
-				obj_controller_secretroom.ppton = true;
+				obj_controller_secretroom.displayon = true;
 			}
 	    }
 	}
