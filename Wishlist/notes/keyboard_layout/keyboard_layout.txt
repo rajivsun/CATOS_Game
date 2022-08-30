@@ -3,7 +3,7 @@ R : game restart
 E : interact
 space : next dialogue
 P : telephone
-Alt : robot cleaner start
+Alt : robot cleaner start (in game)
 ESC : close the terminal window
-O : run terminal
+O : run Metro terminal exe , start robot cleaner game
 num1-5: generator UI switchs

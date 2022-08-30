@@ -65,7 +65,7 @@ function player_interact(){
 	// robotcleaner terminal object
 	#region
 	var _list = ds_list_create();
-	var _num = instance_place_list(x, y, obj_robotcleaner_terminal, _list, false);
+	var _num = instance_place_list(x, y, obj_lifter, _list, false);
 	if _num > 0
 	{
 	    for (var i = 0; i < _num; ++i;)
@@ -73,8 +73,11 @@ function player_interact(){
 	        
 			if _list[| i] == nearest and _list[| i].interactable == true
 			{
-				fade(rm_ROBOT_CLEANER,30,c_black,0,0,0);
-
+				//fade(rm_ROBOT_CLEANER,30,c_black,0,0,0);
+				if !instance_exists(obj_robotcleaner_terminal_UI)
+				{
+					instance_create_layer(0,0,"player",obj_robotcleaner_terminal_UI);
+				}
 			}
 	    }
 	}

@@ -1,7 +1,7 @@
 /// @description setup camera
 // You can write your code in this editor
 
-dist_player_cam = 55;
+dist_player_cam = 80;
 cam = view_camera[0];
 
 view_w_half = camera_get_view_width(cam)/2;

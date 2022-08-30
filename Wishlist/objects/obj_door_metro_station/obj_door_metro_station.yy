@@ -8,7 +8,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_normal_door",
+    "path": "objects/obj_normal_door/obj_normal_door.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,7 +26,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"room_go_to","path":"objects/obj_normal_door/obj_normal_door.yy",},"objectId":{"name":"obj_normal_door","path":"objects/obj_normal_door/obj_normal_door.yy",},"value":"rm_BAR","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "METRO",
     "path": "folders/Objects/METRO.yy",

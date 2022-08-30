@@ -15,4 +15,6 @@ spr_sit = spr_playerSIT;
 spr_down = spr_playerRUN;
 spr_up = spr_playerRUN;
 run = false;
+left = 0;
+right = 0;
 

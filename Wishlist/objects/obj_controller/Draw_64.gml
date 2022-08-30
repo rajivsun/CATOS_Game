@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//draw_text(50,50,y_buffer);
+
 if debug == true
 {
 	draw_set_font(ft_chinese);
@@ -24,9 +26,9 @@ if room == rm_FOREST and cutscene_on
 
 if game_mode == "mobile"
 {
-	draw_sprite(spr_key_left,0,99,904);
-	draw_sprite(spr_key_right,0,408,904);
-	draw_sprite(spr_key_E,0,1617,904);
-	draw_sprite(spr_key_space,0,1337,904);
-	draw_sprite(spr_key_shift,0,1089,904);
+	draw_sprite(spr_key_left,0,20,button_y);
+	draw_sprite(spr_key_right,0,408,button_y);
+	draw_sprite(spr_key_E,0,1800,button_y);
+	draw_sprite(spr_key_space,0,1500,button_y);
+	draw_sprite(spr_key_shift,0,1300,button_y);
 }

@@ -13,6 +13,7 @@ if keyboard_check_pressed(vk_escape)
 	instance_destroy();
 } 
 
+
 // draw code options
 for (var i=0;i<array_length(options);i++)
 {

@@ -4,8 +4,11 @@
 if room == rm_FOREST
 	cutscene_on = true;
 	
-key_left = virtual_key_add(99,904,100,100,vk_left);
-key_right = virtual_key_add(408,904,100,100,vk_right);
-key_e = virtual_key_add(1617,904,100,100,ord("E"));
-key_space = virtual_key_add(1337,904,100,100,vk_space);
-key_shift = virtual_key_add(1089,904,100,100,vk_shift);
+key_left = virtual_key_add(20,button_y,300,100,vk_left);
+key_right = virtual_key_add(408,button_y,300,100,vk_right);
+key_e = virtual_key_add(1800,button_y,100,100,ord("E"));
+key_space = virtual_key_add(1500,button_y,100,100,vk_space);
+key_shift = virtual_key_add(1300,button_y,100,100,vk_shift);
+
+//virtual_key_show(key_left);
+//virtual_key_show(key_right);

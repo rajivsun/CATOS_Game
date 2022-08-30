@@ -101,6 +101,7 @@ if txt[current_node][page+1][0] == 0 and draw_char == text_length[page]
 if txt[current_node][page+1][0] == 2
 {
 	take_action(txt[current_node][page+1][1]);
+	instance_destroy();
 }
 //virtual_key_show(key_1);
 //virtual_key_show(key_2);
