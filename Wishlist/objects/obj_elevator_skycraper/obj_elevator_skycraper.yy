@@ -29,7 +29,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"room_go_to","path":"objects/obj_normal_door/obj_normal_door.yy",},"objectId":{"name":"obj_normal_door","path":"objects/obj_normal_door/obj_normal_door.yy",},"value":"rm_METRO","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"room_go_to","path":"objects/obj_normal_door/obj_normal_door.yy",},"objectId":{"name":"obj_normal_door","path":"objects/obj_normal_door/obj_normal_door.yy",},"value":"rm_METRO_STATION_QUAI","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "CITY_NIGHT_TOP",

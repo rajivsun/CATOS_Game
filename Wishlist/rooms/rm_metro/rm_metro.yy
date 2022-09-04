@@ -78,8 +78,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "METRO_STATION",
+    "path": "folders/Rooms/METRO_STATION.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_METRO",

@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"4b4f8f76-4d1c-4958-a8bb-0d9c07ca322d","path":"sprites/Pixel_Art_Diffusion_0__8/Pixel_Art_Diffusion_0__8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4b4f8f76-4d1c-4958-a8bb-0d9c07ca322d","path":"sprites/Pixel_Art_Diffusion_0__8/Pixel_Art_Diffusion_0__8.yy",},"LayerId":{"name":"c2742207-1bfb-4094-9951-6d636dbd625e","path":"sprites/Pixel_Art_Diffusion_0__8/Pixel_Art_Diffusion_0__8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"4b4f8f76-4d1c-4958-a8bb-0d9c07ca322d","path":"sprites/Pixel_Art_Diffusion_0__8/Pixel_Art_Diffusion_0__8.yy",},"LayerId":{"name":"fdd60db0-aa2e-4715-be84-d8b4de8dbf43","path":"sprites/Pixel_Art_Diffusion_0__8/Pixel_Art_Diffusion_0__8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"4b4f8f76-4d1c-4958-a8bb-0d9c07ca322d","path":"sprites/Pixel_Art_Diffusion_0__8/Pixel_Art_Diffusion_0__8.yy",},"LayerId":{"name":"c2742207-1bfb-4094-9951-6d636dbd625e","path":"sprites/Pixel_Art_Diffusion_0__8/Pixel_Art_Diffusion_0__8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Pixel_Art_Diffusion_0__8","path":"sprites/Pixel_Art_Diffusion_0__8/Pixel_Art_Diffusion_0__8.yy",},"resourceVersion":"1.0","name":"4b4f8f76-4d1c-4958-a8bb-0d9c07ca322d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
