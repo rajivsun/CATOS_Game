@@ -27,7 +27,7 @@
   ],
   "properties": [
     {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"debug","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":6,"value":"\"mobile\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+    {"varType":6,"value":"\"pc\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "\"mobile\"",
         "\"pc\"",
       ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"game_mode","tags":[],"resourceType":"GMObjectProperty",},

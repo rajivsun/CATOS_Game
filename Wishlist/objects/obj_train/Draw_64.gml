@@ -3,4 +3,4 @@
 
 
 
-//draw_text(50,50,speed);
+//draw_text(50,50,alarm[0]);

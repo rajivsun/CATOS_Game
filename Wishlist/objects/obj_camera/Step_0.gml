@@ -52,7 +52,7 @@ if room == rm_HOME
 	if layer_exists("bg_far") layer_x("bg_far",x/1.5);
 }
 
-if room == rm_FOREST
+if room == rm_FOREST or room == rm_FOREST_1
 {
 	//if layer_exists("bg_near") layer_x("bg_near",1.5*x);
 	if layer_exists("bg_far") layer_x("bg_far",x/2);

@@ -26,6 +26,7 @@
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_train","path":"objects/obj_train/obj_train.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.944559,"scaleY":2.944559,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1002.9118,"y":91.65441,"resourceVersion":"1.0","name":"inst_653D11F6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_train_door","path":"objects/obj_train_door/obj_train_door.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.6249998,"scaleY":3.6249998,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":732.0,"y":127.0,"resourceVersion":"1.0","name":"inst_6B24AAD4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"train","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"NPC","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"spr_metro_station","path":"sprites/spr_metro_station/spr_metro_station.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"bg_ground","tags":[],"resourceType":"GMRBackgroundLayer",},
@@ -41,6 +42,7 @@
     {"name":"inst_62F0FFBC_1_1_1","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
     {"name":"inst_2A481890_1_1_1","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
     {"name":"inst_653D11F6","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
+    {"name":"inst_6B24AAD4","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
