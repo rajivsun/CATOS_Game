@@ -10,7 +10,6 @@ action = [
 ];
 
 
-
 txt[0] = [
 ["喵~",portrait.cat],
 ["面包，你又饿啦，我可没有吃的了。",portrait.player],

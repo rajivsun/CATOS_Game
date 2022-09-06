@@ -9,7 +9,7 @@ if follow == true
 	{
 		xTo = obj_player.x;
 		following = true;
-		hspeed = 0.5 * -sign(x - obj_player.x);	
+		hspeed = 0.7 * -sign(x - obj_player.x);	
 	}
 	if following
 	{
