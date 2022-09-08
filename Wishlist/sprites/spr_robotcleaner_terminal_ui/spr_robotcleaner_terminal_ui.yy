@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_robotcleaner_terminal_UI",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,13 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},"LayerId":{"name":"05ddfe90-cca3-4bb0-9272-bb0b97b5cea6","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},"LayerId":{"name":"6bff39de-75b1-4d26-b169-5e56f37e1c48","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_robotcleaner_terminal_UI","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},"resourceVersion":"1.0","name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_robotcleaner_terminal_UI","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_robotcleaner_terminal_UI",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -38,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fee7db96-3f8a-4aaa-8e0b-3bd2f5cbc390","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"fee7db96-3f8a-4aaa-8e0b-3bd2f5cbc390","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ad57c62-77fb-4efd-a4c6-ec7e8c8491dc","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,23 +61,14 @@
     "yorigin": 50,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_robotcleaner_terminal_UI","path":"sprites/spr_robotcleaner_terminal_UI/spr_robotcleaner_terminal_UI.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_robotcleaner_terminal_UI",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"05ddfe90-cca3-4bb0-9272-bb0b97b5cea6","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"6bff39de-75b1-4d26-b169-5e56f37e1c48","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"05ddfe90-cca3-4bb0-9272-bb0b97b5cea6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6bff39de-75b1-4d26-b169-5e56f37e1c48","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "CITY_NIGHT_TOP",
     "path": "folders/Sprites/CITY_NIGHT_TOP.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_robotcleaner_terminal_UI",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

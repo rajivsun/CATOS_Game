@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "cyberpunk_background",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b7b4ce12-37c5-4cbf-96fb-7734a0c4659d","path":"sprites/cyberpunk_background/cyberpunk_background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b7b4ce12-37c5-4cbf-96fb-7734a0c4659d","path":"sprites/cyberpunk_background/cyberpunk_background.yy",},"LayerId":{"name":"8c5b0e2c-0467-4cf3-82fa-bf9e1b801215","path":"sprites/cyberpunk_background/cyberpunk_background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"cyberpunk_background","path":"sprites/cyberpunk_background/cyberpunk_background.yy",},"resourceVersion":"1.0","name":"b7b4ce12-37c5-4cbf-96fb-7734a0c4659d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b7b4ce12-37c5-4cbf-96fb-7734a0c4659d",},
   ],
   "sequence": {
-    "spriteId": {"name":"cyberpunk_background","path":"sprites/cyberpunk_background/cyberpunk_background.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "cyberpunk_background",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"47141ff2-2f27-4fcc-abbe-6da991b0c82e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7b4ce12-37c5-4cbf-96fb-7734a0c4659d","path":"sprites/cyberpunk_background/cyberpunk_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"47141ff2-2f27-4fcc-abbe-6da991b0c82e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7b4ce12-37c5-4cbf-96fb-7734a0c4659d","path":"sprites/cyberpunk_background/cyberpunk_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 300,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"cyberpunk_background","path":"sprites/cyberpunk_background/cyberpunk_background.yy",},
-    "resourceVersion": "1.4",
-    "name": "cyberpunk_background",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8c5b0e2c-0467-4cf3-82fa-bf9e1b801215","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8c5b0e2c-0467-4cf3-82fa-bf9e1b801215","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Wishlist",
     "path": "Wishlist.yyp",
   },
-  "resourceVersion": "1.0",
-  "name": "cyberpunk_background",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

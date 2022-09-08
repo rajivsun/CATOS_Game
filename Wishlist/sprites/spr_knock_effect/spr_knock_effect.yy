@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_knock_effect",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"798afec1-2ed1-4660-a1b7-63940a57f364","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"798afec1-2ed1-4660-a1b7-63940a57f364","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"LayerId":{"name":"d1642372-e71e-4edd-9b03-632870935c36","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_knock_effect","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"resourceVersion":"1.0","name":"798afec1-2ed1-4660-a1b7-63940a57f364","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"76820438-57ff-4ede-a6b7-7fea8f3f29bb","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"76820438-57ff-4ede-a6b7-7fea8f3f29bb","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"LayerId":{"name":"d1642372-e71e-4edd-9b03-632870935c36","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_knock_effect","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"resourceVersion":"1.0","name":"76820438-57ff-4ede-a6b7-7fea8f3f29bb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"798afec1-2ed1-4660-a1b7-63940a57f364",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"76820438-57ff-4ede-a6b7-7fea8f3f29bb",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_knock_effect","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_knock_effect",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 3.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"55047060-18d0-409c-8509-940fc9b4d819","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"798afec1-2ed1-4660-a1b7-63940a57f364","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"042d3800-8af4-4975-bbb6-256ad202e3c4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76820438-57ff-4ede-a6b7-7fea8f3f29bb","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"55047060-18d0-409c-8509-940fc9b4d819","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"798afec1-2ed1-4660-a1b7-63940a57f364","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"042d3800-8af4-4975-bbb6-256ad202e3c4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76820438-57ff-4ede-a6b7-7fea8f3f29bb","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_knock_effect","path":"sprites/spr_knock_effect/spr_knock_effect.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_knock_effect",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d1642372-e71e-4edd-9b03-632870935c36","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d1642372-e71e-4edd-9b03-632870935c36","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "EFFECT",
     "path": "folders/Sprites/EFFECT.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_knock_effect",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_building_night",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9585cc3c-cd89-45e1-82ca-c4336d930f35","path":"sprites/spr_building_night/spr_building_night.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9585cc3c-cd89-45e1-82ca-c4336d930f35","path":"sprites/spr_building_night/spr_building_night.yy",},"LayerId":{"name":"8bc1a117-e495-4728-9bcc-0deaaa627660","path":"sprites/spr_building_night/spr_building_night.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"9585cc3c-cd89-45e1-82ca-c4336d930f35","path":"sprites/spr_building_night/spr_building_night.yy",},"LayerId":{"name":"0458c690-ecdd-4ca3-b7f3-c0f968820071","path":"sprites/spr_building_night/spr_building_night.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"9585cc3c-cd89-45e1-82ca-c4336d930f35","path":"sprites/spr_building_night/spr_building_night.yy",},"LayerId":{"name":"ef72c0c1-7add-4d59-b131-25ddd276b241","path":"sprites/spr_building_night/spr_building_night.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"9585cc3c-cd89-45e1-82ca-c4336d930f35","path":"sprites/spr_building_night/spr_building_night.yy",},"LayerId":{"name":"e0b1bff3-e1c0-4a69-9ca6-a1dd3630c601","path":"sprites/spr_building_night/spr_building_night.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_building_night","path":"sprites/spr_building_night/spr_building_night.yy",},"resourceVersion":"1.0","name":"9585cc3c-cd89-45e1-82ca-c4336d930f35","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9585cc3c-cd89-45e1-82ca-c4336d930f35",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_building_night","path":"sprites/spr_building_night/spr_building_night.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_building_night",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6806758b-e3c0-444e-8e8c-8c7d526fa312","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9585cc3c-cd89-45e1-82ca-c4336d930f35","path":"sprites/spr_building_night/spr_building_night.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"6806758b-e3c0-444e-8e8c-8c7d526fa312","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9585cc3c-cd89-45e1-82ca-c4336d930f35","path":"sprites/spr_building_night/spr_building_night.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -61,17 +61,12 @@
     "yorigin": 90,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_building_night","path":"sprites/spr_building_night/spr_building_night.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_building_night",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"8bc1a117-e495-4728-9bcc-0deaaa627660","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"0458c690-ecdd-4ca3-b7f3-c0f968820071","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ef72c0c1-7add-4d59-b131-25ddd276b241","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 3","resourceVersion":"1.0","name":"e0b1bff3-e1c0-4a69-9ca6-a1dd3630c601","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8bc1a117-e495-4728-9bcc-0deaaa627660","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0458c690-ecdd-4ca3-b7f3-c0f968820071","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ef72c0c1-7add-4d59-b131-25ddd276b241","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e0b1bff3-e1c0-4a69-9ca6-a1dd3630c601","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 3",},
   ],
   "nineSlice": {
     "left": 0,
@@ -102,8 +97,4 @@
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_building_night",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

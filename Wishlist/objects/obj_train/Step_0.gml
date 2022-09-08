@@ -1,19 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if alarm[0] <= 0 && !stopping
+if room == rm_METRO_STATION_QUAI
 {
-	stopping = true;
-	speed = -5;
-}
-
-if x <= 900
-{
-	speed = min(0,speed+0.04);
-	if speed = 0
+	if alarm[0] <= 0 && !stopping
 	{
-		obj_train_door.open = true;
+		stopping = true;
+		speed = -5;
+	}
+
+	if x <= 900
+	{
+		speed = min(0,speed+0.04);
+		if speed = 0
+		{
+			obj_train_door.open = true;
+		}
 	}
 }
-
