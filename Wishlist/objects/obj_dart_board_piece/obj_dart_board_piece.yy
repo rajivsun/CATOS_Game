@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_dart_board_piece",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_dart_board_piece",
+    "path": "sprites/spr_dart_board_piece/spr_dart_board_piece.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
