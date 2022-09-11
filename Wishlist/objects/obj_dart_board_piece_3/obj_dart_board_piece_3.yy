@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_dart_board_pieces",
+    "path": "objects/obj_dart_board_pieces/obj_dart_board_pieces.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

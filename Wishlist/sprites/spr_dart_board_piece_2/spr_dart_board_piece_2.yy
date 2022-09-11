@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_dart_board_piece_2",
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 0,
   "type": 0,
   "origin": 9,
   "preMultiplyAlpha": false,

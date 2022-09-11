@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_dart_board_piece",
-  "spriteId": {
-    "name": "spr_dart_board_piece",
-    "path": "sprites/spr_dart_board_piece/spr_dart_board_piece.yy",
-  },
+  "name": "obj_dart_board_pieces",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -24,10 +21,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

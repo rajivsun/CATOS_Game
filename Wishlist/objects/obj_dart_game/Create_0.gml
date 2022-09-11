@@ -8,7 +8,7 @@ for (var i=0;i<20;i++)
 {
 	if i % 2 == 1
 	{
-		with instance_create_layer(160,90,"board",obj_dart_board_piece)
+		with instance_create_layer(160,90,"board",obj_dart_board_piece_1)
 		{
 			image_xscale = 0.3;
 			image_yscale = 0.3;
@@ -35,7 +35,7 @@ for (var i=0;i<20;i++)
 	}
 	else
 	{
-		with instance_create_layer(160,90,"board",obj_dart_board_piece)
+		with instance_create_layer(160,90,"board",obj_dart_board_piece_1)
 		{
 			image_xscale = 0.3;
 			image_yscale = 0.3;
