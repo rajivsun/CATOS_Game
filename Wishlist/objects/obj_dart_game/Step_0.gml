@@ -2,8 +2,19 @@
 // You can write your code in this editor
 
 
-if mouse_check_button_pressed(mb_left)
-{
-	instance_create_layer(mouse_x,mouse_y,"flechette",obj_flechette);
+if turn == "player"
+	{
+	if mouse_check_button_pressed(mb_left) and flechette_left >= 1 && flechette_ready == true
+	{
+		flechette_left --;
+		flechette_ready = false;
+		var rand_x = random_range(obj_pointer.x-10,obj_pointer.x+10);
+		var rand_y = random_range(obj_pointer.y-10,obj_pointer.y+10);
+		instance_create_layer(rand_x,rand_y,"flechette",obj_flechette);
+	}
 }
-
+else if turn == "fbg"
+{
+	
+	
+}

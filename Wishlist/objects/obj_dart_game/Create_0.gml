@@ -2,8 +2,20 @@
 // You can write your code in this editor
 
 dart_number = [6,13,4,18,1,20,5,12,9,14,11,8,16,7,19,3,17,2,15,10];
+turn = "player";
 total_score = 0;
+total_score_fbg = 0;
 
+flechette_left = 3;
+flechette_ready = true;
+flechette_left_fbg = 3;
+flechette_ready_fbg = true;
+
+
+
+
+
+#region create dartboard
 for (var i=0;i<20;i++)
 {
 	if i % 2 == 1
@@ -61,3 +73,4 @@ for (var i=0;i<20;i++)
 		}
 	}	
 }
+#endregion
