@@ -12,8 +12,8 @@ draw_text_transformed(1500,100,"让：",2,2,0);
 draw_text_transformed(1500,170,"分数："+string(total_score),2,2,0);
 draw_text_transformed(1500,240,"剩余飞镖："+string(flechette_left),2,2,0);
 
-draw_text_transformed(1500,100,"飞镖哥：",2,2,0);
-draw_text_transformed(1500,170,"分数："+string(total_score_fbg),2,2,0);
-draw_text_transformed(1500,240,"剩余飞镖："+string(flechette_left),2,2,0);
+draw_text_transformed(1500,750,"飞镖哥：",2,2,0);
+draw_text_transformed(1500,820,"分数："+string(total_score_fbg),2,2,0);
+draw_text_transformed(1500,890,"剩余飞镖："+string(flechette_left),2,2,0);
 
 

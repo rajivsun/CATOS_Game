@@ -16,3 +16,8 @@ if hit_target != noone
 
 // make the next flechette ready
 obj_dart_game.flechette_ready = true;
+
+if obj_dart_game.flechette_left == 0
+{
+	obj_dart_game.turn = -obj_dart_game.turn;
+}
