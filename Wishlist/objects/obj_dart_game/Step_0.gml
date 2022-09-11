@@ -1,25 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+var score_to_win = 200
 
-if turn == 1 // player turn
-	{
-		
-	obj_pointer.image_index = 0;
-	if mouse_check_button_pressed(mb_left) and flechette_left >= 1 && flechette_ready == true
-	{
-		flechette_left --;
-		flechette_ready = false;
-		var rand_x = random_range(obj_pointer.x-10,obj_pointer.x+10);
-		var rand_y = random_range(obj_pointer.y-10,obj_pointer.y+10);
-		instance_create_layer(rand_x,rand_y,"flechette",obj_flechette);
-	}
-}
-else if turn == -1 // fbg turn
+// if someone win 
+if total_score >= score_to_win && result == 0
 {
-
-	obj_pointer.image_index = 1;
-	
-	
-	
+	instance_destroy(obj_pointer);
+	instance_destroy(obj_flechette);
+	alarm[1] = 120;
+	result = "你赢了";
+}
+if total_score_fbg >= score_to_win && result == 0
+{
+	instance_destroy(obj_pointer);
+	instance_destroy(obj_flechette);
+	alarm[1] = 120;	
+	result = "你输了";
 }

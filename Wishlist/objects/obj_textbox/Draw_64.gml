@@ -30,16 +30,22 @@ if accept_key and txt[current_node][page+1][0] != 0
 	//if the typing is done
 	if draw_char == text_length[page]
 	{
-		//next page
-		if page < page_number -1 and txt[current_node][page+1][0] != 1
+		//next page ( if next page is not end, is not action )
+		if page < page_number -1 and txt[current_node][page+1][0] != 1 and txt[current_node][page+1][0] != 2
 		{
 			page ++;
 			draw_char = 0;
 		}
-		else
+		else if txt[current_node][page+1][0] == 1 // if next page is the end
 		{
 			instance_destroy();
 			destroying = true; // last page
+		}
+		else if txt[current_node][page+1][0] == 2 // if next page is action 
+		{
+			destroying = true;
+			take_action(txt[current_node][page+1][1]);
+			instance_destroy();
 		}
 	}
 	else // if not typing
@@ -67,13 +73,15 @@ var _drawtext = string_copy(txt[current_node][page][0],1,draw_char);
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 if ! destroying
+{
 	draw_text_ext(text_x,text_y-45,ls_portrait_name[| txt[current_node][page][1]]+":",line_sep,line_width);
 	draw_text_ext(text_x,text_y,_drawtext,line_sep,line_width);
-
+}
 //draw portrait
 if ! destroying
+{
 	draw_sprite_ext(spr_portrait,txt[current_node][page][1]-1,portrait_x,portrait_y,xscale*3,xscale*3,0,c_white,1);
-
+}
 //draw options
 if txt[current_node][page+1][0] == 0 and draw_char == text_length[page]
 {
@@ -98,11 +106,9 @@ if txt[current_node][page+1][0] == 0 and draw_char == text_length[page]
 	}
 }
 
-if txt[current_node][page+1][0] == 2
-{
-	take_action(txt[current_node][page+1][1]);
-	instance_destroy();
-}
+
+
+//draw_text(100,100,page);
 //virtual_key_show(key_1);
 //virtual_key_show(key_2);
 //draw_text(50,50,"here");

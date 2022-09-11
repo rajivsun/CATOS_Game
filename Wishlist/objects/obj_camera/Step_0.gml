@@ -2,8 +2,7 @@
 // You can write your code in this editor
 
 if instance_exists(follow)
-{
-	
+{	
 	
 	//update destination
 	xTo = follow.x;

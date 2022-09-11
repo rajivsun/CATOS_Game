@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_feibiaobro",
+  "name": "obj_dart_board_piece_4",
   "spriteId": {
-    "name": "spr_feibiaobro",
-    "path": "sprites/spr_feibiaobro/spr_feibiaobro.yy",
+    "name": "spr_dart_board_piece_4",
+    "path": "sprites/spr_dart_board_piece_4/spr_dart_board_piece_4.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_NPC",
-    "path": "objects/obj_NPC/obj_NPC.yy",
+    "name": "obj_dart_board_pieces",
+    "path": "objects/obj_dart_board_pieces/obj_dart_board_pieces.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,11 +29,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "BAR",
-    "path": "folders/Objects/BAR.yy",
+    "name": "DART_GAME",
+    "path": "folders/Objects/BAR/DART_GAME.yy",
   },
 }
