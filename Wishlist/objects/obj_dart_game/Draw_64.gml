@@ -17,6 +17,7 @@ draw_text_transformed(100,820,"分数："+string(total_score_fbg),2,2,0);
 //draw_text_transformed(1500,890,"剩余飞镖："+string(flechette_left),2,2,0);
 
 
+
 // show turn sign
 if alarm[0] > 0
 {
