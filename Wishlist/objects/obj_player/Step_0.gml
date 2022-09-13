@@ -9,6 +9,19 @@ up = keyboard_check(vk_up) or keyboard_check(ord("Z"));
 interact = keyboard_check(ord("E"));
 sprint = keyboard_check(vk_shift);
 
+if room != rm_CITY_TOP
+{
+	spr_idle = spr_player;
+	spr_sit = spr_playerSIT;
+	spr_run = spr_playerRUN;
+	spr_walk = spr_playerWALK;
+}
+else
+{
+	spr_idle = spr_player_worker;
+	spr_run = spr_playerRUN;
+	spr_walk = spr_playerWALK_worker;
+}
 
 //--------------- movement --------------------
 switch (state){
