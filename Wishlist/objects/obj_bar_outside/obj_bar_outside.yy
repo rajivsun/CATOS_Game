@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bar_outside",
   "spriteId": {
     "name": "spr_bar_outside",
     "path": "sprites/spr_bar_outside/spr_bar_outside.yy",
@@ -28,8 +31,4 @@
     "name": "CITY_NIGHT_STREET",
     "path": "folders/Objects/CITY_NIGHT_STREET.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bar_outside",
-  "tags": [],
-  "resourceType": "GMObject",
 }

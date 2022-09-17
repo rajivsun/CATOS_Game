@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bar_chair",
   "spriteId": {
     "name": "spr_bar_chair",
     "path": "sprites/spr_bar_chair/spr_bar_chair.yy",
@@ -28,8 +31,4 @@
     "name": "BAR",
     "path": "folders/Objects/BAR.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bar_chair",
-  "tags": [],
-  "resourceType": "GMObject",
 }

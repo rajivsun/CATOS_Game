@@ -34,7 +34,7 @@ if start = true
 //clean the taches
 with instance_place(x,y,obj_tache)
 {
-	instance_destroy();
+	deleting = true;
 }
 
 

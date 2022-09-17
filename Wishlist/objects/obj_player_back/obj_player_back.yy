@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_player_back",
   "spriteId": {
     "name": "spr_playerBACK",
     "path": "sprites/spr_playerBACK/spr_playerBACK.yy",
@@ -28,8 +31,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_player_back",
-  "tags": [],
-  "resourceType": "GMObject",
 }

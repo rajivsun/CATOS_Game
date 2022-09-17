@@ -4,11 +4,9 @@
 button_y = 940;
 
 count = 0;
-knock = false;
 y_buffer = 0;
 sign_speed = 0.1;
 current_mission = 0;
-
 
 mission = [
 
@@ -16,6 +14,10 @@ mission = [
 
 ];
 
+
+// game cleaner
+level_num = 3;
+current_level = 0;
 
 
 

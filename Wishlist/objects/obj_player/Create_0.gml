@@ -6,10 +6,11 @@ hspd = 0;
 vspd = 0;
 nearest = 0;
 state = "idle";
-
+scan_world = false;
+fx_hack_thres = 1;
 
 // ------- info --------
-grav = 0;
+//grav = 0;
 spr_idle = spr_player;
 spr_sit = spr_playerSIT;
 spr_run = spr_playerRUN;

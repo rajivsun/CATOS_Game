@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_singer",
   "spriteId": {
     "name": "spr_singer",
     "path": "sprites/spr_singer/spr_singer.yy",
@@ -28,8 +31,4 @@
     "name": "BAR",
     "path": "folders/Objects/BAR.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_singer",
-  "tags": [],
-  "resourceType": "GMObject",
 }

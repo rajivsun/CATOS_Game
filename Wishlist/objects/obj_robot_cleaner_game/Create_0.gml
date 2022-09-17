@@ -11,19 +11,28 @@ border_y1 = 100;
 border_x2 = 1400;
 border_y2 = 900;
 
-
-tache = [
+tache[0] = 
+[
 [515,376],
 [690,583],
 [800,400],
 ];
+tache[1] = 
+[
+[700,376],
+[900,583],
+[600,400],
+];
 
 
+current_level = 0;
+show_UI = false;
 key_alt = virtual_key_add(1600,900,200,100,vk_alt);
 //virtual_key_show(key_alt);
 
 
 for (var ii=0;ii<=2;ii++)
 {
-	instance_create_layer(tache[ii][0],tache[ii][1],"taches",obj_tache);
+	instance_create_layer(tache[current_level][ii][0],tache[current_level][ii][1],"taches",obj_tache);
 }
+

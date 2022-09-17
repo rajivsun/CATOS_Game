@@ -16,6 +16,7 @@ if mouse_check_button_pressed(mb_left) && obj_robot_cleaner.start = false
 	}
 }
 
+
 if obj_robot_cleaner.finish == true
 {
 	if instance_number(obj_tache) <= 0

@@ -12,8 +12,8 @@ if y_buffer <= -2.5
 }
 
 
-if room == mission[current_mission][3]
-{
-	draw_sprite_ext(spr_mission_sign,0,mission[current_mission][1],mission[current_mission][2]+y_buffer,0.5,0.5,0,c_white,1);
-	draw_sprite_ext(spr_mission_sign,0,mission[current_mission][1],mission[current_mission][2]-y_buffer,0.5,0.5,0,c_white,1);
-}
+//if room == mission[current_mission][3]
+//{
+//	draw_sprite_ext(spr_mission_sign,0,mission[current_mission][1],mission[current_mission][2]+y_buffer,0.5,0.5,0,c_white,1);
+//	draw_sprite_ext(spr_mission_sign,0,mission[current_mission][1],mission[current_mission][2]-y_buffer,0.5,0.5,0,c_white,1);
+//}

@@ -7,3 +7,4 @@
 //draw_text(50,200,obj_stairs.y - 100*obj_stairs.image_yscale);
 //draw_text(100,100,window_get_width());
 //draw_text(100,200,display_get_gui_width());
+

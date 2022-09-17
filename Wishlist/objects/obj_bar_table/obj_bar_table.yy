@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bar_table",
   "spriteId": {
     "name": "spr_bar_table",
     "path": "sprites/spr_bar_table/spr_bar_table.yy",
@@ -28,8 +31,4 @@
     "name": "BAR",
     "path": "folders/Objects/BAR.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bar_table",
-  "tags": [],
-  "resourceType": "GMObject",
 }

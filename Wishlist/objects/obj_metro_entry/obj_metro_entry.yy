@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_metro_entry",
   "spriteId": {
     "name": "spr_metro_entry",
     "path": "sprites/spr_metro_entry/spr_metro_entry.yy",
@@ -28,8 +31,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_metro_entry",
-  "tags": [],
-  "resourceType": "GMObject",
 }

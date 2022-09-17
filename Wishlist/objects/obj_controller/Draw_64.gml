@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//draw_text(50,50,y_buffer);
 
+// debug
 if debug == true
 {
 	draw_set_font(ft_chinese);
@@ -10,6 +10,7 @@ if debug == true
 	draw_text(device_mouse_x_to_gui(0)+50,device_mouse_y_to_gui(0)-20,device_mouse_y_to_gui(0));
 }
 
+//game mode 
 if game_mode == "mobile"
 {
 	draw_sprite(spr_key_left,0,20,button_y);
@@ -19,5 +20,6 @@ if game_mode == "mobile"
 	draw_sprite(spr_key_shift,0,1300,button_y);
 }
 
-
+// personal device
 draw_sprite_ext(spr_personal_device,0,100,100,2,2,0,c_white,1);
+

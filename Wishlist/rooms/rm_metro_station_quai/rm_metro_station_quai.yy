@@ -29,16 +29,10 @@
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"bg_ground_wall","spriteId":null,"colour":4294967295,"x":0,"y":-15,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":false,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC","instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","visible":false,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_colour_balance","properties":[
-        {"type":0,"name":"g_ColourBalanceShadows","value":"-0.45",},
-        {"type":0,"name":"g_ColourBalanceShadows","value":"0",},
-        {"type":0,"name":"g_ColourBalanceShadows","value":"0",},
-        {"type":0,"name":"g_ColourBalanceMidtones","value":"0",},
-        {"type":0,"name":"g_ColourBalanceMidtones","value":"0",},
-        {"type":0,"name":"g_ColourBalanceMidtones","value":"0",},
-        {"type":0,"name":"g_ColourBalanceHighlights","value":"0",},
-        {"type":0,"name":"g_ColourBalanceHighlights","value":"0",},
-        {"type":0,"name":"g_ColourBalanceHighlights","value":"0",},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","visible":false,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_screenshake","properties":[
+        {"type":0,"name":"g_Magnitude","value":"3",},
+        {"type":0,"name":"g_ShakeSpeed","value":"0.25",},
+        {"type":2,"name":"g_NoiseTexture","value":"_filter_screenshake_noise",},
       ],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"bg_ground","spriteId":{"name":"spr_metro_station_final_retouch","path":"sprites/spr_metro_station_final_retouch/spr_metro_station_final_retouch.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"train","instances":[
