@@ -7,6 +7,8 @@ count = 0;
 y_buffer = 0;
 sign_speed = 0.1;
 current_mission = 0;
+rot_highlight_sign = 0;
+highlight_sign_scale = 0.7;
 
 mission = [
 
