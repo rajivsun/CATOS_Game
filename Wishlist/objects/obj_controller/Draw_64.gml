@@ -10,7 +10,7 @@ if debug == true
 	draw_text(device_mouse_x_to_gui(0)+50,device_mouse_y_to_gui(0)-20,device_mouse_y_to_gui(0));
 }
 
-//game mode 
+// game mode 
 if game_mode == "mobile"
 {
 	draw_sprite(spr_key_left,0,20,button_y);
@@ -20,6 +20,10 @@ if game_mode == "mobile"
 	draw_sprite(spr_key_shift,0,1300,button_y);
 }
 
-// personal device
-draw_sprite_ext(spr_personal_device,0,100,100,2,2,0,c_white,1);
 
+// personal device
+draw_sprite_ext(spr_personal_device,0,100,100,1.5,1.5,0,c_white,1);
+
+
+// pause menu
+draw_sprite_ext(spr_pause_button,0,1820,100,1.5,1.5,0,c_white,1);

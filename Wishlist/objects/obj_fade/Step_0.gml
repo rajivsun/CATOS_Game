@@ -13,7 +13,7 @@ if state == 0{
 			object_to_move.y = object_y;
 		}
 		
-		if targetroom != false
+		
 		room_goto(targetroom);
 		
 		
@@ -26,11 +26,12 @@ if state == 0{
 		if instance_exists(obj_cutscene) {
 			with obj_cutscene end_scene();
 		}
+		
 		state = 0.5;
-		if duration = 0 {
-			state = 0.5;
-			timer = 180;
-		}
+		//if duration = 0 {
+		//	state = 0.5;
+		//	timer = 180;
+		//}
 	}
 }
 else if state == 0.5{
@@ -53,3 +54,4 @@ else if state == 1{
 
 if duration == 0 alpha = timer/180;
 else alpha = timer / duration;
+
