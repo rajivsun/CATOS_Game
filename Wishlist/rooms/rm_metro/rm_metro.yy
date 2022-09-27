@@ -37,6 +37,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21262173","properties":[],"isDnd":false,"objectId":{"name":"obj_robot_hunter","path":"objects/obj_robot_hunter/obj_robot_hunter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":302.0,"y":94.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B137D6C","properties":[],"isDnd":false,"objectId":{"name":"obj_controller_metro","path":"objects/obj_controller_metro/obj_controller_metro.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-20.0,"y":1.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33326455","properties":[],"isDnd":false,"objectId":{"name":"obj_oldman","path":"objects/obj_oldman/obj_oldman.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":488.0,"y":120.0,},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"object_far","instances":[],"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"bg_far","spriteId":{"name":"spr_train_inside","path":"sprites/spr_train_inside/spr_train_inside.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -54,6 +55,7 @@
     {"name":"inst_2A481890_1","path":"rooms/rm_METRO/rm_METRO.yy",},
     {"name":"inst_21262173","path":"rooms/rm_METRO/rm_METRO.yy",},
     {"name":"inst_5B137D6C","path":"rooms/rm_METRO/rm_METRO.yy",},
+    {"name":"inst_33326455","path":"rooms/rm_METRO/rm_METRO.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

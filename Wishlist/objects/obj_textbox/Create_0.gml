@@ -44,6 +44,7 @@ enum portrait
 	mo = 6,
 	phone = 7,
 	cat = 8,
+	bartender = 9,
 }
 
 ls_portrait_name = ds_list_create();
@@ -56,3 +57,4 @@ ds_list_add(ls_portrait_name,"告示牌");
 ds_list_add(ls_portrait_name,"墨墨");
 ds_list_add(ls_portrait_name,"电话");
 ds_list_add(ls_portrait_name,"面包");
+ds_list_add(ls_portrait_name,"酒保");
