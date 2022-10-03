@@ -12,3 +12,6 @@ key_shift = virtual_key_add(1300,button_y,100,100,vk_shift);
 
 //virtual_key_show(key_left);
 //virtual_key_show(key_right);
+
+
+instance_create_depth(0,0,-9999,obj_cursor);

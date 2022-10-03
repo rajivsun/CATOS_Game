@@ -22,3 +22,4 @@ run = false;
 left = 0;
 right = 0;
 
+window_set_cursor(cr_none);
