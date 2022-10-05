@@ -16,10 +16,8 @@ mission = [
 
 ];
 
-
 // game cleaner
 level_num = 3;
 current_level = 0;
-
 
 

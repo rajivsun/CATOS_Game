@@ -8,3 +8,4 @@
 //draw_text(100,100,window_get_width());
 //draw_text(100,200,display_get_gui_width());
 
+//draw_sprite_ext(spr_cursor,0,device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),3,3,0,c_white,1);
