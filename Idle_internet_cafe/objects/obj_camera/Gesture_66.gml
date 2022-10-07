@@ -4,5 +4,5 @@
 
 
 
-drag_room_x = event_data[? "posX"];
-drag_room_y = event_data[? "posY"];
+drag_room_x = mouse_x;
+drag_room_y = mouse_y;

@@ -11,3 +11,5 @@ cam_x = 0;
 
 drag_room_x = 0;
 drag_room_y = 0; 
+
+camera_set_view_pos(cam,x,y);
