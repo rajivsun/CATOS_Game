@@ -1,6 +1,7 @@
 /// @description setup camera
 // You can write your code in this editor
 
+_scale = 0;
 
 cam = view_camera[0];
 

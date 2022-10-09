@@ -2,8 +2,11 @@
 // You can write your code in this editor
 
 
-cam_x = drag_room_x - device_mouse_x_to_gui(0);
-cam_y = drag_room_y - device_mouse_y_to_gui(0);
+view_w = camera_get_view_width(cam);
+view_h = camera_get_view_height(cam);
+
+cam_x = drag_room_x - device_mouse_x_to_gui(0) * camera_get_view_width(cam)/800;
+cam_y = drag_room_y - device_mouse_y_to_gui(0) * camera_get_view_height(cam)/1600; 
 
 cam_x = clamp(cam_x,0,room_width-view_w);
 cam_y = clamp(cam_y,0,room_height-view_h);
