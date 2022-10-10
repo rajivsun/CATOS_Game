@@ -3,4 +3,7 @@
 
 
 
-//draw_text(50,200,string(pc_occupy_num)+"/"+string(instance_number(obj_stand_pc)));
+if occupied and active image_index = 1;
+else image_index = 0;
+
+

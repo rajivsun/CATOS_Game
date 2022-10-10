@@ -108,6 +108,7 @@
   "gridY": 16,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0388cab9-b768-4868-8d22-f37316727848",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9b4bd81-819f-4bb4-9475-e760f9318deb",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e32320f3-b165-47bd-966d-7e6f2688bf63",},
   ],
   "sequence": {
@@ -120,13 +121,14 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 2.0,
+    "length": 3.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f06c8307-d4eb-4088-89e4-7d78ec53ae1e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0388cab9-b768-4868-8d22-f37316727848","path":"sprites/spr_stand_pc/spr_stand_pc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"0a5510ee-07c0-48f7-95d4-66aae8dea656","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e32320f3-b165-47bd-966d-7e6f2688bf63","path":"sprites/spr_stand_pc/spr_stand_pc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b124ed4d-0395-47ff-8c74-ff484d5ffc31","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c9b4bd81-819f-4bb4-9475-e760f9318deb","path":"sprites/spr_stand_pc/spr_stand_pc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0a5510ee-07c0-48f7-95d4-66aae8dea656","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e32320f3-b165-47bd-966d-7e6f2688bf63","path":"sprites/spr_stand_pc/spr_stand_pc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

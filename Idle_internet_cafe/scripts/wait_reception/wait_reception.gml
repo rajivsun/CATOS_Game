@@ -13,15 +13,12 @@ function wait_reception(){
 			for (var i = 0; i < instance_number(obj_stand_pc); ++i;)
 			{
 				var _inst = instance_find(obj_stand_pc,i);
+				// if player found a pc
 				if _inst.occupied == false
 				{
 					to_pc_id = _inst;
 					_inst.occupied = true;
-					with instance_create_layer(x,y,"text_money",obj_show_money)
-					{
-						money_num = obj_controller.reception_money;
-					}
-					obj_controller.gold += obj_controller.reception_money;
+					show_money(obj_reception.money_unit);
 					break;
 				}
 			}				
@@ -30,6 +27,16 @@ function wait_reception(){
 		else
 		{
 			state = "go_home";
+		}
+		
+		// delete from waiting list
+		ds_list_delete(obj_reception.list_customer,0);
+		for (var i=0;i<ds_list_size(obj_reception.list_customer);i++)
+		{
+			var _inst = obj_reception.list_customer[| i];
+			_inst.alarm[0] = 50;
+			_inst.speed = 1;
+			_inst.direction = 90;
 		}
 	}
 }

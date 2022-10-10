@@ -4,6 +4,8 @@
 gold = 100;
 pc_occupy_num = 0;
 
+alarm[0] = 1;
 
-reception_money = 10;
+
+
 

@@ -2,5 +2,7 @@
 // You can write your code in this editor
 
 
+wait_spot_y = y + 100 + 50*ds_list_size(list_customer);
 
-//draw_text(50,200,string(pc_occupy_num)+"/"+string(instance_number(obj_stand_pc)));
+
+

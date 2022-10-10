@@ -2,11 +2,19 @@
 // You can write your code in this editor
 
 
+
 switch state
 {
+
 	case "to_reception":
 	
 		to_reception();
+		break;
+		
+	case "wait_in_line":
+		if obj_reception.list_customer[| 0] == id
+		state = "wait_reception";
+		
 		break;
 		
 	case "wait_reception":
@@ -15,15 +23,18 @@ switch state
 		break;
 		
 	case "to_pc":
-	
-		direction = point_direction(x,y,to_pc_id.x,to_pc_id.y);
-		speed = 1;
 		
+		to_pc();
 		break;
 		
 	case "go_home":
 	
 		direction = 270;
 		speed = 1;
+		break;
+		
+	case "playing_pc":
+		
+		playing_pc();
 		break;
 }
