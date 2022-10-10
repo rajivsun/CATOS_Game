@@ -5,8 +5,8 @@
   "resources": [
     {"id":{"name":"spr_plants","path":"sprites/spr_plants/spr_plants.yy",},"order":8,},
     {"id":{"name":"spr_room_pc","path":"sprites/spr_room_pc/spr_room_pc.yy",},"order":1,},
+    {"id":{"name":"spr_room_pc_cool","path":"sprites/spr_room_pc_cool/spr_room_pc_cool.yy",},"order":11,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":0,},
-    {"id":{"name":"spr_room","path":"sprites/spr_room/spr_room.yy",},"order":11,},
     {"id":{"name":"spr_receptionist","path":"sprites/spr_receptionist/spr_receptionist.yy",},"order":7,},
     {"id":{"name":"spr_reception","path":"sprites/spr_reception/spr_reception.yy",},"order":5,},
     {"id":{"name":"spr_icon_money","path":"sprites/spr_icon_money/spr_icon_money.yy",},"order":0,},
