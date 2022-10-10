@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_room_pc",
   "spriteId": {
-    "name": "spr_room_pc",
-    "path": "sprites/spr_room_pc/spr_room_pc.yy",
+    "name": "spr_room",
+    "path": "sprites/spr_room/spr_room.yy",
   },
   "solid": false,
   "visible": true,
