@@ -9,7 +9,7 @@ var _x = camera_get_view_x(view_camera[0]) + (_w / 2);
 var _y = camera_get_view_y(view_camera[0]) + (_h / 2);
 
 _w /= _scale;
-_h = _w * (1 / 2);
+_h = _w * (display_get_gui_height() / display_get_gui_width());
 _x -= _w / 2;
 _y -= _h / 2;
 
