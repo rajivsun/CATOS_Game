@@ -3,6 +3,7 @@
 
 
 state = "to_reception";
+
 wait_count = 0;
 reception_cd = 240;
 to_pc_id = -1;
@@ -13,3 +14,12 @@ to_reception_y = 0;
 
 image_xscale = 2;
 image_yscale = 2;
+
+
+
+// ------- sprite --------
+spr_head = choose(spr_customer_head1);
+spr_upper = choose(spr_customer_upper1);
+spr_lower = choose(spr_customer_lower1);
+spr_walk = choose(spr_customer_walk1);
+walk_count = 0;

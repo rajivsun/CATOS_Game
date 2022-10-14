@@ -3,4 +3,4 @@
 
 
 
-
+path_start(path_enter_left,1,path_action_stop,true);
