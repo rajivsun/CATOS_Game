@@ -15,7 +15,7 @@ function to_reception(){
 	if path_position == 1
 	{
 		path_speed = 0;
-		speed = 1;
+		speed = walk_speed;
 		direction = point_direction(x,y,obj_reception.wait_spot_x,obj_reception.wait_spot_y);
 		if point_distance(x,y,obj_reception.x,obj_reception.wait_spot_y) <= 2
 		{

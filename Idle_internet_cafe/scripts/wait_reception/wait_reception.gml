@@ -19,6 +19,8 @@ function wait_reception(){
 					to_pc_id = _inst;
 					_inst.occupied = true;
 					show_money(obj_reception.money_unit);
+					
+					path_start(_inst.path,walk_speed,path_action_stop,false);
 					break;
 				}
 			}				
