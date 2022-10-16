@@ -23,17 +23,16 @@
       ],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"system","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3285E330","properties":[],"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-40.0,"y":122.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6849EDE7","properties":[],"isDnd":false,"objectId":{"name":"obj_UI","path":"objects/obj_UI/obj_UI.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-37.0,"y":95.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_604848FB","properties":[],"isDnd":false,"objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-29.0,"y":712.6792,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"birds","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4AC7F434","properties":[],"isDnd":false,"objectId":{"name":"obj_western_bluebird","path":"objects/obj_western_bluebird/obj_western_bluebird.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-2.8,"scaleY":2.8,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":101.59999,"y":1761.125,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28907763","properties":[],"isDnd":false,"objectId":{"name":"obj_northen_cardinal","path":"objects/obj_northen_cardinal/obj_northen_cardinal.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.8,"scaleY":2.8,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":300.0,"y":1763.925,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53B0EA34","properties":[],"isDnd":false,"objectId":{"name":"obj_cockatiel","path":"objects/obj_cockatiel/obj_cockatiel.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.8,"scaleY":2.8,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":486.0,"y":1718.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_735FD1B8","properties":[],"isDnd":false,"objectId":{"name":"obj_budgerigar","path":"objects/obj_budgerigar/obj_budgerigar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-2.8,"scaleY":2.8,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":715.0,"y":1730.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4AC7F434","properties":[],"isDnd":false,"objectId":{"name":"obj_western_bluebird","path":"objects/obj_western_bluebird/obj_western_bluebird.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-3.5,"scaleY":3.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":104.59999,"y":1490.125,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_750CD05E","properties":[],"isDnd":false,"objectId":{"name":"obj_northen_cardinal","path":"objects/obj_northen_cardinal/obj_northen_cardinal.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.5,"scaleY":3.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":307.0,"y":1498.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7310C48C","properties":[],"isDnd":false,"objectId":{"name":"obj_cockatiel","path":"objects/obj_cockatiel/obj_cockatiel.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.5,"scaleY":3.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":477.0,"y":1483.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_70E479A7","properties":[],"isDnd":false,"objectId":{"name":"obj_budgerigar","path":"objects/obj_budgerigar/obj_budgerigar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-0.0656106,"scaleX":-3.5,"scaleY":3.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":692.0,"y":1480.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":false,"effectType":"_filter_outline","properties":[
         {"type":1,"name":"g_OutlineColour","value":"#FF000000",},
-        {"type":0,"name":"g_OutlineRadius","value":"3",},
+        {"type":0,"name":"g_OutlineRadius","value":"2",},
         {"type":0,"name":"g_OutlinePixelScale","value":"1",},
       ],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"deco","instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_outline","properties":[
@@ -50,12 +49,11 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_3285E330","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_6849EDE7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_604848FB","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4AC7F434","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_28907763","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_53B0EA34","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_735FD1B8","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_750CD05E","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7310C48C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_70E479A7","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

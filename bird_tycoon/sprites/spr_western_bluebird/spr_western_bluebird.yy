@@ -29,6 +29,9 @@
   "gridY": 0,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"58439219-e2b7-44e0-8f07-095880fdaad6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b74bd700-5378-4ae9-9576-3ecb1f19c752",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d21c9668-e57b-4ea3-b8fd-52da53028c50",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f5f2a9cf-31bc-4bcf-b026-2d754240fec1",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -36,16 +39,19 @@
     "name": "spr_western_bluebird",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fc53127b-2429-432d-bbc0-dc9b1a97ded5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58439219-e2b7-44e0-8f07-095880fdaad6","path":"sprites/spr_western_bluebird/spr_western_bluebird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"99640ce2-34ed-4e74-84a5-8afd18738475","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b74bd700-5378-4ae9-9576-3ecb1f19c752","path":"sprites/spr_western_bluebird/spr_western_bluebird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b148d777-77c0-45fb-8d9e-5fe6bfeec2ef","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d21c9668-e57b-4ea3-b8fd-52da53028c50","path":"sprites/spr_western_bluebird/spr_western_bluebird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8c8f4c2e-583e-4524-8550-038e7723b06d","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5f2a9cf-31bc-4bcf-b026-2d754240fec1","path":"sprites/spr_western_bluebird/spr_western_bluebird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

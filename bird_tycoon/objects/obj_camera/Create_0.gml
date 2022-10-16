@@ -13,4 +13,8 @@ cam_x = 0;
 drag_room_x = 0;
 drag_room_y = 0; 
 
+
+x = 0;
+y = room_height - view_h;
+
 camera_set_view_pos(cam,x,y);

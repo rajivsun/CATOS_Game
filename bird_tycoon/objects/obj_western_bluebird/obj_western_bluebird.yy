@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_bird",
+    "path": "objects/obj_bird/obj_bird.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,9 +29,11 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"bird_id","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"obj_controller.wb",},
+  ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "BIRD",
+    "path": "folders/Objects/BIRD.yy",
   },
 }
