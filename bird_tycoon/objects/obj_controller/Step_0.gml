@@ -9,4 +9,4 @@ if keyboard_check_pressed(vk_numpad0)
 }
 
 
-show_debug_message(ls_bird_possesed)
+//show_debug_message(ls_bird_possesed)

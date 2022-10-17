@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "ft_info_num_big",
+  "name": "ft_info_num_small",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,
@@ -10,7 +10,7 @@
   "fontName": "Candara",
   "styleName": "Regular",
   "size": 40.0,
-  "bold": true,
+  "bold": false,
   "italic": false,
   "charset": 0,
   "AntiAlias": 1,
