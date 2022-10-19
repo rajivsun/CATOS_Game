@@ -19,5 +19,6 @@ function show_money(num,idle){
 		}		
 	}
 	obj_controller.birb += num;
+	obj_controller.current_level_money += num;
 	
 }

@@ -31,6 +31,9 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"bird_id","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"obj_controller.nc",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"spr_small","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"spr_northen_cardinal_small",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"spr_grand","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"spr_northen_cardinal",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"spr_middle","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"spr_northen_cardinal_middle",},
   ],
   "parent": {
     "name": "BIRD",

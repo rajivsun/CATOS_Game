@@ -3,4 +3,4 @@
 
 
 
-//draw_text(50,100,camera_get_view_width(view_camera[0]));
+//draw_text(500,100,y_to);

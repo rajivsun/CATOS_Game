@@ -29,6 +29,9 @@
   "gridY": 0,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bbc5572f-85ec-4c62-9a0f-e326ba7b6961",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"042e5df1-79d0-40cf-9540-76d449d6cd81",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c6583c7f-cc89-4a34-8a82-adffa17bf494",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b61ad90-93a8-43a9-8e22-5d78fcb944c9",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -36,16 +39,19 @@
     "name": "spr_budgerigar",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"3ee90cfe-8e1b-4a67-9d80-855189940b31","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbc5572f-85ec-4c62-9a0f-e326ba7b6961","path":"sprites/spr_budgerigar/spr_budgerigar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9ca5bd3f-848e-42ba-97d8-38c4b6dd060b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"042e5df1-79d0-40cf-9540-76d449d6cd81","path":"sprites/spr_budgerigar/spr_budgerigar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d6773afd-cc09-4129-ba9e-369a5fc9f321","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c6583c7f-cc89-4a34-8a82-adffa17bf494","path":"sprites/spr_budgerigar/spr_budgerigar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c595d357-6665-4633-968e-4da00e8ec5aa","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b61ad90-93a8-43a9-8e22-5d78fcb944c9","path":"sprites/spr_budgerigar/spr_budgerigar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
