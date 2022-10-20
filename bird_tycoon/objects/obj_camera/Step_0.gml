@@ -1,7 +1,10 @@
 /// @description update camera
 // You can write your code in this editor
 
-
+if layer_exists("back")
+{
+	layer_y("back",cam_y/1.2);
+}
 	
 //x = clamp(x,view_w_half,room_width-view_w_half);
 //y = clamp(y,view_h_half,room_height-view_h_half);

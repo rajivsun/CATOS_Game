@@ -30,13 +30,15 @@ draw_healthbar(880,60,1050,75,min(100,current_level_money/current_level_need_mon
 draw_set_alpha(0.7);
 draw_roundrect_color_ext(20,2100,1080,2280,20,20,c_white,c_white,false); // docker
 draw_set_alpha(1);
-draw_roundrect_color_ext(50,2120,200,2260,20,20,c_white,c_white,false); //icon
+draw_roundrect_color_ext(50,2120,200,2260,20,20,c_white,c_white,false); //icon_fond_bird
+draw_roundrect_color_ext(1100-50-150,2120,1100-50,2260,20,20,c_white,c_white,false); //icon_fond_book
+
 
 if open_bird_ui == 1 // draw bird ui
 {
-	
 	bird_ui();
 }	
 // draw icons
 draw_sprite_ext(spr_icon_bird,0,50+75,2125+75,1,1,0,c_white,1);
+draw_sprite_ext(spr_icon_book,0,1100-50-75,2125+75,1,1,0,c_white,1);
 
