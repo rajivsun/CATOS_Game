@@ -21,7 +21,6 @@ function book_ui()
 				current_page = max(current_page-1,0);
 		}	
 			
-		
 		draw_set_font(ft_info_num_big)
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_center);
@@ -31,14 +30,14 @@ function book_ui()
 		// bird page
 		var spr = object_get_sprite(ls_bird_possesed[current_page].object);
 		var spr_width = sprite_get_width(spr)
-		draw_sprite_ext(spr,0,532,650,6.5*spr_width/128,6.5*spr_width/128,0,c_white,book_ui_alpha);
+		draw_sprite_ext(spr,0,532,680,6.5*spr_width/128,6.5*spr_width/128,0,c_white,book_ui_alpha);
 		draw_set_font(ft_info_num_big);
 		draw_set_valign(fa_middle);
-		draw_set_halign(fa_left);
+		draw_set_halign(fa_left); 
 		draw_text_color(149,285,ls_bird_possesed[current_page]._name,c_black,c_black,c_black,c_black,book_ui_alpha);
 		draw_set_color(c_white);
 		draw_set_font(ft_info_num);
 		draw_set_valign(fa_top);
-		draw_set_halign(fa_left);
-		draw_text_ext_color(140,980,ls_bird_possesed[current_page].description,string_height("M"),960-140,c_black,c_black,c_black,c_black,book_ui_alpha);
+		draw_set_halign(fa_left); // bird description
+		draw_text_ext_color(140,1010,ls_bird_possesed[current_page].description,string_height("M"),960-140,c_black,c_black,c_black,c_black,book_ui_alpha);
 }

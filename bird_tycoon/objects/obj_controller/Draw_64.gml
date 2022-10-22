@@ -11,14 +11,14 @@ book_ui();
 // -------------- top info ----------------
 // birb
 draw_set_alpha(0.8);
-draw_roundrect_color(20,20,1080,80,c_white,c_white,false);
+draw_roundrect_color(-10,-10,1100,80,c_white,c_white,false);
 draw_set_alpha(1);
 
-draw_sprite_ext(spr_icon_birb,0,80,51,1,1,0,c_white,1);
+draw_sprite_ext(spr_icon_birb,0,80,45,1,1,0,c_white,1);
 draw_set_valign(fa_middle);
 draw_set_halign(fa_left);
 draw_set_font(ft_info_num_big);
-draw_text_color(160,50,birb,c_black,c_black,c_black,c_black,1);
+draw_text_color(160,46,birb,c_black,c_black,c_black,c_black,1);
 
 // level
 draw_set_valign(fa_top);

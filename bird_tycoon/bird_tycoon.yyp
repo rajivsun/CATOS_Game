@@ -50,6 +50,7 @@
     {"id":{"name":"obj_effect_birb","path":"objects/obj_effect_birb/obj_effect_birb.yy",},"order":3,},
     {"id":{"name":"spr_egg","path":"sprites/spr_egg/spr_egg.yy",},"order":5,},
     {"id":{"name":"book_ui","path":"scripts/book_ui/book_ui.yy",},"order":3,},
+    {"id":{"name":"spr_western_bluebird_wing","path":"sprites/spr_western_bluebird_wing/spr_western_bluebird_wing.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
