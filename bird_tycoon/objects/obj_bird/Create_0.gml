@@ -6,9 +6,6 @@ alarm[0] = 60;
 level = 0;
 
 trust_score = 0;
+image_yscale = abs(image_xscale);
+y_original = y;
 
-scale_original = 4;
-image_xscale = scale_original;
-image_yscale = scale_original;
-scale_multi = 1.1;
-clicked = false;
