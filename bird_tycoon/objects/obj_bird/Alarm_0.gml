@@ -4,7 +4,3 @@
 show_money(birb_ps,true);
 alarm[0] = 60;
 
-
-
-
-

@@ -2,7 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function book_ui()
 {
-
 	// book overall ui
 	draw_set_alpha(0.8*book_ui_alpha);
 	draw_rectangle_color(0,0,display_get_gui_width(),2100,c_black,c_black,c_black,c_black,false);
@@ -44,9 +43,13 @@ function book_ui()
 	// trust score
 	if instance_exists(ls_bird_possesed[current_page].object) 
 	{
+		draw_set_valign(fa_middle);
+		draw_set_halign(fa_center);
+		draw_set_font(ft_info_num_big);
+		draw_text_color(550,1400,"Trust Score",c_black,c_black,c_black,c_black,book_ui_alpha);
 		draw_set_alpha(book_ui_alpha);
-		draw_healthbar(200,1350,900,1400,ls_bird_possesed[current_page].object.trust_score/100,
-		c_black,c_green,c_green,-1,true,true);
+		draw_healthbar(150,1480,950,1520,ls_bird_possesed[current_page].object.trust_score/100,
+		c_gray,c_green,c_green,-1,true,true);
 		draw_set_alpha(1);
 	}	
 }

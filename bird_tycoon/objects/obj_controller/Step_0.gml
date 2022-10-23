@@ -24,3 +24,9 @@ if current_level_money >= current_level_need_money
 	level ++;
 	//level_up_need_money = new_level_up_money;
 }
+
+if alarm[0] > 0
+{
+	button_w += 230*0.01;
+	button_h += 230*0.01;
+}

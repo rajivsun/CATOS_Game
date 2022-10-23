@@ -13,9 +13,9 @@ function bird_ui(){
 	draw_set_halign(fa_center);
 	draw_text_color(150,1065,"Birds",c_black,c_black,c_black,c_black,bird_ui_alpha);
 	
-	
 	for (var i=0;i<array_length(ls_bird);i++)
 	{
+		var button_x = 915,button_y = 1170+150*i + 45;
 		draw_roundrect_color_ext(50,1150+150*i,1050,1280+150*i,20,20,c_white,c_white,false);
 		draw_sprite_ext(ls_bird[i].sprite,0,140,1220+150*i,-2,2,0,c_white,bird_ui_alpha);
 		draw_set_font(ft_info_num);
@@ -31,22 +31,25 @@ function bird_ui(){
 			// if got enough money to upgrade 
 			if birb >= ls_bird[i].upgrade_need
 			{
-				draw_roundrect_color(800,1170+150*i,1030,1260+150*i,#007A3B,#007A3B,false);//draw upgrade button
-				draw_roundrect_color(800,1170+150*i,1030,1250+150*i,#00A651,#00A651,false);
 				if click_button(800,1170+150*i,1030,1260+150*i) && open_bird_ui
-				{   // -------------------upgrade the bird ------------------
+				{   // ------------------- upgrade the bird --------------------
+					alarm[0] = 10;
+					button_w = 230*0.9;button_h=90*0.9;
 					birb -= ls_bird[i].upgrade_need; // minus the cost
 					obj_camera.y_to = ls_bird[i].object.y-obj_camera.view_h/4; // set camera to the current bird
 					ls_bird[i].level += 1;
 					ls_bird[i].upgrade_need += power(ls_bird[i].level,2);
-					ls_bird[i].birb_per_sec += 1*ls_bird[i].birb_coef*ls_bird[i].level;	
+					ls_bird[i].birb_per_sec += 1*ls_bird[i].birb_coef*ls_bird[i].level;		
+					clicked = i;
 				}
+				if clicked = i
+					draw_roundrect_color(button_x-button_w/2,button_y-button_h/2,button_x+button_w/2,button_y+button_h/2,#00A651,#00A651,false);//draw upgrade button
+				else
+					draw_roundrect_color(button_x-230/2,button_y-90/2,button_x+230/2,button_y+90/2,#00A651,#00A651,false);//draw upgrade button
 			}
 			else
-			{
-				
-				draw_roundrect_color(800,1170+150*i,1030,1260+150*i,c_gray,c_gray,false);//draw gray button
-				draw_roundrect_color(800,1170+150*i,1030,1250+150*i,c_ltgray,c_ltgray,false);
+			{							
+				draw_roundrect_color(button_x-230/2,button_y-90/2,button_x+230/2,button_y+90/2,c_ltgray,c_ltgray,false);//draw gray button
 			}
 	
 			draw_set_font(ft_info_num_small);
@@ -63,8 +66,7 @@ function bird_ui(){
 			{
 				if level < ls_bird[i].level_need // if not enough level
 				{
-					draw_roundrect_color(800,1170+150*i,1030,1260+150*i,c_gray,c_gray,false);//draw gray button
-					draw_roundrect_color(800,1170+150*i,1030,1250+150*i,c_ltgray,c_ltgray,false);
+					draw_roundrect_color(button_x-230/2,button_y-90/2,button_x+230/2,button_y+90/2,c_ltgray,c_ltgray,false);//draw gray button
 					draw_set_valign(fa_middle);
 					draw_set_halign(fa_center);
 					draw_set_font(ft_info_num_small);
@@ -75,16 +77,15 @@ function bird_ui(){
 					
 					if birb < ls_bird[i].upgrade_need // if dont have enough money to hatch
 					{
-						draw_roundrect_color(800,1170+150*i,1030,1260+150*i,c_gray,c_gray,false);//draw gray button
-						draw_roundrect_color(800,1170+150*i,1030,1250+150*i,c_ltgray,c_ltgray,false);
+						draw_roundrect_color(button_x-button_w/2,button_y-button_h/2,button_x+button_w/2,button_y+button_h/2,c_ltgray,c_ltgray,false);//draw gray button
 					
 					}
 					else // if have enough money to hatch
 					{
-						draw_roundrect_color(800,1170+150*i,1030,1260+150*i,#00C4C4,#00C4C4,false);//draw upgrade button
-						draw_roundrect_color(800,1170+150*i,1030,1250+150*i,c_aqua,c_aqua,false);
 						if click_button(800,1170+150*i,1030,1260+150*i) && open_bird_ui
 						{	// ------------- egg hatching -------------------------
+							alarm[0] = 10;
+							button_w = 230*0.9;button_h=90*0.9;
 							birb -= ls_bird[i].upgrade_need; // minus the cost
 							ls_bird[i].hatching = true;
 							
@@ -96,7 +97,13 @@ function bird_ui(){
 							}
 							array_insert(ls_bird_possesed,array_length(ls_bird_possesed),ls_bird[i])
 							obj_camera.y_to = 1476-300*row-obj_camera.view_h/4; // set camera to the current bird
+							clicked = i;
+							
 						}
+						if clicked = i
+							draw_roundrect_color(button_x-button_w/2,button_y-button_h/2,button_x+button_w/2,button_y+button_h/2,c_aqua,c_aqua,false);//draw upgrade button
+						else
+							draw_roundrect_color(button_x-230/2,button_y-90/2,button_x+230/2,button_y+90/2,c_aqua,c_aqua,false);//draw upgrade button
 					}
 					draw_set_valign(fa_middle);
 					draw_set_halign(fa_center);
@@ -106,8 +113,7 @@ function bird_ui(){
 			}
 			else // if hatching the egg
 			{
-				draw_roundrect_color(800,1170+150*i,1030,1260+150*i,c_lime,c_lime,false);//draw hatching button
-				draw_roundrect_color(800,1170+150*i,1030,1250+150*i,c_lime,c_lime,false);
+				draw_roundrect_color(button_x-230/2,button_y-90/2,button_x+230/2,button_y+90/2,c_lime,c_lime,false);//draw hatching button
 				draw_set_valign(fa_middle);
 				draw_set_halign(fa_center);
 				draw_set_font(ft_info_num_small);

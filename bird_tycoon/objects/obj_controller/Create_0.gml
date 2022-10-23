@@ -11,6 +11,10 @@ level = 0;
 current_page = 0;
 current_level_money = 0;
 current_level_need_money = 200;
+button_w = 230; 
+button_h = 90;
+clicked = -1;
+
 game_set_speed(60,gamespeed_fps);
 virtual_key_add(52,2124,150,140,vk_numpad0);
 virtual_key_add(900,2124,150,140,vk_numpad1);

@@ -18,6 +18,8 @@ else
 	sprite_index = spr_grand;
 }
 
-
-
-
+if alarm[2] > 0
+{
+	image_xscale -= sign(image_xscale)*0.11;
+	image_yscale -= 0.11;
+}
