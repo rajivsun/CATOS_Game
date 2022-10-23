@@ -10,6 +10,7 @@ if keyboard_check_pressed(vk_numpad0) && !open_book_ui // open bird ui
 		obj_camera.y_to = clamp(obj_camera.y_to,0,room_height-obj_camera.view_h); // get back to original view
 	}
 }
+
 if keyboard_check_pressed(vk_numpad1) && !open_bird_ui // open book ui
 {
 	open_book_ui = -open_book_ui;
