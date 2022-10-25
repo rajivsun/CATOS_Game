@@ -31,8 +31,6 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"bird_id","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"obj_controller.ct",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"spr_small","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"spr_cockatiel_small",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"spr_middle","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"spr_cockatiel_middle",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"spr_grand","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"spr_cockatiel",},
   ],
   "parent": {

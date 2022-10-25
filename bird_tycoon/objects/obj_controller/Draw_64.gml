@@ -2,11 +2,9 @@
 // You can write your code in this editor
 if debug
 	draw_text(300,100,string(device_mouse_x_to_gui(0))+"   "+string(device_mouse_y_to_gui(0)));
-	
-
+		
 bird_ui();
 book_ui();
-
 
 // -------------- top info ----------------
 // birb
@@ -19,6 +17,7 @@ draw_set_valign(fa_middle);
 draw_set_halign(fa_left);
 draw_set_font(ft_info_num_big);
 draw_text_color(160,46,birb,c_black,c_black,c_black,c_black,1);
+
 
 // level
 draw_set_valign(fa_top);

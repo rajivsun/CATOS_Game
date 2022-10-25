@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function show_money(num,idle){
 	
+	num = num*obj_controller.MULTI
 	if idle	
 	{
 		with instance_create_layer(id.x,id.y,"text_money",obj_show_money)
