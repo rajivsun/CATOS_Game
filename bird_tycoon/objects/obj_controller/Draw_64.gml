@@ -5,6 +5,7 @@ if debug
 		
 bird_ui();
 book_ui();
+part_system_drawit(obj_particle.particle_system_gui);
 
 // -------------- top info ----------------
 // birb

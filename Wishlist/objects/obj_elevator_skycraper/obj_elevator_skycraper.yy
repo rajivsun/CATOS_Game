@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_elevator_skycraper",
   "spriteId": {
     "name": "spr_elevator_skycraper",
     "path": "sprites/spr_elevator_skycraper/spr_elevator_skycraper.yy",
@@ -25,18 +28,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"room_go_to","path":"objects/obj_normal_door/obj_normal_door.yy",},"objectId":{"name":"obj_normal_door","path":"objects/obj_normal_door/obj_normal_door.yy",},"value":"rm_METRO_STATION_QUAI","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"room_go_to","path":"objects/obj_normal_door/obj_normal_door.yy",},"objectId":{"name":"obj_normal_door","path":"objects/obj_normal_door/obj_normal_door.yy",},"value":"rm_METRO_STATION_QUAI",},
   ],
   "parent": {
     "name": "CITY_NIGHT_TOP",
-    "path": "folders/Objects/CITY_NIGHT_TOP.yy",
+    "path": "folders/Objects/CITY_NIGHT_STREET/CITY_NIGHT_TOP.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_elevator_skycraper",
-  "tags": [],
-  "resourceType": "GMObject",
 }

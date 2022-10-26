@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//gesture_drag_time(0.1);
 
 alarm[0] = 60;
 level = 0;

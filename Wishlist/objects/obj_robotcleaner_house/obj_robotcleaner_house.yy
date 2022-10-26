@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_robotcleaner_house",
   "spriteId": {
     "name": "spr_robotcleaner_house",
     "path": "sprites/spr_robotcleaner_house/spr_robotcleaner_house.yy",
@@ -26,10 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "CITY_NIGHT_TOP",
-    "path": "folders/Objects/CITY_NIGHT_TOP.yy",
+    "path": "folders/Objects/CITY_NIGHT_STREET/CITY_NIGHT_TOP.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_robotcleaner_house",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_skyscraper",
   "spriteId": {
     "name": "spr_skyscraper",
     "path": "sprites/spr_skyscraper/spr_skyscraper.yy",
@@ -26,10 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "CITY_NIGHT_TOP",
-    "path": "folders/Objects/CITY_NIGHT_TOP.yy",
+    "path": "folders/Objects/CITY_NIGHT_STREET/CITY_NIGHT_TOP.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_skyscraper",
-  "tags": [],
-  "resourceType": "GMObject",
 }

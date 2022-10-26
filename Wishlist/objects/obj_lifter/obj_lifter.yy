@@ -38,6 +38,6 @@
   ],
   "parent": {
     "name": "CITY_NIGHT_TOP",
-    "path": "folders/Objects/CITY_NIGHT_TOP.yy",
+    "path": "folders/Objects/CITY_NIGHT_STREET/CITY_NIGHT_TOP.yy",
   },
 }

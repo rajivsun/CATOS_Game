@@ -41,6 +41,8 @@ function bird_ui(){
 					ls_bird[i].upgrade_need += power(ls_bird[i].level,2);
 					ls_bird[i].birb_per_sec += 1*ls_bird[i].birb_coef*ls_bird[i].level;		
 					clicked = i;
+					
+					part_particles_create(obj_particle.particle_system_gui,device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),obj_particle.particletype_shine,5);
 				}
 				if clicked = i
 					draw_roundrect_color(button_x-button_w/2,button_y-button_h/2,button_x+button_w/2,button_y+button_h/2,#00A651,#00A651,false);//draw upgrade button

@@ -8,3 +8,5 @@ draw_self();
 
 
 
+//draw_text(x,y-100,mouse_x);
+//draw_text(x,y-150,x);

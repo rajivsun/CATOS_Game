@@ -381,7 +381,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"DART_GAME","folderPath":"folders/Objects/BAR/DART_GAME.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BOX","folderPath":"folders/Objects/BOX.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CITY_NIGHT_STREET","folderPath":"folders/Objects/CITY_NIGHT_STREET.yy","order":16,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CITY_NIGHT_TOP","folderPath":"folders/Objects/CITY_NIGHT_TOP.yy","order":13,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CITY_NIGHT_TOP","folderPath":"folders/Objects/CITY_NIGHT_STREET/CITY_NIGHT_TOP.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CUTSCENE","folderPath":"folders/Objects/CUTSCENE.yy","order":10,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"DOOR","folderPath":"folders/Objects/DOOR.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EFFECT","folderPath":"folders/Objects/EFFECT.yy","order":9,},

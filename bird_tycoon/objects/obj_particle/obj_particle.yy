@@ -1,20 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ship2",
-  "spriteId": {
-    "name": "spr_ship2",
-    "path": "sprites/spr_ship2/spr_ship2.yy",
-  },
+  "name": "obj_particle",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_ship1",
-    "path": "objects/obj_ship1/obj_ship1.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +21,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CITY_NIGHT_TOP",
-    "path": "folders/Objects/CITY_NIGHT_STREET/CITY_NIGHT_TOP.yy",
+    "name": "EFFECT",
+    "path": "folders/Objects/EFFECT.yy",
   },
 }
