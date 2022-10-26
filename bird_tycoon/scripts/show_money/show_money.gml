@@ -5,7 +5,7 @@ function show_money(num,idle){
 	num = num*obj_controller.MULTI
 	if idle	
 	{
-		with instance_create_layer(id.x,id.y,"text_money",obj_show_money)
+		with instance_create_layer(id.x,id.y-50,"text_money",obj_show_money)
 		{
 			money_num = num;
 			instance_create_layer(id.x,id.y,"text_money",obj_circle);

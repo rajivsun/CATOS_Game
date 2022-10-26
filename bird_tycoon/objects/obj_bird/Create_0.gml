@@ -15,3 +15,4 @@ switch_count = 0;
 spr_small = asset_get_index(sprite_get_name(spr_grand)+"_small");
 spr_middle = asset_get_index(sprite_get_name(spr_grand)+"_middle");
 spr_wing = asset_get_index(sprite_get_name(spr_grand)+"_wing");
+spr_speak = asset_get_index(sprite_get_name(spr_grand)+"_speak");

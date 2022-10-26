@@ -21,9 +21,9 @@ else // when bird grow up
 		case "idle":
 			idle_count ++;
 			sprite_index = spr_grand;
-			if idle_count >= room_speed * 8
+			if idle_count >= room_speed * random_range(7,9)
 			{
-				state = choose("switch");
+				state = choose("switch","speak");
 				idle_count = 0;
 				dir = image_xscale;
 			}
@@ -44,6 +44,17 @@ else // when bird grow up
 			}
 			sprite_index = spr_wing;
 			break;
+			
+		case "speak":
+			idle_count ++;
+			if idle_count >= room_speed * 2
+			{
+				idle_count = 0;
+				state = "idle";
+			}
+			sprite_index = spr_speak;
+			break;
+			
 	}
 }
 
