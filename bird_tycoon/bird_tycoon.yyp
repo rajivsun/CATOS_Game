@@ -62,6 +62,7 @@
     {"id":{"name":"spr_western_bluebird_speak","path":"sprites/spr_western_bluebird_speak/spr_western_bluebird_speak.yy",},"order":4,},
     {"id":{"name":"obj_toucan","path":"objects/obj_toucan/obj_toucan.yy",},"order":13,},
     {"id":{"name":"spr_budgerigar_wing","path":"sprites/spr_budgerigar_wing/spr_budgerigar_wing.yy",},"order":3,},
+    {"id":{"name":"money_conversion","path":"scripts/money_conversion/money_conversion.yy",},"order":5,},
     {"id":{"name":"spr_budgerigar_small","path":"sprites/spr_budgerigar_small/spr_budgerigar_small.yy",},"order":0,},
     {"id":{"name":"spr_cockatiel_speak","path":"sprites/spr_cockatiel_speak/spr_cockatiel_speak.yy",},"order":4,},
     {"id":{"name":"spr_cockatiel_wing","path":"sprites/spr_cockatiel_wing/spr_cockatiel_wing.yy",},"order":3,},
@@ -110,6 +111,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BIRD","folderPath":"folders/Objects/BIRD.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EFFECT","folderPath":"folders/Objects/EFFECT.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SYSTEM","folderPath":"folders/Objects/SYSTEM.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":3,},
@@ -127,7 +129,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":10,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EFFECT","folderPath":"folders/Objects/EFFECT.yy","order":2,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

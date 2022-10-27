@@ -17,7 +17,7 @@ draw_sprite_ext(spr_icon_birb,0,80,45,1,1,0,c_white,1);
 draw_set_valign(fa_middle);
 draw_set_halign(fa_left);
 draw_set_font(ft_info_num_big);
-draw_text_color(160,46,birb,c_black,c_black,c_black,c_black,1);
+draw_text_color(160,46,money_conversion(birb),c_black,c_black,c_black,c_black,1);
 
 
 // level

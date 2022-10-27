@@ -47,7 +47,7 @@
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":false,"effectType":"_filter_outline","properties":[
         {"type":1,"name":"g_OutlineColour","value":"#FF000000",},
         {"type":0,"name":"g_OutlineRadius","value":"2",},
-        {"type":0,"name":"g_OutlinePixelScale","value":"1.5",},
+        {"type":0,"name":"g_OutlinePixelScale","value":"1.16",},
       ],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"deco","instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_outline","properties":[
         {"type":1,"name":"g_OutlineColour","value":"#FF000000",},
