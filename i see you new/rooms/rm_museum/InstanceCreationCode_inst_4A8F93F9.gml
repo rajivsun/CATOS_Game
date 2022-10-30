@@ -1,0 +1,1 @@
+if obj_main.bbportrait == false instance_destroy();
