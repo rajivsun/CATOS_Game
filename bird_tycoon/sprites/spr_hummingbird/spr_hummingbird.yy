@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "hummingbird",
+    "path": "folders/Sprites/BIRD/hummingbird.yy",
   },
 }

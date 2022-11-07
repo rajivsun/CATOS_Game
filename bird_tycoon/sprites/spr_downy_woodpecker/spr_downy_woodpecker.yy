@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "downy_woddpecker",
+    "path": "folders/Sprites/BIRD/downy_woddpecker.yy",
   },
 }
