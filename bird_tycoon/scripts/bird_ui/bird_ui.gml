@@ -45,6 +45,7 @@ function bird_ui(){
 					{
 						y = y_original -10;
 						alarm[2] = 10;
+						part_particles_create(obj_particle.particle_system,x,y,obj_particle.particletype_spark,20);
 					}
 					//instance_create_layer(ls_bird[i].object.x,ls_bird[i].object.y,"effect",obj_levelup_effect);
 					part_particles_create(obj_particle.particle_system_gui,device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),obj_particle.particletype_shine,5);

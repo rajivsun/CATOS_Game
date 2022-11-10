@@ -64,7 +64,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"437aa793-6e3a-42ff-af71-f3e346770a9a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"text",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"437aa793-6e3a-42ff-af71-f3e346770a9a","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"text",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7e32c5a0-c6a1-447b-8b74-ee682d5e1765","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"camera",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ff1787d4-9928-4560-8529-1ec189f8f96c","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"alarm",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"559d51d2-03b3-4487-985e-5d3e35402013","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"cup",},
