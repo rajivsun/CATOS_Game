@@ -13,6 +13,7 @@ state = "idle";
 idle_count = 0;
 switch_count = 0;
 
+spr_grand = sprite_index;
 spr_small = asset_get_index(sprite_get_name(spr_grand)+"_small");
 spr_middle = asset_get_index(sprite_get_name(spr_grand)+"_middle");
 spr_wing = asset_get_index(sprite_get_name(spr_grand)+"_wing");

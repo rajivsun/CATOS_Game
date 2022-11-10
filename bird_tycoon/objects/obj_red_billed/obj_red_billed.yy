@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_bird",
+    "path": "objects/obj_bird/obj_bird.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

@@ -19,7 +19,6 @@ draw_set_halign(fa_left);
 draw_set_font(ft_info_num_big);
 draw_text_color(160,46,money_conversion(birb),c_black,c_black,c_black,c_black,1);
 
-
 // level
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
@@ -33,7 +32,6 @@ draw_roundrect_color_ext(0,2100,1100,2300,20,20,c_white,c_white,false); // docke
 draw_set_alpha(1);
 draw_roundrect_color_ext(50,2120,200,2260,20,20,c_white,c_white,false); // icon_fond_bird
 draw_roundrect_color_ext(1100-50-150,2120,1100-50,2260,20,20,c_white,c_white,false); //icon_fond_book
-
 
 if open_bird_ui == 1 // draw bird ui
 {

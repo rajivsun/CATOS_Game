@@ -33,12 +33,12 @@ function book_ui()
 	draw_set_font(ft_info_num_big);
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_left); 
-	draw_text_color(149,285,ls_bird_possesed[current_page]._name,c_black,c_black,c_black,c_black,book_ui_alpha);
+	draw_text_color(149,285,ls_bird_possesed[current_page]._name[language],c_black,c_black,c_black,c_black,book_ui_alpha);
 	draw_set_color(c_white);
 	draw_set_font(ft_info_num);
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left); // bird description
-	draw_text_ext_color(140,1010,ls_bird_possesed[current_page].description,string_height("M"),960-140,c_black,c_black,c_black,c_black,book_ui_alpha);
+	draw_text_ext_color(140,1010,ls_bird_possesed[current_page].description[language],string_height("M"),960-140,c_black,c_black,c_black,c_black,book_ui_alpha);
 
 	// trust score
 	if instance_exists(ls_bird_possesed[current_page].object) 
@@ -46,7 +46,8 @@ function book_ui()
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_center);
 		draw_set_font(ft_info_num_big);
-		draw_text_color(550,1400,"Trust Score",c_black,c_black,c_black,c_black,book_ui_alpha);
+		var _trust_score = ["Trust Score","信任值"];
+		draw_text_color(550,1400,_trust_score[language],c_black,c_black,c_black,c_black,book_ui_alpha);
 		draw_set_alpha(book_ui_alpha);
 		draw_healthbar(150,1480,950,1520,ls_bird_possesed[current_page].object.trust_score/100,
 		c_gray,c_green,c_green,-1,true,true);

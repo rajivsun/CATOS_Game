@@ -31,7 +31,6 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"bird_id","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"obj_controller.br",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"spr_grand","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"spr_budgerigar",},
   ],
   "parent": {
     "name": "BIRD",

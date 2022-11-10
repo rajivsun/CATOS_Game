@@ -11,7 +11,8 @@ function bird_ui(){
 	draw_set_font(ft_info_num_big);
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_center);
-	draw_text_color(150,1065,"Birds",c_black,c_black,c_black,c_black,bird_ui_alpha);
+	var title = ["Bird","鸟"];
+	draw_text_color(150,1065,title[language],c_black,c_black,c_black,c_black,bird_ui_alpha);
 	
 	for (var i=0;i<array_length(ls_bird);i++)
 	{
@@ -21,7 +22,7 @@ function bird_ui(){
 		draw_set_font(ft_info_num);
 		draw_set_valign(fa_top);
 		draw_set_halign(fa_left);
-		draw_text_color(250,1155+150*i,ls_bird[i]._name,c_black,c_black,c_black,c_black,bird_ui_alpha);
+		draw_text_color(250,1155+150*i,ls_bird[i]._name[language],c_black,c_black,c_black,c_black,bird_ui_alpha);
 		
 		 // if already have this bird
 		if instance_exists(ls_bird[i].object)
@@ -61,11 +62,14 @@ function bird_ui(){
 			}
 	
 			draw_set_font(ft_info_num_small);
-			draw_text_color(920,1213+150*i,"Upgrade\n" + string(ls_bird[i].upgrade_need),c_white,c_white,c_white,c_white,bird_ui_alpha); // upgrade text
+			var upgrade = ["Upgrade","升级"];
+			draw_text_color(920,1213+150*i,upgrade[language]+"\n" + string(money_conversion(ls_bird[i].upgrade_need)),c_white,c_white,c_white,c_white,bird_ui_alpha); // upgrade text
 			//draw_text_color(920,1225+150*i,ls_bird[i].upgrade_need,c_white,c_white,c_white,c_white,1); // upgrade need money
 			draw_set_halign(fa_left);
-			draw_text_color(250,1218+150*i,"Level "+string(ls_bird[i].level),c_black,c_black,c_black,c_black,bird_ui_alpha);
-			draw_text_color(250,1255+150*i,"Birb : "+string(ls_bird[i].birb_per_sec)+"/s",c_green,c_green,c_green,c_green,bird_ui_alpha);
+			var _level = ["Level ","等级 "];
+			draw_text_color(250,1218+150*i,_level[language]+string(ls_bird[i].level),c_black,c_black,c_black,c_black,bird_ui_alpha);
+			var _birb = ["Birb : ","小鸟币 : "];
+			draw_text_color(250,1255+150*i,_birb[language]+string(money_conversion(ls_bird[i].birb_per_sec*MULTI))+"/s",c_green,c_green,c_green,c_green,bird_ui_alpha);
 
 		}
 		else // if i havent have this bird
@@ -78,11 +82,11 @@ function bird_ui(){
 					draw_set_valign(fa_middle);
 					draw_set_halign(fa_center);
 					draw_set_font(ft_info_num_small);
-					draw_text_color(920,1210+150*i,"Require\n"+"Level "+string(ls_bird[i].level_need),c_white,c_white,c_white,c_white,bird_ui_alpha); // upgrade text
+					var require = ["Require\nLevel","需要\n等级"];
+					draw_text_color(920,1210+150*i,require[language]+string(ls_bird[i].level_need),c_white,c_white,c_white,c_white,bird_ui_alpha); // upgrade text
 				}
 				else // if got enough level
 				{
-					
 					if birb < ls_bird[i].upgrade_need // if dont have enough money to hatch
 					{
 						draw_roundrect_color(button_x-button_w/2,button_y-button_h/2,button_x+button_w/2,button_y+button_h/2,c_ltgray,c_ltgray,false);//draw gray button
@@ -111,12 +115,13 @@ function bird_ui(){
 						if clicked = i
 							draw_roundrect_color(button_x-button_w/2,button_y-button_h/2,button_x+button_w/2,button_y+button_h/2,c_aqua,c_aqua,false);//draw upgrade button
 						else
-							draw_roundrect_color(button_x-230/2,button_y-90/2,button_x+230/2,button_y+90/2,c_aqua,c_aqua,false);//draw upgrade button
+							draw_roundrect_color(button_x-230/2,button_y-90/2,button_x+230/2,button_y+90/2,c_blue,c_blue,false);//draw upgrade button
 					}
 					draw_set_valign(fa_middle);
 					draw_set_halign(fa_center);
 					draw_set_font(ft_info_num_small); // draw hatch text
-					draw_text_color(920,1210+150*i,"Hatch\n"+string(ls_bird[i].upgrade_need),c_white,c_white,c_white,c_white,bird_ui_alpha); // upgrade text
+					var _hatch = ["Hatch\n","孵化\n"];
+					draw_text_color(920,1210+150*i,_hatch[language]+string(money_conversion(ls_bird[i].upgrade_need)),c_white,c_white,c_white,c_white,bird_ui_alpha); // upgrade text
 				}
 			}
 			else // if hatching the egg
@@ -125,7 +130,8 @@ function bird_ui(){
 				draw_set_valign(fa_middle);
 				draw_set_halign(fa_center);
 				draw_set_font(ft_info_num_small);
-				draw_text_color(920,1210+150*i,"Hatching",c_white,c_white,c_white,c_white,bird_ui_alpha); // upgrade text
+				var hatching = ["Hatching","孵化中"];
+				draw_text_color(920,1210+150*i,hatching[language],c_white,c_white,c_white,c_white,bird_ui_alpha); // upgrade text
 			}
 		}
 	}
