@@ -89,6 +89,7 @@
     {"id":{"name":"spr_downy_woodpecker_wing","path":"sprites/spr_downy_woodpecker_wing/spr_downy_woodpecker_wing.yy",},"order":3,},
     {"id":{"name":"spr_jay_middle","path":"sprites/spr_jay_middle/spr_jay_middle.yy",},"order":2,},
     {"id":{"name":"spr_spark","path":"sprites/spr_spark/spr_spark.yy",},"order":9,},
+    {"id":{"name":"spr_dart_board","path":"sprites/spr_dart_board/spr_dart_board.yy",},"order":7,},
     {"id":{"name":"spr_red_billed_middle","path":"sprites/spr_red_billed_middle/spr_red_billed_middle.yy",},"order":2,},
     {"id":{"name":"spr_shine","path":"sprites/spr_shine/spr_shine.yy",},"order":8,},
     {"id":{"name":"spr_western_bluebird_small","path":"sprites/spr_western_bluebird_small/spr_western_bluebird_small.yy",},"order":0,},
@@ -112,6 +113,7 @@
     {"id":{"name":"spr_toucan_speak","path":"sprites/spr_toucan_speak/spr_toucan_speak.yy",},"order":4,},
     {"id":{"name":"spr_change_page_icon","path":"sprites/spr_change_page_icon/spr_change_page_icon.yy",},"order":7,},
     {"id":{"name":"spr_western_bluebird_speak","path":"sprites/spr_western_bluebird_speak/spr_western_bluebird_speak.yy",},"order":4,},
+    {"id":{"name":"draw_set_text_position","path":"scripts/draw_set_text_position/draw_set_text_position.yy",},"order":7,},
     {"id":{"name":"obj_toucan","path":"objects/obj_toucan/obj_toucan.yy",},"order":13,},
     {"id":{"name":"spr_budgerigar_wing","path":"sprites/spr_budgerigar_wing/spr_budgerigar_wing.yy",},"order":3,},
     {"id":{"name":"money_conversion","path":"scripts/money_conversion/money_conversion.yy",},"order":5,},
@@ -167,8 +169,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
     {"roomId":{"name":"dart","path":"rooms/dart/dart.yy",},},
+    {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":13,},

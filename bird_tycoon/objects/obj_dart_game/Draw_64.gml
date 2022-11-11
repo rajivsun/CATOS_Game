@@ -3,7 +3,7 @@
 
 
 draw_set_text_position("left");
-draw_set_font(ft_chinese);
+draw_set_font(ft_info_num_small);
 
 draw_roundrect(88,90,464,370,true);
 draw_roundrect(88,703,464,703+280,true);
@@ -23,7 +23,7 @@ if alarm[0] > 0
 {
 	draw_rectangle_color(0,400,1920,600,c_black,c_black,c_black,c_black,false);
 	draw_set_text_position("middle");
-	draw_set_font(ft_chinese);
+	draw_set_font(ft_info_num_small);
 	if turn == 1
 		draw_text_transformed(960,500,"轮到你了",4,4,0);
 	else if turn == -1
@@ -36,7 +36,7 @@ if alarm[1] > 0
 {
 	draw_rectangle_color(0,400,1920,600,c_black,c_black,c_black,c_black,false);
 	draw_set_text_position("middle");
-	draw_set_font(ft_chinese);
+	draw_set_font(ft_info_num_small);
 	draw_text_transformed(960,500,result,4,4,0);
 
 }
