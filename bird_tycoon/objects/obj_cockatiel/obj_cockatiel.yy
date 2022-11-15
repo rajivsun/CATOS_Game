@@ -29,9 +29,7 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"bird_id","path":"objects/obj_bird/obj_bird.yy",},"objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"value":"obj_controller.ct",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "BIRD",
     "path": "folders/Objects/BIRD.yy",

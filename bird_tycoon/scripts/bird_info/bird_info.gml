@@ -78,7 +78,7 @@ function bird_info(){
 		upgrade_need : 200,
 		egg_time : 60*60*0.05,
 		hatching : false,
-		description : ""
+		description : ["",""],
 	}
 	ar = {
 		_name : ["American Robin","北美知更鸟"],

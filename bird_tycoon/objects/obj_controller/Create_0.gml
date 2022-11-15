@@ -4,6 +4,7 @@
 bird_ui_alpha = 0;
 book_ui_alpha = 0;
 birb = 0;
+bird_ui_page = 0;
 pc_occupy_num = 0;
 open_bird_ui = -1;
 open_book_ui = -1;
@@ -17,6 +18,8 @@ clicked = -1;
 
 
 game_set_speed(60,gamespeed_fps);
+virtual_key_add(68,1911,211-69,2045-1911,vk_numpad4);
+virtual_key_add(875,1911,1034-875,2045-1911,vk_numpad6);
 virtual_key_add(52,2124,150,140,vk_numpad0);
 virtual_key_add(900,2124,150,140,vk_numpad1);
 virtual_key_add(0,0,1100,1000,vk_space);

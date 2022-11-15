@@ -1,3 +1,7 @@
 num 0 : bird ui
 num 1 : book ui
 space : 
+left : book ui backward
+right : book ui forward
+num 4 : bird ui backward
+num 6 : bird ui forward

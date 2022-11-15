@@ -57,3 +57,4 @@ else
 draw_sprite_ext(spr_icon_bird,0,50+75,2125+75,1,1,0,c_white,1);
 draw_sprite_ext(spr_icon_book,0,1100-50-75,2125+75,1,1,0,c_white,1);
 
+//draw_text(20,400,bird_ui_page);
