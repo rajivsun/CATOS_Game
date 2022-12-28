@@ -39,7 +39,8 @@ function bird_info(){
 		upgrade_need : 100,
 		egg_time : 60*60*0.05,
 		hatching : false,
-		description : ["The cockatiel, also known as weiro, or quarrion, is a medium-sized parrot that is a member of its own branch of the cockatoo family endemic to Australia. ",""]
+		description : ["The cockatiel, also known as weiro, or quarrion, is a medium-sized parrot that is a member of its own branch of the cockatoo family endemic to Australia. ",
+		"玄凤鹦鹉，原产澳大利亚。十分活泼，\n喜爱亲近主人。两眼后斜下的颊部,\n各有一块圆形红斑,十分秀丽,具有很高的\n观赏价值。"]
 	}
 	br = {
 		_name : ["Budgerigar","虎皮鹦鹉"],
