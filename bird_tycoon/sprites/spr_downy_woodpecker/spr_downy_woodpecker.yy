@@ -29,6 +29,9 @@
   "gridY": 0,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e3df2fa9-a554-4bee-b4c7-b5d3509ba705",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86a81761-79f7-4ecb-a620-d9322c7d0791",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c8829f5d-7822-407f-9566-ba418426e1f5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2c71fac3-6760-4a82-ab37-49d4a63215eb",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -36,16 +39,19 @@
     "name": "spr_downy_woodpecker",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"79f05177-2f25-4bff-bcc6-9302b72a8fc9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e3df2fa9-a554-4bee-b4c7-b5d3509ba705","path":"sprites/spr_downy_woodpecker/spr_downy_woodpecker.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fd1be680-eab4-4236-a2b2-7d833f1e8af7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86a81761-79f7-4ecb-a620-d9322c7d0791","path":"sprites/spr_downy_woodpecker/spr_downy_woodpecker.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0873baa9-7ff3-4e8e-8cd0-5976a7e970ac","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c8829f5d-7822-407f-9566-ba418426e1f5","path":"sprites/spr_downy_woodpecker/spr_downy_woodpecker.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f2acf89a-3676-4262-bf5d-6bfdee08303d","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c71fac3-6760-4a82-ab37-49d4a63215eb","path":"sprites/spr_downy_woodpecker/spr_downy_woodpecker.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

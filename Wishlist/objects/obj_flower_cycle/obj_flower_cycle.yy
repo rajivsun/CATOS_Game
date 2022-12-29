@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_flower_cycle",
   "spriteId": {
     "name": "spr_flower_lifecycle",
     "path": "sprites/spr_flower_lifecycle/spr_flower_lifecycle.yy",
@@ -28,8 +31,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_flower_cycle",
-  "tags": [],
-  "resourceType": "GMObject",
 }
