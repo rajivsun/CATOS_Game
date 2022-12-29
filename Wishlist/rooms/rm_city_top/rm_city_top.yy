@@ -116,7 +116,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "CITY_TOP",
-    "path": "folders/Rooms/CITY_TOP.yy",
+    "name": "DEMO",
+    "path": "folders/Rooms/DEMO.yy",
   },
 }
