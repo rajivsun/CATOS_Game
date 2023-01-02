@@ -34,7 +34,6 @@
     {"id":{"name":"Pixel_Art_Diffusion_0__6","path":"sprites/Pixel_Art_Diffusion_0__6/Pixel_Art_Diffusion_0__6.yy",},"order":29,},
     {"id":{"name":"cyberpunk_background2124","path":"sprites/cyberpunk_background2124/cyberpunk_background2124.yy",},"order":39,},
     {"id":{"name":"spr_dart_board","path":"sprites/spr_dart_board/spr_dart_board.yy",},"order":0,},
-    {"id":{"name":"rm_CITY_TOP","path":"rooms/rm_CITY_TOP/rm_CITY_TOP.yy",},"order":2,},
     {"id":{"name":"player_scan","path":"scripts/player_scan/player_scan.yy",},"order":3,},
     {"id":{"name":"obj_pc","path":"objects/obj_pc/obj_pc.yy",},"order":2,},
     {"id":{"name":"spr_robotcleaner_house","path":"sprites/spr_robotcleaner_house/spr_robotcleaner_house.yy",},"order":5,},
@@ -353,7 +352,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_CITY_TOP","path":"rooms/rm_CITY_TOP/rm_CITY_TOP.yy",},},
     {"roomId":{"name":"rm_FOREST_1","path":"rooms/rm_FOREST_1/rm_FOREST_1.yy",},},
     {"roomId":{"name":"rm_FOREST","path":"rooms/rm_FOREST/rm_FOREST.yy",},},
     {"roomId":{"name":"rm_BAR","path":"rooms/rm_BAR/rm_BAR.yy",},},
