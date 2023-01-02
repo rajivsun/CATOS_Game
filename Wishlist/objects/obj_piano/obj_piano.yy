@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_piano",
   "spriteId": {
     "name": "spr_piano",
     "path": "sprites/spr_piano/spr_piano.yy",
@@ -28,8 +31,4 @@
     "name": "FOREST",
     "path": "folders/Objects/FOREST.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_piano",
-  "tags": [],
-  "resourceType": "GMObject",
 }
