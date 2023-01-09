@@ -50,6 +50,7 @@ switch (state){
 		// ----------------- scan ---------------------
 		if scan
 		{
+			if room == rm_CITY_TOP
 			player_scan_switch();
 		}
 		if scan_world != false

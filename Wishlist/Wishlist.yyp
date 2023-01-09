@@ -27,6 +27,7 @@
     {"id":{"name":"spr_bar_outside","path":"sprites/spr_bar_outside/spr_bar_outside.yy",},"order":1,},
     {"id":{"name":"Pixel_Art_Diffusion_0__3103","path":"sprites/Pixel_Art_Diffusion_0__3103/Pixel_Art_Diffusion_0__3103.yy",},"order":27,},
     {"id":{"name":"obj_particle_spark_broken","path":"objects/obj_particle_spark_broken/obj_particle_spark_broken.yy",},"order":6,},
+    {"id":{"name":"spr_old_farmer","path":"sprites/spr_old_farmer/spr_old_farmer.yy",},"order":1,},
     {"id":{"name":"spr_adsboard","path":"sprites/spr_adsboard/spr_adsboard.yy",},"order":13,},
     {"id":{"name":"spr_esc_button","path":"sprites/spr_esc_button/spr_esc_button.yy",},"order":0,},
     {"id":{"name":"obj_dart_board_piece_2","path":"objects/obj_dart_board_piece_2/obj_dart_board_piece_2.yy",},"order":4,},
@@ -355,6 +356,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_VILL_RIVER","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},},
     {"roomId":{"name":"rm_CITY_TOP","path":"rooms/rm_CITY_TOP/rm_CITY_TOP.yy",},},
     {"roomId":{"name":"rm_FOREST_1","path":"rooms/rm_FOREST_1/rm_FOREST_1.yy",},},
     {"roomId":{"name":"rm_FOREST","path":"rooms/rm_FOREST/rm_FOREST.yy",},},
@@ -374,7 +376,6 @@
     {"roomId":{"name":"rm_DREAM","path":"rooms/rm_DREAM/rm_DREAM.yy",},},
     {"roomId":{"name":"rm_clean_model","path":"rooms/rm_clean_model/rm_clean_model.yy",},},
     {"roomId":{"name":"rm_PRE","path":"rooms/rm_PRE/rm_PRE.yy",},},
-    {"roomId":{"name":"rm_VILL_RIVER","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":9,},
