@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-button_y = 940;
+
 
 count = 0;
 y_buffer = 0;
