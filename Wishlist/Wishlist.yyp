@@ -417,6 +417,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"DEMO","folderPath":"folders/Rooms/DEMO.yy","order":14,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":3,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"controller","folderPath":"folders/Scripts/controller.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"cutscene","folderPath":"folders/Scripts/cutscene.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Scripts/player.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy","order":31,},
@@ -448,7 +449,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"VILL_RIVER","folderPath":"folders/Sprites/VILL_RIVER.yy","order":18,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":13,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"controller","folderPath":"folders/Scripts/controller.yy","order":2,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
