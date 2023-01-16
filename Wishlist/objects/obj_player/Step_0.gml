@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// --------------------------- player input --------------------------------
 right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 left = keyboard_check(vk_left) or keyboard_check(ord("Q")); 
 down = keyboard_check(vk_down) or keyboard_check(ord("S"));
@@ -11,6 +12,7 @@ sprint = keyboard_check(vk_shift);
 scan = keyboard_check_pressed(ord("G"));
 
 
+//   --------- sprite -------------
 if room != rm_CITY_TOP
 {
 	spr_idle = spr_player;
@@ -26,6 +28,7 @@ else
 }
 
 
+// ------------- main ---------------
 switch (state){
 	
 	case "idle":	
@@ -40,14 +43,14 @@ switch (state){
 		{
 			player_movement_ground();
 		}
-		// -------------- interact --------------------
+		// ------------------- interact --------------------
 		nearest =instance_nearest(x,y,obj_interactable);
-		if interact 
+		if interact
 		{
 			player_interact();
 		}
 		
-		// ----------------- scan ---------------------
+		// ------------------- scan ---------------------
 		if scan
 		{
 			if room == rm_CITY_TOP

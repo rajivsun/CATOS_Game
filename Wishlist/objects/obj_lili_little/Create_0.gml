@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+count_123 = 120;
+cd = 60;
 state = "idle";
 
 interact = false;

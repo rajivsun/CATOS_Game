@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 
-
 count = 0;
 y_buffer = 0;
 sign_speed = 0.1;
