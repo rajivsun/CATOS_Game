@@ -27,25 +27,32 @@ if room == rm_VILL_RIVER
 
 else if room == rm_VILL_RIVER_123
 {
-	count_123 --;
+	if !instance_exists(obj_failure) // if not lose the game
+	{
+		if !instance_exists(obj_text_bubble) // create the text bubble
+		{
+			instance_create_layer(x,y,"system",obj_text_bubble);
+		}
+		count_123 --;
 	
-	// checking movement
-	if count_123 <= 0
-	{
-		if obj_player.hspd != 0
+		// checking movement
+		if count_123 <= 0
 		{
-			game_end();
+			if obj_player.hspd != 0 // if lili catch someone moving , the lose
+			{
+				if !instance_exists(obj_failure) instance_create_layer(x,y,"system",obj_failure);
+			}
+			image_xscale = -1;
+			cd --;
+			if cd <= 0
+			{
+				cd = 120;
+				count_123 = 120;
+			}
 		}
-		image_xscale = -1;
-		cd --;
-		if cd <= 0
+		else
 		{
-			cd = 60;
-			count_123 = 120;
+			image_xscale = 1;
 		}
-	}
-	else
-	{
-		image_xscale = 1;
 	}
 }
