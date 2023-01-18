@@ -1,7 +1,7 @@
 /// @description update camera
 // You can write your code in this editor
 
-if room == rm_VILL_RIVER_123
+if room == rm_VILL_RIVER_123 or room == rm_VILL_RIVER_douji
 {
 	x = 315;
 	y = 110;
@@ -9,6 +9,7 @@ if room == rm_VILL_RIVER_123
 	//updata camera view
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
+
 else
 {
 	if instance_exists(follow)

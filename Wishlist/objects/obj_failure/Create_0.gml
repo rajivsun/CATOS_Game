@@ -3,7 +3,7 @@
 
 alarm[0] = 180;
 
-
+pass = false;
 
 
 
