@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "src_game_text",
+  "name": "plater_douji",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Dialogue System",
-    "path": "folders/Dialogue System.yy",
+    "name": "player",
+    "path": "folders/Scripts/player.yy",
   },
 }

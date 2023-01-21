@@ -4,6 +4,6 @@
 
 
 state = "idle";
-
+hp = 100;
 
 

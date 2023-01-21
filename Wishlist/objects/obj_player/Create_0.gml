@@ -8,6 +8,7 @@ nearest = 0;
 state = "idle";
 scan_world = false;
 fx_hack_thres = 1;
+hp = 100;
 
 // ------- info --------
 //grav = 0;
@@ -23,3 +24,6 @@ left = 0;
 right = 0;
 
 window_set_cursor(cr_none);
+
+
+if room == rm_VILL_RIVER_douji_game state = "douji";

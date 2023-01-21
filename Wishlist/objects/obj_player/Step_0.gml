@@ -11,8 +11,7 @@ interact = keyboard_check_pressed(ord("E"));
 sprint = keyboard_check(vk_shift);
 scan = keyboard_check_pressed(ord("G"));
 
-
-//   --------- sprite -------------
+//   ------------ sprite -------------
 if room != rm_CITY_TOP
 {
 	spr_idle = spr_player;
@@ -26,7 +25,6 @@ else
 	spr_run = spr_playerRUN;
 	spr_walk = spr_playerWALK_worker;
 }
-
 
 // ------------- main ---------------
 switch (state){
@@ -66,6 +64,11 @@ switch (state){
 		
 	case "sit":
 		sprite_index = spr_sit;
+		break;
+		
+	case "douji":
+		
+		player_douji();
 		break;
 
 }
