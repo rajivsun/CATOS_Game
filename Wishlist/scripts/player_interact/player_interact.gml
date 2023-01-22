@@ -28,8 +28,7 @@ function player_interact(){
 	if _num > 0
 	{
 	    for (var i = 0; i < _num; ++i;)
-	    {
-	        
+	    {	        
 			if _list[| i] == nearest and _list[| i].interactable == true
 			{	
 				script_execute(door_interact,_list[| i]);

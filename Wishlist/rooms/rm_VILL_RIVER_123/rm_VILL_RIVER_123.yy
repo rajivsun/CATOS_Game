@@ -75,7 +75,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "DEMO",
-    "path": "folders/Rooms/DEMO.yy",
+    "name": "village_river",
+    "path": "folders/Rooms/DEMO/village_river.yy",
   },
 }

@@ -5,12 +5,12 @@ function player_run(){
 	if sprint and room != rm_CITY_TOP { run = true;}
 	if run == true
 	{
-		walkspd = 1.3;
+		walkspd = 1.3*scale;
 		spr_walk = spr_run;
 	}
 	else
 	{
-		walkspd = 0.7;
+		walkspd = 0.7*scale;
 		spr_walk = spr_walk;
 	}
 }

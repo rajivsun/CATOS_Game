@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_robot_hunter",
   "spriteId": {
     "name": "spr_robot_hunter",
     "path": "sprites/spr_robot_hunter/spr_robot_hunter.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "NPC",
     "path": "folders/Objects/NPC.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_robot_hunter",
-  "tags": [],
-  "resourceType": "GMObject",
 }

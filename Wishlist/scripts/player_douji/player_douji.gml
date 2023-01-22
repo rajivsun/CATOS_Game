@@ -10,7 +10,6 @@ function player_douji(){
 	vspd = vertical * walkspd;
 	hspd = move * walkspd;
 
-	
 	// Collisions horizontales
 	if (place_meeting(x + hspd, y, obj_wall))
 	{

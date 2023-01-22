@@ -24,7 +24,7 @@
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC_near","instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"player","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AA3CF45_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_5AA3CF45_1","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":275.0,"y":146.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AA3CF45_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_5AA3CF45_1","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":277.0,"y":146.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_90C8296_1","properties":[],"isDnd":false,"objectId":{"name":"obj_lili_little","path":"objects/obj_lili_little/obj_lili_little.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_90C8296","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":184.0,"y":135.0,},
@@ -77,7 +77,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "DEMO",
-    "path": "folders/Rooms/DEMO.yy",
+    "name": "village_river",
+    "path": "folders/Rooms/DEMO/village_river.yy",
   },
 }

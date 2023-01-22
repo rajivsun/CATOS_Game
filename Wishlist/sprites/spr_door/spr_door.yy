@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "HOME",
-    "path": "folders/Sprites/HOME.yy",
+    "name": "CITY_HOME",
+    "path": "folders/Sprites/CITY_HOME.yy",
   },
 }

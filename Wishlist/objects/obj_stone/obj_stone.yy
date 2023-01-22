@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_stone",
   "spriteId": {
     "name": "spr_stone_sword",
     "path": "sprites/spr_stone_sword/spr_stone_sword.yy",
@@ -28,8 +31,4 @@
     "name": "FOREST",
     "path": "folders/Objects/FOREST.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_stone",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -12,19 +12,7 @@ sprint = keyboard_check(vk_shift);
 scan = keyboard_check_pressed(ord("G"));
 
 //   ------------ sprite -------------
-if room != rm_CITY_TOP
-{
-	spr_idle = spr_player;
-	spr_sit = spr_playerSIT;
-	spr_run = spr_playerRUN;
-	spr_walk = spr_playerWALK;
-}
-else
-{
-	spr_idle = spr_player_worker;
-	spr_run = spr_playerRUN;
-	spr_walk = spr_playerWALK_worker;
-}
+player_sprite();
 
 // ------------- main ---------------
 switch (state){

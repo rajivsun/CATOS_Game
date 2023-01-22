@@ -9,6 +9,12 @@ if room == rm_VILL_RIVER_123 or room == rm_VILL_RIVER_douji
 	//updata camera view
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
+else if room == rm_METRO_SCENE
+{
+	x = xstart;
+	y = ystart;
+	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+}
 
 else
 {

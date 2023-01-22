@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_house_dream",
   "spriteId": {
     "name": "spr_broken_house",
     "path": "sprites/spr_broken_house/spr_broken_house.yy",
@@ -28,8 +31,4 @@
     "name": "FOREST",
     "path": "folders/Objects/FOREST.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_house_dream",
-  "tags": [],
-  "resourceType": "GMObject",
 }

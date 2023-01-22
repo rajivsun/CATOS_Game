@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "plater_douji",
+  "name": "player_douji",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_terminal_secretroom",
   "spriteId": {
     "name": "spr_robotcleaner_terminal",
     "path": "sprites/spr_robotcleaner_terminal/spr_robotcleaner_terminal.yy",
@@ -27,14 +30,10 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"sign_y_buffer","path":"objects/obj_interactable/obj_interactable.yy",},"objectId":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"sign_y_buffer","path":"objects/obj_interactable/obj_interactable.yy",},"objectId":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},"value":"50",},
   ],
   "parent": {
     "name": "SECRET_ROOM",
     "path": "folders/Objects/SECRET_ROOM.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_terminal_secretroom",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -66,5 +66,5 @@ function player_movement_ground(){
 		}
 	//}
 
-	if (hspd != 0 ) image_xscale = sign(hspd);
+	if (hspd != 0 ) image_xscale = sign(hspd)*scale;
 }

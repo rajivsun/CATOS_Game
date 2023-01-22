@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_stone_paintput",
   "spriteId": {
     "name": "spr_stone_paintput",
     "path": "sprites/spr_stone_paintput/spr_stone_paintput.yy",
@@ -28,8 +31,4 @@
     "name": "FOREST",
     "path": "folders/Objects/FOREST.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_stone_paintput",
-  "tags": [],
-  "resourceType": "GMObject",
 }

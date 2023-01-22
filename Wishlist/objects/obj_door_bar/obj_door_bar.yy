@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_door_bar",
   "spriteId": {
     "name": "spr_door_metro_station",
     "path": "sprites/spr_door_metro_station/spr_door_metro_station.yy",
@@ -27,14 +30,10 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"room_go_to","path":"objects/obj_normal_door/obj_normal_door.yy",},"objectId":{"name":"obj_normal_door","path":"objects/obj_normal_door/obj_normal_door.yy",},"value":"rm_BAR","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"room_go_to","path":"objects/obj_normal_door/obj_normal_door.yy",},"objectId":{"name":"obj_normal_door","path":"objects/obj_normal_door/obj_normal_door.yy",},"value":"rm_FOREST_TRAVEL",},
   ],
   "parent": {
     "name": "METRO",
     "path": "folders/Objects/METRO.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_door_metro_station",
-  "tags": [],
-  "resourceType": "GMObject",
 }

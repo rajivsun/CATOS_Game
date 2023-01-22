@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 action2 = 
 [
 [game_end],
@@ -24,5 +23,5 @@ action = [
 [cutscene_create,38,101,"NPC",obj_robot_hunter],
 [cutscene_fade_out,60,c_black],
 [cutscene_text,txt,0],
-]
+];
 
