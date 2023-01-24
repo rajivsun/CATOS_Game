@@ -13,7 +13,7 @@ if (position_meeting(mouse_x,mouse_y,id))
 	
 	if mouse_check_button_pressed(mb_left)
 	{
-		fade(rm_CITY_TOP,60);
+		fade(rm_PRE,60);
 	}
 }
 
