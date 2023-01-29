@@ -35,12 +35,10 @@ else
 		}
 		else
 		{
-		
 			camera_set_view_size(cam,
 			lerp(camera_get_view_width(cam),cam_w,0.05),
 			lerp(camera_get_view_height(cam),cam_h,0.05));
 		}
-	
 	
 		//update object position
 		x += (xTo - x)/25;
@@ -90,6 +88,11 @@ if room == rm_METRO_STATION
 if room == rm_CITY_STREET
 {	
 	if layer_exists("bg_far") layer_x("bg_far",x/5);
+	//if layer_exists("bg_near") layer_x("bg_near",x);	d
+}
+if room == rm_VILL_RIVER
+{
+	if layer_exists("bg_far") layer_x("bg_far",x/2);
 	//if layer_exists("bg_near") layer_x("bg_near",x);	d
 }
 
