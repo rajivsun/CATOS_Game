@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_robot_guard",
-  "spriteId": {
-    "name": "spr_robot_guard",
-    "path": "sprites/spr_robot_guard/spr_robot_guard.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

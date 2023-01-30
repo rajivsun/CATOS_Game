@@ -1,8 +1,8 @@
 {
-  "spriteId": {
-    "name": "spr_bar",
-    "path": "sprites/spr_bar/spr_bar.yy",
-  },
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bar",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -28,8 +28,4 @@
     "name": "BAR",
     "path": "folders/Objects/BAR.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bar",
-  "tags": [],
-  "resourceType": "GMObject",
 }

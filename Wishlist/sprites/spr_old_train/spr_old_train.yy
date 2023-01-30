@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "OLD_TRAIN",
-    "path": "folders/Sprites/OLD_TRAIN.yy",
+    "path": "folders/Sprites/ARCHIVE/OLD_TRAIN.yy",
   },
 }

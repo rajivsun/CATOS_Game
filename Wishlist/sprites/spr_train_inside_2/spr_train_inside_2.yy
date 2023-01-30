@@ -71,6 +71,6 @@
   "nineSlice": null,
   "parent": {
     "name": "METRO",
-    "path": "folders/Sprites/METRO.yy",
+    "path": "folders/Sprites/METRO_STATION/METRO.yy",
   },
 }

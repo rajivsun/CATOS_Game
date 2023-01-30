@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_kitchen",
   "spriteId": {
     "name": "spr_kitchen",
     "path": "sprites/spr_kitchen/spr_kitchen.yy",
@@ -28,8 +31,4 @@
     "name": "HOME",
     "path": "folders/Objects/HOME.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_kitchen",
-  "tags": [],
-  "resourceType": "GMObject",
 }

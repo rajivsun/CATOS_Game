@@ -69,7 +69,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "CITY_NIGHT_STREET",
+    "path": "folders/Sprites/CITY_NIGHT_STREET.yy",
   },
 }

@@ -74,7 +74,7 @@ if room == rm_FOREST or room == rm_FOREST_1
 	if layer_exists("bg_furthest") layer_x("bg_furthest",x/1.2);	
 }
 
-if room == rm_CITY_TOP
+if room == rm_CITY_TOP or room == rm_CITY_HOME
 {
 	if layer_exists("bg_far") layer_x("bg_far",x/1.5);
 	if layer_exists("bg_further") layer_x("bg_further",x/1.3);

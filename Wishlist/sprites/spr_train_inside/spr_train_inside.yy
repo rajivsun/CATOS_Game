@@ -65,12 +65,14 @@
   },
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"24651ea9-9497-413a-9e78-5bc4211c4222","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"16667123-b924-48f4-a24e-1b6100ea76cb","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 4",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"585ad7c2-3827-492d-bbcf-eeba7007209f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 3",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5caa7187-92c0-484a-936c-8c3b4597ac2a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2466771f-1c53-44e9-824e-c11f507e8e91","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "METRO",
-    "path": "folders/Sprites/METRO.yy",
+    "path": "folders/Sprites/METRO_STATION/METRO.yy",
   },
 }

@@ -10,10 +10,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 15,
-  "bbox_right": 85,
-  "bbox_top": 10,
-  "bbox_bottom": 90,
+  "bbox_left": 17,
+  "bbox_right": 83,
+  "bbox_top": 4,
+  "bbox_bottom": 99,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -65,10 +65,11 @@
   },
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"898fe5e6-f05f-4ca5-a390-2fa46c8a1142","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1a4642bf-9217-4125-b60f-a091a4ac3ae2","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "ELEVATOR",
+    "path": "folders/Sprites/ELEVATOR.yy",
   },
 }
