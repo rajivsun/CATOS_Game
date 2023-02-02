@@ -16,6 +16,13 @@ function player_sprite(){
 		spr_run = spr_player_home;
 		spr_walk = spr_player_home;
 	}
+	else if room == rm_VILL_RIVER
+	{
+		scale = 1;
+		spr_idle = spr_player_child_read;
+		spr_run = spr_player_child_idle;
+		spr_walk = spr_player_child_idle;		
+	}
 	else
 	{
 		scale = 1;

@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_old_farmer",
-    "path": "sprites/spr_old_farmer/spr_old_farmer.yy",
+    "name": "spr_old_farmer_walk",
+    "path": "sprites/spr_old_farmer_walk/spr_old_farmer_walk.yy",
   },
   "spriteMaskId": null,
   "visible": true,

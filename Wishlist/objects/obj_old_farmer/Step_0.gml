@@ -5,7 +5,8 @@ switch state
 {
 	case "run":
 	
-		hspeed = 0.5;
+		hspeed = 0.3;
+		sprite_index = spr_old_farmer_walk;
 		if x >= obj_player.x and interact == false
 		{
 			take_action(action);
@@ -24,7 +25,7 @@ switch state
 		break
 	
 	case "stop":
-	
+		sprite_index = spr_old_farmer_talk;
 		hspeed = 0;
 		break
 }
