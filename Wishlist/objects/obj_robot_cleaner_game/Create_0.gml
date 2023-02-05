@@ -17,9 +17,15 @@ tache[0] =
 [690,583],
 [800,400],
 ];
-
+tache[1] = 
+[
+[200,300],
+[690,583],
+[800,400],
+];
 
 end_level = false;
+end_level2 = false;
 current_level = 0;
 show_UI = false;
 key_alt = virtual_key_add(1600,900,200,100,vk_alt);

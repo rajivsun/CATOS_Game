@@ -15,7 +15,6 @@ else if room == rm_METRO_SCENE
 	y = ystart;
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
-
 else
 {
 	if instance_exists(follow)
@@ -57,7 +56,6 @@ else
 		//updata camera view
 		camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 	}
-
 }
 //  -----------------  parallax background movement  ---------------------
 #region parallax background 
@@ -95,5 +93,9 @@ if room == rm_VILL_RIVER
 	if layer_exists("bg_far") layer_x("bg_far",x/2);
 	//if layer_exists("bg_near") layer_x("bg_near",x);	d
 }
-
+if room == rm_METRO_STATION_QUAI
+{
+	if layer_exists("bg_wall") layer_x("bg_wall",x/5);
+	//if layer_exists("bg_near") layer_x("bg_near",x);	d
+}
 #endregion

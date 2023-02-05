@@ -10,3 +10,5 @@ else
 {
 	result = "lose";
 }
+
+alarm[1] = 120;

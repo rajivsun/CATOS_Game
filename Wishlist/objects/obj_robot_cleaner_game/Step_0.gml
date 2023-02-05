@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description between win and show result
 // You can write your code in this editor
 
 
@@ -17,9 +17,9 @@ if mouse_check_button_pressed(mb_left) && obj_robot_cleaner.start = false
 }
 
 
+// if robot finish one level then check if this level is successful 
 if obj_robot_cleaner.finish == true && end_level == false
 {
 	end_level = true;
 	alarm[0] = 60;
-
 }

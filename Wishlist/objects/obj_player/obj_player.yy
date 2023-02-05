@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_child_read",
-    "path": "sprites/spr_player_child_read/spr_player_child_read.yy",
+    "name": "spr_player",
+    "path": "sprites/spr_player/spr_player.yy",
   },
   "spriteMaskId": {
     "name": "spr_player",
