@@ -5,6 +5,7 @@
 if instance_number(obj_tache) <= 0
 {
 	result = "win";
+	obj_controller.robot_cleaner_game_level ++;
 }
 else
 {

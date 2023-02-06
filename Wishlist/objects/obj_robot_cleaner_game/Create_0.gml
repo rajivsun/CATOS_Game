@@ -19,14 +19,14 @@ tache[0] =
 ];
 tache[1] = 
 [
-[200,300],
-[690,583],
+[800,300],
+[915,583],
 [800,400],
 ];
 
 end_level = false;
 end_level2 = false;
-current_level = 0;
+current_level = obj_controller.robot_cleaner_game_level;
 show_UI = false;
 key_alt = virtual_key_add(1600,900,200,100,vk_alt);
 //virtual_key_show(key_alt);

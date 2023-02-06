@@ -29,6 +29,7 @@ if result == "win"
 	draw_set_valign(fa_middle);
 	draw_text(1920/2,1080/2,"YOU WIN!");
 	show_UI = true;
+	
 
 }
 
