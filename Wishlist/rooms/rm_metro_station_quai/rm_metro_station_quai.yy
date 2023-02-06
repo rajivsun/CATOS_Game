@@ -14,7 +14,7 @@
     {"name":"inst_2A481890_1_1_1","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
     {"name":"inst_653D11F6","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
     {"name":"inst_6B24AAD4","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
-    {"name":"inst_DE3520B","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
+    {"name":"inst_head_police","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
     {"name":"inst_10DA3E05","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},
   ],
   "isDnd": false,
@@ -32,7 +32,7 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"bg_ground_wall","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":-15,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DE3520B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_policeman","path":"objects/obj_policeman/obj_policeman.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":180.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_head_police","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_policeman","path":"objects/obj_policeman/obj_policeman.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":180.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10DA3E05","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_oldman","path":"objects/obj_oldman/obj_oldman.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":524.0,"y":182.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"ef_scan","depth":500,"effectEnabled":true,"effectType":"_filter_edgedetect","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[

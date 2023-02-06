@@ -39,7 +39,7 @@ switch (state){
 		// ------------------- scan ---------------------
 		if scan
 		{
-			if room == rm_CITY_TOP
+			if room == rm_CITY_TOP or room == rm_METRO_STATION_QUAI
 			player_scan_switch();
 		}
 		if scan_world != false
