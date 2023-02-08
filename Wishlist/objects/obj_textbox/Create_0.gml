@@ -45,6 +45,11 @@ enum portrait
 	phone = 7,
 	cat = 8,
 	bartender = 9,
+	old_farmer = 10,
+	lili_little = 11,
+	player_little = 12,
+	shaoda_little = 13,
+	dayu_little = 14,
 }
 
 ls_portrait_name = ds_list_create();
@@ -58,3 +63,8 @@ ds_list_add(ls_portrait_name,"墨墨");
 ds_list_add(ls_portrait_name,"电话");
 ds_list_add(ls_portrait_name,"面包");
 ds_list_add(ls_portrait_name,"酒保");
+ds_list_add(ls_portrait_name,"老农大伯");
+ds_list_add(ls_portrait_name,"丽丽");
+ds_list_add(ls_portrait_name,"让");
+ds_list_add(ls_portrait_name,"少达");
+ds_list_add(ls_portrait_name,"大宇");

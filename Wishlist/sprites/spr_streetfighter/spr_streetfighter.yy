@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "trailer",
-    "path": "folders/Sprites/trailer.yy",
+    "path": "folders/Sprites/ARCHIVE/trailer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

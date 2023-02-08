@@ -24,7 +24,7 @@ else
 		yTo = follow.y-dist_player_cam;	
 	
 		//camera zoom in 
-		if instance_exists(obj_textbox) and cam_h > 250
+		if instance_exists(obj_textbox) and cam_h >= 230
 		{
 			camera_set_view_size(cam,
 			lerp(camera_get_view_width(cam),cam_w*0.7,0.05),

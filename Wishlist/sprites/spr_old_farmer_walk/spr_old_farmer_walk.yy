@@ -55,8 +55,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "VILL_RIVER",
-    "path": "folders/Sprites/VILL_RIVER.yy",
+    "name": "OLD_FARMER",
+    "path": "folders/Sprites/NPC/OLD_FARMER.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

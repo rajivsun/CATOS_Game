@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "TIME_TRAVEL",
-    "path": "folders/Sprites/TIME_TRAVEL.yy",
+    "path": "folders/Sprites/ARCHIVE/TIME_TRAVEL.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

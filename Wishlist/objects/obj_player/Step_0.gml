@@ -19,6 +19,7 @@ switch (state){
 	
 	case "idle":	
 		//--------------- movement --------------------
+		
 		player_run();
 
 		if instance_exists(obj_textbox) or instance_exists(obj_fade)//or obj_controller.cutscene_on == true
@@ -27,6 +28,7 @@ switch (state){
 		}
 		else
 		{
+			
 			player_movement_ground();
 		}
 		// ------------------- interact --------------------

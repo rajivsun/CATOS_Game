@@ -8,6 +8,7 @@ switch state
 		hspeed = -0.5;
 		if x <= obj_player.x + 68 and interact == false
 		{
+			take_action(action);
 			hspeed = 0;
 			interact = true;
 			state = "stop";

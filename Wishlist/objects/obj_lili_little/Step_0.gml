@@ -6,9 +6,23 @@ if room == rm_VILL_RIVER
 {
 	switch state 
 	{
-		case "run":
+		case "start":
+			image_speed = 0;
+			break;
 		
-			hspeed = -0.5;	
+		case "idle":
+			image_speed = 1;
+			if image_index >= image_number-1
+			{
+				image_index = image_number-1;
+				image_speed =0;
+				state = "talk";
+			}
+			break;
+			
+		case "talk":
+		
+			//hspeed = -0.5;	
 			if x <= obj_player.x + 50 and interact == false
 			{
 				take_action(action);
@@ -27,6 +41,7 @@ if room == rm_VILL_RIVER
 
 else if room == rm_VILL_RIVER_123
 {
+	sprite_index = spr_lili_little;
 	if !instance_exists(obj_failure) // if not lose the game
 	{
 		

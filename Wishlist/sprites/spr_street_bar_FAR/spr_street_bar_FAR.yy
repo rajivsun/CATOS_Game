@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "CITY_NIGHT_STREET",
-    "path": "folders/Sprites/CITY_NIGHT_STREET.yy",
+    "path": "folders/Sprites/ARCHIVE/CITY_NIGHT_STREET.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

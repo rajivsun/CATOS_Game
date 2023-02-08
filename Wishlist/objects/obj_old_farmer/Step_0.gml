@@ -17,8 +17,8 @@ switch state
 		
 		if x >= 300 and kid == false
 		{
-			obj_lili_little.state = "run";
-			obj_shaoda_little.state = "run";
+			obj_lili_little.state = "idle";
+			//obj_shaoda_little.state = "run";
 			kid = true;
 		}
 		

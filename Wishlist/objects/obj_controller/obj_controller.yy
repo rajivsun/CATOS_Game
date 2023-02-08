@@ -34,7 +34,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"game_mode","filters":[],"listItems":[
         "\"mobile\"",
         "\"pc\"",
-      ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"pc\"","varType":6,},
+      ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"mobile\"","varType":6,},
   ],
   "solid": false,
   "spriteId": null,
