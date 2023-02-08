@@ -5,8 +5,6 @@ if room == rm_VILL_RIVER_123 or room == rm_VILL_RIVER_douji
 {
 	x = 315;
 	y = 110;
-	
-	//updata camera view
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
 else if room == rm_METRO_SCENE
@@ -15,6 +13,14 @@ else if room == rm_METRO_SCENE
 	y = ystart;
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
+//else if room == rm_CITY_HOME and scene_on
+//{
+//	x = xstart;
+//	y = ystart;
+//	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+//	camera_set_view_size(cam,cam_w*0.7,cam_h*0.7);
+//}
+
 else
 {
 	if instance_exists(follow)
@@ -24,7 +30,8 @@ else
 		yTo = follow.y-dist_player_cam;	
 	
 		//camera zoom in 
-		if instance_exists(obj_textbox) and cam_h >= 230
+		if instance_exists(obj_textbox) and cam_h >= 230 
+		and room != rm_CITY_HOME
 		{
 			camera_set_view_size(cam,
 			lerp(camera_get_view_width(cam),cam_w*0.7,0.05),

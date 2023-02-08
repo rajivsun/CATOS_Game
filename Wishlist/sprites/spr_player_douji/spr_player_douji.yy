@@ -53,8 +53,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "PLAYER",
-    "path": "folders/Sprites/PLAYER.yy",
+    "name": "child",
+    "path": "folders/Sprites/PLAYER/child.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

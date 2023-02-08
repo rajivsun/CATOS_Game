@@ -7,6 +7,7 @@ if room == rm_VILL_RIVER
 	switch state 
 	{
 		case "start":
+			sprite_index = spr_lili_little_tree
 			image_speed = 0;
 			break;
 		

@@ -11,7 +11,7 @@
   ],
   "parent": {
     "name": "CITY_NIGHT_STREET",
-    "path": "folders/Objects/CITY_NIGHT_STREET.yy",
+    "path": "folders/Objects/ARCHIVE/CITY_NIGHT_STREET.yy",
   },
   "parentObjectId": {
     "name": "obj_NPC",

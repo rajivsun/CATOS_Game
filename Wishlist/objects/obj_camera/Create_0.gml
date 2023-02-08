@@ -13,3 +13,5 @@ shake_length = 0;
 shake_magnitude = 0;
 shake_remain = 0;
 //_menu = false;
+
+scene_on = true;

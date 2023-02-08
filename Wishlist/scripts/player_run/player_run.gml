@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function player_run(){
 	run = false;
-	if sprint and room != rm_CITY_TOP { run = true;}
+	if sprint and room != rm_CITY_TOP and room != rm_CITY_HOME { run = true;}
 	if run == true
 	{
 		walkspd = 1.3*scale;

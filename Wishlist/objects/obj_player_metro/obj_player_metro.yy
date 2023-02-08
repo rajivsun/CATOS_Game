@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_metro",
-    "path": "sprites/spr_player_metro/spr_player_metro.yy",
+    "name": "spr_playerSIT",
+    "path": "sprites/spr_playerSIT/spr_playerSIT.yy",
   },
   "spriteMaskId": null,
   "visible": true,

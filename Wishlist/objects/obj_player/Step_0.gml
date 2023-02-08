@@ -17,6 +17,27 @@ player_sprite();
 // ------------- main ---------------
 switch (state){
 	
+	case "scene":
+		if room == rm_CITY_HOME
+		{
+			if scene_on == true
+			{
+				sprite_index = spr_player_home_lay;
+				image_speed = 0;
+			}
+			else
+			{
+				image_speed = 1;
+				if image_index >= image_number - 1
+				{
+					state = "idle";
+					take_action(action)
+				}
+			}
+		}
+	
+		break;
+	
 	case "idle":	
 		//--------------- movement --------------------
 		

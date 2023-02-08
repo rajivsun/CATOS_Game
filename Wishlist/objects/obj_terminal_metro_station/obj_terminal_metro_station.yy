@@ -9,7 +9,7 @@
   ],
   "parent": {
     "name": "METRO",
-    "path": "folders/Objects/METRO.yy",
+    "path": "folders/Objects/METRO_STATION/METRO.yy",
   },
   "parentObjectId": {
     "name": "obj_interactable",

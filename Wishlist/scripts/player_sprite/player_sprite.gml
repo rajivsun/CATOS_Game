@@ -13,8 +13,8 @@ function player_sprite(){
 	{
 		scale = 2;
 		spr_idle = spr_player_home;
-		spr_run = spr_player_home;
-		spr_walk = spr_player_home;
+		spr_run = spr_playerWALK_home;
+		spr_walk = spr_playerWALK_home;
 	}
 	else if room == rm_VILL_RIVER
 	{

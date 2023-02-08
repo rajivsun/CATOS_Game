@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_lili_little_tree",
-    "path": "sprites/spr_lili_little_tree/spr_lili_little_tree.yy",
+    "name": "spr_lili_little",
+    "path": "sprites/spr_lili_little/spr_lili_little.yy",
   },
   "spriteMaskId": null,
   "visible": true,

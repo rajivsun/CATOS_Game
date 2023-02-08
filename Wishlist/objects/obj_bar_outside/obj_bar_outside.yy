@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "CITY_NIGHT_STREET",
-    "path": "folders/Objects/CITY_NIGHT_STREET.yy",
+    "path": "folders/Objects/ARCHIVE/CITY_NIGHT_STREET.yy",
   },
   "parentObjectId": null,
   "persistent": false,
