@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "METRO_STATION",
-    "path": "folders/Objects/METRO_STATION.yy",
+    "name": "NPC",
+    "path": "folders/Objects/NPC.yy",
   },
   "parentObjectId": null,
   "persistent": false,

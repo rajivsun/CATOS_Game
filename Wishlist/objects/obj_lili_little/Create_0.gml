@@ -13,13 +13,34 @@ action2 = [
 [cutscene_change_variable,obj_shaoda_little,"state","run"],
 [cutscene_change_variable,id,"sprite_index",spr_lili_little],
 ];
-
+txt[1] = [
+	["可是我还想看书呢",portrait.player_little],
+	["哎呀你可以过一会再看嘛，就陪我玩一会嘛，求你了让让。",portrait.lili_little],
+	["好吧丽丽，那我们就一起玩吧。",portrait.player_little],
+	["好棒哦！",portrait.lili_little],
+	["可是才两个人，还缺一个人。",portrait.player_little],
+	["我们找少达吧！他在那钓鱼呢！",portrait.lili_little],
+	["我去问问他。",portrait.player_little],
+	[2,action2],
+];
+txt[2] = [
+	["好啊，来一起玩吧！",portrait.player_little],
+	["好棒哦！",portrait.lili_little],
+	["可是才两个人，还缺一个人。",portrait.player_little],
+	["我们找少达吧！他在那钓鱼呢！",portrait.lili_little],
+	["我去问问他。",portrait.player_little],
+	[2,action2],
+];
 txt[0] = [
 	["嘿！你在干嘛！",portrait.lili_little],
 	["我在看书呢。",portrait.player_little],
-	["你看我摘的小花！漂亮吧？那边田里都是呢！",portrait.lili_little],
+	["你知道唐僧是去哪取经吗？",portrait.player_little],
+	["糖森？那是什么，很甜吗？",portrait.lili_little],
+	["……那是西游记里的一个人物…",portrait.player_little],
+	["你快看我摘的小花！漂亮吧？那边田里都是呢！",portrait.lili_little],
 	["是吗？一会我也去摘一朵。",portrait.player_little],
-	[2,action2],
+	["对了我们玩一二三木头人吧！",portrait.lili_little],
+	[[0,[["可是我还想看书呢",1],["好啊一起来玩吧",2]]],],
 ];
 action = [
 [cutscene_text,txt,0],
