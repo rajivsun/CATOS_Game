@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "HOME",
-    "path": "folders/Objects/ARCHIVE/HOME.yy",
+    "path": "folders/Objects/HOME.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -9,7 +9,7 @@
   ],
   "parent": {
     "name": "SECRET_ROOM",
-    "path": "folders/Objects/ARCHIVE/SECRET_ROOM.yy",
+    "path": "folders/Objects/SECRET_ROOM.yy",
   },
   "parentObjectId": {
     "name": "obj_interactable",

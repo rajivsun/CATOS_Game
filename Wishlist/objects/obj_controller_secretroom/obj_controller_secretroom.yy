@@ -12,7 +12,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SECRET_ROOM",
-    "path": "folders/Objects/ARCHIVE/SECRET_ROOM.yy",
+    "path": "folders/Objects/SECRET_ROOM.yy",
   },
   "parentObjectId": null,
   "persistent": false,

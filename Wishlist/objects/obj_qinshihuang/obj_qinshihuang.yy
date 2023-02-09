@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ARCHIVE",
-    "path": "folders/Objects/ARCHIVE.yy",
+    "name": "SECRET_ROOM",
+    "path": "folders/Objects/SECRET_ROOM.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -49,8 +49,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "METRO_STATION",
-    "path": "folders/Sprites/METRO_STATION.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/NPC.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

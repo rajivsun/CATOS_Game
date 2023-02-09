@@ -14,12 +14,12 @@ if room == rm_ELEVATOR_INSIDE
 
 if room == rm_METRO_SCENE
 {
-	count ++;
-	if count >= 180
-	{
-		count = 0;
-		fade(rm_CITY_TOP,120);
-	}
+	//count ++;
+	//if count >= 180
+	//{
+	//	count = 0;
+	//	fade(rm_CITY_TOP,120);
+	//}
 }
 
 if keyboard_check_pressed(vk_add)

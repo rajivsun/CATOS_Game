@@ -20,5 +20,5 @@ function general_ui(){
 	}
 	
 	// pause menu
-	draw_sprite_ext(spr_pause_button,0,1820,50,1.5,1.5,0,c_white,1);
+	// draw_sprite_ext(spr_pause_button,0,1820,50,1.5,1.5,0,c_white,1);
 }
