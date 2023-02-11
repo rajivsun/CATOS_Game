@@ -8,7 +8,8 @@ down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 up = keyboard_check(vk_up) or keyboard_check(ord("Z"));
 //jump = keyboard_check(vk_space);
 interact = keyboard_check_pressed(ord("E"));
-sprint = keyboard_check(vk_shift);
+//sprint = keyboard_check(vk_shift);
+sprint = false;
 scan = keyboard_check_pressed(ord("G"));
 
 //   ------------ sprite -------------

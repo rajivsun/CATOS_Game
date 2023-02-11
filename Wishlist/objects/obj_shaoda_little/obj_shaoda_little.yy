@@ -12,7 +12,10 @@
     "name": "NPC",
     "path": "folders/Objects/NPC.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_NPC",
+    "path": "objects/obj_NPC/obj_NPC.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

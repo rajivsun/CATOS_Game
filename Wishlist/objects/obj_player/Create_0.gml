@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 // --------- initialization ----------
+
 hspd = 0;
 vspd = 0;
 nearest = 0;
@@ -25,6 +26,8 @@ right = 0;
 scene_on = true;
 //window_set_cursor(cr_none);
 
-
 if room == rm_VILL_RIVER_douji_game state = "douji";
 
+// to make sure the first sprite is the right sprite (not the defaut one)
+player_sprite();
+sprite_index = spr_idle;

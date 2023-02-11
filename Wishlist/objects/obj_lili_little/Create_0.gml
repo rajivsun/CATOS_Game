@@ -12,6 +12,7 @@ action2 = [
 //[ cutscene_fade,rm_VILL_RIVER_123,60],
 //[cutscene_change_variable,obj_shaoda_little,"state","run"],
 [cutscene_change_variable,id,"sprite_index",spr_lili_little],
+[cutscene_change_variable,obj_player_little_sit,"standingup","true"],
 ];
 txt[1] = [
 	["可是我还想看书呢",portrait.player_little],

@@ -14,6 +14,8 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4b3dda08-c077-4fac-bc47-4613fe232f1a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"09fa0f1f-01f3-4e25-989a-28b931d5476a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"121c291d-61d4-4c01-904e-1c96535b1f84",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -52,11 +54,11 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -64,6 +66,8 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4b3dda08-c077-4fac-bc47-4613fe232f1a","path":"sprites/spr_ville_river_bg_middle/spr_ville_river_bg_middle.yy",},},},"Disabled":false,"id":"77e165b6-0986-4d82-b921-3a89098fcdf8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"09fa0f1f-01f3-4e25-989a-28b931d5476a","path":"sprites/spr_ville_river_bg_middle/spr_ville_river_bg_middle.yy",},},},"Disabled":false,"id":"ea3b29d3-0aaa-4f78-ad7d-8b8bba4b566b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"121c291d-61d4-4c01-904e-1c96535b1f84","path":"sprites/spr_ville_river_bg_middle/spr_ville_river_bg_middle.yy",},},},"Disabled":false,"id":"20c2358c-81b0-4fd4-a900-405aa977ceee","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

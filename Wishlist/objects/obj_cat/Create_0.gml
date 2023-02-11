@@ -24,7 +24,8 @@ txt[1] = [
 [2,action],
 ];
 
-txt[2] = [
+txt[2] = 
+[
 ["我真没吃的了面包。\n虽说十橘九胖，但是你也不能这样放飞自我呀。",portrait.player],
 ["喵...",portrait.cat],
 ["不过有你每天陪着我真好，感觉没那么孤独了。",portrait.player],
