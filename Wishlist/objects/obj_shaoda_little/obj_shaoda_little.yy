@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shaoda_little",
-    "path": "sprites/spr_shaoda_little/spr_shaoda_little.yy",
+    "name": "spr_shaoda_little_fishing",
+    "path": "sprites/spr_shaoda_little_fishing/spr_shaoda_little_fishing.yy",
   },
   "spriteMaskId": null,
   "visible": true,

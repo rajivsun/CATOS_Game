@@ -10,7 +10,7 @@ interact = false;
 // ----------- village -----------
 action2 = [
 //[ cutscene_fade,rm_VILL_RIVER_123,60],
-[cutscene_change_variable,obj_shaoda_little,"state","run"],
+//[cutscene_change_variable,obj_shaoda_little,"state","run"],
 [cutscene_change_variable,id,"sprite_index",spr_lili_little],
 ];
 txt[1] = [
@@ -40,7 +40,7 @@ txt[0] = [
 	["你快看我摘的小花！漂亮吧？那边田里都是呢！",portrait.lili_little],
 	["是吗？一会我也去摘一朵。",portrait.player_little],
 	["对了我们玩一二三木头人吧！",portrait.lili_little],
-	[[0,[["可是我还想看书呢",1],["好啊一起来玩吧",2]]],],
+	[0,[["可是我还想看书呢",1],["好啊一起来玩吧",2]]],
 ];
 action = [
 [cutscene_text,txt,0],

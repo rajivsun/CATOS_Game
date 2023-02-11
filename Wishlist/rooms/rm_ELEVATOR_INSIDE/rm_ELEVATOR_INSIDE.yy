@@ -15,11 +15,13 @@
     {"name":"inst_75405D7D","path":"rooms/rm_ELEVATOR_INSIDE/rm_ELEVATOR_INSIDE.yy",},
     {"name":"inst_12606588","path":"rooms/rm_ELEVATOR_INSIDE/rm_ELEVATOR_INSIDE.yy",},
     {"name":"inst_2FE5F446","path":"rooms/rm_ELEVATOR_INSIDE/rm_ELEVATOR_INSIDE.yy",},
+    {"name":"inst_50F745D4","path":"rooms/rm_ELEVATOR_INSIDE/rm_ELEVATOR_INSIDE.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"moving_object","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12606588","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_moving_object","path":"objects/obj_moving_object/obj_moving_object.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":153.0,"y":19.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50F745D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_commentor","path":"objects/obj_commentor/obj_commentor.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":148.0,"y":12.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"wall","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B823881","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":5.5,"x":103.0,"y":22.0,},

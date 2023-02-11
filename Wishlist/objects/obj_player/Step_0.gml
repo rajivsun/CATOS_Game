@@ -31,7 +31,7 @@ switch (state){
 				if image_index >= image_number - 1
 				{
 					state = "idle";
-					take_action(action)
+					take_action(action);
 				}
 			}
 		}

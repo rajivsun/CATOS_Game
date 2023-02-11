@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/NPC.yy",
+    "name": "SHAODA",
+    "path": "folders/Sprites/NPC/SHAODA.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

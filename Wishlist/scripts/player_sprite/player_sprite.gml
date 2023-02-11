@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function player_sprite(){
 
-	if room == rm_CITY_TOP or rm_ELEVATOR_INSIDE_work
+	if room == rm_CITY_TOP or room == rm_ELEVATOR_INSIDE_work
 	{
 		scale = 1;
 		spr_idle = spr_player_worker;

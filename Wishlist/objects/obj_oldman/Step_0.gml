@@ -25,5 +25,11 @@ if room == rm_METRO_SCENE
 		case "action":
 			sprite_index = spr_oldman;
 			break;
+			
+			
+		case "second_walk":
+			hspeed = 0.2;
+			sprite_index = spr_oldman_walk;
+			break;
 	}
 }

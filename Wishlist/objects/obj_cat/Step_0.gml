@@ -13,7 +13,7 @@ if follow == true
 	}
 	if following
 	{
-		if abs(x - xTo) <= 1
+		if abs(x - xTo) <= 1		
 		{
 			following = false;
 			hspeed = 0;

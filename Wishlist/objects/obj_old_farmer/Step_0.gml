@@ -7,7 +7,7 @@ switch state
 	
 		hspeed = 0.3;
 		sprite_index = spr_old_farmer_walk;
-		if x >= obj_player.x and interact == false
+		if x >= obj_player.x+20 and interact == false
 		{
 			take_action(action);
 			hspeed = 0;

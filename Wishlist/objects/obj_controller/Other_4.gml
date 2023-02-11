@@ -12,4 +12,4 @@ if room == rm_VILL_RIVER
 }
 
 key_next = virtual_key_add(1800,50,100,100,vk_add)
-virtual_key_show(key_next)
+//virtual_key_show(key_next)

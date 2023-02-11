@@ -13,7 +13,7 @@ switch state
 			interact = true;
 			state = "stop";
 		}
-		break
+		break;
 		
 	case "stop":
 	

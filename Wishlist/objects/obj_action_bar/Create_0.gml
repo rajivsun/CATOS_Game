@@ -8,6 +8,7 @@ hp_max = 100;
 
 text = "连续按键来站起来";
 action2 = [
+[cutscene_change_variable,obj_oldman,"state","second_walk"],
 [cutscene_fade,rm_ELEVATOR_INSIDE_work,120],
 ];
 
