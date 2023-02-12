@@ -4,18 +4,21 @@
 
 if room == rm_METRO_STATION_QUAI
 {
-	if alarm[0] <= 0 && !stopping
+	if active == true
 	{
-		stopping = true;
-		speed = -5;
-	}
-
-	if x <= 900 && stopping
-	{
-		speed = min(0,speed+0.04);
-		if speed = 0
+		if alarm[0] <= 0 && !stopping
 		{
-			obj_train_door.open = true;
+			stopping = true;
+			speed = -5;
+		}
+	
+		if x <= 900 && stopping
+		{
+			speed = min(0,speed+0.04);
+			if speed = 0
+			{
+				obj_train_door.open = true;
+			}
 		}
 	}
 }

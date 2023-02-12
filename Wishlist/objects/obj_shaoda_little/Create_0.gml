@@ -5,10 +5,10 @@ state = "idle";
 interact = false;
 
 // ----------- village -----------
-action2 = 
-[
-[cutscene_fade,rm_VILL_RIVER_123,60],
-];
+//action2 = 
+//[
+//[cutscene_fade,rm_VILL_RIVER_123,60],
+//];
 
 action2 = 
 [

@@ -1,20 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fishing_pod",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_fishing_pod_big",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "VIL_RIVER",
     "path": "folders/Objects/VIL_RIVER.yy",
   },
-  "parentObjectId": {
-    "name": "obj_interactable",
-    "path": "objects/obj_interactable/obj_interactable.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,9 +26,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fishing_rod",
-    "path": "sprites/spr_fishing_rod/spr_fishing_rod.yy",
+    "name": "spr_fishing_pod_big",
+    "path": "sprites/spr_fishing_pod_big/spr_fishing_pod_big.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_fishing_pod_big",
+    "path": "sprites/spr_fishing_pod_big/spr_fishing_pod_big.yy",
+  },
   "visible": true,
 }

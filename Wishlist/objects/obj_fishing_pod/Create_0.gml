@@ -2,4 +2,11 @@
 // You can write your code in this editor
 
 
-//draw_text(50,50,alarm[0]);
+txt[0] = 
+[
+["haha",portrait.player_little],
+];
+
+action = 
+[
+];
