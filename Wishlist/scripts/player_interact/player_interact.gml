@@ -208,4 +208,5 @@ function player_interact(){
 	// normal interaction
 	
 	
+	
 }
