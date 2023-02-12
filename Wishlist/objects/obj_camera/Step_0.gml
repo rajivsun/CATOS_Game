@@ -4,7 +4,7 @@
 if room == rm_VILL_RIVER_123 or room == rm_VILL_RIVER_douji
 {
 	x = 315;
-	y = 110;
+	y = room_height/2;
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
 else if room == rm_METRO_SCENE
@@ -62,6 +62,15 @@ else
 
 		//updata camera view
 		camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+	}
+}
+if instance_exists(obj_fishing_game) 
+{
+	if obj_fishing_game.state = "reward"
+	{
+		camera_set_view_size(cam,
+		lerp(camera_get_view_width(cam),cam_w*0.7,0.05),
+		lerp(camera_get_view_height(cam),cam_h*0.7,0.05));	
 	}
 }
 //  -----------------  parallax background movement  ---------------------

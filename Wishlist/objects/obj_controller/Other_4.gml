@@ -13,3 +13,11 @@ if room == rm_VILL_RIVER
 
 key_next = virtual_key_add(1800,50,100,100,vk_add)
 //virtual_key_show(key_next)
+
+
+if room == rm_ROBOT_CLEANER
+{
+	instance_create_layer(x,y,"system",obj_robot_cleaner_game);
+	
+	
+}

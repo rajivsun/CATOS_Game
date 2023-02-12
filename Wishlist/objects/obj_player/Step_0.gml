@@ -79,9 +79,27 @@ switch (state){
 		break;
 		
 	case "douji":
-		
 		player_douji();
 		break;
+		
+	case "fishing":
+		sprite_index = spr_player_child_fishing;
+		if instance_exists(obj_fishing_game)
+		{
+			if obj_fishing_game.state == "fishing" 
+				sprite_index = spr_player_child_fishing;
+			else 
+			{
+				sprite_index = spr_player_child_fishing_caught;
+				if image_index >= image_number-1
+				{
+					image_index = image_number-1;
+				}
+			}
+		}
+
+		break;
+	
 
 }
 

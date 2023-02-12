@@ -10,7 +10,7 @@ draw_set_alpha(1);
 
 draw_sprite_ext(spr_robot_cleaner_info,0,1650,250,4,4,0,c_white,1);
 draw_set_text_position("middle");
-draw_set_font(ft_text_big);
+draw_set_font(ft_chinese);
 
 draw_sprite_ext(spr_mark,0,1545,220,2,2,0,c_white,1);
 draw_text(1700,220,mark_left);

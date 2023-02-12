@@ -16,7 +16,7 @@ function player_sprite(){
 		spr_run = spr_playerWALK_home;
 		spr_walk = spr_playerWALK_home;
 	}
-	else if room == rm_VILL_RIVER
+	else if room == rm_VILL_RIVER or room == rm_VILL_RIVER_123
 	{
 		scale = 1;
 		spr_idle = spr_player_child_idle;

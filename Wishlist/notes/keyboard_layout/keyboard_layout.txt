@@ -9,3 +9,4 @@ O :       run Metro terminal exe , start robot cleaner game
 num1-5:   generator UI switchs
 G :       open personal device
 L :       action bar press
+up/down:  fishing game up and down

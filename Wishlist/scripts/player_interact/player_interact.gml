@@ -205,4 +205,8 @@ function player_interact(){
 	ds_list_destroy(_list);
 	#endregion		
 	
+	if instance_place(x,y,obj_fishing_pod)
+	{
+		take_action(obj_fishing_pod.action);
+	}
 }

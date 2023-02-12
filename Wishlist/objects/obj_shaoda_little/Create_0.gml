@@ -3,18 +3,21 @@
 
 state = "idle";
 interact = false;
+enough_fish = false;
 
 // ----------- village -----------
-//action2 = 
-//[
-//[cutscene_fade,rm_VILL_RIVER_123,60],
-//];
+txt2[0] = [
+["少达你看！",portrait.player_little],
+["我钓了这么多条鱼！",portrait.shaoda_little],
+["我的天哪！你咋这么厉害！",portrait.shaoda_little],
+["嘿嘿",portrait.player_little],
+[1,0],
+];
 
-action2 = 
+action = 
 [
-//[ cutscene_fade,rm_VILL_RIVER_123,60],
-//[cutscene_change_variable,obj_shaoda_little,"state","run"],
-[cutscene_change_variable,obj_fishing_pod,"interactable","true"],
+	//[cutscene_change_variable,obj_shaoda_little,"txt","txt2"],
+	[cutscene_change_variable,obj_fishing_pod,"interactable","true"],
 ];
 
 txt[0] = 
@@ -30,20 +33,20 @@ txt[1] = [
 ["哎没办法啊，不然回家要被妈妈说了。",portrait.shaoda_little],
 [1,0],
 ];
+
 txt[2] = [
 ["那我也来帮你钓吧！这样快点。",portrait.player_little],
 ["哎呀那太好了，正好我今天多带了一根鱼竿。",portrait.shaoda_little],
 ["本来是给我爸带的，结果他今天去拉货了。\n你就那他的鱼竿吧，就在旁边。",portrait.shaoda_little],
 ["那就看我的吧！",portrait.player_little],
-[2,action2],
+[2,action],
 ];
 
-action = [
-[cutscene_text,txt,0],
+action2 = 
+[
+	//[cutscene_change_variable,obj_shaoda_little,"txt","txt2"],
+	[cutscene_fade,rm_VILL_RIVER_123,120],
 ];
-
-
-
 
 
 

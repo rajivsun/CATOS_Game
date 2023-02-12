@@ -8,10 +8,10 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_3EA8F7AB","path":"rooms/rm_ROBOT_CLEANER/rm_ROBOT_CLEANER.yy",},
-    {"name":"inst_3B261CE","path":"rooms/rm_ROBOT_CLEANER/rm_ROBOT_CLEANER.yy",},
     {"name":"inst_29A48F57","path":"rooms/rm_ROBOT_CLEANER/rm_ROBOT_CLEANER.yy",},
     {"name":"inst_6E82E588","path":"rooms/rm_ROBOT_CLEANER/rm_ROBOT_CLEANER.yy",},
     {"name":"inst_798DC32","path":"rooms/rm_ROBOT_CLEANER/rm_ROBOT_CLEANER.yy",},
+    {"name":"inst_536D5B4E","path":"rooms/rm_ROBOT_CLEANER/rm_ROBOT_CLEANER.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -26,7 +26,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"taches","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3EA8F7AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_skyscraper","path":"objects/obj_skyscraper/obj_skyscraper.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":651.0,"y":408.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B261CE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_robot_cleaner_game","path":"objects/obj_robot_cleaner_game/obj_robot_cleaner_game.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":175.0,"y":194.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_536D5B4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":188.0,"y":201.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"color_balance","depth":500,"effectEnabled":true,"effectType":"_filter_colour_balance","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_ColourBalanceShadows","type":0,"value":"-0.1",},

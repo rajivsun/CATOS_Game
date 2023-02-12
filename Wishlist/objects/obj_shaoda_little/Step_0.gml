@@ -19,6 +19,21 @@ switch state
 	
 		hspeed = 0;
 		break
+		
+	case "idle":
+		if enough_fish
+		{
+			txt[0] = 
+			[
+			["少达你看！",portrait.player_little],
+			["我钓了这么多条鱼！",portrait.shaoda_little],
+			["我的天哪！你咋这么厉害！",portrait.shaoda_little],
+			["嘿嘿,我们现在来玩木头人吧！",portrait.player_little],
+			["好嘞！",portrait.shaoda_little],
+			[2,action2],
+			]
+		}
+		break;
 }
 
 

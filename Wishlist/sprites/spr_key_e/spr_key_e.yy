@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "KEYS",
-    "path": "folders/Sprites/KEYS.yy",
+    "path": "folders/Sprites/UI/KEYS.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

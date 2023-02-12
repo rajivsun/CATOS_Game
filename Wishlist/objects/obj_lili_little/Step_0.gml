@@ -66,7 +66,7 @@ else if room == rm_VILL_RIVER_123
 				{
 					show_result(false);
 				}
-				image_xscale = -1;
+				image_xscale = 1;
 				cd --;
 				if cd <= 0
 				{
@@ -76,7 +76,7 @@ else if room == rm_VILL_RIVER_123
 			}
 			else
 			{
-				image_xscale = 1;
+				image_xscale = -1;
 			}
 		}
 	}

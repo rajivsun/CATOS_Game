@@ -4,7 +4,7 @@
 draw_set_alpha(alpha);
 draw_set_color(color);
 
-draw_rectangle(0,0,window_get_width(),window_get_height(),0);
+draw_rectangle(0,0,3000,2000,0);
 
 draw_set_alpha(1);
 draw_set_color(c_white);
