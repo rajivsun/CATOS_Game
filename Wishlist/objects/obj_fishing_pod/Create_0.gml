@@ -9,4 +9,5 @@ txt[0] =
 
 action = 
 [
+[cutscene_text,txt,0],
 ];

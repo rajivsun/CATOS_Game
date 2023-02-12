@@ -205,4 +205,7 @@ function player_interact(){
 	ds_list_destroy(_list);
 	#endregion		
 	
+	// normal interaction
+	
+	
 }
