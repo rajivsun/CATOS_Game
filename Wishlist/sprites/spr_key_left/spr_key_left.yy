@@ -49,7 +49,7 @@
   "origin": 0,
   "parent": {
     "name": "KEYS",
-    "path": "folders/Sprites/UI/KEYS.yy",
+    "path": "folders/Sprites/KEYS.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

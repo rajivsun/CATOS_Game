@@ -209,4 +209,8 @@ function player_interact(){
 	{
 		take_action(obj_fishing_pod.action);
 	}
+	if instance_place(x,y,obj_wardrobe)
+	{
+		take_action(obj_wardrobe.action);
+	}
 }

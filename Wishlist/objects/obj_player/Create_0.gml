@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // --------- initialization ----------
-
+naked = true;
 hspd = 0;
 vspd = 0;
 nearest = 0;

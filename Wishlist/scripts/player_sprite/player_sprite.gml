@@ -9,12 +9,22 @@ function player_sprite(){
 		spr_run = spr_playerRUN;
 		spr_walk = spr_playerWALK_worker;
 	}
-	else if room == rm_CITY_HOME
+	else if room == rm_CITY_HOME 
 	{
 		scale = 2;
-		spr_idle = spr_player_home;
-		spr_run = spr_playerWALK_home;
-		spr_walk = spr_playerWALK_home;
+		if obj_player.naked == true
+		{
+			spr_idle = spr_player_home;
+			spr_run = spr_playerWALK_home;
+			spr_walk = spr_playerWALK_home;
+		}
+		else
+		{
+			spr_idle = spr_player;
+			spr_sit = spr_playerSIT;
+			spr_run = spr_playerRUN;
+			spr_walk = spr_playerWALK;
+		}
 	}
 	else if room == rm_VILL_RIVER or room == rm_VILL_RIVER_123
 	{

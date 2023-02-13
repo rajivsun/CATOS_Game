@@ -8,6 +8,7 @@ if room == rm_METRO
 }
 if room == rm_CITY_HOME
 {
+	
 	state = "scene";
 	
 	txt[0] = [
