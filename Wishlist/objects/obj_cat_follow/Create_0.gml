@@ -1,15 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+image_xscale = 0.6;
+image_yscale = 0.6;
 
 following = false;
 max_dist = 30;
-follow = false;
+follow = true;
 action = [
-//[cutscene_change_variable,id,"follow",true],
-//[cutscene_change_variable,id,"interactable",false],
-[cutscene_create,x,y,"system",obj_cat_follow],
-[cutscene_destroy,id],
+[cutscene_change_variable,id,"follow",true],
+[cutscene_change_variable,id,"interactable",false],
 ];
 
 txt[0] = [

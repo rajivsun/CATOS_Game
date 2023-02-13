@@ -22,5 +22,5 @@ current_level = 0;
 vill_scene = 0;
 
 robot_cleaner_game_level = 0;
-robot_cleaner_game_level_all = 1;
+robot_cleaner_game_level_all = 3;
 

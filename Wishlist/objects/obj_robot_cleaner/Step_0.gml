@@ -37,4 +37,11 @@ with instance_place(x,y,obj_tache)
 	deleting = true;
 }
 
+// if meet the broken
+if place_meeting(x,y,obj_broken)
+{
+	finish = true;
+	speed = 0;	
+}
+
 

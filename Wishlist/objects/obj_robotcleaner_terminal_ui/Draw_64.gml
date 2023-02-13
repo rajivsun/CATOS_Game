@@ -3,7 +3,7 @@
 
 // draw UI
 draw_set_alpha(0.7);
-draw_rectangle_color(0,0,1920,1080,c_black,c_black,c_black,c_black,false);
+draw_rectangle_color(0,0,2500,1500,c_black,c_black,c_black,c_black,false);
 draw_set_alpha(1);
 draw_sprite_ext(spr_robotcleaner_terminal_UI,0,1920/2,1080/2,12,12,0,c_white,1);
 
@@ -13,7 +13,6 @@ if keyboard_check_pressed(vk_escape)
 	instance_destroy();
 } 
 draw_sprite_ext(spr_esc_button,0,1500,180,4,4,0,c_white,1);
-
 
 //draw start button
 draw_set_font(ft_chinese);

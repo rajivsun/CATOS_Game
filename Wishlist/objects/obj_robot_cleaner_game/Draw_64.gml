@@ -27,7 +27,7 @@ if result == "win"
 	draw_set_font(ft_text_ultra);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(1920/2,1080/2,"YOU WIN!");
+	draw_text(1920/2,1080/2,"清洁成功!");
 	show_UI = true;
 	
 
@@ -38,7 +38,7 @@ else if result == "lose"
 	draw_set_font(ft_text_ultra);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(1920/2,1080/2,"YOU LOSE!");
+	draw_text(1920/2,1080/2,"清洁失败!");
 }
 
 

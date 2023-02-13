@@ -1,13 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function general_ui(){
-	// debug
-	if debug == true
-	{
-		draw_set_font(ft_chinese);
-		draw_text(device_mouse_x_to_gui(0)-50,device_mouse_y_to_gui(0)-20,device_mouse_x_to_gui(0));
-		draw_text(device_mouse_x_to_gui(0)+50,device_mouse_y_to_gui(0)-20,device_mouse_y_to_gui(0));
-	}
+
 
 	// game mode 
 	if game_mode == "mobile"

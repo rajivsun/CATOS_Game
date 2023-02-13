@@ -33,3 +33,13 @@ if room == rm_METRO_SCENE
 			break;
 	}
 }
+
+
+if room == rm_METRO_STATION_QUAI and !play_scene
+{
+	if obj_player.x >= 270
+	{
+		take_action(action);
+		play_scene = true;
+	}
+}

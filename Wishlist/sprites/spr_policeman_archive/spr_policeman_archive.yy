@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_policeman",
+  "name": "spr_policeman_archive",
   "bbox_bottom": 60,
   "bbox_left": 25,
   "bbox_right": 37,
@@ -13,14 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48bbbc7a-18b1-42da-b892-91e6a60e6b7a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"10c8ebb8-72f4-40d9-96e6-89f35b87d1d9",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"94761fbb-e787-4769-ad79-24b73d9ab2d7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"690585ae-20f6-4c2d-89a9-b1c593bc9f00","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"98250b39-d21b-4f23-8f90-66dc76356b7b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":false,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -55,7 +56,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_policeman",
+    "name": "spr_policeman_archive",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -77,7 +78,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"48bbbc7a-18b1-42da-b892-91e6a60e6b7a","path":"sprites/spr_policeman/spr_policeman.yy",},},},"Disabled":false,"id":"9a57d565-7535-4398-b349-041ebca25e4c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"10c8ebb8-72f4-40d9-96e6-89f35b87d1d9","path":"sprites/spr_policeman_archive/spr_policeman_archive.yy",},},},"Disabled":false,"id":"003fb753-8e46-4a92-96da-4e659b46dfbf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

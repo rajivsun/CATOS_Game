@@ -27,7 +27,7 @@ action = [
 [cutscene_text,txt,0],
 ];
 
-key_up = virtual_key_add(1400,550,100,100,vk_up);
-key_down = virtual_key_add(1400,700,100,100,vk_down);
+key_up = virtual_key_add(1600,400,200,200,vk_up);
+key_down = virtual_key_add(1600,650,200,200,vk_down);
 //virtual_key_show(key_up);
 //virtual_key_show(key_down);

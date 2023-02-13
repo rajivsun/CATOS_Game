@@ -19,10 +19,30 @@ tache[0] =
 ];
 tache[1] = 
 [
-[800,300],
-[915,583],
-[800,400],
+[470,580],
+[629,280],
+[757,521],
+[617,461],
 ];
+tache[2] = 
+[
+[560,300],
+[790,455],
+[655,578],
+[457,560],
+];
+tache[3] = 
+[
+[550,280],
+[805,600],
+[365,551],
+[606,448],
+];
+broken[3] = 
+[
+[476,416],
+[707,490],
+]
 
 end_level = false;
 end_level2 = false;
@@ -32,8 +52,15 @@ key_alt = virtual_key_add(1600,900,200,100,vk_alt);
 //virtual_key_show(key_alt);
 
 
-for (var ii=0;ii<=2;ii++)
+for (var ii=0;ii<=array_length(tache[current_level])-1;ii++)
 {
 	instance_create_layer(tache[current_level][ii][0],tache[current_level][ii][1],"taches",obj_tache);
+}
+if current_level = 3
+{
+	for (var ii=0;ii<=array_length(broken[current_level])-1;ii++)
+	{
+		instance_create_layer(broken[current_level][ii][0],broken[current_level][ii][1],"taches",obj_broken);
+	}
 }
 

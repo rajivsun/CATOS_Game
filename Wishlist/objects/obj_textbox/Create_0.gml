@@ -51,6 +51,7 @@ enum portrait
 	shaoda_little = 13,
 	dayu_little = 14,
 	old_man = 15,
+	policeman = 16,
 }
 
 ls_portrait_name = ds_list_create();
@@ -70,3 +71,4 @@ ds_list_add(ls_portrait_name,"让");
 ds_list_add(ls_portrait_name,"少达");
 ds_list_add(ls_portrait_name,"大宇");
 ds_list_add(ls_portrait_name,"老人");
+ds_list_add(ls_portrait_name,"机器人保安");
