@@ -4,10 +4,16 @@
 
 txt[0] = 
 [
-["haha",portrait.player_little],
+["",portrait.player_little],
+[1,0],
 ];
 
 action = 
 [
-[cutscene_text,txt,0],
+[cutscene_fade_in,60,c_black],
+[cutscene_destroy,obj_fishing_pod],
+[cutscene_change_variable,obj_player,"state","fishing"],
+[cutscene_fade_out,60,c_black],
+[cutscene_create,x,y,"system",obj_fishing_game],
+//[cutscene_text,txt,0],
 ];
