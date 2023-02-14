@@ -5,6 +5,6 @@ vspeed = 10;
 
 alarm[0] = 100;
 
-
+image_xscale = 2;
 
 

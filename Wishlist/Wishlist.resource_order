@@ -127,6 +127,7 @@
     {"name":"spr_ville_river_bg_reflex","order":2,"path":"sprites/spr_ville_river_bg_reflex/spr_ville_river_bg_reflex.yy",},
     {"name":"obj_cursor","order":27,"path":"objects/obj_cursor/obj_cursor.yy",},
     {"name":"Lovepik_com_400196833_light","order":41,"path":"sprites/Lovepik_com_400196833_light/Lovepik_com_400196833_light.yy",},
+    {"name":"ft_chinese_big","order":7,"path":"fonts/ft_chinese_big/ft_chinese_big.yy",},
     {"name":"spr_player_child_read","order":2,"path":"sprites/spr_player_child_read/spr_player_child_read.yy",},
     {"name":"to_do_list","order":2,"path":"notes/to_do_list/to_do_list.yy",},
     {"name":"spr_key_shift","order":4,"path":"sprites/spr_key_shift/spr_key_shift.yy",},
