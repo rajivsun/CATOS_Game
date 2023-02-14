@@ -22,6 +22,17 @@ if room == rm_METRO_SCENE
 	//}
 }
 
+if room == rm_METRO{
+	count ++;
+	if count >= 60
+	{
+		if play_scene == false
+		{
+			play_scene = true;
+			take_action(action);
+		}
+	}
+}
 if keyboard_check_pressed(vk_add)
 {
 	if room == rm_VILL_RIVER room_goto(rm_VILL_RIVER_123)

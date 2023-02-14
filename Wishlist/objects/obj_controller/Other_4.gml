@@ -21,3 +21,18 @@ if room == rm_ROBOT_CLEANER
 	
 	
 }
+
+if room = rm_METRO
+{
+	txt[0]=[
+	["让啊，做完工作了吗？",portrait.boss],
+	["做完了老板，电机现在正常工作了，\n楼体也清理完成了。",portrait.player],
+	["好的。",portrait.boss],
+	[1,0],
+	]
+	
+	action = [
+	[cutscene_text,txt,0],
+	
+	]
+}
