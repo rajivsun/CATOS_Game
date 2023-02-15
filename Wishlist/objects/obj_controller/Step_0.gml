@@ -46,3 +46,15 @@ if keyboard_check_pressed(vk_add)
 	//else if room == rm_BAR room_goto(rm_FOREST_TRAVEL)
 	//else if room == rm_FOREST_TRAVEL room_goto(rm_OLD_HOME)
 }
+
+if room == rm_BAR
+{
+	if obj_player.x >= 200
+	{
+		if play_scene == false
+		{
+			play_scene = true;
+			take_action(action);
+		}
+	}
+}
