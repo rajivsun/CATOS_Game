@@ -7,13 +7,11 @@ down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 up = keyboard_check(vk_up) or keyboard_check(ord("Z"));
 shoot = keyboard_check(ord("E"));
 
-
 var move = right - left;
 var vertical = down - up;
 vspd = vertical * walkspd;
 hspd = move * walkspd;
 	
-
 // Collisions horizontales
 if (place_meeting(x + hspd, y, obj_wall))
 {

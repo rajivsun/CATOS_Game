@@ -10,3 +10,4 @@ num1-5:   generator UI switchs
 G :       open personal device
 L :       action bar press
 up/down:  fishing game up and down
+num789:   rcp game

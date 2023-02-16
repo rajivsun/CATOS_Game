@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-game_end();
+fade(rm_BAR,60);

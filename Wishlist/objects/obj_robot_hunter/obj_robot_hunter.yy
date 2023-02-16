@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SECRET_ROOM",
-    "path": "folders/Objects/SECRET_ROOM.yy",
+    "path": "folders/Objects/ARCHIVE_OBJECT/SECRET_ROOM.yy",
   },
   "parentObjectId": {
     "name": "obj_NPC",

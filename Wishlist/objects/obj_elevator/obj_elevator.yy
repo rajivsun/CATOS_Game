@@ -11,8 +11,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},"propertyId":{"name":"sign_y_buffer","path":"objects/obj_interactable/obj_interactable.yy",},"value":"100",},
   ],
   "parent": {
-    "name": "BAR",
-    "path": "folders/Objects/BAR.yy",
+    "name": "ARCHIVE_OBJECT",
+    "path": "folders/Objects/ARCHIVE_OBJECT.yy",
   },
   "parentObjectId": {
     "name": "obj_interactable",

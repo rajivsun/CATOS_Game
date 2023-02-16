@@ -5,7 +5,7 @@
 switch state
 {
 	case "born":
-		if point_distance(x,y,obj_arcade_ship.x,obj_arcade_ship.y) <= 300
+		if point_distance(x,y,obj_arcade_ship.x,obj_arcade_ship.y) <= 150
 		{
 			vspeed = 1;
 			state = "attack";

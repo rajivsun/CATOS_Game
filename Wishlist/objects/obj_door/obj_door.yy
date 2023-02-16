@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "HOME",
-    "path": "folders/Objects/HOME.yy",
+    "path": "folders/Objects/ARCHIVE_OBJECT/HOME.yy",
   },
   "parentObjectId": {
     "name": "obj_interactable",

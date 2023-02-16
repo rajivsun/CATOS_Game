@@ -45,33 +45,33 @@ switch (state){
 		player_run();
 
 		if instance_exists(obj_textbox) or instance_exists(obj_fade)//or obj_controller.cutscene_on == true
+		or instance_exists(obj_rcp_game)
 		{
 			sprite_index = spr_idle;
 		}
 		else
 		{
-			
+			// ------------------- interact --------------------
+			nearest =instance_nearest(x,y,obj_interactable);
+			if interact
+			{
+				player_interact();
+			}
+			// ------------------- scan ---------------------
+			if scan
+			{
+				if room == rm_CITY_TOP or room == rm_METRO_STATION_QUAI
+				player_scan_switch();
+			}
+			if scan_world != false
+			{
+				fx_hack_thres = max( 0,fx_hack_thres - 0.02);
+				var _fx = layer_get_fx("ef_scan");
+				fx_set_parameter(_fx,"g_Threshold",fx_hack_thres);
+			}
 			player_movement_ground();
 		}
-		// ------------------- interact --------------------
-		nearest =instance_nearest(x,y,obj_interactable);
-		if interact
-		{
-			player_interact();
-		}
-		
-		// ------------------- scan ---------------------
-		if scan
-		{
-			if room == rm_CITY_TOP or room == rm_METRO_STATION_QUAI
-			player_scan_switch();
-		}
-		if scan_world != false
-		{
-			fx_hack_thres = max( 0,fx_hack_thres - 0.02);
-			var _fx = layer_get_fx("ef_scan");
-			fx_set_parameter(_fx,"g_Threshold",fx_hack_thres);
-		}
+
 		break;
 		
 	case "sit":

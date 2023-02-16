@@ -48,8 +48,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/NPC.yy",
+    "name": "ROBOT_POLICE",
+    "path": "folders/Sprites/NPC/ROBOT_POLICE.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

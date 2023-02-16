@@ -213,4 +213,19 @@ function player_interact(){
 	{
 		take_action(obj_wardrobe.action);
 	}
+	
+	if instance_place(x,y,obj_arcade_machine)
+	{
+		take_action(obj_arcade_machine.action);
+	}
+	
+	if instance_place(x,y,obj_dart)
+	{
+		take_action(obj_dart.action);
+	}
+	
+	if instance_place(x,y,obj_robot_rcp)
+	{
+		take_action(obj_robot_rcp.action);
+	}
 }

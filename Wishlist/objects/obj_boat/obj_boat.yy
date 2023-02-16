@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "TIME_TRAVEL",
-    "path": "folders/Objects/TIME_TRAVEL.yy",
+    "path": "folders/Objects/ARCHIVE_OBJECT/TIME_TRAVEL.yy",
   },
   "parentObjectId": null,
   "persistent": false,
