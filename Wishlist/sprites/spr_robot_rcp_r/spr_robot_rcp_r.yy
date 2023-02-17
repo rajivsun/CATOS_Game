@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_robot_rcp_r",
   "bbox_bottom": 62,
-  "bbox_left": 19,
+  "bbox_left": 8,
   "bbox_right": 46,
   "bbox_top": 7,
   "bboxMode": 0,

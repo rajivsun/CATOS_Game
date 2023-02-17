@@ -9,3 +9,7 @@ out = "none";
 played = false;
 hit = false;
 show_hand = false;
+result_count = ds_list_create();
+
+win = true;
+over = false;

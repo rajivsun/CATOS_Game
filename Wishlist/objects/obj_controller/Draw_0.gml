@@ -65,3 +65,25 @@ if room == rm_METRO_STATION_QUAI
 		}
 	}
 }
+
+if room == rm_BAR
+{
+	if instance_exists(obj_player)
+	{
+		if obj_player.scan_world == true
+		{
+			rot_highlight_sign += 2;
+			if collision_point(mouse_x,mouse_y,obj_robot_rcp,false,false)
+			{
+				highlight_sign_scale = 1;
+				player_scan_world(obj_hack_UI_AC);
+			}    
+			else
+			{
+				highlight_sign_scale = 0.7;
+			}
+
+			draw_sprite_ext(spr_hightlight,0,obj_robot_rcp.x,obj_robot_rcp.y-30,highlight_sign_scale,highlight_sign_scale,rot_highlight_sign,c_white,1);
+		}
+	}
+}

@@ -60,10 +60,10 @@ switch (state){
 			// ------------------- scan ---------------------
 			if scan
 			{
-				if room == rm_CITY_TOP or room == rm_METRO_STATION_QUAI
+				if room == rm_CITY_TOP or room == rm_METRO_STATION_QUAI or room == rm_BAR
 				player_scan_switch();
 			}
-			if scan_world != false
+			if scan_world == true
 			{
 				fx_hack_thres = max( 0,fx_hack_thres - 0.02);
 				var _fx = layer_get_fx("ef_scan");
