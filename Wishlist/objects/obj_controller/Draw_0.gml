@@ -22,7 +22,7 @@ if room == rm_CITY_TOP
 {
 	if instance_exists(obj_player)
 	{
-		if obj_player.scan_world == true
+		if obj_player.scan_world == true and inst_broken_ac.broken == true
 		{
 			rot_highlight_sign += 2;
 			//depth = -9999;
@@ -47,7 +47,7 @@ if room == rm_METRO_STATION_QUAI
 {
 	if instance_exists(obj_player)
 	{
-		if obj_player.scan_world == true
+		if obj_player.scan_world == true and obj_oldman.play_scene == true
 		{
 			rot_highlight_sign += 2;
 			//depth = -9999;

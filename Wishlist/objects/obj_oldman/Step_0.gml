@@ -35,11 +35,27 @@ if room == rm_METRO_SCENE
 }
 
 
-if room == rm_METRO_STATION_QUAI and !play_scene
+if room == rm_METRO_STATION_QUAI 
 {
-	if obj_player.x >= 270
+	if!play_scene
 	{
-		take_action(action);
-		play_scene = true;
+		if obj_player.x >= 270
+		{
+			take_action(action);
+			play_scene = true;
+		}
 	}
+	if obj_policeman.hacked = true
+	{
+		interactable = true;
+		txt[0] = 
+		[
+		["小伙子又是你啊，真的谢谢你啊，要不是你，我今晚可能就要睡外面了。",portrait.old_man],
+		["我这把年纪了，身体经不起冻啊。",portrait.old_man],
+		["没事大爷，小事而已。",portrait.player],
+		[1,0],
+		];
+	}
+
 }
+

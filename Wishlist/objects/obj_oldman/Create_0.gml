@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+interactable = false;
 play_scene = false;
 
 if room == rm_METRO_SCENE  hspeed = 0.2;

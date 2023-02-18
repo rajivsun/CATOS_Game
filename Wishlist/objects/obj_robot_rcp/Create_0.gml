@@ -7,6 +7,4 @@ action =
 ];
 
 
-slot_1 = spr_robot_rcp_s;
-slot_2 = spr_robot_rcp_p;
-slot_3 = spr_robot_rcp_r;
+slot= [spr_robot_rcp_s,spr_robot_rcp_r,spr_robot_rcp_p];

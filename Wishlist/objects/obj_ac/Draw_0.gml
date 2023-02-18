@@ -5,7 +5,6 @@ depth = depth_original;
 
 draw_self();
 
-if broken == true
-{
-
-}
+//if broken == true
+//{
+//}

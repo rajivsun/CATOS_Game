@@ -6,8 +6,9 @@ P :       telephone
 Alt :     robot cleaner start (in game)
 ESC :     close the terminal window
 O :       run Metro terminal exe , start robot cleaner game
-num1-5:   generator UI switchs
 G :       open personal device
 L :       action bar press
 up/down:  fishing game up and down
 num789:   rcp game
+num1-6:   rcp program slots
+

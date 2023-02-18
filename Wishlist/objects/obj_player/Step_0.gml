@@ -45,7 +45,7 @@ switch (state){
 		player_run();
 
 		if instance_exists(obj_textbox) or instance_exists(obj_fade)//or obj_controller.cutscene_on == true
-		or instance_exists(obj_rcp_game)
+		or instance_exists(obj_rcp_game) or instance_exists(obj_cutscene)
 		{
 			sprite_index = spr_idle;
 		}
