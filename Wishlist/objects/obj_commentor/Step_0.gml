@@ -1,6 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if room == rm_VILL_RIVER_travel{
+	count ++;
+	if count <= 60*5
+	{
+		exit;
+	}
+}
+
 if current < array_length_1d(text)
 {
 	msg = text[current];

@@ -7,7 +7,7 @@ if room == rm_VILL_RIVER_123 or room == rm_VILL_RIVER_douji
 	y = room_height/2;
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
-else if room == rm_METRO_SCENE
+else if room == rm_METRO_SCENE or room == rm_VILL_RIVER_travel
 {
 	x = xstart;
 	y = ystart;

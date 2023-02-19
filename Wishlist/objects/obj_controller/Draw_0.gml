@@ -18,6 +18,8 @@ if y_buffer <= -2.5
 //	draw_sprite_ext(spr_mission_sign,0,mission[current_mission][1],mission[current_mission][2]-y_buffer,0.5,0.5,0,c_white,1);
 //}
 
+
+// ---------- scan world -----------------------
 if room == rm_CITY_TOP
 {
 	if instance_exists(obj_player)
