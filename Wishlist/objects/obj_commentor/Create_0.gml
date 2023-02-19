@@ -52,6 +52,7 @@ msg = text[current];
 
 current = 0;
 alpha = 0;
+alpha_bg = 0;
 timer = 0;
 timer2 = 0;
 state = 0;

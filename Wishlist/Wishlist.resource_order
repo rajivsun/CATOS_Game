@@ -299,6 +299,7 @@
     {"name":"spr_train_inside_original","order":4,"path":"sprites/spr_train_inside_original/spr_train_inside_original.yy",},
     {"name":"textbox_number","order":1,"path":"notes/textbox_number/textbox_number.yy",},
     {"name":"door_interact","order":3,"path":"scripts/door_interact/door_interact.yy",},
+    {"name":"obj_bridge","order":13,"path":"objects/obj_bridge/obj_bridge.yy",},
     {"name":"spr_dayu_little_douji","order":1,"path":"sprites/spr_dayu_little_douji/spr_dayu_little_douji.yy",},
     {"name":"spr_stone_sign","order":12,"path":"sprites/spr_stone_sign/spr_stone_sign.yy",},
     {"name":"spr_boat","order":1,"path":"sprites/spr_boat/spr_boat.yy",},

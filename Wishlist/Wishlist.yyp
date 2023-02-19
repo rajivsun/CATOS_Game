@@ -351,6 +351,7 @@
     {"id":{"name":"spr_grass_near","path":"sprites/spr_grass_near/spr_grass_near.yy",},"order":0,},
     {"id":{"name":"textbox_number","path":"notes/textbox_number/textbox_number.yy",},"order":1,},
     {"id":{"name":"door_interact","path":"scripts/door_interact/door_interact.yy",},"order":3,},
+    {"id":{"name":"obj_bridge","path":"objects/obj_bridge/obj_bridge.yy",},"order":13,},
     {"id":{"name":"spr_dayu_little_douji","path":"sprites/spr_dayu_little_douji/spr_dayu_little_douji.yy",},"order":1,},
     {"id":{"name":"spr_stone_sign","path":"sprites/spr_stone_sign/spr_stone_sign.yy",},"order":12,},
     {"id":{"name":"spr_boat","path":"sprites/spr_boat/spr_boat.yy",},"order":1,},

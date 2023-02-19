@@ -1,10 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_old_bicycle_adults",
+  "name": "obj_bridge",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_old_bicycle_adult",
-    "path": "sprites/spr_old_bicycle_adult/spr_old_bicycle_adult.yy",
+    "name": "spr_bridge_train",
+    "path": "sprites/spr_bridge_train/spr_bridge_train.yy",
   },
   "spriteMaskId": null,
   "visible": true,

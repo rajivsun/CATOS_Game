@@ -2,10 +2,12 @@
 // You can write your code in this editor
 // draw cutscene text
 
-
+if current >= 0 and current < 1 alpha_bg = min(1,alpha_bg+0.01);
+else alpha_bg =max(alpha_bg-0.01,0);
+//draw_text(100,200,current)
 if room == rm_VILL_RIVER_travel{
 	draw_set_color(c_black);
-	draw_set_alpha(count/180);
+	draw_set_alpha(alpha_bg);
 	draw_rectangle(0,0,2500,150,false);
 	draw_rectangle(0,930,2500,2200,false);
 	draw_set_color(c_white);
