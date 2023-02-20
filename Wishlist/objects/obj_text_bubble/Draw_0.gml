@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+text = [
+["1...",obj_lili_little.count_123_dur/3],
+["2...",obj_lili_little.count_123_dur/3],
+["3...",obj_lili_little.count_123_dur/3],
+["木头人!",120],
+];
 
 
 current_text = text[page][0];

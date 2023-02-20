@@ -13,6 +13,12 @@ if hacked
 
 if leave 
 {
-	hspeed = 0.5;	
+	count ++;
+	if count > delay
+	{
+		image_xscale = 1;
+		sprite_index = spr_policeman_walk;
+		hspeed = 0.5;	
+	}
 }
 

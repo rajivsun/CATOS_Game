@@ -48,8 +48,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "PLAYER",
-    "path": "folders/Sprites/PLAYER.yy",
+    "name": "RCP",
+    "path": "folders/Sprites/PLAYER/RCP.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

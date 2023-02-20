@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+count = 0;
+delay = random_range(10,120);
 txt[0] = [
 ["你们就不能通融一下吗？外面这么冷的天，\n他老人家根本经不住冻啊。",portrait.player],
 ["不可以，我们不能违反规定。",portrait.policeman],

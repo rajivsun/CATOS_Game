@@ -2,7 +2,7 @@
 // You can write your code in this editor
 // draw cutscene text
 
-if current >= 0 and current < 1 alpha_bg = min(1,alpha_bg+0.01);
+if current >= 0 and current < 23 alpha_bg = min(1,alpha_bg+0.01);
 else alpha_bg =max(alpha_bg-0.01,0);
 //draw_text(100,200,current)
 if room == rm_VILL_RIVER_travel{

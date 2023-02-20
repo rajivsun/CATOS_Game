@@ -34,8 +34,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "VILL_RIVER",
-    "path": "folders/Sprites/VILL_RIVER.yy",
+    "name": "bicycle",
+    "path": "folders/Sprites/VILL_RIVER/bicycle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

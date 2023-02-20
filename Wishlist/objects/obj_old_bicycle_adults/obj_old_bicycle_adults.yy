@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "VIL_RIVER",
-    "path": "folders/Objects/VIL_RIVER.yy",
+    "name": "bicycle",
+    "path": "folders/Objects/VIL_RIVER/bicycle.yy",
   },
   "parentObjectId": null,
   "persistent": false,

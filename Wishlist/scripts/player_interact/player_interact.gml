@@ -228,4 +228,8 @@ function player_interact(){
 	{
 		take_action(obj_robot_rcp.action);
 	}
+	if instance_place(x,y,obj_old_bicycle)
+	{
+		take_action(obj_old_bicycle.action);
+	}
 }

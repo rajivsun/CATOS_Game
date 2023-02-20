@@ -40,15 +40,20 @@ if room == rm_VILL_RIVER
 	}
 }
 
-else if room == rm_VILL_RIVER_123
+else if room == rm_VILL_RIVER_123 and game_start == true
 {
+
 	sprite_index = spr_lili_little;
 	if !instance_exists(obj_failure) // if not lose the game
 	{
+		if obj_shaoda_little.x <= x 
+		{
+			show_result(false);
+		}
 		
 		if obj_player.x <= x // if pass lili, then win
 		{
-			 show_result(true);
+			show_result(true);
 		}
 		
 		else
@@ -70,8 +75,19 @@ else if room == rm_VILL_RIVER_123
 				cd --;
 				if cd <= 0
 				{
+
+					if obj_controller.game_123 == 1
+					{
+						
+						count_123_dur = random_range(30,180);
+						count_123 = count_123_dur;
+						
+					}
+					else
+					{
+						count_123 = 120;
+					}
 					cd = 120;
-					count_123 = 120;
 				}
 			}
 			else

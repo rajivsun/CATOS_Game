@@ -19,3 +19,5 @@ and room != rm_ROBOT_CLEANER
 	// personal device
 	draw_sprite_ext(spr_personal_device,0,100,100,1.5,1.5,0,c_white,1);
 }
+
+//draw_text(100,300,game_123);
