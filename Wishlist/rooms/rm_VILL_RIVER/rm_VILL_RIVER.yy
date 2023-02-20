@@ -18,8 +18,8 @@
     {"name":"inst_6D73777C","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},
     {"name":"inst_51475227","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},
     {"name":"inst_1E0C1D0E","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},
-    {"name":"inst_57BE3E42","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},
     {"name":"inst_5F792E0C_4","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},
+    {"name":"inst_32C919C7","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -54,7 +54,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B2028DA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":22.166668,"x":650.0,"y":-89.50002,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"immobile","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57BE3E42","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_old_bicycle","path":"objects/obj_old_bicycle/obj_old_bicycle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":139.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_32C919C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_old_bicycle","path":"objects/obj_old_bicycle/obj_old_bicycle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":507.0,"y":143.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"bg_near","animationFPS":10.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_ville_river_bg_near","path":"sprites/spr_ville_river_bg_near/spr_ville_river_bg_near.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"bg_middle","animationFPS":10.0,"animationSpeedType":0,"colour":4294967295,"depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_ville_river_bg_middle","path":"sprites/spr_ville_river_bg_middle/spr_ville_river_bg_middle.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},

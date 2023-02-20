@@ -14,4 +14,4 @@ var lay_id = layer_get_id("bg_bridge");
 var back_id = layer_background_get_id(lay_id);
 layer_background_alpha(back_id,0);
 
-audio_play_sound(mc_sixteen,99,1);
+audio_play_sound(mc_sixteen,99,false);

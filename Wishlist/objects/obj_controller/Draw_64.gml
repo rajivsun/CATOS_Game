@@ -17,6 +17,7 @@ and room != rm_ROBOT_CLEANER
 	general_ui();
 
 	// personal device
+	if room == rm_CITY_TOP or room== rm_BAR or room == rm_METRO_STATION_QUAI
 	draw_sprite_ext(spr_personal_device,0,100,100,1.5,1.5,0,c_white,1);
 }
 

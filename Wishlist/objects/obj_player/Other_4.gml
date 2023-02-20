@@ -4,6 +4,10 @@
 
 if room == rm_METRO
 {
+	var lay_id = layer_get_id("black");
+	var back_id = layer_background_get_id(lay_id);
+	layer_background_alpha(back_id, 0);
+
 	//state = "sit";
 }
 if room == rm_CITY_HOME

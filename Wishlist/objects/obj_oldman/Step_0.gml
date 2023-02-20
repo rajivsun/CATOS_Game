@@ -37,7 +37,7 @@ if room == rm_METRO_SCENE
 
 if room == rm_METRO_STATION_QUAI 
 {
-	if!play_scene
+	if !play_scene
 	{
 		if obj_player.x >= 270
 		{
@@ -56,6 +56,32 @@ if room == rm_METRO_STATION_QUAI
 		[1,0],
 		];
 	}
-
+}
+if room == rm_METRO
+{
+	if disappear == true
+	{
+		image_alpha -= 0.01;
+		if image_alpha <= 0
+		{
+			instance_destroy();
+		}
+	}
+	if obj_player.state == "scene"
+	{
+		hspeed = -0.3;
+		sprite_index = spr_oldman_walk;
+		
+		if distance_to_object(obj_player) <= 100
+		{
+			hspeed = 0;
+			sprite_index = spr_oldman;
+			if !play_scene
+			{
+				play_scene = true;
+				take_action(action);
+			}
+		}
+	}
 }
 

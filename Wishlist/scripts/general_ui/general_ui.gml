@@ -7,9 +7,10 @@ function general_ui(){
 	if game_mode == "mobile" and !instance_exists(obj_rcp_game) and !instance_exists(obj_hack_UI_AC)
 	and !instance_exists(obj_commentor)
 	{
+		draw_sprite(spr_key_E,0,1800,button_y);
+		if room == rm_METRO_SCENE exit;
 		draw_sprite(spr_key_left,0,20,button_y);
 		draw_sprite(spr_key_right,0,408,button_y);
-		draw_sprite(spr_key_E,0,1800,button_y);
 		draw_sprite(spr_key_space,0,1500,button_y);
 		draw_sprite(spr_key_shift,0,1300,button_y);
 	}

@@ -25,7 +25,7 @@ image_alpha = min(1,image_alpha+0.01)
 
 if instance_exists(obj_commentor)
 {
-	if obj_commentor.current >= 22 and ! create_train
+	if obj_commentor.current >= 24 and ! create_train
 	{
 		create_train = true;
 		instance_create_layer(-1000,209,"train",obj_train);

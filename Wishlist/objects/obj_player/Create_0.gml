@@ -10,6 +10,10 @@ state = "idle";
 scan_world = false;
 fx_hack_thres = 1;
 hp = 100;
+alpha_layer = 0;
+scene_on = true;
+actioned = false;
+standup = false;
 
 // ------- info --------
 //grav = 0;
@@ -23,7 +27,7 @@ spr_walk = spr_playerWALK;
 run = false;
 left = 0;
 right = 0;
-scene_on = true;
+
 //window_set_cursor(cr_none);
 
 if room == rm_VILL_RIVER_douji_game state = "douji";

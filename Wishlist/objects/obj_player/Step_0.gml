@@ -36,6 +36,41 @@ switch (state){
 				}
 			}
 		}
+		if room == rm_METRO
+		{
+			if !standup
+			{
+				alpha_layer = min(1,alpha_layer+0.01);
+				var lay_id = layer_get_id("black");
+				var back_id = layer_background_get_id(lay_id);
+				layer_background_alpha(back_id, alpha_layer);
+				sprite_index = spr_player_knee;
+				if image_index >= image_number - 1
+				{
+					image_index = image_number - 1;
+					if actioned == false
+					{
+						actioned = true;
+						if ! instance_exists(obj_commentor) 
+							instance_create_layer(x,y,"system",obj_commentor);
+					}
+				}
+			}
+			else
+			{
+				alpha_layer = max(0,alpha_layer-0.01);
+				var lay_id = layer_get_id("black");
+				var back_id = layer_background_get_id(lay_id);
+				layer_background_alpha(back_id, alpha_layer);	
+				sprite_index = spr_player_standup;
+				if image_index >= image_number - 1
+				{
+					image_index = image_number - 1;
+					if alpha_layer <= 0
+						state = "idle";
+				}
+			}
+		}
 	
 		break;
 	

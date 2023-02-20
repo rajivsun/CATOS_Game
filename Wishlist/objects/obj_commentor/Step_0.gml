@@ -46,24 +46,9 @@ if current < array_length_1d(text)
 else
 {
 	instance_destroy();
-	if room = rm_ELEVATOR_INSIDE
-	{
-		fade(rm_METRO_SCENE,120);
-	}
-	else if room == rm_ELEVATOR_INSIDE_work
-	{
-		fade(rm_CITY_TOP,120);
-	}
-	//if obj_main.current_end == -1
-	//{
-	//	with instance_create_depth(250,100,-999,obj_xun)
-	//	{	
-	//		room_dest = rm_homeF1;
-	//	}
-	//}
-	//else
-	//{
-	//	fadetoroom(roomgoto,180,c_black,false,false);
-	//	audio_sound_gain(sd_intromusic,0,2000);
-	//}
+	if room == rm_VILL_RIVER_travel fade(rm_METRO_SCENE,120);
+	else if room = rm_ELEVATOR_INSIDE fade(rm_METRO_SCENE,120);
+	else if room == rm_ELEVATOR_INSIDE_work fade(rm_CITY_TOP,120);
+	//else if room == rm_METRO take_action(action);
+
 }
