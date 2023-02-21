@@ -11,8 +11,8 @@ portrait_x = display_get_gui_width()/2160 * 550;
 portrait_y = display_get_gui_height()/1080 * 150;
 line_sep = 45;
 line_width = 1300;
-key_1 = virtual_key_add(476,310,920-476,425-310,vk_numpad1);
-key_2 = virtual_key_add(983,310,1432-983,425-310,vk_numpad2);
+key_1 = virtual_key_add(576,310,920-476,425-310,vk_numpad1);
+key_2 = virtual_key_add(1083,310,1432-983,425-310,vk_numpad2);
 
 //------------- textbox initialization ---------------
 option = 0;
@@ -52,6 +52,7 @@ enum portrait
 	dayu_little = 14,
 	old_man = 15,
 	policeman = 16,
+	shaoda_big = 17,
 }
 
 ls_portrait_name = ds_list_create();
@@ -72,3 +73,4 @@ ds_list_add(ls_portrait_name,"少达");
 ds_list_add(ls_portrait_name,"大宇");
 ds_list_add(ls_portrait_name,"老人");
 ds_list_add(ls_portrait_name,"机器人保安");
+ds_list_add(ls_portrait_name,"少达");

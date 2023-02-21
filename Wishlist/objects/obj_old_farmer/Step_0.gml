@@ -3,6 +3,11 @@
 
 switch state 
 {
+	case "idle":
+	
+		if obj_controller.camera_scene == false state = "run";
+		break;
+		
 	case "run":
 	
 		hspeed = 0.3;
@@ -15,7 +20,7 @@ switch state
 			state = "stop";
 		}	
 		
-		if x >= 300 and kid == false
+		if x >= 400 and kid == false
 		{
 			obj_lili_little.state = "idle";
 			//obj_shaoda_little.state = "run";

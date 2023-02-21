@@ -19,13 +19,21 @@ else
 
 		if point_distance(x,y,rand_x,rand_y) <= 1 or alarm[0] = 30
 		{
-			rand_x = random_range(mouse_x - 10 , mouse_x + 10);
-			rand_y = random_range(mouse_y - 10 , mouse_y + 10);
+			if obj_controller.game_mode == "pc"
+			{
+				rand_x = random_range(mouse_x - 10 , mouse_x + 10);
+				rand_y = random_range(mouse_y - 10 , mouse_y + 10);
+			}
+			else
+			{
+				rand_x = random_range(point_x - 10 , point_x + 10);
+				rand_y = random_range(point_y - 10 , point_y + 10);				
+			}
 
 		}
 	
 		// if click, then launch the flechette
-		if mouse_check_button_pressed(mb_left) 
+		if mouse_check_button_pressed(mb_left) and obj_controller.game_mode != "mobile"
 		and obj_dart_game.flechette_left >= 1 
 		and obj_dart_game.flechette_ready == true
 		{

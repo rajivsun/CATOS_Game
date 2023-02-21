@@ -40,6 +40,7 @@ if room == rm_METRO
 	[
 		[cutscene_change_variable,id,"disappear","true"],
 		[cutscene_change_variable,obj_player,"standup","true"],
+		[cutscene_change_variable,obj_controller,"metro_boss_call","true"],
 	]
 	
 	txt[0] = 

@@ -79,7 +79,7 @@ else if room == rm_VILL_RIVER_123 and game_start == true
 					if obj_controller.game_123 == 1
 					{
 						
-						count_123_dur = random_range(30,180);
+						count_123_dur = random_range(60,180);
 						count_123 = count_123_dur;
 						
 					}

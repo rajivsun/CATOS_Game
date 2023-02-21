@@ -5,7 +5,7 @@
 if mouse_check_button_pressed(mb_left) && obj_robot_cleaner.start = false
 && device_mouse_x_to_gui(0) <= border_x2 && device_mouse_x_to_gui(0) >= border_x1
 && device_mouse_y_to_gui(0) <= border_y2 && device_mouse_y_to_gui(0) >= border_y1
-&& mark_left > 0
+&& mark_left > 0 && !instance_exists(obj_tutorial)
 {
 	mark_index ++;
 	mark_left --;

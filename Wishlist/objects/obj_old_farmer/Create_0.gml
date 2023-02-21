@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 interact = false;
-hspeed = 0.5;
-state = "run";
+hspeed = 0;
+state = "idle";
 kid = false;
 
 action2 = [

@@ -91,12 +91,12 @@ if txt[current_node][page+1][0] == 0 and draw_char == text_length[page]
 	opbox_yscale = lerp(opbox_yscale,3,0.2);
 	if (array_length(txt[current_node][page+1][1]) == 2) // if there are two options
 	{
-		draw_sprite_ext(spr_optionbox,0,700,370,opbox_xscale,opbox_yscale,0,c_white,1);
-		draw_sprite_ext(spr_optionbox,0,1200,370,opbox_xscale,opbox_yscale,0,c_white,1);
+		draw_sprite_ext(spr_optionbox,0,800,370,opbox_xscale,opbox_yscale,0,c_white,1);
+		draw_sprite_ext(spr_optionbox,0,1300,370,opbox_xscale,opbox_yscale,0,c_white,1);
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_center);
-		draw_text(700,370,txt[current_node][page+1][1][0][0]);
-		draw_text(1200,370,txt[current_node][page+1][1][1][0]);
+		draw_text(800,370,txt[current_node][page+1][1][0][0]);
+		draw_text(1300,370,txt[current_node][page+1][1][1][0]);
 		
 		if option != 0 // if player choose an option
 		{

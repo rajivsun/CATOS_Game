@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+count = 0;
+count2 = 0;
 play_scene = false;
+play_scene2 = false;
+key_g = virtual_key_add(0,0,200,200,ord("G"));
+
 if room == rm_FOREST
 	cutscene_on = true;
 	
@@ -9,7 +13,8 @@ general_room_setup();
 
 if room == rm_VILL_RIVER
 {
-	if vill_scene == 0 instance_create_layer(84,147,"NPC_near",obj_old_farmer);
+	audio_play_sound(mc_itwontmatter,99,true);
+	if vill_scene == 0 instance_create_layer(-50,147,"NPC_near",obj_old_farmer);
 }
 
 key_next = virtual_key_add(1800,50,100,100,vk_add)
@@ -23,9 +28,20 @@ if room == rm_ROBOT_CLEANER
 
 if room = rm_METRO
 {
+	action4 =
+	[
+	[fade,rm_BAR,120],	
+	];
+	
 	txt2[0] =
 	[
-	["haha",portrait.player],
+	["让，最近还好吗？好久没联系了。",portrait.shaoda_big],
+	["哎别提了少达，我刚刚被开了。",portrait.player],
+	["啊？真假的。是原来那个公司吗？",portrait.shaoda_big],
+	["是啊，我干了十五年，说开除就开除，一群白眼狼。",portrait.player],
+	["是很过分。来吧，我今天正好在市中心，我们去atelier和一杯吧。",portrait.shaoda_big],
+	["行，等我。",portrait.player],
+	[2,action4],
 	];
 	
 	action3 = 
@@ -77,6 +93,7 @@ if room = rm_BAR
 	action2 =
 	[
 		[cutscene_change_variable,obj_camera,"follow",obj_player],
+		[cutscene_change_variable,obj_controller,"bar_shaoda_talk","true"],
 	]
 	
 	txt[0] = 
@@ -97,4 +114,28 @@ if room = rm_BAR
 if room == rm_CITY_TOP
 {
 	audio_sound_gain(mc_sixteen,0,2000);
+	action2 = 
+	[
+	[cutscene_change_variable,id,"first_time_citytop","false"],	
+	[cutscene_create,x,y,"system",obj_tutorial],
+	]	
+	
+	txt[0] = 
+	[
+	["你终于来啦？",portrait.boss],		
+	["对不起老板，路上堵了点车。",portrait.player],		
+	["行了，别罗嗦了，快点干活吧。先把那个发电机修好，\n那个发电机好像坏了，你看看怎么回事。然后再做一下常规的楼体清洁。",portrait.boss],			
+	["好的。",portrait.player],	
+	[2,action2],
+	];
+	
+	action = 
+	[
+	[cutscene_text,txt,0],	
+	]
+}
+
+if room = rm_VILL_RIVER_douji
+{
+	audio_sound_gain(mc_itwontmatter,0,2000);
 }

@@ -15,13 +15,12 @@ if room == rm_CITY_HOME
 	
 	state = "scene";
 	
-	txt[0] = [
-
+	txt[0] = 
+	[
 	["原来是梦啊...",portrait.player],
 	["这几天老是梦到小时候发生的事情...",portrait.player],
 	["不过我倒真想多做会梦呢...",portrait.player],
 	[1,0],
-
 	];
 	
 	action = [

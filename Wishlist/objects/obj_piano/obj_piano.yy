@@ -4,7 +4,9 @@
   "name": "obj_piano",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},"propertyId":{"name":"interactable","path":"objects/obj_interactable/obj_interactable.yy",},"value":"False",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

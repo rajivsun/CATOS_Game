@@ -1,26 +1,55 @@
 /// @description update camera
 // You can write your code in this editor
 
-//if   room == rm_VILL_RIVER_douji
-//{
-//	x = 315;
-//	y = room_height/2;
-//	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
-//}
-if room == rm_METRO_SCENE or room == rm_VILL_RIVER_travel or room == rm_VILL_RIVER_123
+if room == rm_VILL_RIVER && obj_controller.camera_scene == true
+{
+	count ++;
+	if count <= 180
+	{
+		x = 380;y=290;
+		camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+		camera_set_view_size(cam,cam_scene_size_x,cam_scene_size_y);
+	}
+	else
+	{
+		x = follow.x;
+		y = follow.y-dist_player_cam;	
+		x = clamp(x,view_w_half,room_width-view_w_half);
+		y = clamp(y,view_h_half,room_height-view_h_half);
+		camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+		camera_set_view_size(cam,cam_w,cam_h);
+		obj_controller.camera_scene = false;
+		
+		//if y <= 125+80
+		//{
+		//	y = 125+80;
+		//	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+		//	camera_set_view_size(cam,cam_scene_size_x,cam_scene_size_y);	
+		//	count2 ++;
+		//	if count2 >= 60
+		//	{
+		//		cam_scene_size_x *= 1.01;cam_scene_size_y*=1.01;
+		//		camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+		//		camera_set_view_size(cam,cam_scene_size_x,cam_scene_size_y);	
+		//		if cam_scene_size_y >= 250{
+		//			cam_scene_size_y = 250;
+		//			obj_controller.camera_scene = false;
+		//		}
+		//	}
+		//}
+		//else
+		//{
+		//	y -= 0.5;
+		//	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+		//}
+	}
+}
+else if room == rm_METRO_SCENE or room == rm_VILL_RIVER_travel or room == rm_VILL_RIVER_123
 {
 	x = xstart;
 	y = ystart;
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
-//else if room == rm_CITY_HOME and scene_on
-//{
-//	x = xstart;
-//	y = ystart;
-//	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
-//	camera_set_view_size(cam,cam_w*0.7,cam_h*0.7);
-//}
-
 else
 {
 	if instance_exists(follow)
