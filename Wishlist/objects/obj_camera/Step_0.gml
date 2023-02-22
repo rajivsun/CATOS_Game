@@ -4,7 +4,7 @@
 if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 {
 	count ++;
-	if count <= 180
+	if count <= 300
 	{
 		x = 380;y=290;
 		camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
