@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if inst_broken_ac.broken == true
+if inst_broken_ac.broken == true and obj_controller.repair_ac == false
 {
 	if random(10) > 5
 	{

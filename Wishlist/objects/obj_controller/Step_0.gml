@@ -63,6 +63,7 @@ if room == rm_BAR
 
 if room == rm_CITY_TOP
 {
+	if clean_building == true and repair_ac == true obj_elevator_skycraper.interactable = true;
 	if first_time_citytop == true
 	{
 		if play_scene == false

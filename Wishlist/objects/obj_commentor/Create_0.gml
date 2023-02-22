@@ -60,13 +60,15 @@ if room == rm_ELEVATOR_INSIDE_work
 }
 if room == rm_METRO
 {
+	
 	action =[
 	];
 	
 	text = 
 	[
+	"",
 	"我该怎么办...",	
-	
+	"",
 	];
 }
 current = 0;

@@ -93,7 +93,7 @@ switch (state){
 				player_interact();
 			}
 			// ------------------- scan ---------------------
-			if scan
+			if scan and !instance_exists(obj_textbox) and !instance_exists(obj_cutscene)
 			{
 				if room == rm_CITY_TOP or room == rm_METRO_STATION_QUAI or room == rm_BAR
 				player_scan_switch();

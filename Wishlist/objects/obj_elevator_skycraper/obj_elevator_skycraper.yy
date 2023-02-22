@@ -4,18 +4,22 @@
   "name": "obj_elevator_skycraper",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_normal_door","path":"objects/obj_normal_door/obj_normal_door.yy",},"propertyId":{"name":"room_go_to","path":"objects/obj_normal_door/obj_normal_door.yy",},"value":"rm_METRO_STATION_QUAI",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},"propertyId":{"name":"sign_y_buffer","path":"objects/obj_interactable/obj_interactable.yy",},"value":"-30",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},"propertyId":{"name":"sign_yscale","path":"objects/obj_interactable/obj_interactable.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},"propertyId":{"name":"sign_xscale","path":"objects/obj_interactable/obj_interactable.yy",},"value":"2",},
   ],
   "parent": {
     "name": "CITY_NIGHT_TOP",
     "path": "folders/Objects/CITY_NIGHT_TOP.yy",
   },
   "parentObjectId": {
-    "name": "obj_normal_door",
-    "path": "objects/obj_normal_door/obj_normal_door.yy",
+    "name": "obj_interactable",
+    "path": "objects/obj_interactable/obj_interactable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

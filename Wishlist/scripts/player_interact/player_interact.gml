@@ -232,4 +232,9 @@ function player_interact(){
 	{
 		take_action(obj_old_bicycle.action);
 	}
+	if instance_place(x,y,obj_elevator_skycraper)
+	{
+		if obj_elevator_skycraper.interactable
+			take_action(obj_elevator_skycraper.action);
+	}
 }

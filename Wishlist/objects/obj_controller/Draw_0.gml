@@ -24,7 +24,7 @@ if room == rm_CITY_TOP
 {
 	if instance_exists(obj_player)
 	{
-		if obj_player.scan_world == true and inst_broken_ac.broken == true
+		if obj_player.scan_world == true and inst_broken_ac.broken == true and obj_controller.repair_ac == false
 		{
 			rot_highlight_sign += 2;
 			//depth = -9999;

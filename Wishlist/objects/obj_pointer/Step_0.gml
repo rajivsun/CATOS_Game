@@ -19,7 +19,7 @@ else
 
 		if point_distance(x,y,rand_x,rand_y) <= 1 or alarm[0] = 30
 		{
-			if obj_controller.game_mode == "pc"
+			if obj_controller.game_mode == "pc" or obj_controller.game_mode == "mobile"
 			{
 				rand_x = random_range(mouse_x - 10 , mouse_x + 10);
 				rand_y = random_range(mouse_y - 10 , mouse_y + 10);
