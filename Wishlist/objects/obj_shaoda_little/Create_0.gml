@@ -16,14 +16,14 @@ txt2[0] = [
 
 action = 
 [
-	//[cutscene_change_variable,obj_shaoda_little,"txt","txt2"],
+	[cutscene_create,x,y,"system",obj_tutorial],
 	[cutscene_change_variable,obj_fishing_pod,"interactable","true"],
 ];
 
 txt[0] = 
 [
 	["嘿！少达，你要和我们玩一二三木头人吗？",portrait.player_little],
-	["我还要钓鱼呢！妈妈说要今天要钓三条鱼。我才钓了一条。",portrait.shaoda_little],
+	["我还要钓鱼呢！妈妈说要今天要钓四条鱼。我才钓了一条。",portrait.shaoda_little],
 	["你都钓了一中午了，才钓上来一条啊...",portrait.player_little],
 	["今天这鱼不知怎么了，就是不上钩。",portrait.shaoda_little],
 	[0,[["好吧，那你加把劲吧",1],["那我也来帮你钓吧",2]]],
