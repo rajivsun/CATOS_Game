@@ -12,14 +12,25 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 	}
 	else
 	{
-		x = follow.x;
-		y = follow.y-dist_player_cam;	
+		count2++;
+		x = obj_old_farmer.x;
+		y = obj_old_farmer.y-dist_player_cam;
 		x = clamp(x,view_w_half,room_width-view_w_half);
 		y = clamp(y,view_h_half,room_height-view_h_half);
 		camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
-		camera_set_view_size(cam,cam_w,cam_h);
-		obj_controller.camera_scene = false;
-		
+		camera_set_view_size(cam,cam_scene_size_x*1.5,cam_scene_size_y*1.5);
+		if count2 >= 180
+		{	
+
+			
+			x = follow.x;
+			y = follow.y-dist_player_cam;
+			x = clamp(x,view_w_half,room_width-view_w_half);
+			y = clamp(y,view_h_half,room_height-view_h_half);
+			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+			camera_set_view_size(cam,cam_w,cam_h);
+			obj_controller.camera_scene = false;
+		}
 		//if y <= 125+80
 		//{
 		//	y = 125+80;
