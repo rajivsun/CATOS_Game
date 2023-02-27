@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shaoda_big",
-    "path": "sprites/spr_shaoda_big/spr_shaoda_big.yy",
+    "name": "spr_shaoda_sit",
+    "path": "sprites/spr_shaoda_sit/spr_shaoda_sit.yy",
   },
   "spriteMaskId": null,
   "visible": true,

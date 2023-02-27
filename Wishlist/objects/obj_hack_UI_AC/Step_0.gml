@@ -33,10 +33,10 @@ if room = rm_BAR
 }
 if room == rm_CITY_TOP
 {
-	if keyboard_check_pressed(vk_numpad1)
-	{
-		select = 0;
-	}
+	//if keyboard_check_pressed(vk_numpad1)
+	//{
+	//	select = 0;
+	//}
 		if keyboard_check_pressed(vk_numpad2)
 	{
 		select = 1;
@@ -51,7 +51,7 @@ if room == rm_CITY_TOP
 		inst_broken_ac.slot[select] = "停止";
 		select = -1;
 	}
-	if inst_broken_ac.slot[0] == "启动" and inst_broken_ac.slot[1] == "启动"
+	if inst_broken_ac.slot[1] == "启动" //and inst_broken_ac.slot[1] == "启动"
 	{
 		inst_broken_ac.broken = false;
 	}

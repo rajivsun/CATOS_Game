@@ -88,7 +88,7 @@ switch (state){
 		{
 			// ------------------- interact --------------------
 			nearest =instance_nearest(x,y,obj_interactable);
-			if interact
+			if interact and !scan_world
 			{
 				player_interact();
 			}

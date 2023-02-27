@@ -54,7 +54,7 @@ if room = rm_CITY_TOP
 {
 	draw_set_alpha(0.3);draw_set_color(c_black);
 	draw_rectangle(1288,300,1288+260,400,false);
-	draw_rectangle(1350,170,1350+260,270,false);
+	//draw_rectangle(1350,170,1350+260,270,false);
 	draw_set_alpha(1);draw_set_color(c_white);
 	
 	draw_set_color(c_red);

@@ -48,17 +48,17 @@ if room == rm_METRO{
 
 if room == rm_BAR
 {
-	if !bar_shaoda_talk
-	{
-		if obj_player.x >= 200
-		{
-			if play_scene == false
-			{
-				play_scene = true;
-				take_action(action);
-			}
-		}
-	}
+	//if !bar_shaoda_talk
+	//{
+	//	if obj_player.x >= 200
+	//	{
+	//		if play_scene == false
+	//		{
+	//			play_scene = true;
+	//			take_action(action);
+	//		}
+	//	}
+	//}
 }
 
 if room == rm_CITY_TOP

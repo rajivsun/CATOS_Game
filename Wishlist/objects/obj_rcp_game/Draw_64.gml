@@ -21,8 +21,11 @@ if played == false and over == false
 
 if show_hand 
 {
+	draw_sprite_ext(spr_rcp_fond,0,750,450,5,5,0,c_white,1);
+	draw_sprite_ext(spr_rcp_fond,0,1400,450,-5,5,0,c_white,1);
 	if out == "paper" 
 	{
+		draw_sprite_ext(spr_rcp_paper,0,750,450,5,5,0,c_white,1);
 		draw_sprite_ext(spr_player_rcp_p,0,400,1050,10,10,0,c_white,1);
 		draw_sprite_ext(obj_robot_rcp.slot[0],0,1700,1050,10,10,0,c_white,1);
 		if obj_robot_rcp.slot[0] == spr_robot_rcp_s {result = "lose"; win = false}
@@ -52,7 +55,6 @@ if show_hand
 	draw_set_center();
 	draw_set_font(ft_chinese);
 	draw_text_transformed(2160/2,400,result,3,3,0);
-	
 }
 else
 {

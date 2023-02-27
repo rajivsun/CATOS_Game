@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_key_left",
-  "bbox_bottom": 99,
-  "bbox_left": 0,
-  "bbox_right": 299,
-  "bbox_top": 0,
+  "bbox_bottom": 96,
+  "bbox_left": 3,
+  "bbox_right": 97,
+  "bbox_top": 2,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -20,7 +20,9 @@
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6214d2d9-0b36-4ca3-b78a-26381ca0c77a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1ca8d1cf-563a-4315-b84d-17c8ae4eae3e","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"99676dd4-4b94-43fe-8e10-eddb8a8756c7","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6214d2d9-0b36-4ca3-b78a-26381ca0c77a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":false,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -93,5 +95,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 300,
+  "width": 100,
 }

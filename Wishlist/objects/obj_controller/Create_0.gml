@@ -14,12 +14,13 @@ metro_boss_call = false;
 bar_shaoda_talk = false;
 first_time_citytop = true;
 tutorial = 0;
-camera_scene = true;
+
 repair_ac = false;
 clean_building = false;
 arcade_game = false;
 rcp_game = false;
 dart_game = false;
+bartender_talk = false;
 
 mission = 
 [

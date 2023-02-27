@@ -16,7 +16,7 @@ txt2[0] = [
 
 action = 
 [
-	[cutscene_create,x,y,"system",obj_tutorial],
+	//[cutscene_create,x,y,"system",obj_tutorial],
 	[cutscene_change_variable,obj_fishing_pod,"interactable","true"],
 ];
 

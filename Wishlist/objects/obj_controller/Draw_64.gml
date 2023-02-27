@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 // debug
 if debug == true
 {
@@ -22,3 +23,11 @@ and room != rm_ROBOT_CLEANER
 }
 
 //draw_text(100,300,game_123);
+
+if room == rm_BAR
+{
+	if bartender_talk == true
+	{
+		draw_sprite_ext(spr_healthbar_bottle,0,100,350,4,4,0,c_white,1);
+	}
+}

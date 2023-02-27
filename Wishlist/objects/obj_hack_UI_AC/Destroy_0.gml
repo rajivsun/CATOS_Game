@@ -13,7 +13,8 @@ else if room = rm_CITY_TOP
 {
 	virtual_key_delete(key_1);
 	virtual_key_delete(key_2);
-	obj_controller.repair_ac = true;
+	if inst_broken_ac.broken == false
+		obj_controller.repair_ac = true;
 }
 else if room = rm_METRO_STATION_QUAI
 {

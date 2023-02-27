@@ -11,13 +11,11 @@ if y_buffer <= -2.5
 	sign_speed = -sign_speed;
 }
 
-
 //if room == mission[current_mission][3]
 //{
 //	draw_sprite_ext(spr_mission_sign,0,mission[current_mission][1],mission[current_mission][2]+y_buffer,0.5,0.5,0,c_white,1);
 //	draw_sprite_ext(spr_mission_sign,0,mission[current_mission][1],mission[current_mission][2]-y_buffer,0.5,0.5,0,c_white,1);
 //}
-
 
 // ---------- scan world -----------------------
 if room == rm_CITY_TOP
@@ -28,7 +26,8 @@ if room == rm_CITY_TOP
 		{
 			rot_highlight_sign += 2;
 			//depth = -9999;
-			if collision_point(mouse_x,mouse_y,inst_broken_ac,false,false)
+			
+			if abs(obj_player.x - inst_broken_ac.x) <= 30
 			{
 				highlight_sign_scale = 1;
 				player_scan_world(obj_hack_UI_AC);
@@ -53,7 +52,7 @@ if room == rm_METRO_STATION_QUAI
 		{
 			rot_highlight_sign += 2;
 			//depth = -9999;
-			if collision_point(mouse_x,mouse_y,inst_head_police,false,false)
+			if abs(obj_player.x - inst_head_police.x) <= 30
 			{
 				highlight_sign_scale = 1;
 				player_scan_world(obj_hack_UI_AC);
@@ -75,7 +74,7 @@ if room == rm_BAR
 		if obj_player.scan_world == true
 		{
 			rot_highlight_sign += 2;
-			if collision_point(mouse_x,mouse_y,obj_robot_rcp,false,false)
+			if abs(obj_player.x - obj_robot_rcp.x) <= 30
 			{
 				highlight_sign_scale = 1;
 				player_scan_world(obj_hack_UI_AC);
