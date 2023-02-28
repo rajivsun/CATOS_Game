@@ -149,6 +149,7 @@
     {"name":"obj_cursor","order":22,"path":"objects/obj_cursor/obj_cursor.yy",},
     {"name":"Lovepik_com_400196833_light","order":41,"path":"sprites/Lovepik_com_400196833_light/Lovepik_com_400196833_light.yy",},
     {"name":"spr_rcp_fond","order":4,"path":"sprites/spr_rcp_fond/spr_rcp_fond.yy",},
+    {"name":"spr_token_beer","order":10,"path":"sprites/spr_token_beer/spr_token_beer.yy",},
     {"name":"ft_chinese_big","order":7,"path":"fonts/ft_chinese_big/ft_chinese_big.yy",},
     {"name":"spr_player_child_read","order":2,"path":"sprites/spr_player_child_read/spr_player_child_read.yy",},
     {"name":"to_do_list","order":2,"path":"notes/to_do_list/to_do_list.yy",},
