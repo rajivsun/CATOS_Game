@@ -3,6 +3,7 @@
   "resourceVersion": "1.0",
   "name": "obj_hack_UI_pre",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
@@ -27,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Hack_UI_pre",
+    "path": "sprites/spr_Hack_UI_pre/spr_Hack_UI_pre.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

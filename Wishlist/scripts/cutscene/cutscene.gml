@@ -77,7 +77,7 @@ function cutscene_change_variable(_id,_var,_value){
 	end_scene();
 }
 
-function animation_wait(_obj,_spr,_dur,_loop){
+function cutscene_animation_wait(_obj,_spr,_dur,_loop){
 	
 	//obj_controller.freeze_player = false;
 	//show_debug_message("wtf")

@@ -30,16 +30,12 @@ if room == rm_CITY_TOP
 			if abs(obj_player.x - inst_broken_ac.x) <= 30
 			{
 				highlight_sign_scale = 1;
-				
-				player_scan_world(obj_hack_UI_AC);
+				player_scan_world_pre();
 			}    
 			else
 			{
 				highlight_sign_scale = 0.7;
 			}
-			//draw_set_color(c_aqua);g
-			//draw_circle(x-5,y,r,true);
-			//draw_set_color(c_white);
 			draw_sprite_ext(spr_hightlight,0,inst_broken_ac.x-5,inst_broken_ac.y,highlight_sign_scale,highlight_sign_scale,rot_highlight_sign,c_white,1);
 		}
 	}
@@ -56,7 +52,7 @@ if room == rm_METRO_STATION_QUAI
 			if abs(obj_player.x - inst_head_police.x) <= 30
 			{
 				highlight_sign_scale = 1;
-				player_scan_world(obj_hack_UI_AC);
+				player_scan_world_pre();
 			}    
 			else
 			{
@@ -78,7 +74,7 @@ if room == rm_BAR
 			if abs(obj_player.x - obj_robot_rcp.x) <= 30
 			{
 				highlight_sign_scale = 1;
-				player_scan_world(obj_hack_UI_AC);
+				player_scan_world_pre();
 			}    
 			else
 			{

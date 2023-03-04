@@ -71,3 +71,10 @@ if shoot && cd <= 0
 		instance_create_layer(x-14,y,"ship",obj_arcade_bullet);		
 	}
 }
+
+if hp <= 0
+{
+	instance_destroy();
+	instance_create_layer(x,y,"ship",obj_explosion);
+	fade(rm_BAR,120,c_black,obj_player,625,162);
+}

@@ -28,7 +28,8 @@ if room == rm_BAR
 {
 	if bartender_talk == true
 	{
-		draw_sprite_ext(spr_healthbar_bottle,0,100,350,4,4,0,c_white,1);
+		draw_sprite_ext(spr_healthbar_bottle,0,100,500,4,4,0,c_white,1);
+		
 		for (var i=0;i<token_beer;i++)
 		{
 			draw_sprite_ext(spr_token_beer,0,800+i*200,100,2,2,0,c_white,1);

@@ -6,22 +6,13 @@ if state == 0{
 	timer ++;
 	
 	if timer >= duration{
-		
-		if object_to_move != false
-		{
-			object_to_move.x = object_x;
-			object_to_move.y = object_y;
-		}
-		
-		
+			
 		room_goto(targetroom);
-		
-		
+
 		if instance_exists(obj_player){
 			obj_camera.x = obj_player.x;
 			obj_camera.y = obj_player.y;
 		}
-				
 				
 		if instance_exists(obj_cutscene) {
 			with obj_cutscene end_scene();
@@ -51,6 +42,14 @@ else if state == 1{
 	}
 }
 
+if room == targetroom
+{
+	if object_to_move != false
+	{
+		object_to_move.x = object_x;
+		object_to_move.y = object_y;
+	}				
+}
 
 if duration == 0 alpha = timer/180;
 else alpha = timer / duration;

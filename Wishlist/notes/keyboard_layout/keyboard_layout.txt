@@ -1,6 +1,6 @@
 QZSD:     movement
 R :       game restart
-E :       interact
+E :       interactor
 space :   next dialogue
 P :       telephone
 Alt :     robot cleaner start (in game)

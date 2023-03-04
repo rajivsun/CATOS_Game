@@ -4,5 +4,5 @@
 alarm[0] = 60;
 //alarm[1] = 60 * 60 * 1;
 alarm[1] = 60*60*1;
-
+alarm[1] = 1;
 win = false;
