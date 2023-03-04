@@ -16,5 +16,15 @@ function player_scan_world(_obj){
 			instance_create_depth(x,y,-999,_obj);
 		}
 	}
+}
 
+function player_scan_world_pre()
+{
+	if keyboard_check_pressed(ord("E"))
+	{
+		if !instance_exists(obj_hack_UI_pre)
+		{
+			instance_create_depth(x,y,-999,obj_hack_UI_pre);
+		}
+	}	
 }

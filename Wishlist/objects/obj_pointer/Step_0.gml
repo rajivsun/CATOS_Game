@@ -33,7 +33,7 @@ else
 		}
 	
 		// if click, then launch the flechette
-		if mouse_check_button_pressed(mb_left) and obj_controller.game_mode != "mobile"
+		if mouse_check_button_released(mb_left) // and obj_controller.game_mode != "mobile"
 		and obj_dart_game.flechette_left >= 1 
 		and obj_dart_game.flechette_ready == true
 		{

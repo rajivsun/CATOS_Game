@@ -3,3 +3,6 @@
 
 
 instance_destroy();
+if win == true
+	obj_controller.token_beer++;
+	

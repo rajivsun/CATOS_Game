@@ -21,7 +21,7 @@ arcade_game = false;
 rcp_game = false;
 dart_game = false;
 bartender_talk = false;
-
+token_beer = 0;
 mission = 
 [
 	["clean the building",171,238,rm_CITY_TOP],

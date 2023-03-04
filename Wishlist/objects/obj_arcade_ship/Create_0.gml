@@ -3,7 +3,7 @@
 
 walkspd = 1;
 cd = 0;
-level = 0;
+level = 3;
 
 hp = 100;
 hp_max = 100;

@@ -74,6 +74,7 @@ if over == true
 	if win == true
 	{
 		draw_text_transformed(2160/2,1080/2,"你赢了",3,3,0);
+		
 	}
 	else
 	{

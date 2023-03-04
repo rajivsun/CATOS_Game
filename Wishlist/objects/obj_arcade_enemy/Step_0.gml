@@ -18,7 +18,7 @@ switch state
 		cd--;
 		if cd <= 0
 		{
-			cd = 60;
+			cd = 180;
 			instance_create_layer(x,y,"enemy",obj_aracade_bullet_enemy);
 		}
 		
@@ -28,7 +28,7 @@ switch state
 if y >= room_height or hp <= 0
 {
 	instance_destroy();
-	if random(10) < 1
+	if random(10) < 2
 	{
 		instance_create_layer(x,y,"enemy",obj_arcade_upgrade)
 	}

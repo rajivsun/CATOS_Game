@@ -216,16 +216,19 @@ function player_interact(){
 	
 	if instance_place(x,y,obj_arcade_machine)
 	{
+		if obj_arcade_machine.interactable
 		take_action(obj_arcade_machine.action);
 	}
 	
 	if instance_place(x,y,obj_dart)
 	{
+		if obj_dart.interactable
 		take_action(obj_dart.action);
 	}
 	
 	if instance_place(x,y,obj_robot_rcp)
 	{
+		if obj_robot_rcp.interactable
 		take_action(obj_robot_rcp.action);
 	}
 	if instance_place(x,y,obj_old_bicycle)

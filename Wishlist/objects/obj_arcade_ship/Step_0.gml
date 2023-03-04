@@ -38,6 +38,36 @@ y = y + vspd;
 cd --;
 if shoot && cd <= 0 
 {
-	instance_create_layer(x,y,"ship",obj_arcade_bullet);
 	cd = 10;
+	if level == 0
+	{
+		instance_create_layer(x,y,"ship",obj_arcade_bullet);
+	}
+	else if level == 1
+	{
+		instance_create_layer(x+7,y,"ship",obj_arcade_bullet);
+		instance_create_layer(x-7,y,"ship",obj_arcade_bullet);
+	}
+	else if level == 2
+	{
+		instance_create_layer(x+14,y,"ship",obj_arcade_bullet);
+		instance_create_layer(x,y,"ship",obj_arcade_bullet);		
+		instance_create_layer(x-14,y,"ship",obj_arcade_bullet);		
+	}
+	else if level >= 3
+	{
+		with instance_create_layer(x-14,y,"ship",obj_arcade_bullet)
+		{
+			direction = 120;
+			image_angle = direction-90;
+		}
+		with instance_create_layer(x+14,y,"ship",obj_arcade_bullet)
+		{
+			direction = 60;
+			image_angle = direction-90;
+		}
+		instance_create_layer(x+14,y,"ship",obj_arcade_bullet);
+		instance_create_layer(x,y,"ship",obj_arcade_bullet);		
+		instance_create_layer(x-14,y,"ship",obj_arcade_bullet);		
+	}
 }

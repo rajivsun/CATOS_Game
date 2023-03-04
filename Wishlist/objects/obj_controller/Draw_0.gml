@@ -30,6 +30,7 @@ if room == rm_CITY_TOP
 			if abs(obj_player.x - inst_broken_ac.x) <= 30
 			{
 				highlight_sign_scale = 1;
+				
 				player_scan_world(obj_hack_UI_AC);
 			}    
 			else
