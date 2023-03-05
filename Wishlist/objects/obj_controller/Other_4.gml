@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
 general_room_setup();
 camera_scene = false;
 count2 = 0;

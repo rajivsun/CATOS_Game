@@ -54,6 +54,7 @@ enum portrait
 	policeman = 16,
 	shaoda_big = 17,
 	robot_rcp = 18,
+	feibiaoge = 19,
 }
 
 ls_portrait_name = ds_list_create();
@@ -76,3 +77,4 @@ ds_list_add(ls_portrait_name,"老人");
 ds_list_add(ls_portrait_name,"机器人保安");
 ds_list_add(ls_portrait_name,"少达");
 ds_list_add(ls_portrait_name,"猜拳机器人");
+ds_list_add(ls_portrait_name,"飞镖哥");

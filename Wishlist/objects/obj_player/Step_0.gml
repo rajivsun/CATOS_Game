@@ -19,6 +19,7 @@ player_sprite();
 switch (state){
 	
 	case "scene":
+	
 		if room == rm_CITY_HOME
 		{
 			if scene_on == true
@@ -36,6 +37,7 @@ switch (state){
 				}
 			}
 		}
+		
 		if room == rm_METRO
 		{
 			if !standup
@@ -74,13 +76,13 @@ switch (state){
 	
 		break;
 	
-	case "idle":	
+	case "idle":
 		//--------------- movement --------------------
 		
 		player_run();
 
 		if instance_exists(obj_textbox) or instance_exists(obj_fade)//or obj_controller.cutscene_on == true
-		or instance_exists(obj_rcp_game) or instance_exists(obj_cutscene)
+		or instance_exists(obj_rcp_game) //or instance_exists(obj_cutscene)
 		{
 			sprite_index = spr_idle;
 		}
@@ -88,7 +90,7 @@ switch (state){
 		{
 			// ------------------- interact --------------------
 			nearest =instance_nearest(x,y,obj_interactable);
-			if interact and !scan_world
+			if interact and !scan_world 
 			{
 				player_interact();
 			}

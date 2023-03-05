@@ -4,7 +4,7 @@
   "name": "spr_bar_background_effect",
   "bbox_bottom": 219,
   "bbox_left": 0,
-  "bbox_right": 1599,
+  "bbox_right": 999,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e8cdad46-10f5-441e-8a83-4fb5c4d99198",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ccc4c52e-7f50-4a50-bc65-56b19172b48c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 220,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8b4f5ce1-52cd-488b-bb85-e5898a29f3bf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2141b5d5-6b53-4a73-a840-c503a9673020","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,12 +54,12 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e8cdad46-10f5-441e-8a83-4fb5c4d99198","path":"sprites/spr_bar_background_effect/spr_bar_background_effect.yy",},},},"Disabled":false,"id":"09255dd0-e0e3-4205-9eb2-74536e678b3e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ccc4c52e-7f50-4a50-bc65-56b19172b48c","path":"sprites/spr_bar_background_effect/spr_bar_background_effect.yy",},},},"Disabled":false,"id":"eb71395f-ea4f-4e54-8654-54718bde5988","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 800,
+    "xorigin": 500,
     "yorigin": 110,
   },
   "swatchColours": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1600,
+  "width": 1000,
 }

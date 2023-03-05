@@ -11,7 +11,10 @@ if count >= 180
 
 if alpha <= 0.5
 {
-	fade(rm_VILL_RIVER,120);
+	if room == rm_PRE
+		fade(rm_VILL_RIVER,120);
+	else if room == rm_BAR_pre
+		fade(rm_BAR_drunk,180);
 }
 
 

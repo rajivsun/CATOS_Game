@@ -28,11 +28,15 @@ if room == rm_BAR
 {
 	if bartender_talk == true
 	{
-		draw_sprite_ext(spr_healthbar_bottle,0,100,500,4,4,0,c_white,1);
+		draw_sprite_ext(spr_healthbar_bottle,drink_beer,100,500,4,4,0,c_white,1);
 		
 		for (var i=0;i<token_beer;i++)
 		{
-			draw_sprite_ext(spr_token_beer,0,800+i*200,100,2,2,0,c_white,1);
+			draw_sprite_ext(spr_token_beer,0,1750+i*150,100,2,2,0,c_white,1);
+		}
+		for (var i=0;i<drink_beer;i++)
+		{
+			draw_sprite_ext(spr_token_beer_remove,0,1750+i*150,100,2,2,0,c_white,1);
 		}
 	}
 }

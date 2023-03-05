@@ -3,6 +3,15 @@
 
 
 instance_destroy();
-if win == true
-	obj_controller.token_beer++;
+
+
+if win == true  
+{
+	if obj_controller.rcp_game_win == false
+	{
+		obj_controller.reward_beer = true;
+		obj_controller.rcp_game_win = true;
+	}
+	obj_robot_rcp.interactable = false;	
 	
+}

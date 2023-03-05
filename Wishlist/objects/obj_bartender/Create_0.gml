@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-first_time = true;
+//first_time = true;
 state = "idle";
 action = 
 [

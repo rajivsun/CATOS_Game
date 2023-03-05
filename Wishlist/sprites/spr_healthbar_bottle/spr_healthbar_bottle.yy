@@ -14,6 +14,9 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9cacd162-3e4a-4934-8a81-a0e4bcd31c29",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"77d023cb-e502-477c-9f49-de6079b83991",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7557fd66-abe4-4ef4-a317-4f8ba54aedec",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7afd0f9-ff20-4474-8499-af14c355f648",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -45,7 +48,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 4.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -57,6 +60,9 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9cacd162-3e4a-4934-8a81-a0e4bcd31c29","path":"sprites/spr_healthbar_bottle/spr_healthbar_bottle.yy",},},},"Disabled":false,"id":"4023c2c8-a4fe-45f0-83fb-fea4e6ddd0ad","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"77d023cb-e502-477c-9f49-de6079b83991","path":"sprites/spr_healthbar_bottle/spr_healthbar_bottle.yy",},},},"Disabled":false,"id":"691f032e-9bb7-4904-85b3-036d0bb12332","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7557fd66-abe4-4ef4-a317-4f8ba54aedec","path":"sprites/spr_healthbar_bottle/spr_healthbar_bottle.yy",},},},"Disabled":false,"id":"c35ca147-2026-46b0-a42a-9475a137f91b","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7afd0f9-ff20-4474-8499-af14c355f648","path":"sprites/spr_healthbar_bottle/spr_healthbar_bottle.yy",},},},"Disabled":false,"id":"942837f4-e184-45e9-851e-165d738f612b","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

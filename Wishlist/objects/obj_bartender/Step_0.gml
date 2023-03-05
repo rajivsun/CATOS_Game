@@ -1,24 +1,45 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if first_time exit;
+if obj_controller.bartender_talk == false exit;
 if obj_controller.drink_beer < obj_controller.token_beer state = "enough"
 else state = "not_enough";
 
 switch state
 {
 	case "enough":
-	
-		action=
-		[
-		[cutscene_fade_in,60,c_black],
-		[cutscene_change_position,obj_player,812,162],
-		[cutscene_change_variable,obj_player,"image_xscale","-1"],
-		[cutscene_fade_out,60,c_black],
-		[cutscene_animation_wait,obj_player,spr_player_drink,2,false],
-		[cutscene_fade_in,60,c_black],		
-		[cutscene_fade_out,60,c_black],		
-		];
+		var beer_count = obj_controller.drink_beer + 1
+		if beer_count < 3
+		{
+			action=
+			[
+				[cutscene_fade_in,60,c_black],
+				[cutscene_change_position,obj_player,812,162],
+				[cutscene_change_variable,obj_player,"image_xscale","-1"],
+				[cutscene_change_variable,obj_player,"state","scene"],
+				[cutscene_fade_out,60,c_black],
+				[cutscene_animation_wait,obj_player,spr_player_drink,3,false],
+				[cutscene_fade_in,60,c_black],		
+				[cutscene_change_variable,obj_player,"state","idle"],
+				[cutscene_fade_out,60,c_black],		
+				[cutscene_change_variable,obj_controller,"drink_beer",beer_count],
+			];
+		}
+		else
+		{
+			action=
+			[
+				[cutscene_fade_in,60,c_black],
+				[cutscene_change_position,obj_player,812,162],
+				[cutscene_change_variable,obj_player,"image_xscale","-1"],
+				[cutscene_change_variable,obj_player,"state","scene"],
+				[cutscene_fade_out,60,c_black],
+				[cutscene_animation_wait,obj_player,spr_player_drink,3,false],
+				[cutscene_change_variable,obj_player,"state","idle"],
+				[cutscene_fade,rm_BAR_pre,180],		
+
+			];			
+		}
 		
 		txt[1] = 
 		[

@@ -240,4 +240,9 @@ function player_interact(){
 		if obj_elevator_skycraper.interactable
 			take_action(obj_elevator_skycraper.action);
 	}
+	if instance_place(x,y,obj_door_bar_wc)
+	{
+		if obj_door_bar_wc.interactable
+			take_action(obj_door_bar_wc.action);
+	}
 }

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// ----- initialization ----------
+// --------- initialization ----------
 
 y_buffer = 0;
 sign_speed = 0.1;
@@ -15,14 +15,19 @@ bar_shaoda_talk = false;
 first_time_citytop = true;
 tutorial = 0;
 
+reward_beer = false;
 repair_ac = false;
 clean_building = false;
 arcade_game = false;
 rcp_game = false;
 dart_game = false;
 bartender_talk = false;
-token_beer = 1;
-drink_beer = 0;
+token_beer = 3;
+drink_beer = 2;
+arcade_win = false;
+dart_game_win = false;
+rcp_game_win = false;
+
 mission = 
 [
 	["clean the building",171,238,rm_CITY_TOP],

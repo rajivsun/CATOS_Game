@@ -48,6 +48,12 @@ if room == rm_METRO{
 
 if room == rm_BAR
 {
+	if reward_beer = true
+	{
+		reward_beer = false;
+		alarm[0] = 60; // reward showing delay
+		//instance_create_layer(x,y,"system",obj_reward_beer_token);
+	}
 	//if !bar_shaoda_talk
 	//{
 	//	if obj_player.x >= 200
@@ -59,6 +65,10 @@ if room == rm_BAR
 	//		}
 	//	}
 	//}
+}
+if room == rm_BAR_drunk
+{
+	
 }
 
 if room == rm_CITY_TOP

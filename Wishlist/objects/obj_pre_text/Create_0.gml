@@ -3,7 +3,10 @@
 
 alpha = 1;
 count = 0;
-text = "池塘边的榕树上，知了在声声的叫着夏天";
+if room == rm_PRE
+	text = "池塘边的榕树上，知了在声声的叫着夏天";
+else if room == rm_BAR_pre
+	text = "我...是不是有点喝得太多了...";
 
 
 
