@@ -5,7 +5,7 @@ draw_self();
 
 //talk_sign_show = false;
 
-if instance_exists(obj_player)
+if instance_exists(obj_player) 
 {
 	if obj_player.scan_world == false
 	sign_show(spr_talksign,0.2,0.2);

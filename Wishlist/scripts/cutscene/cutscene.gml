@@ -190,3 +190,12 @@ function cutscene_text(_txt,_current_node)
 	}
 	end_scene();
 }
+
+function cutscene_cellphone(_txt,_current_node)
+{
+	if !instance_exists(obj_cellphone_call)
+	{
+		create_cellphone(_txt,_current_node);
+	}
+	end_scene();
+}

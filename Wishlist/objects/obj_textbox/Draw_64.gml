@@ -80,6 +80,11 @@ if ! destroying
 //draw portrait
 if ! destroying
 {
+	// draw call interface
+	if call == true
+	{
+		draw_sprite_ext(spr_call_portrait,0,portrait_x,portrait_y,5,5,0,c_white,1);
+	}
 	draw_sprite_ext(spr_portrait,txt[current_node][page][1]-1,portrait_x,portrait_y,xscale*3,xscale*3,0,c_white,1);
 }
 //draw options
@@ -105,7 +110,6 @@ if txt[current_node][page+1][0] == 0 and draw_char == text_length[page]
 		}
 	}
 }
-
 
 
 //draw_text(100,100,page);

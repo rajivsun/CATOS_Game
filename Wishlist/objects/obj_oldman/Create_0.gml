@@ -12,9 +12,15 @@ if room == rm_METRO_SCENE	state = "walk";
 
 if room == rm_METRO_STATION_QUAI
 {
+	txt2[0] = 
+	[
+	["是刚刚遇到的老大爷，我要想办法帮帮他。",portrait.player],
+	[1,0],
+	];
 	action2 =
 	[
 		[cutscene_change_variable,obj_camera,"follow",obj_player],
+		[cutscene_text,txt2,0],
 	]
 	
 	txt[0] = 

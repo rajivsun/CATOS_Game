@@ -7,10 +7,10 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 	{
 		case "0":
 			count ++;
-			x = 380;y=290;
+			x = 100;y=240;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
-			camera_set_view_size(cam,cam_scene_size_x,cam_scene_size_y);
-			if count >= 300
+			camera_set_view_size(cam,cam_scene_size_x*0.9,cam_scene_size_y*0.9);
+			if count >= 280
 			{
 				state = "1";
 				count = 0;
@@ -18,8 +18,8 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 			break;
 			
 		case "1":
-			x = obj_old_farmer.x;
-			y = obj_old_farmer.y-dist_player_cam;
+			x = 0;
+			y = 0;
 			x = clamp(x,view_w_half,room_width-view_w_half);
 			y = clamp(y,view_h_half,room_height-view_h_half);
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
@@ -34,8 +34,8 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 			break;
 			
 		case "2":
-			x = 400;
-			y = 180;
+			x = 300;
+			y = 150;
 			//x = clamp(x,view_w_half,room_width-view_w_half);
 			//y = clamp(y,view_h_half,room_height-view_h_half);
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
@@ -51,12 +51,12 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 			
 		case "3":
 			count ++;
-			x = obj_old_farmer.x+170;
-			y = 200;
+			x = obj_old_farmer.x;
+			y = 140;
 			//x = clamp(x,view_w_half,room_width-view_w_half);
 			//y = clamp(y,view_h_half,room_height-view_h_half);
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
-			camera_set_view_size(cam,cam_scene_size_x*1.2,cam_scene_size_y*1.2);
+			camera_set_view_size(cam,cam_scene_size_x*1,cam_scene_size_y*1);
 			obj_old_farmer.state = "run";
 		
 			if count >= 300

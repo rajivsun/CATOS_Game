@@ -10,7 +10,7 @@ switch state
 		
 	case "run":
 	
-		hspeed = 0.3;
+		hspeed = 0.2;
 		sprite_index = spr_old_farmer_walk;
 		if x >= obj_player.x+20 and interact == false
 		{
@@ -20,7 +20,7 @@ switch state
 			state = "stop";
 		}	
 		
-		if x >= 400 and kid == false
+		if x >= 300 and kid == false
 		{
 			obj_lili_little.state = "idle";
 			//obj_shaoda_little.state = "run";

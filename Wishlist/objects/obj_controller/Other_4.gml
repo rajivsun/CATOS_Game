@@ -1,10 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+if room == rm_VILL_RIVER or room == rm_BAR
+	camera_scene = true;
+else camera_scene = false;
 
 general_room_setup();
-camera_scene = false;
+count = 0;
 count2 = 0;
 play_scene = false;
 play_scene2 = false;
@@ -17,7 +19,7 @@ if room == rm_FOREST
 if room == rm_VILL_RIVER
 {
 	audio_play_sound(mc_itwontmatter,99,true);
-	if vill_scene == 0 instance_create_layer(10,147,"NPC_near",obj_old_farmer);
+	if vill_scene == 0 instance_create_layer(120,147,"NPC_near",obj_old_farmer);
 }
 
 key_next = virtual_key_add(1800,50,100,100,vk_add)
@@ -133,7 +135,7 @@ if room == rm_CITY_TOP
 	
 	action = 
 	[
-	[cutscene_text,txt,0],	
+	[cutscene_cellphone,txt,0],	
 	]
 }
 

@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 // -------- textbox paramters -------------
+call = false;
 spr_box = spr_textbox;
 textbox_x = display_get_gui_width()/2;
 textbox_y = 200;

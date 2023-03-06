@@ -90,7 +90,7 @@ switch (state){
 		{
 			// ------------------- interact --------------------
 			nearest =instance_nearest(x,y,obj_interactable);
-			if interact and !scan_world 
+			if interact and !scan_world and !instance_exists(obj_cellphone_call)
 			{
 				player_interact();
 			}
@@ -100,6 +100,7 @@ switch (state){
 				if room == rm_CITY_TOP or room == rm_METRO_STATION_QUAI or room == rm_BAR
 				player_scan_switch();
 			}
+			
 			if scan_world == true
 			{
 				fx_hack_thres = max( 0,fx_hack_thres - 0.02);

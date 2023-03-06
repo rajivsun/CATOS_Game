@@ -66,6 +66,7 @@ if room == rm_BAR
 	//	}
 	//}
 }
+
 if room == rm_BAR_drunk
 {
 	
@@ -73,16 +74,21 @@ if room == rm_BAR_drunk
 
 if room == rm_CITY_TOP
 {
-	if clean_building == true and repair_ac == true obj_elevator_skycraper.interactable = true;
-	if first_time_citytop == true
+	count ++;
+	if count >= 120
 	{
-		if play_scene == false
+		if clean_building == true and repair_ac == true obj_elevator_skycraper.interactable = true;
+		if first_time_citytop == true
 		{
-			play_scene = true;
-			take_action(action);
+			if play_scene == false
+			{
+				play_scene = true;
+				take_action(action);
+			}
 		}
 	}
 }
+
 if room == rm_ROBOT_CLEANER
 {
 	if play_scene == false

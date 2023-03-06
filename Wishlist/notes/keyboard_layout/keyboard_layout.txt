@@ -12,3 +12,4 @@ up/down:  fishing game up and down
 num789:   rcp game
 num1-6:   rcp program slots
 num1/2:   textbox options
+DEL   :   pick up phone

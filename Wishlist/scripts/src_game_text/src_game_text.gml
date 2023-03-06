@@ -10,9 +10,19 @@ function src_game_text(_text_id){
 	}
 }
 
-function create_textbox(_txt,_current_node)
+function create_textbox(_txt,_current_node,_call=false)
 {
 	with (instance_create_depth(0,0,-9999,obj_textbox))
+	{
+		txt = _txt;
+		current_node = _current_node;
+		call=_call;
+	}
+}
+
+function create_cellphone(_txt,_current_node)
+{
+	with (instance_create_depth(0,0,-9999,obj_cellphone_call))
 	{
 		txt = _txt;
 		current_node = _current_node;
