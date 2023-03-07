@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // --------- initialization ----------
-
+bar_scene = false;
 y_buffer = 0;
 sign_speed = 0.1;
 current_mission = 0;
@@ -43,3 +43,4 @@ robot_cleaner_game_level_all = 3;
 if debug
 depth = -9999;
 
+name_list();

@@ -20,11 +20,13 @@ function create_textbox(_txt,_current_node,_call=false)
 	}
 }
 
-function create_cellphone(_txt,_current_node)
+function create_cellphone(_txt,_current_node,_portrait)
 {
 	with (instance_create_depth(0,0,-9999,obj_cellphone_call))
 	{
 		txt = _txt;
 		current_node = _current_node;
+		portrait_show = _portrait;
+		
 	}
 }

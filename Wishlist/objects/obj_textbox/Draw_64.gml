@@ -112,6 +112,7 @@ if txt[current_node][page+1][0] == 0 and draw_char == text_length[page]
 }
 
 
+draw_sprite_ext(spr_next_dialogue,0,1950,550,1.5,1.5,0,c_white,1); 
 //draw_text(100,100,page);
 //virtual_key_show(key_1);
 //virtual_key_show(key_2);

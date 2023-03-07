@@ -40,6 +40,7 @@ switch (state){
 		
 		if room == rm_METRO
 		{
+			image_xscale = 1;
 			if !standup
 			{
 				alpha_layer = min(1,alpha_layer+0.01);

@@ -1,8 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if room == rm_VILL_RIVER or room == rm_BAR
+key_next = virtual_key_add(1800,50,100,100,vk_add)
+
+if room == rm_VILL_RIVER or (room == rm_BAR and bar_scene == false)
+{
 	camera_scene = true;
+	bar_scene = true;
+}	
 else camera_scene = false;
 
 general_room_setup();
@@ -22,7 +27,7 @@ if room == rm_VILL_RIVER
 	if vill_scene == 0 instance_create_layer(120,147,"NPC_near",obj_old_farmer);
 }
 
-key_next = virtual_key_add(1800,50,100,100,vk_add)
+
 //virtual_key_show(key_next)
 
 if room == rm_ROBOT_CLEANER
@@ -50,7 +55,7 @@ if room = rm_METRO
 	
 	action3 = 
 	[
-	[cutscene_text,txt2,0],
+	[cutscene_cellphone,txt2,0,portrait.shaoda_big],
 	];
 	
 	action2 = 
@@ -88,7 +93,7 @@ if room = rm_METRO
 	[2,action2],
 	];
 	action = [
-	[cutscene_text,txt,0],
+	[cutscene_cellphone,txt,0,portrait.boss],
 	]
 }
 
@@ -135,7 +140,7 @@ if room == rm_CITY_TOP
 	
 	action = 
 	[
-	[cutscene_cellphone,txt,0],	
+	[cutscene_cellphone,txt,0,portrait.boss],	
 	]
 }
 

@@ -1,7 +1,7 @@
 /// @description setup camera
 // You can write your code in this editor
 
-
+alpha = 1;
 cam = view_camera[0];
 cam_scene_size_x = 160;
 cam_scene_size_y = 80;

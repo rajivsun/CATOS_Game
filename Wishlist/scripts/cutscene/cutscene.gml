@@ -191,11 +191,11 @@ function cutscene_text(_txt,_current_node)
 	end_scene();
 }
 
-function cutscene_cellphone(_txt,_current_node)
+function cutscene_cellphone(_txt,_current_node,_portrait)
 {
 	if !instance_exists(obj_cellphone_call)
 	{
-		create_cellphone(_txt,_current_node);
+		create_cellphone(_txt,_current_node,_portrait);
 	}
 	end_scene();
 }

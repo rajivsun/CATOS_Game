@@ -73,14 +73,13 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 	}
 }
 
-
 if room == rm_BAR && obj_controller.camera_scene == true
 {
 	switch state 
 	{
 		case "0":
 			count ++;
-			x = 480; y = 210;
+			x = 370; y = 155;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 			camera_set_view_size(cam,cam_scene_size_x*1.5,cam_scene_size_y*1.5);
 			if count >= 300
@@ -94,9 +93,9 @@ if room == rm_BAR && obj_controller.camera_scene == true
 			
 		case "1":
 			count ++;
-			x = 650; y = 210;
+			x = 660; y = 165;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
-			camera_set_view_size(cam,cam_scene_size_x*1.5,cam_scene_size_y*1.5);
+			camera_set_view_size(cam,cam_scene_size_x*1.2,cam_scene_size_y*1.2);
 			if count >= 300
 			{
 				state = "2";
@@ -108,9 +107,9 @@ if room == rm_BAR && obj_controller.camera_scene == true
 			
 		case "2":
 			count ++;
-			x = 870;y=220;
+			x = 790;y=155;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
-			camera_set_view_size(cam,cam_scene_size_x*1.2,cam_scene_size_y*1.2);
+			camera_set_view_size(cam,cam_scene_size_x*1.5,cam_scene_size_y*1.5);
 			if count >= 180
 			{
 				state = "2.5";

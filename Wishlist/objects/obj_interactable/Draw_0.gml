@@ -4,7 +4,7 @@
 draw_self();
 if instance_exists(obj_player)
 {
-	if obj_player.scan_world == false
+	if obj_player.scan_world == false or instance_exists(obj_cellphone_call)
 	sign_show(spr_interact_sign,0.12,0.12);
 }
 
