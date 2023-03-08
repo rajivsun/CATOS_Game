@@ -75,6 +75,25 @@ switch (state){
 			}
 		}
 	
+		if room == rm_BAR_drunk
+		{
+			count ++;
+			sprite_index = spr_player_standup_drunk;
+			if count <= 120
+			{
+				image_speed = 0;
+			}
+			else 
+			{
+				image_speed = 1;
+				if image_index >= image_number - 1
+				{
+					state = "idle";
+					count = 0;
+				}
+			}
+		}
+		
 		break;
 	
 	case "idle":

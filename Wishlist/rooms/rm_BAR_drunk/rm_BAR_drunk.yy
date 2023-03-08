@@ -12,7 +12,6 @@
     {"name":"inst_41A930D9_5","path":"rooms/rm_BAR_drunk/rm_BAR_drunk.yy",},
     {"name":"inst_5AA3CF45_2","path":"rooms/rm_BAR_drunk/rm_BAR_drunk.yy",},
     {"name":"inst_1B84A3D1_1","path":"rooms/rm_BAR_drunk/rm_BAR_drunk.yy",},
-    {"name":"inst_37453719_1","path":"rooms/rm_BAR_drunk/rm_BAR_drunk.yy",},
     {"name":"inst_622EB190_1","path":"rooms/rm_BAR_drunk/rm_BAR_drunk.yy",},
     {"name":"inst_6C1B9A20_1","path":"rooms/rm_BAR_drunk/rm_BAR_drunk.yy",},
     {"name":"inst_584B9BF1_1","path":"rooms/rm_BAR_drunk/rm_BAR_drunk.yy",},
@@ -26,9 +25,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"player","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AA3CF45_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":804.0,"y":162.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37453719_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shaoda_big","path":"objects/obj_shaoda_big/obj_shaoda_big.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":671.0,"y":130.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_2","depth":300,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.01",},
         {"name":"g_Distort2Speed","type":0,"value":"0.025",},

@@ -353,6 +353,7 @@
     {"name":"spr_street_bar_FAR","order":2,"path":"sprites/spr_street_bar_FAR/spr_street_bar_FAR.yy",},
     {"name":"spr_player_home_lay","order":2,"path":"sprites/spr_player_home_lay/spr_player_home_lay.yy",},
     {"name":"obj_wardrobe","order":3,"path":"objects/obj_wardrobe/obj_wardrobe.yy",},
+    {"name":"spr_player_standup_drunk","order":14,"path":"sprites/spr_player_standup_drunk/spr_player_standup_drunk.yy",},
     {"name":"obj_terminal_metro_station_UI","order":8,"path":"objects/obj_terminal_metro_station_UI/obj_terminal_metro_station_UI.yy",},
     {"name":"obj_bar_man_1","order":15,"path":"objects/obj_bar_man_1/obj_bar_man_1.yy",},
     {"name":"spr_robot_rcp_p","order":6,"path":"sprites/spr_robot_rcp_p/spr_robot_rcp_p.yy",},

@@ -410,6 +410,7 @@
     {"id":{"name":"spr_street_bar_FAR","path":"sprites/spr_street_bar_FAR/spr_street_bar_FAR.yy",},},
     {"id":{"name":"spr_player_home_lay","path":"sprites/spr_player_home_lay/spr_player_home_lay.yy",},},
     {"id":{"name":"obj_wardrobe","path":"objects/obj_wardrobe/obj_wardrobe.yy",},},
+    {"id":{"name":"spr_player_standup_drunk","path":"sprites/spr_player_standup_drunk/spr_player_standup_drunk.yy",},},
     {"id":{"name":"obj_terminal_metro_station_UI","path":"objects/obj_terminal_metro_station_UI/obj_terminal_metro_station_UI.yy",},},
     {"id":{"name":"obj_bar_man_1","path":"objects/obj_bar_man_1/obj_bar_man_1.yy",},},
     {"id":{"name":"spr_robot_rcp_p","path":"sprites/spr_robot_rcp_p/spr_robot_rcp_p.yy",},},
@@ -632,6 +633,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_BAR_drunk","path":"rooms/rm_BAR_drunk/rm_BAR_drunk.yy",},},
     {"roomId":{"name":"rm_START","path":"rooms/rm_START/rm_START.yy",},},
     {"roomId":{"name":"rm_BAR","path":"rooms/rm_BAR/rm_BAR.yy",},},
     {"roomId":{"name":"rm_METRO","path":"rooms/rm_METRO/rm_METRO.yy",},},
@@ -639,7 +641,6 @@
     {"roomId":{"name":"rm_METRO_STATION_QUAI","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},},
     {"roomId":{"name":"rm_VILL_RIVER","path":"rooms/rm_VILL_RIVER/rm_VILL_RIVER.yy",},},
     {"roomId":{"name":"rm_ELEVATOR_INSIDE","path":"rooms/rm_ELEVATOR_INSIDE/rm_ELEVATOR_INSIDE.yy",},},
-    {"roomId":{"name":"rm_BAR_drunk","path":"rooms/rm_BAR_drunk/rm_BAR_drunk.yy",},},
     {"roomId":{"name":"rm_DART","path":"rooms/rm_DART/rm_DART.yy",},},
     {"roomId":{"name":"rm_METRO_SCENE","path":"rooms/rm_METRO_SCENE/rm_METRO_SCENE.yy",},},
     {"roomId":{"name":"rm_VILL_RIVER_travel","path":"rooms/rm_VILL_RIVER_travel/rm_VILL_RIVER_travel.yy",},},

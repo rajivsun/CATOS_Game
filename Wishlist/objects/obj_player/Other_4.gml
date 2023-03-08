@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+count = 0;
 if room == rm_METRO
 {
 	var lay_id = layer_get_id("black");
@@ -27,4 +27,11 @@ if room == rm_CITY_HOME
 	[cutscene_change_variable,obj_camera,"scene_on","false"],
 	[cutscene_text,txt,0],
 	]
+}
+
+if room == rm_BAR_drunk
+{
+	state = "scene";
+	
+	
 }
