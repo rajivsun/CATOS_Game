@@ -32,6 +32,16 @@ if room == rm_CITY_HOME
 if room == rm_BAR_drunk
 {
 	state = "scene";
+	txt[0] = 
+	[
+	["我刚刚是怎么了...",portrait.player],
+	["头好晕啊，大家人都去哪了？",portrait.player],
+	[1,0],
+	];
 	
+	action = [
+	[cutscene_change_variable,obj_controller,"camera_scene","false"],
+	[cutscene_text,txt,0],
+	]	
 	
 }

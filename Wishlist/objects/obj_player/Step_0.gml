@@ -90,6 +90,7 @@ switch (state){
 				{
 					state = "idle";
 					count = 0;
+					take_action(action);
 				}
 			}
 		}

@@ -134,6 +134,68 @@ if room == rm_BAR && obj_controller.camera_scene == true
 	}
 }
 
+if room == rm_BAR_drunk && obj_controller.camera_scene == true
+{
+	switch state
+	{
+		//case "0":
+		//	x = 350; y = 170;
+		//	//camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+		//	camera_set_view_size(cam,cam_scene_size_x*1.5,cam_scene_size_y*1.5);
+		//	if count >= 300
+		//	{
+		//		state = "1";
+		//		count = 0;
+		//		//obj_controller.camera_scene = false;
+		//		//take_action(obj_shaoda_big.action);
+		//	}
+		//	state = "1";
+		//	break;
+		case "0":
+			//update destination
+			xTo = follow.x;
+			yTo = follow.y-dist_player_cam;	
+	
+			//camera zoom in 
+			if instance_exists(obj_textbox) and cam_h >= 230 
+			and room != rm_CITY_HOME
+			{
+				camera_set_view_size(cam,
+				lerp(camera_get_view_width(cam),cam_w*0.7,0.05),
+				lerp(camera_get_view_height(cam),cam_h*0.7,0.05));
+		
+				yTo = follow.y-30;	
+			}
+			else
+			{
+				camera_set_view_size(cam,
+				lerp(camera_get_view_width(cam),cam_w,0.05),
+				lerp(camera_get_view_height(cam),cam_h,0.05));
+			}
+	
+			//update object position
+			x += (xTo - x)/25;
+			y += (yTo - y)/25;
+
+			x = clamp(x,view_w_half,room_width-view_w_half);
+			y = clamp(y,view_h_half,room_height-view_h_half);
+
+			x += random_range( - shake_remain,shake_remain);
+			y += random_range( - shake_remain,shake_remain);
+			shake_remain = max( 0 , shake_remain - ((1/shake_length)*shake_magnitude));
+
+			view_w_half = camera_get_view_width(cam)/2;
+			view_h_half = camera_get_view_height(cam)/2;
+
+			//updata camera view
+			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);		
+			
+		
+			break;
+		
+	}
+}
+
 else if room == rm_METRO_SCENE or room == rm_VILL_RIVER_travel or room == rm_VILL_RIVER_123
 {
 	x = xstart;

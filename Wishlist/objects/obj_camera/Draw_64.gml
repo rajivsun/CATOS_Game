@@ -15,3 +15,6 @@ draw_rectangle(0,0,2500,150,false);
 draw_rectangle(0,930,2500,2200,false);
 draw_set_color(c_white);
 draw_set_alpha(1);
+
+//draw_text(100,200,x);
+//draw_text(100,220,y)
