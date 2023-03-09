@@ -78,10 +78,12 @@ if room == rm_BAR && obj_controller.camera_scene == true
 	switch state 
 	{
 		case "0":
+			
 			count ++;
-			x = 370; y = 155;
+			x = 280; y = 115;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 			camera_set_view_size(cam,cam_scene_size_x*1.5,cam_scene_size_y*1.5);
+			
 			if count >= 300
 			{
 				state = "1";
@@ -93,7 +95,7 @@ if room == rm_BAR && obj_controller.camera_scene == true
 			
 		case "1":
 			count ++;
-			x = 660; y = 165;
+			x = 550; y = 115;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 			camera_set_view_size(cam,cam_scene_size_x*1.2,cam_scene_size_y*1.2);
 			if count >= 300
@@ -107,7 +109,7 @@ if room == rm_BAR && obj_controller.camera_scene == true
 			
 		case "2":
 			count ++;
-			x = 790;y=155;
+			x = 700;y=115;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 			camera_set_view_size(cam,cam_scene_size_x*1.5,cam_scene_size_y*1.5);
 			if count >= 180
@@ -120,7 +122,6 @@ if room == rm_BAR && obj_controller.camera_scene == true
 			break;
 			
 		case "3":
-
 			x = follow.x; y = follow.y;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 			camera_set_view_size(cam,cam_scene_size_x*1.2,cam_scene_size_y*1.2);	
@@ -129,7 +130,7 @@ if room == rm_BAR && obj_controller.camera_scene == true
 			lerp(camera_get_view_height(cam),cam_h,0.05));
 			x = clamp(x,view_w_half,room_width-view_w_half);
 			y = clamp(y,view_h_half,room_height-view_h_half);
-			obj_controller.camera_scene = false;
+			//obj_controller.camera_scene = false;
 			break;
 	}
 }
@@ -202,6 +203,7 @@ else if room == rm_METRO_SCENE or room == rm_VILL_RIVER_travel or room == rm_VIL
 	y = ystart;
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
+
 else
 {
 	if instance_exists(follow)
