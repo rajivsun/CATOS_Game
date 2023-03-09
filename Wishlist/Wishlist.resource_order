@@ -88,6 +88,7 @@
     {"name":"obj_lifter","order":10,"path":"objects/obj_lifter/obj_lifter.yy",},
     {"name":"ft_number","order":4,"path":"fonts/ft_number/ft_number.yy",},
     {"name":"obj_stone_paintput","order":8,"path":"objects/obj_stone_paintput/obj_stone_paintput.yy",},
+    {"name":"mc_jazz","order":2,"path":"sounds/mc_jazz/mc_jazz.yy",},
     {"name":"spr_player_child_walk","order":3,"path":"sprites/spr_player_child_walk/spr_player_child_walk.yy",},
     {"name":"spr_key_right","order":1,"path":"sprites/spr_key_right/spr_key_right.yy",},
     {"name":"spr_rcp_rock","order":1,"path":"sprites/spr_rcp_rock/spr_rcp_rock.yy",},

@@ -117,6 +117,7 @@
     {"id":{"name":"obj_lifter","path":"objects/obj_lifter/obj_lifter.yy",},},
     {"id":{"name":"ft_number","path":"fonts/ft_number/ft_number.yy",},},
     {"id":{"name":"obj_stone_paintput","path":"objects/obj_stone_paintput/obj_stone_paintput.yy",},},
+    {"id":{"name":"mc_jazz","path":"sounds/mc_jazz/mc_jazz.yy",},},
     {"id":{"name":"spr_player_child_walk","path":"sprites/spr_player_child_walk/spr_player_child_walk.yy",},},
     {"id":{"name":"spr_key_right","path":"sprites/spr_key_right/spr_key_right.yy",},},
     {"id":{"name":"spr_rcp_rock","path":"sprites/spr_rcp_rock/spr_rcp_rock.yy",},},

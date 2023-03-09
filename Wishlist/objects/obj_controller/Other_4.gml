@@ -28,8 +28,6 @@ if room == rm_VILL_RIVER
 }
 
 
-//virtual_key_show(key_next)
-
 if room == rm_ROBOT_CLEANER
 {
 	instance_create_layer(x,y,"system",obj_robot_cleaner_game);
@@ -99,6 +97,7 @@ if room = rm_METRO
 
 if room = rm_BAR
 {
+	audio_play_sound(mc_jazz,99,true);
 	action2 =
 	[
 		[cutscene_change_variable,obj_camera,"follow",obj_player],
