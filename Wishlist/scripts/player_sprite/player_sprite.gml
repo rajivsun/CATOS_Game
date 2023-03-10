@@ -28,6 +28,7 @@ function player_sprite(){
 		}
 	}
 	else if room == rm_VILL_RIVER or room == rm_VILL_RIVER_123 or room == rm_VILL_RIVER_douji
+	or room == rm_OLD_HOME
 	{
 		scale = 1;
 		spr_idle = spr_player_child_idle;

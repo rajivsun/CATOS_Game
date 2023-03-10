@@ -4,6 +4,7 @@
 key_next = virtual_key_add(1800,50,100,100,vk_add)
 
 if room == rm_VILL_RIVER or (room == rm_BAR and bar_scene == false) or room == rm_BAR_drunk
+//or room == rm_OLD_HOME
 {
 	camera_scene = true;
 	bar_scene = true;

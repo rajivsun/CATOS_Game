@@ -245,4 +245,9 @@ function player_interact(){
 		if obj_door_bar_wc.interactable
 			take_action(obj_door_bar_wc.action);
 	}
+	if instance_place(x,y,obj_tudigong_toy)
+	{
+		if obj_tudigong_toy.interactable
+			take_action(obj_tudigong_toy.action);
+	}
 }
