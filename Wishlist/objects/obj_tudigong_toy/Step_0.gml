@@ -16,6 +16,8 @@ switch state
 			instance_create_layer(73,100,"NPC",obj_tudigong);
 			count = 0;
 			state = "1";
+			instance_destroy();
+			instance_create_layer(73,120,"effect",obj_reveal_smoke);
 		}
 	}
 	break;
@@ -27,7 +29,6 @@ switch state
 	if count >= 60
 	{
 		state = "3";
-		 
 	}
 	break;
 

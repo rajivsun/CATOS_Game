@@ -8,5 +8,5 @@ state = "0"
 action =
 [
 	[cutscene_change_variable,id,"reveal",true],
-	//[cutscene_create,73,100,"object_near",obj_tudigong],
+	//[cutscene_create,73,100,"NPC",obj_reveal_smoke],
 ];

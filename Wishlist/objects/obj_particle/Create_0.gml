@@ -55,5 +55,5 @@ part_type_alpha3(particletype_reveal_smoke,1,0,0);
 part_type_orientation(particletype_reveal_smoke,0,359,0,0,0);
 part_type_speed(particletype_reveal_smoke,0.5,0.7 ,0,0);
 part_type_direction(particletype_reveal_smoke,90,90,0,0);
-part_type_color3(particletype_reveal_smoke,c_gray,c_ltgray,c_dkgray);
+part_type_color3(particletype_reveal_smoke,c_gray,c_olive,c_dkgray);
 //part_type_gravity(particletype_broken_smoke,0.05,270);

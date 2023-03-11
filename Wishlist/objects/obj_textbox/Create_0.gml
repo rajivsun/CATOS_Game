@@ -56,6 +56,7 @@ enum portrait
 	shaoda_big = 17,
 	robot_rcp = 18,
 	feibiaoge = 19,
+	tudigong = 20,
 }
 
 name_list();

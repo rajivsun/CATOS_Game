@@ -34,7 +34,6 @@ if room == rm_METRO_SCENE
 	}
 }
 
-
 if room == rm_METRO_STATION_QUAI 
 {
 	if !play_scene
@@ -57,6 +56,7 @@ if room == rm_METRO_STATION_QUAI
 		];
 	}
 }
+
 if room == rm_METRO
 {
 	if disappear == true
@@ -85,3 +85,12 @@ if room == rm_METRO
 	}
 }
 
+if room == rm_FOREST_TRAVEL
+{
+	if transform
+	{
+		instance_create_layer(x,y+50,"immobile_near",obj_reveal_smoke);		
+		instance_create_layer(x,y-10  ,"immobile_near",obj_tudigong);
+		instance_destroy();
+	}
+}

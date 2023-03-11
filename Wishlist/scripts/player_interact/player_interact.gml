@@ -250,4 +250,9 @@ function player_interact(){
 		if obj_tudigong_toy.interactable
 			take_action(obj_tudigong_toy.action);
 	}
+	if instance_place(x,y,obj_portal)
+	{
+		if obj_portal.interactable
+			take_action(obj_portal.action);
+	}
 }

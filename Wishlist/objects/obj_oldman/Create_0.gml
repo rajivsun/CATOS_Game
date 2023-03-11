@@ -4,11 +4,11 @@
 interactable = false;
 play_scene = false;
 disappear = false;
+transform = false;
 
 if room == rm_METRO_SCENE  hspeed = 0.2;
 state = "idle";
 if room == rm_METRO_SCENE	state = "walk";
-
 
 if room == rm_METRO_STATION_QUAI
 {
@@ -40,6 +40,7 @@ if room == rm_METRO_STATION_QUAI
 
 	];
 }
+
 if room == rm_METRO
 {
 	action2 =
@@ -67,6 +68,28 @@ if room == rm_METRO
 	];
 	
 	action = 
+	[
+	[cutscene_text,txt,0],
+	];
+}
+
+if room == rm_FOREST_TRAVEL
+{
+	interactable = true;
+	action2 =
+	[
+	[cutscene_change_variable,id,"transform",true],
+	];
+	
+	txt[0] = 
+	[
+	["老大爷？你怎么在这里？这里是哪里？",portrait.player],
+	["嘿嘿让让，我们又见面了！",portrait.old_man],	
+	["你怎么知道我的名字？",portrait.player],	
+	[2,action2],
+	];
+	
+	action =
 	[
 	[cutscene_text,txt,0],
 	];

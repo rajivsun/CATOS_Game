@@ -10,6 +10,7 @@ if room == rm_METRO
 
 	//state = "sit";
 }
+
 if room == rm_CITY_HOME
 {
 	
@@ -41,6 +42,22 @@ if room == rm_BAR_drunk
 	
 	action = [
 	[cutscene_change_variable,obj_controller,"camera_scene","false"],
+	[cutscene_text,txt,0],
+	]	
+	
+}
+
+if room == rm_FOREST_TRAVEL
+{
+	state = "scene";
+	txt[0] = 
+	[
+	["这里是哪里？",portrait.player],
+	["我怎么到这里了？",portrait.player],
+	[1,0],
+	];
+	
+	action = [
 	[cutscene_text,txt,0],
 	]	
 	

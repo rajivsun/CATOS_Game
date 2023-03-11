@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "FOREST",
-    "path": "folders/Sprites/FOREST.yy",
+    "name": "PIANO",
+    "path": "folders/Sprites/PIANO.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -95,6 +95,16 @@ switch (state){
 			}
 		}
 		
+		if room == rm_FOREST_TRAVEL
+		{
+			count ++;
+			if count >= 60
+			{
+				take_action(action);
+				state = "idle";
+			}
+		}
+		
 		break;
 	
 	case "idle":
