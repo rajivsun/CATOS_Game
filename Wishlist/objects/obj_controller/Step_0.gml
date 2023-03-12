@@ -21,7 +21,8 @@ if room == rm_METRO_SCENE
 	//}
 }
 
-if room == rm_METRO{
+if room == rm_METRO
+{
 	count ++;
 	if count >= 180
 	{
@@ -74,6 +75,17 @@ if room == rm_BAR_drunk
 
 if room == rm_CITY_TOP
 {
+	if clean_building and repair_ac and city_top_home_talk == false
+	{
+		alarm[1] = 180;
+		city_top_home_talk = true;
+	}
+	
+	if clean_building == true
+	{
+		obj_lifter.interactable = false;
+		
+	}
 	count ++;
 	if count >= 120
 	{
@@ -94,31 +106,9 @@ if room == rm_ROBOT_CLEANER
 	if play_scene == false
 	{
 		play_scene = true;
-		if tutorial == 1
+		if tutorial == 2
 		instance_create_layer(x,y,"system",obj_tutorial);
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-//if keyboard_check_pressed(vk_add)
-//{
-//	if room == rm_VILL_RIVER room_goto(rm_VILL_RIVER_123)
-//	else if room == rm_VILL_RIVER_123 room_goto(rm_VILL_RIVER_douji)
-//	else if room == rm_VILL_RIVER_douji room_goto(rm_VILL_RIVER_douji_game)
-//	else if room == rm_VILL_RIVER_douji_game room_goto(rm_CITY_HOME)
-//	//else if room == rm_CITY_HOME room_goto(rm_ELEVATOR_INSIDE)
-//	//else if room == rm_CITY_TOP room_goto(rm_METRO_STATION_QUAI)
-//	//else if room == rm_METRO_STATION_QUAI room_goto(rm_METRO)
-//	//else if room == rm_METRO room_goto(rm_BAR)
-//	//else if room == rm_BAR room_goto(rm_FOREST_TRAVEL)
-//	//else if room == rm_FOREST_TRAVEL room_goto(rm_OLD_HOME)
-//}
+if room == rm_DEMO_fin instance_destroy();

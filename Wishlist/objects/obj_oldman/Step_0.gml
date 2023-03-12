@@ -94,3 +94,16 @@ if room == rm_FOREST_TRAVEL
 		instance_destroy();
 	}
 }
+
+if room == rm_BAR_drunk
+{
+	if !play_scene
+	{
+		if obj_player.x >= 400
+		{
+			take_action(action);
+			play_scene = true;
+		}
+	}
+
+}

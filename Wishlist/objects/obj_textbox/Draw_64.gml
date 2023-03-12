@@ -7,7 +7,7 @@ accept_key = keyboard_check_pressed(vk_space);
 if setup == false
 {
 	setup = true;
-	draw_set_font(ft_chinese);	
+	draw_set_font(ft_chinese_big);	
 	//loop through the pages
 	page_number = array_length(txt[current_node]);
 	for (var p = 0; p < page_number; p++)
@@ -74,6 +74,7 @@ draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 if ! destroying
 {
+	draw_set_font(ft_chinese_big);	
 	draw_text_ext(text_x,text_y-45,ls_portrait_name[| txt[current_node][page][1]]+":",line_sep,line_width);
 	draw_text_ext(text_x,text_y,_drawtext,line_sep,line_width);
 }
@@ -96,6 +97,7 @@ if txt[current_node][page+1][0] == 0 and draw_char == text_length[page]
 	opbox_yscale = lerp(opbox_yscale,3,0.2);
 	if (array_length(txt[current_node][page+1][1]) == 2) // if there are two options
 	{
+		draw_set_font(ft_chinese_big);	
 		draw_sprite_ext(spr_optionbox,0,800,370,opbox_xscale,opbox_yscale,0,c_white,1);
 		draw_sprite_ext(spr_optionbox,0,1300,370,opbox_xscale,opbox_yscale,0,c_white,1);
 		draw_set_valign(fa_middle);

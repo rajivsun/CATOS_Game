@@ -105,6 +105,35 @@ switch (state){
 			}
 		}
 		
+		if room == rm_OLD_HOME
+		{
+			if do_action == false
+			{
+				sprite_index = spr_player_child_standup_lay;
+				image_speed = 0;
+			}
+			else
+			{
+				count ++;
+				sprite_index = spr_player_child_standup_lay;
+				if count <= 1
+				{
+					image_speed = 0;
+				}
+				else 
+				{
+					image_speed = 1;
+					if image_index >= image_number - 1
+					{
+						state = "idle";
+						count = 0;
+						take_action(action);
+						
+					}
+				}
+			}
+		}
+		
 		break;
 	
 	case "idle":

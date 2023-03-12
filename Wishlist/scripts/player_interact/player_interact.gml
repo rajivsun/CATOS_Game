@@ -52,7 +52,7 @@ function player_interact(){
 				if _list[| i].object_index == obj_elevator_skycraper 
 					fade(_list[| i].room_go_to,120,c_black,obj_player,80,105);
 				else
-					fade(_list[| i].room_go_to,60,c_black,obj_player,80,105);
+					fade(_list[| i].room_go_to,60,c_black);
 				
 				//script_execute(door_interact,_list[| i]);
 			}

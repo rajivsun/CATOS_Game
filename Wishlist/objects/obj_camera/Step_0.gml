@@ -7,7 +7,7 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 	{
 		case "0":
 			count ++;
-			x = 100;y=240;
+			x = 400;y=300;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 			camera_set_view_size(cam,cam_scene_size_x*0.9,cam_scene_size_y*0.9);
 			if count >= 280
@@ -18,7 +18,7 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 			break;
 			
 		case "1":
-			x = 0;
+			x = 250;
 			y = 0;
 			x = clamp(x,view_w_half,room_width-view_w_half);
 			y = clamp(y,view_h_half,room_height-view_h_half);
@@ -34,8 +34,8 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 			break;
 			
 		case "2":
-			x = 300;
-			y = 150;
+			x = 450;
+			y = 200;
 			//x = clamp(x,view_w_half,room_width-view_w_half);
 			//y = clamp(y,view_h_half,room_height-view_h_half);
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
@@ -51,8 +51,8 @@ if room == rm_VILL_RIVER && obj_controller.camera_scene == true
 			
 		case "3":
 			count ++;
-			x = obj_old_farmer.x;
-			y = 140;
+			x = obj_old_farmer.x+180;
+			y = 220;
 			//x = clamp(x,view_w_half,room_width-view_w_half);
 			//y = clamp(y,view_h_half,room_height-view_h_half);
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
@@ -141,11 +141,11 @@ else if room == rm_OLD_HOME && obj_controller.camera_scene == true
 		case "0":
 			
 			count ++;
-			x = 350; y = 165;
+			x = 150; y = 105;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
-			camera_set_view_size(cam,cam_scene_size_x*1.5,cam_scene_size_y*1.5);
+			camera_set_view_size(cam,cam_scene_size_x*1,cam_scene_size_y*1);
 			
-			if count >= 300
+			if count >= 240
 			{
 				state = "1";
 				count = 0;
@@ -156,10 +156,10 @@ else if room == rm_OLD_HOME && obj_controller.camera_scene == true
 			
 		case "1":
 			count ++;
-			x = 650; y = 165;
+			x = 250; y = 115;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
-			camera_set_view_size(cam,cam_scene_size_x*1.2,cam_scene_size_y*1.2);
-			if count >= 300
+			camera_set_view_size(cam,cam_scene_size_x*1,cam_scene_size_y*1);
+			if count >= 180
 			{
 				state = "2";
 				count = 0;
@@ -170,26 +170,19 @@ else if room == rm_OLD_HOME && obj_controller.camera_scene == true
 			
 		case "2":
 			count ++;
-			x = 780;y=165;
+			x = 200;y=105;
 			camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 			camera_set_view_size(cam,cam_scene_size_x*1.5,cam_scene_size_y*1.5);
 			if count >= 180
 			{
 				state = "2.5";
 				count = 0;
-				//obj_controller.camera_scene = false;
-				take_action(obj_shaoda_big.action);
+				obj_player.do_action = true;
+				
 			}
 			break;
 			
 		case "3":
-			//x = follow.x; y = follow.y;
-			//camera_set_view_pos(cam,x-view_w_half,y-view_h_half);	
-			//camera_set_view_size(cam,
-			//lerp(camera_get_view_width(cam),cam_w,0.05),
-			//lerp(camera_get_view_height(cam),cam_h,0.05));
-			//x = clamp(x,view_w_half,room_width-view_w_half);
-			//y = clamp(y,view_h_half,room_height-view_h_half);
 			obj_controller.camera_scene = false;
 			break;
 	}

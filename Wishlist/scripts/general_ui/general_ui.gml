@@ -7,6 +7,7 @@ function general_ui(){
 	if game_mode == "mobile" and !instance_exists(obj_rcp_game) and !instance_exists(obj_hack_UI_AC)
 	and !instance_exists(obj_commentor) and room != rm_DART and obj_controller.camera_scene == false
 	and !instance_exists(obj_arcade_shoot_game_open) and room != rm_BAR_pre
+	and !instance_exists(obj_commentor_pre)
 	{
 		draw_sprite_ext(spr_key_E,0,1800,800,2,2,0,c_white,1);
 		if room == rm_METRO_SCENE exit;

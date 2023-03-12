@@ -16,7 +16,6 @@ if mouse_check_button_pressed(mb_left) && obj_robot_cleaner.start = false
 	}
 }
 
-
 // if robot finish one level then check if this level is successful 
 if obj_robot_cleaner.finish == true && end_level == false
 {

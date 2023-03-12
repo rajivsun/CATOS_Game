@@ -12,6 +12,7 @@ fx_hack_thres = 1;
 hp = 100;
 alpha_layer = 0;
 scene_on = true;
+do_action = false;
 actioned = false;
 standup = false;
 

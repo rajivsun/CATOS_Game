@@ -51,7 +51,6 @@ show_UI = false;
 key_alt = virtual_key_add(1600,900,200,100,vk_alt);
 //virtual_key_show(key_alt);
 
-
 for (var ii=0;ii<=array_length(tache[current_level])-1;ii++)
 {
 	instance_create_layer(tache[current_level][ii][0],tache[current_level][ii][1],"taches",obj_tache);

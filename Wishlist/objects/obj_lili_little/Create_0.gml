@@ -79,8 +79,6 @@ if room == rm_VILL_RIVER_123
 	take_action(action);
 }
 
-
-
 // ----------- douji -----------
 action5=[
 [cutscene_fade,rm_VILL_RIVER_douji_game,120],

@@ -40,3 +40,21 @@ if room == rm_BAR
 		}
 	}
 }
+
+if room == rm_CITY_TOP
+{		
+	if first_time_citytop == false
+	{
+		draw_set_alpha(0.7);
+		draw_roundrect_color(70,190,350,400,c_black,c_black,false);
+		draw_set_alpha(1);
+		draw_set_valign(fa_top);
+		draw_set_halign(fa_left);
+		draw_set_font(ft_chinese_big);
+		draw_text(80,200,"任务：");
+		draw_text(80,260,"· 修复发电机");
+		draw_text(80,320,"· 清理大楼");
+		if repair_ac == true draw_line_width(80,280,320,280,5);
+		if clean_building == true draw_line_width(80,340,320,340,5);
+	}
+}

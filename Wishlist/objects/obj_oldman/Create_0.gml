@@ -94,3 +94,31 @@ if room == rm_FOREST_TRAVEL
 	[cutscene_text,txt,0],
 	];
 }
+
+if room == rm_BAR_drunk
+{
+	txt2[0] = 
+	[
+	["怎么又是这个老大爷？",portrait.player],
+	[1,0],
+	];
+	action2 =
+	[
+		[cutscene_change_variable,obj_camera,"follow",obj_player],
+		[cutscene_text,txt2,0],
+		[cutscene_destroy,obj_oldman],
+	]
+	
+	txt[0] = 
+	[
+	["年轻人！到这里来！",portrait.old_man],	
+	[2,action2],
+	];
+	
+	action = 
+	[
+	[cutscene_change_variable,obj_camera,"follow",obj_oldman],
+	[cutscene_text,txt,0],
+
+	];
+}

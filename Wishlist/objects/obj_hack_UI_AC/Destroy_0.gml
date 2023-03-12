@@ -15,6 +15,7 @@ else if room = rm_CITY_TOP
 	virtual_key_delete(key_2);
 	if inst_broken_ac.broken == false
 		obj_controller.repair_ac = true;
+		instance_create_layer(x,y,"system",obj_success);
 }
 else if room = rm_METRO_STATION_QUAI
 {

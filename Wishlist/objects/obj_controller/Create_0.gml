@@ -2,6 +2,11 @@
 // You can write your code in this editor
 
 // --------- initialization ----------
+//audio_play_sound(mc_jazz,99,true);
+//audio_sound_gain(mc_jazz,0,20);
+//audio_play_sound(mc_summer_come_early,99,true);
+//audio_sound_gain(mc_summer_come_early,0,20);
+
 bar_scene = false;
 y_buffer = 0;
 sign_speed = 0.1;
@@ -18,15 +23,17 @@ tutorial = 0;
 reward_beer = false;
 repair_ac = false;
 clean_building = false;
+city_top_home_talk = false;
 arcade_game = false;
 rcp_game = false;
 dart_game = false;
 bartender_talk = false;
-token_beer = 3;
-drink_beer = 2;
+token_beer = 0;
+drink_beer = 0;
 arcade_win = false;
 dart_game_win = false;
 rcp_game_win = false;
+play_sound_on_citytop = false;
 
 mission = 
 [
@@ -38,7 +45,6 @@ level_num = 3;
 current_level = 0;
 robot_cleaner_game_level = 0;
 robot_cleaner_game_level_all = 3;
-
 
 if debug
 depth = -9999;

@@ -13,15 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fb28baac-7e64-48dd-b956-6972720fb34f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9acc63ea-ffda-44f1-bcc8-a84bb60e26e4",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 220,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ce9df741-bf26-4842-8145-ce360db7f1ec","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"aaaa7cd3-12c6-4f1f-9a00-3fd574044844","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"66ca6979-f163-4974-bffa-59b451cf5ffa","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -55,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fb28baac-7e64-48dd-b956-6972720fb34f","path":"sprites/spr_ville_river_bg_far_backup/spr_ville_river_bg_far_backup.yy",},},},"Disabled":false,"id":"97570e62-ba99-4b53-8229-9045cd95e559","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9acc63ea-ffda-44f1-bcc8-a84bb60e26e4","path":"sprites/spr_ville_river_bg_far_backup/spr_ville_river_bg_far_backup.yy",},},},"Disabled":false,"id":"0d56a9ed-6fe3-4fbe-bd38-9bb4e6d60fcc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

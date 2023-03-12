@@ -8,5 +8,6 @@ if obj_controller.robot_cleaner_game_level <= obj_controller.robot_cleaner_game_
 else // if complete the cleaning mission
 { 
 	obj_controller.clean_building = true;
-	fade(rm_CITY_TOP,60);
+	fade(rm_CITY_TOP,60,c_black,obj_player,225,303);
+	
 }

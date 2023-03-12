@@ -4,7 +4,7 @@
 key_next = virtual_key_add(1800,50,100,100,vk_add)
 
 if room == rm_VILL_RIVER or (room == rm_BAR and bar_scene == false) or room == rm_BAR_drunk
-//or room == rm_OLD_HOME
+or room == rm_OLD_HOME
 {
 	camera_scene = true;
 	bar_scene = true;
@@ -20,7 +20,7 @@ key_g = virtual_key_add(0,0,200,200,ord("G"));
 
 if room == rm_FOREST
 	cutscene_on = true;
-	
+
 
 if room == rm_VILL_RIVER
 {
@@ -34,8 +34,10 @@ if room == rm_ROBOT_CLEANER
 	instance_create_layer(x,y,"system",obj_robot_cleaner_game);
 }
 
+
 if room = rm_METRO
 {
+	audio_sound_gain(mc_cyberpunk,0,2000);
 	action4 =
 	[
 	[fade,rm_BAR,120],	
@@ -96,14 +98,16 @@ if room = rm_METRO
 	]
 }
 
+
 if room = rm_BAR
 {
-	audio_play_sound(mc_jazz,99,true);
+	if !audio_is_playing(mc_jazz)
+	audio_play_sound(mc_jazz,99,true)
 	action2 =
 	[
 		[cutscene_change_variable,obj_camera,"follow",obj_player],
 		[cutscene_change_variable,obj_controller,"bar_shaoda_talk","true"],
-	]
+	];
 	
 	txt[0] = 
 	[
@@ -114,15 +118,32 @@ if room = rm_BAR
 	action = 
 	[
 	[cutscene_change_variable,obj_camera,"follow",obj_shaoda_big],
-	//[cutscene_wait,20],
 	[cutscene_text,txt,0],
-
 	];
 }
 
+
 if room == rm_CITY_TOP
 {
-	audio_sound_gain(mc_sixteen,0,2000);
+	if play_sound_on_citytop == false
+	{
+		audio_sound_gain(mc_sixteen,0,2000);
+		audio_play_sound(mc_cyberpunk,99,true);
+		play_sound_on_citytop = true;
+	}
+	
+	txt2[0]=
+	[
+	["终于忙完了，累死我了。坐电梯回家吧。",portrait.player],	
+	[1,0],
+	];
+	action3 = [[cutscene_text,txt2,0]];
+	
+	if clean_building = true
+	{
+		instance_create_layer(x,y,"system",obj_success);
+	}
+	
 	action2 = 
 	[
 	[cutscene_change_variable,id,"first_time_citytop","false"],	
@@ -144,7 +165,21 @@ if room == rm_CITY_TOP
 	]
 }
 
+
+if room == rm_BAR_drunk
+{
+	audio_sound_gain(mc_jazz,0,2000);
+}
+
+
 if room = rm_VILL_RIVER_douji
 {
 	audio_sound_gain(mc_itwontmatter,0,2000);
+}
+
+
+if room == rm_Travel
+{
+	if !audio_is_playing(mc_summer_come_early)
+		audio_play_sound(mc_summer_come_early,99,true);
 }
