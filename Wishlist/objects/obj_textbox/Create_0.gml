@@ -57,6 +57,7 @@ enum portrait
 	robot_rcp = 18,
 	feibiaoge = 19,
 	tudigong = 20,
+	mikeli = 21,
 }
 
 name_list();

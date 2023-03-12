@@ -26,8 +26,8 @@ and room != rm_ROBOT_CLEANER
 
 if room == rm_BAR
 {
-	if bartender_talk == true
-	{
+	//if bartender_talk == true
+	//{
 		draw_sprite_ext(spr_healthbar_bottle,drink_beer,100,500,4,4,0,c_white,1);
 		
 		for (var i=0;i<token_beer;i++)
@@ -38,7 +38,7 @@ if room == rm_BAR
 		{
 			draw_sprite_ext(spr_token_beer_remove,0,1750+i*150,100,2,2,0,c_white,1);
 		}
-	}
+	//}
 }
 
 if room == rm_CITY_TOP

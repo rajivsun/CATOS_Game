@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 // if it is show sign time then we dont do anything
-if obj_dart_game.alarm[0] > 0
+if obj_dart_game.alarm[0] > 0 or instance_exists(obj_tutorial)
 {
 	speed = 0;
 	x = 160;

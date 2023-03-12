@@ -4,6 +4,8 @@
 
 if reveal == true
 {
+	if !audio_is_playing(sd_collapse)
+		audio_play_sound(sd_collapse,99,false);
 	var fx = layer_get_fx("screen_shake");
 	fx_set_parameter(fx,"g_Magnitude",5);
 	part_particles_create(obj_particle.particle_system_far,x+random_range(-100,100),
@@ -15,6 +17,5 @@ if reveal == true
 		fx_set_parameter(fx,"g_Magnitude",0);
 		instance_create_layer(x,y+50,"portal",obj_portal);
 		reveal = false;
-
 	}
 }

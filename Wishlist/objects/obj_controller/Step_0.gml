@@ -55,17 +55,15 @@ if room == rm_BAR
 		alarm[0] = 60; // reward showing delay
 		//instance_create_layer(x,y,"system",obj_reward_beer_token);
 	}
-	//if !bar_shaoda_talk
-	//{
-	//	if obj_player.x >= 200
-	//	{
-	//		if play_scene == false
-	//		{
-	//			play_scene = true;
-	//			take_action(action);
-	//		}
-	//	}
-	//}
+	
+	if arcade_win == true
+	{
+		obj_arcade_machine.interactable = false;
+	}
+	if dart_game_win == true
+	{
+		obj_dart.interactable = false;
+	}
 }
 
 if room == rm_BAR_drunk
@@ -112,3 +110,5 @@ if room == rm_ROBOT_CLEANER
 }
 
 if room == rm_DEMO_fin instance_destroy();
+
+

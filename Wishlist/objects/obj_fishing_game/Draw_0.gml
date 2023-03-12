@@ -31,7 +31,9 @@ switch state
 
 		// draw
 		draw_sprite_ext(spr_fishing_bar,0,border_x,border_y,scale,scale,0,c_white,1);
-		draw_healthbar(border_x-10,border_y,border_x-5,border_y+62,score_fishing/400*100,c_black,c_red,c_lime,3,true,true);
+		draw_sprite_ext(spr_fishing_bar2,0,border_x-10,border_y,scale,scale,0,c_white,1);
+		draw_sprite_stretched(spr_fishing_bar_move2,0,border_x-10,border_y,4*scale,scale*score_fishing/400*68);
+		//draw_healthbar(border_x-10,border_y,border_x-5,border_y+62,score_fishing/400*100,c_black,c_red,c_lime,3,true,true);
 
 		// score
 		if indicator_y >= move_y and indicator_y <= move_y+20

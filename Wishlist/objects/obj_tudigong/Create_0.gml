@@ -15,7 +15,11 @@ if room == rm_OLD_HOME
 	[
 	["啊哈哈哈哈！",portrait.tudigong],
 	["咦！土地公！原来我们家从小一直供奉的神像就是你啊！",portrait.player_little],
-	["没错！让让你准备好重启你的人生了吗？",portrait.tudigong],
+	["没错！余乃天地间之土地，守护此方百姓，责任...",portrait.tudigong],
+	["土地公你之前已经介绍过自己了。",portrait.player_little],	
+	["啊是吗？哈哈，不好意思...",portrait.tudigong],
+	["那么，让让。",portrait.tudigong],
+	["你准备好重启你的人生了吗？",portrait.tudigong],
 	["我准备好了！",portrait.player_little],
 	[2,action2],
 	];

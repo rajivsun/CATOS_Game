@@ -2,10 +2,6 @@
 // You can write your code in this editor
 
 // --------- initialization ----------
-//audio_play_sound(mc_jazz,99,true);
-//audio_sound_gain(mc_jazz,0,20);
-//audio_play_sound(mc_summer_come_early,99,true);
-//audio_sound_gain(mc_summer_come_early,0,20);
 
 bar_scene = false;
 y_buffer = 0;

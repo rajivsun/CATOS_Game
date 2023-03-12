@@ -101,8 +101,9 @@ if room = rm_METRO
 
 if room = rm_BAR
 {
-	if !audio_is_playing(mc_jazz)
-	audio_play_sound(mc_jazz,99,true)
+
+	if !audio_is_playing(mc_jazz) audio_play_sound(mc_jazz,99,true)
+	else audio_sound_gain(mc_jazz,1,2000);
 	action2 =
 	[
 		[cutscene_change_variable,obj_camera,"follow",obj_player],
@@ -127,7 +128,7 @@ if room == rm_CITY_TOP
 {
 	if play_sound_on_citytop == false
 	{
-		audio_sound_gain(mc_sixteen,0,2000);
+		
 		audio_play_sound(mc_cyberpunk,99,true);
 		play_sound_on_citytop = true;
 	}
@@ -154,8 +155,10 @@ if room == rm_CITY_TOP
 	[
 	["你终于来啦？",portrait.boss],		
 	["对不起老板，路上堵了点车。",portrait.player],		
-	["行了，别罗嗦了，快点干活吧。先把那个发电机修好，\n那个发电机好像坏了，你看看怎么回事。然后再做一下常规的楼体清洁。",portrait.boss],			
-	["好的。",portrait.player],	
+	["行了，别罗嗦了，快点干活吧。",portrait.boss],			
+	["先把那个发电机修好，那个发电机好像坏了，\n应该是风扇不转了，你看看怎么回事。",portrait.boss],			
+	["做完之后再做一下常规的楼体清洁，明白了吗。",portrait.boss],	
+	["明白了老板。",portrait.player],	
 	[2,action2],
 	];
 	
@@ -182,4 +185,18 @@ if room == rm_Travel
 {
 	if !audio_is_playing(mc_summer_come_early)
 		audio_play_sound(mc_summer_come_early,99,true);
+}
+
+
+if room == rm_SPACE_SHOOTER
+{
+	if !audio_is_playing(mc_arcade) audio_play_sound(mc_arcade,99,true)
+	else audio_sound_gain(mc_arcade,1,2000);
+}
+
+
+if room == rm_DART
+{
+		if tutorial == 3
+		instance_create_layer(x,y,"system",obj_tutorial);
 }

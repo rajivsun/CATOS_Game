@@ -23,4 +23,5 @@ function name_list(){
 	ds_list_add(ls_portrait_name,"猜拳机器人");
 	ds_list_add(ls_portrait_name,"飞镖哥");
 	ds_list_add(ls_portrait_name,"土地公");
+	ds_list_add(ls_portrait_name,"麦克李");
 }
