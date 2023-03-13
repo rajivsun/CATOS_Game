@@ -679,6 +679,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_DEMO_fin","path":"rooms/rm_DEMO_fin/rm_DEMO_fin.yy",},},
     {"roomId":{"name":"rm_START","path":"rooms/rm_START/rm_START.yy",},},
     {"roomId":{"name":"rm_FOREST_TRAVEL","path":"rooms/rm_FOREST_TRAVEL/rm_FOREST_TRAVEL.yy",},},
     {"roomId":{"name":"rm_METRO_STATION_QUAI","path":"rooms/rm_METRO_STATION_QUAI/rm_METRO_STATION_QUAI.yy",},},
@@ -714,7 +715,6 @@
     {"roomId":{"name":"rm_PRE","path":"rooms/rm_PRE/rm_PRE.yy",},},
     {"roomId":{"name":"rm_ELEVATOR_INSIDE_work","path":"rooms/rm_ELEVATOR_INSIDE_work/rm_ELEVATOR_INSIDE_work.yy",},},
     {"roomId":{"name":"rm_BAR_pre","path":"rooms/rm_BAR_pre/rm_BAR_pre.yy",},},
-    {"roomId":{"name":"rm_DEMO_fin","path":"rooms/rm_DEMO_fin/rm_DEMO_fin.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

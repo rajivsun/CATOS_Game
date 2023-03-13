@@ -9,6 +9,7 @@ if room == rm_ELEVATOR_INSIDE
 	"这就是我，一个普通的蓝领工人。",
 	];
 }
+
 if room == rm_METRO_SCENE
 {
 	text = 
@@ -16,6 +17,7 @@ if room == rm_METRO_SCENE
 	"曾经的梦想却早已远去",
 	];
 }
+
 if room == rm_VILL_RIVER_travel
 {
 	text = 
@@ -47,9 +49,9 @@ if room == rm_VILL_RIVER_travel
 	"仍在这灯红酒绿中漂泊着",
 
 	"",
-	
 	];
 }
+
 if room == rm_ELEVATOR_INSIDE_work
 {
 	text = 
@@ -59,6 +61,7 @@ if room == rm_ELEVATOR_INSIDE_work
 	"这就是我，一个普通的蓝领工人。",	
 	];
 }
+
 if room == rm_METRO
 {
 	
@@ -72,6 +75,7 @@ if room == rm_METRO
 	"",
 	];
 }
+
 current = 0;
 msg = text[current];
 
