@@ -18,12 +18,15 @@ play_scene = false;
 play_scene2 = false;
 key_g = virtual_key_add(0,0,200,200,ord("G"));
 
-if room == rm_FOREST
-	cutscene_on = true;
-
+if room == rm_FOREST_TRAVEL
+{
+	alarm[3] = 300;
+}
+	
 
 if room == rm_VILL_RIVER
 {
+	audio_sound_gain(sd_cicada,0,2000);
 	audio_play_sound(mc_itwontmatter,99,true);
 	if vill_scene == 0 instance_create_layer(120,147,"NPC_near",obj_old_farmer);
 }
@@ -37,6 +40,8 @@ if room == rm_ROBOT_CLEANER
 
 if room = rm_METRO
 {
+	if !audio_is_playing(mc_subway_long)
+		audio_play_sound(mc_subway_long,99,true);
 	audio_sound_gain(mc_cyberpunk,0,2000);
 	action4 =
 	[
@@ -49,7 +54,7 @@ if room = rm_METRO
 	["哎别提了少达，我刚刚被开了。",portrait.player],
 	["啊？真假的。是原来那个公司吗？",portrait.shaoda_big],
 	["是啊，我干了十五年，说开除就开除，一群白眼狼。",portrait.player],
-	["是很过分。来吧，我今天正好在市中心，我们去atelier和一杯吧。",portrait.shaoda_big],
+	["是很过分。来吧，我今天正好在市中心，\n我们去atelier喝一杯吧。",portrait.shaoda_big],
 	["行，等我。",portrait.player],
 	[2,action4],
 	];
@@ -172,6 +177,8 @@ if room == rm_CITY_TOP
 if room == rm_BAR_drunk
 {
 	audio_sound_gain(mc_jazz,0,2000);
+	if !audio_is_playing(mc_mystery)
+		audio_play_sound(mc_mystery,99,true);
 }
 
 

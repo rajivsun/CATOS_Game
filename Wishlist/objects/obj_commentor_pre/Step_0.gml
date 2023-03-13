@@ -50,6 +50,11 @@ else
 	else if room = rm_ELEVATOR_INSIDE fade(rm_METRO_SCENE,120);
 	else if room == rm_ELEVATOR_INSIDE_work fade(rm_CITY_TOP,120);
 	else if room == rm_Travel fade(rm_OLD_HOME,120,c_white);
+	else if room == rm_DEMO_fin 
+	{
+		fade(rm_START,120);
+		instance_destroy(obj_controller);
+	}
 	//else if room == rm_METRO take_action(action);
 
 }

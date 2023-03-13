@@ -5,7 +5,7 @@
 alarm[1] = 60;
 
 
-var hit_target = collision_point(x,y,obj_dart_board_pieces,true,true);
+hit_target = collision_point(x,y,obj_dart_board_pieces,true,true);
 if hit_target != noone
 {
 	// get hit score

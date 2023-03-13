@@ -15,3 +15,13 @@ if room == rm_METRO_SCENE
 {
 	audio_sound_gain(mc_sixteen,0,2000);
 }
+
+if room == rm_METRO
+{
+	audio_sound_gain(mc_subway_long,0,2000);
+}
+
+if room == rm_FOREST_TRAVEL
+{
+	audio_sound_gain(mc_mystery,0,2000);
+}

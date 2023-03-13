@@ -52,6 +52,11 @@ if room == rm_BAR
 
 if room = rm_CITY_TOP
 {
+	if select == -1
+	{
+		draw_sprite_ext(spr_point_hand,0,1400,550,3,3,0,c_white,1);
+	}
+	
 	draw_set_alpha(0.3);draw_set_color(c_black);
 	draw_rectangle(1288,300,1288+260,400,false);
 	//draw_rectangle(1350,170,1350+260,270,false);
@@ -64,10 +69,12 @@ if room = rm_CITY_TOP
 	draw_text_transformed(1420,350,inst_broken_ac.slot[1],1.5,1.5,0);	
 	draw_set_color(c_white);
 	
-	if select != -1 // left side selection
+	if select = 0 or select == 1 // left side selection
 	{
 		draw_sprite_ext(spr_select_slot_rcp2,0,362,200,1,1,0,c_white,1);
 		draw_sprite_ext(spr_select_slot_rcp2,0,362,295,1,1,0,c_white,1);
+		draw_sprite_ext(spr_point_hand,0,500,500,3,3,0,c_white,1);
+		
 	}
 	// select the code that you want to change
 	if select = 0 	draw_sprite_ext(spr_select_slot_rcp,0,1350,170,1,1,0,c_white,1);

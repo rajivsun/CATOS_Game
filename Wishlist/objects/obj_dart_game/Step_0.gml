@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var score_to_win = 10
+var score_to_win = 100
 
 // if someone win 
 if total_score >= score_to_win && result == 0

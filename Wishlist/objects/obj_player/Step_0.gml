@@ -43,6 +43,9 @@ switch (state){
 			image_xscale = 1;
 			if !standup
 			{
+				if !audio_is_playing(mc_far_away)
+					audio_play_sound(mc_far_away,99,true);
+				audio_sound_gain(mc_subway_long,0,2000);
 				alpha_layer = min(1,alpha_layer+0.01);
 				var lay_id = layer_get_id("black");
 				var back_id = layer_background_get_id(lay_id);
@@ -71,6 +74,8 @@ switch (state){
 					image_index = image_number - 1;
 					if alpha_layer <= 0
 						state = "idle";
+						audio_sound_gain(mc_far_away,0,2000);
+						audio_sound_gain(mc_subway_long,0.2,2000);
 				}
 			}
 		}

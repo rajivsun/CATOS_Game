@@ -28,7 +28,7 @@ if state == 0{
 else if state == 0.5{
 	timer2 --;
 	if timer2 <= 0{
-		timer2 = 30;
+		timer2 = 120;
 		state = 1;
 	}
 }

@@ -27,7 +27,7 @@ if result == "win"
 	draw_set_font(ft_chinese_big);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(2160/2,1080/2,"清洁成功!");
+	draw_text_transformed(2160/2,1080/2,"清洁成功!",3,3,0);
 	show_UI = true;
 	
 

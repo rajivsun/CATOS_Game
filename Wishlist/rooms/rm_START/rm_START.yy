@@ -14,6 +14,7 @@
     {"name":"inst_57780A8A","path":"rooms/rm_START/rm_START.yy",},
     {"name":"inst_6D76AA77","path":"rooms/rm_START/rm_START.yy",},
     {"name":"inst_67864FD1","path":"rooms/rm_START/rm_START.yy",},
+    {"name":"inst_13022FBD","path":"rooms/rm_START/rm_START.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -31,6 +32,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57780A8A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_old_camera","path":"objects/obj_old_camera/obj_old_camera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":134.0,"y":145.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D76AA77","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_alarm","path":"objects/obj_alarm/obj_alarm.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":295.0,"y":142.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67864FD1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cup","path":"objects/obj_cup/obj_cup.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":236.0,"y":139.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_13022FBD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"properties":[],"rotation":0.0,"scaleX":0.18345517,"scaleY":0.18345517,"x":305.2295,"y":32.655624,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"light","animationFPS":30.0,"animationSpeedType":0,"colour":4291297279,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"Lovepik_com_400196833_light","path":"sprites/Lovepik_com_400196833_light/Lovepik_com_400196833_light.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":-40,"y":-40,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"yellow","depth":300,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[

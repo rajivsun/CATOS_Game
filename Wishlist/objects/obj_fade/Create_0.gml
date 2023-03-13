@@ -5,6 +5,9 @@ color = c_black;
 alpha = 0;
 duration = 60;
 targetroom = -1;
+if room == rm_METRO
+timer2 = 180;
+else 
 timer2 = 30;
 timer = 0;
 state = 0;
