@@ -41,12 +41,12 @@ if room == rm_CITY_TOP
 	{
 		select = 1;
 	}
-	if keyboard_check_pressed(vk_numpad4) and select != -1
+	if keyboard_check_pressed(vk_numpad4) and select != -1 and select != -2
 	{
 		inst_broken_ac.slot[select] = "启动";
 		select = -2;
 	}
-	if keyboard_check_pressed(vk_numpad5) and select != -1
+	if keyboard_check_pressed(vk_numpad5) and select != -1 and select != -2
 	{
 		inst_broken_ac.slot[select] = "停止";
 		select = -2;
