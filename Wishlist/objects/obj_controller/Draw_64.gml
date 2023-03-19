@@ -58,3 +58,4 @@ if room == rm_CITY_TOP
 		if clean_building == true draw_line_width(80,340,320,340,5);
 	}
 }
+
