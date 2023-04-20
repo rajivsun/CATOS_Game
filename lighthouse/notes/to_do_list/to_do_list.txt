@@ -1,0 +1,2 @@
+- if pause fonction
+- make player persistent ( no player in other room? )

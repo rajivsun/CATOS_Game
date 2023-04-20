@@ -1,0 +1,20 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_trash_truck","order":2,"path":"sprites/spr_trash_truck/spr_trash_truck.yy",},
+    {"name":"spr_playerRD","order":2,"path":"sprites/spr_playerRD/spr_playerRD.yy",},
+    {"name":"player_movement","order":1,"path":"scripts/player_movement/player_movement.yy",},
+    {"name":"obj_trash_truck","order":2,"path":"objects/obj_trash_truck/obj_trash_truck.yy",},
+    {"name":"spr_poster_wishlist","order":3,"path":"sprites/spr_poster_wishlist/spr_poster_wishlist.yy",},
+    {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"spr_playerRU","order":3,"path":"sprites/spr_playerRU/spr_playerRU.yy",},
+    {"name":"spr_poster_astronut","order":1,"path":"sprites/spr_poster_astronut/spr_poster_astronut.yy",},
+    {"name":"spr_poster_monsterGF","order":2,"path":"sprites/spr_poster_monsterGF/spr_poster_monsterGF.yy",},
+    {"name":"spr_playerL","order":1,"path":"sprites/spr_playerL/spr_playerL.yy",},
+    {"name":"spr_playerR","order":2,"path":"sprites/spr_playerR/spr_playerR.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"spr_playerRR","order":1,"path":"sprites/spr_playerRR/spr_playerRR.yy",},
+    {"name":"spr_playerU","order":3,"path":"sprites/spr_playerU/spr_playerU.yy",},
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+  ],
+}

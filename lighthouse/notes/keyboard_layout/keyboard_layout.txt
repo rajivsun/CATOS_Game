@@ -1,0 +1,16 @@
+QZSD:     movement
+R :       game restart
+E :       interactor
+space :   next dialogue
+P :       telephone
+Alt :     robot cleaner start (in game)
+ESC :     close the terminal window
+O :       run Metro terminal exe , start robot cleaner game
+G :       open personal device
+L :       action bar press
+up/down:  fishing game up and down
+num789:   rcp game
+num1-6:   rcp program slots
+num1/2:   textbox options
+DEL   :   pick up phone
+-     :   skip
