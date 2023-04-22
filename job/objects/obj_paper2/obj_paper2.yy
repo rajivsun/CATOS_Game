@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_pape2",
-    "path": "sprites/spr_pape2/spr_pape2.yy",
+    "name": "spr_paper2",
+    "path": "sprites/spr_paper2/spr_paper2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
