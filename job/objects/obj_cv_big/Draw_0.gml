@@ -3,10 +3,6 @@
 
 
 // ----------- draw self with size changing-------
-
-//draw_self();
-
-
 var draw_x = spr_width/2 - (x - border)/image_xscale; 
 // draw small part
 if x - spr_width/2*image_xscale > border
@@ -18,3 +14,12 @@ else
 		border,
 		y-spr_height*image_yscale/2,image_xscale,image_yscale,c_white,1);	
 
+
+// ----------------------- text -----------------------
+
+//var start_x = x - spr_width/2*image_xscale;
+//var start_y = y - spr_height/2*image_yscale
+
+//draw_text_transformed(start_x+20*image_xscale,start_y+20*image_xscale,"Levi",image_xscale,image_xscale,1);
+////draw_text_transformed(x+20,y+200,"美洲豹",0.5*image_xscale,0.5*image_xscale,1);
+////draw_text_transformed(x+20,y+220,"年龄：32岁",0.5*image_xscale,0.5*image_xscale,1);

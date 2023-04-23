@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 
-border = 222;
-bordery = 487;
-bordery2 = 608;
-instance_create_layer(60,200,"papers",obj_cv_small);
+border = 329;
+bordery = 735;
+bordery2 = 917;
+instance_create_layer(200,700,"papers",obj_cv_small);
 

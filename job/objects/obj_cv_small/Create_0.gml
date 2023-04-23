@@ -7,8 +7,8 @@ bordery = obj_controller.bordery;
 bordery2 = obj_controller.bordery2;
 spr_width = sprite_get_width(id.sprite_index);
 spr_height = sprite_get_height(id.sprite_index);
-image_xscale = 4;
-image_yscale = 4;
+image_xscale = 6;
+image_yscale = 6;
 
 // -------- init ---------------
 mouse_buff_x = 0;
