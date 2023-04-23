@@ -41,6 +41,7 @@
     {"name":"spr_file_holder","order":22,"path":"sprites/spr_file_holder/spr_file_holder.yy",},
     {"name":"obj_cv_big","order":10,"path":"objects/obj_cv_big/obj_cv_big.yy",},
     {"name":"spr_paper2","order":6,"path":"sprites/spr_paper2/spr_paper2.yy",},
+    {"name":"obj_background","order":12,"path":"objects/obj_background/obj_background.yy",},
     {"name":"spr_desk","order":3,"path":"sprites/spr_desk/spr_desk.yy",},
     {"name":"spr_folder","order":5,"path":"sprites/spr_folder/spr_folder.yy",},
     {"name":"office2","order":1,"path":"sprites/office2/office2.yy",},

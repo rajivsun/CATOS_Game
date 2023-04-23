@@ -63,6 +63,7 @@
     {"id":{"name":"spr_file_holder","path":"sprites/spr_file_holder/spr_file_holder.yy",},},
     {"id":{"name":"obj_cv_big","path":"objects/obj_cv_big/obj_cv_big.yy",},},
     {"id":{"name":"spr_paper2","path":"sprites/spr_paper2/spr_paper2.yy",},},
+    {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},},
     {"id":{"name":"spr_desk","path":"sprites/spr_desk/spr_desk.yy",},},
     {"id":{"name":"spr_folder","path":"sprites/spr_folder/spr_folder.yy",},},
     {"id":{"name":"office2","path":"sprites/office2/office2.yy",},},

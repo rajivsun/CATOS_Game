@@ -6,7 +6,7 @@
 
 //draw_self();
 
-var draw_width = (border - x + spr_width/2)/image_xscale;
+
 var draw_x = spr_width/2 - (x - border)/image_xscale; 
 // draw small part
 if x - spr_width/2*image_xscale > border

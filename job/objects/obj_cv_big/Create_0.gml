@@ -5,8 +5,8 @@
 border = obj_controller.border;
 spr_width = sprite_get_width(id.sprite_index);
 spr_height = sprite_get_height(id.sprite_index);
-image_xscale = 0.25;
-image_yscale = 0.25;
+image_xscale = 1;
+image_yscale = 1;
 
 
 // -------- init ---------------
