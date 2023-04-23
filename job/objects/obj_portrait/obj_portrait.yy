@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "jaguar",
-    "path": "sprites/jaguar/jaguar.yy",
+    "name": "spr_jaguar",
+    "path": "sprites/spr_jaguar/spr_jaguar.yy",
   },
   "spriteMaskId": null,
   "visible": true,

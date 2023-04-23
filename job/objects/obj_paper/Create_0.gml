@@ -9,6 +9,8 @@ spr_width = sprite_get_width(id.sprite_index);
 spr_height = sprite_get_height(id.sprite_index);
 
 // -------- init ---------------
+mouse_buff_x = 0;
+mouse_buff_y = 0;
 image_xscale = scale_small;
 image_yscale = image_xscale;
 dragging = false;

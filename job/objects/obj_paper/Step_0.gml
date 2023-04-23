@@ -12,6 +12,9 @@ if mouse_check_button(mb_left)
 			dragging = true;
 			mouse_xprev = mouse_x;
 			mouse_yprev = mouse_y;
+			mouse_buff_x = mouse_x - x;
+			mouse_buff_y = mouse_y - y;
+			
 		}
 	}
 	click = true;
