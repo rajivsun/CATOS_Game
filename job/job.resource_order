@@ -22,6 +22,7 @@
     {"name":"house","order":2,"path":"sprites/house/house.yy",},
     {"name":"obj_portrait","order":6,"path":"objects/obj_portrait/obj_portrait.yy",},
     {"name":"obj_cv_small","order":9,"path":"objects/obj_cv_small/obj_cv_small.yy",},
+    {"name":"spr_office_background","order":20,"path":"sprites/spr_office_background/spr_office_background.yy",},
     {"name":"spr_papertrash","order":18,"path":"sprites/spr_papertrash/spr_papertrash.yy",},
     {"name":"obj_paper2","order":3,"path":"objects/obj_paper2/obj_paper2.yy",},
     {"name":"obj_paper","order":1,"path":"objects/obj_paper/obj_paper.yy",},

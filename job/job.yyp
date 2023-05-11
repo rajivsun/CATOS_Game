@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"spr_mail","path":"sprites/spr_mail/spr_mail.yy",},},
@@ -42,6 +42,7 @@
     {"id":{"name":"check_mouse_in_paper","path":"scripts/check_mouse_in_paper/check_mouse_in_paper.yy",},},
     {"id":{"name":"obj_portrait","path":"objects/obj_portrait/obj_portrait.yy",},},
     {"id":{"name":"obj_cv_small","path":"objects/obj_cv_small/obj_cv_small.yy",},},
+    {"id":{"name":"spr_office_background","path":"sprites/spr_office_background/spr_office_background.yy",},},
     {"id":{"name":"spr_papertrash","path":"sprites/spr_papertrash/spr_papertrash.yy",},},
     {"id":{"name":"obj_paper2","path":"objects/obj_paper2/obj_paper2.yy",},},
     {"id":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},},

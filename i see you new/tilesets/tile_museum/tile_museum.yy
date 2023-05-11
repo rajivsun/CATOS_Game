@@ -1,25 +1,9 @@
 {
-  "spriteId": {
-    "name": "spr_tileset_museum",
-    "path": "sprites/spr_tileset_museum/spr_tileset_museum.yy",
-  },
-  "tileWidth": 64,
-  "tileHeight": 64,
-  "tilexoff": 0,
-  "tileyoff": 0,
-  "tilehsep": 0,
-  "tilevsep": 0,
-  "spriteNoExport": true,
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
-  "out_tilehborder": 2,
-  "out_tilevborder": 2,
-  "out_columns": 10,
-  "tile_count": 100,
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tile_museum",
   "autoTileSets": [
-    {"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","closed_edge":false,"tiles":[
         22,
         0,
         0,
@@ -36,8 +20,8 @@
         31,
         33,
         0,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_1","tags":[],"resourceType":"GMAutoTileSet",},
-    {"tiles":[
+      ],},
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_2","closed_edge":false,"tiles":[
         26,
         0,
         0,
@@ -54,10 +38,30 @@
         35,
         37,
         5,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_2","tags":[],"resourceType":"GMAutoTileSet",},
+      ],},
   ],
-  "tileAnimationFrames": [],
-  "tileAnimationSpeed": 15.0,
+  "macroPageTiles": {
+    "SerialiseHeight": 0,
+    "SerialiseWidth": 0,
+    "TileSerialiseData": [],
+  },
+  "out_columns": 10,
+  "out_tilehborder": 2,
+  "out_tilevborder": 2,
+  "parent": {
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
+  },
+  "spriteId": {
+    "name": "spr_tileset_museum",
+    "path": "sprites/spr_tileset_museum/spr_tileset_museum.yy",
+  },
+  "spriteNoExport": true,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "tile_count": 100,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -163,17 +167,12 @@
     ],
     "SerialiseFrameCount": 1,
   },
-  "macroPageTiles": {
-    "SerialiseWidth": 0,
-    "SerialiseHeight": 0,
-    "TileSerialiseData": [],
-  },
-  "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "tile_museum",
-  "tags": [],
-  "resourceType": "GMTileSet",
+  "tileAnimationFrames": [],
+  "tileAnimationSpeed": 15.0,
+  "tileHeight": 64,
+  "tilehsep": 0,
+  "tilevsep": 0,
+  "tileWidth": 64,
+  "tilexoff": 0,
+  "tileyoff": 0,
 }

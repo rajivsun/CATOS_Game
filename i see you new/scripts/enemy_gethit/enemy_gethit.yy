@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "enemy_gethit",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "enemy",
     "path": "folders/Scripts/enemy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_gethit",
-  "tags": [],
-  "resourceType": "GMScript",
 }
