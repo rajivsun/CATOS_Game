@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_taptap",
-  "bbox_bottom": 272,
+  "bbox_bottom": 185,
   "bbox_left": 123,
   "bbox_right": 637,
   "bbox_top": 36,

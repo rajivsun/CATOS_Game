@@ -53,18 +53,20 @@ if keyboard_check_pressed(ord("T")) && show_item.exam == true
 if keyboard_check_pressed(ord("P")) && show_item.pickable == true{
 	audio_play_sound(sd_grab,1,0);
 	//show_item.x = -99;show_item.y = -99;
-	instance_destroy(show_item)
+	
 	if object_get_parent(show_item.object_index) == obj_resource{		
 		pickupressource(show_item);
 	}
 	else pickupitem(show_item.object_index);
 	obj_joystick.alarm[0] = 20;
+	instance_destroy(show_item)
 	instance_destroy();
 	if instance_exists(obj_cutscene){
 		with obj_cutscene{
 			end_scene();
 		}
 	}
+	
 }
 
 // close the itembox

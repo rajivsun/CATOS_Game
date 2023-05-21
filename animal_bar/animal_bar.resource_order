@@ -1,0 +1,23 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Animation Curves","order":11,"path":"folders/Animation Curves.yy",},
+    {"name":"Extensions","order":13,"path":"folders/Extensions.yy",},
+    {"name":"Fonts","order":8,"path":"folders/Fonts.yy",},
+    {"name":"Notes","order":12,"path":"folders/Notes.yy",},
+    {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
+    {"name":"Paths","order":5,"path":"folders/Paths.yy",},
+    {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
+    {"name":"Sequences","order":10,"path":"folders/Sequences.yy",},
+    {"name":"Shaders","order":7,"path":"folders/Shaders.yy",},
+    {"name":"Sounds","order":4,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Tile Sets","order":3,"path":"folders/Tile Sets.yy",},
+    {"name":"Timelines","order":9,"path":"folders/Timelines.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_buck","order":1,"path":"sprites/spr_buck/spr_buck.yy",},
+    {"name":"zhongyi_cactus_a_human_like_buck_1231bd62_26f2_47da_8f69_d5e916549730","order":2,"path":"sprites/zhongyi_cactus_a_human_like_buck_1231bd62_26f2_47da_8f69_d5e916549730/zhongyi_cactus_a_human_like_buck_1231bd62_26f2_47da_8f69_d5e916549730.yy",},
+    {"name":"spr_portrait_buck","order":3,"path":"sprites/spr_portrait_buck/spr_portrait_buck.yy",},
+  ],
+}

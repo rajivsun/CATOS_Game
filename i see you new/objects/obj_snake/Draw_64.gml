@@ -21,8 +21,18 @@ draw_rectangle_color(x1+32,y1+32,x2,y2,c_white,c_white,c_white,c_white,true);
 
 draw_set_font(ft_chinese);
 draw_set_valign(fa_top);draw_set_halign(fa_left)
-draw_text(200,200,"当前得分:"+ string(sc));
-draw_text(200,250,"需要分数" + string(score_needed));
+
+if obj_main.language == "chinese"
+{
+	draw_text(200,200,"当前得分:"+ string(sc));
+	draw_text(200,250,"需要分数" + string(score_needed));
+
+}
+else if obj_main.language == "english"
+{
+	draw_text(200,200,"Current Score:"+ string(sc));
+	draw_text(200,250,"Score Needed:" + string(score_needed));
+}
 
 
 if alarm[1] > 0{

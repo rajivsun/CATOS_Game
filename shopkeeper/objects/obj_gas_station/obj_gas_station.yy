@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "gas_station_lighting",
-    "path": "sprites/gas_station_lighting/gas_station_lighting.yy",
+    "name": "gas_station",
+    "path": "sprites/gas_station/gas_station.yy",
   },
   "spriteMaskId": null,
   "visible": true,

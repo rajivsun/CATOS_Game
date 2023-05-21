@@ -24,8 +24,14 @@ _count += 4/60;
 if obj_main.current_end == -1
 {
 	if current == 11
+	{
 		alpha_train -= 0.5/60;
-	draw_sprite_ext(spr_cutscene_train,_count,0,0,4,3.2,0,c_white,alpha_train);
+
+	}
+	var lay_id = layer_get_id("rail");
+	var back_id = layer_background_get_id(lay_id);
+	layer_background_alpha(back_id, alpha_train);
+	//draw_sprite_ext(spr_cutscene_train,_count,0,0,4,3.2,0,c_white,alpha_train);
 }
 
 else if obj_main.current_end = 0

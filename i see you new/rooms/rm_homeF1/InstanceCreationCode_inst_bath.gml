@@ -1,7 +1,13 @@
 
 actionable = false;
-
-actiontext = ["奇怪，浴室里没有人...."];
+if obj_main.language == "chinese"
+{
+	actiontext = ["奇怪，浴室里没有人...."];
+}
+else if obj_main.language == "english"
+{
+	actiontext = ["It is weird, there is no one here..."];
+}
 spk = [obj_player];
 
 action1 = [
