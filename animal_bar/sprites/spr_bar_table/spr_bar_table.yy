@@ -22,8 +22,8 @@
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"719a883f-8f10-4317-bdf2-59684f2a2e7c","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e3016e61-e2f7-4237-ac7e-8acde499751c","blendMode":0,"displayName":"dialogue","isLocked":false,"opacity":100.0,"visible":false,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"48c66023-414a-4e4f-b39c-9863588cf052","blendMode":0,"displayName":"support","isLocked":false,"opacity":100.0,"visible":false,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0aa99612-14ff-4548-ab0a-736c524270c7","blendMode":0,"displayName":"alcohol","isLocked":false,"opacity":100.0,"visible":false,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"48c66023-414a-4e4f-b39c-9863588cf052","blendMode":0,"displayName":"support","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0aa99612-14ff-4548-ab0a-736c524270c7","blendMode":0,"displayName":"alcohol","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c829d0e8-fc38-497c-8671-b5f54d0ea124","blendMode":0,"displayName":"making","isLocked":false,"opacity":100.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c3124a4e-09e0-440e-9e68-e6fc5c1873a4","blendMode":0,"displayName":"Layer 3","isLocked":false,"opacity":100.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"afb6f6e6-9118-45e5-8622-a98d1f52e755","blendMode":0,"displayName":"bar_table","isLocked":false,"opacity":100.0,"visible":true,},
