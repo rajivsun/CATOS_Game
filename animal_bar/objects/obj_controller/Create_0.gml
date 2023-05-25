@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+// --------------- init -----------------
+make_drinks = false;
+blur_level = 0;
+
+
+
 txt[0] = [
 ["嘿，john。",obj_buck],
 ["哟！这不是大律师阿泰吗？好一阵子\n没见到你了，最近都在忙啥啊？",noone],
@@ -14,9 +21,7 @@ txt[0] = [
 ["好，你想要啥？",noone],
 ["还是老样子吧，鹿舞风华。",obj_buck],
 ["哈哈，你还是没变。",noone],
-
-
-[1,0]
+[2,"drink"],
 ];
 
 

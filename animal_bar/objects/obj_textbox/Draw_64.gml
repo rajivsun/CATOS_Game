@@ -44,8 +44,11 @@ if accept_key and txt[current_node][page+1][0] != 0
 		else if txt[current_node][page+1][0] == 2 // if next page is action 
 		{
 			destroying = true;
-			//take_action(txt[current_node][page+1][1]);
 			instance_destroy();
+			if txt[current_node][page+1][1] == "drink"
+			{
+				obj_controller.make_drinks = true;
+			}
 		}
 	}
 	else // if not typing
@@ -55,8 +58,10 @@ if accept_key and txt[current_node][page+1][0] != 0
 }
 
 // set text and textbox position
+var textbox_ind
 if txt[current_node][page][1] == noone
 {
+	textbox_ind = 0;
 	textbox_x = display_get_gui_width()/2;
 	textbox_y = 950;
 	name_to_draw = "熊猫";
@@ -64,6 +69,7 @@ if txt[current_node][page][1] == noone
 }
 else
 {
+	textbox_ind = 1;
 	textbox_x = txt[current_node][page][1].x*4;
 	textbox_y = 850;
 	name_to_draw = txt[current_node][page][1].name+":"
@@ -84,10 +90,9 @@ else
 	if xscale <= 0.1 instance_destroy();
 }
 
-draw_sprite_ext(spr_box,0,textbox_x,textbox_y,xscale,yscale,0,c_white,1);
+draw_sprite_ext(spr_box,textbox_ind,textbox_x,textbox_y,xscale,yscale,0,c_white,1);
 
 //draw the text
-
 text_x = textbox_x - 260;
 text_y = textbox_y - 20;
 var _drawtext = string_copy(txt[current_node][page][0],1,draw_char);
