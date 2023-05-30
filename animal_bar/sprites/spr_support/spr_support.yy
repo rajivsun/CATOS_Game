@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_support",
   "bbox_bottom": 41,
-  "bbox_left": 31,
+  "bbox_left": 46,
   "bbox_right": 199,
   "bbox_top": 8,
   "bboxMode": 0,
@@ -24,6 +24,7 @@
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5e03d29d-32f3-4149-9580-57c3408cc25a","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":false,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f951befe-cb8a-4c5a-827f-321f18b76a31","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c5ad65eb-53b9-4bcd-a802-1ea923785a1f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,

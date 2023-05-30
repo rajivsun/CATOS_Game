@@ -4,7 +4,10 @@
   "name": "obj_lion",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_NPC","path":"objects/obj_NPC/obj_NPC.yy",},"propertyId":{"name":"name","path":"objects/obj_NPC/obj_NPC.yy",},"value":"\"阿斯兰\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_NPC","path":"objects/obj_NPC/obj_NPC.yy",},"propertyId":{"name":"name_color","path":"objects/obj_NPC/obj_NPC.yy",},"value":"c_olive",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

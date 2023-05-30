@@ -7,6 +7,7 @@ function make_text(_txt){
 		{
 			txt = _txt;
 		}
+		current_txt++;
 	}
 
 }

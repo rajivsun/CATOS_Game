@@ -3,7 +3,7 @@
 
 //------ NPC position --------
 var current_dialogue = obj_controller.position_dialogue[obj_controller.current_dialogue];
-show_debug_message(current_dialogue)
+//show_debug_message(current_dialogue)
 for (var i=0;i<array_length(current_dialogue);i++)
 {
 	if object_index == current_dialogue[i][0]
@@ -23,12 +23,24 @@ switch state
 			{
 				count = 0;
 				state = "talking ";
-				make_text(txt);
+				with obj_controller
+				{
+					make_text(all_txt[current_txt]);
+				}
 			}
 		}
 		break;
 		
 	case "talking":
+		break;
+		
+	case "drinking":
+		
+		with obj_controller
+		{
+			make_text(all_txt[current_txt]);
+		}
+		state = "talking";
 		break;
 }
 
