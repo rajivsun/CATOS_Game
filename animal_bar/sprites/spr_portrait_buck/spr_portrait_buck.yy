@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_portrait_buck",
-  "bbox_bottom": 177,
+  "bbox_bottom": 199,
   "bbox_left": 38,
   "bbox_right": 156,
   "bbox_top": 25,
