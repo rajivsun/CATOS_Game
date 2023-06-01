@@ -5,7 +5,7 @@
 
 if make_drinks == true
 {
-	//blur_level = min(blur_level+0.5,15);
+	blur_level = min(blur_level+0.5,5);
 	
 	if keyboard_check_pressed(ord("D"))
 	{
@@ -15,7 +15,7 @@ if make_drinks == true
 }
 else
 {
-	//blur_level = max(blur_level-0.5,0);
+	blur_level = max(blur_level-0.5,0);
 	if keyboard_check_pressed(ord("T"))
 	{
 		make_drinks = true;

@@ -3,9 +3,10 @@
 
 if obj_controller.make_drinks == true
 {
-	x = lerp(x,480,0.1);
+	image_yscale = lerp(image_yscale,0,0.1);
 }
 else
 {
-	x = lerp(x,xstart,0.1);
+	image_yscale = lerp(image_yscale,1,0.1);
+	//x = lerp(x,xstart,0.1);
 }
