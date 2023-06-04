@@ -4,7 +4,9 @@
   "name": "obj_non_alcohol",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"text_y_buff","path":"objects/obj_drinks/obj_drinks.yy",},"value":"20",},
+  ],
   "parent": {
     "name": "NON_ALCOHOL",
     "path": "folders/Objects/NON_ALCOHOL.yy",

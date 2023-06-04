@@ -4,7 +4,9 @@
   "name": "obj_alcohol",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"text_y_buff","path":"objects/obj_drinks/obj_drinks.yy",},"value":"0",},
+  ],
   "parent": {
     "name": "ALCOHOL",
     "path": "folders/Objects/ALCOHOL.yy",

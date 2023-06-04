@@ -10,7 +10,8 @@ if make_drinks == true
 	if keyboard_check_pressed(ord("D"))
 	{
 		make_drinks = false;
-		current_client.state = "drinking";
+		if instance_exists(current_client)
+			current_client.state = "drinking";
 	}
 }
 else

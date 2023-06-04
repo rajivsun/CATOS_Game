@@ -17,3 +17,8 @@ if object_get_parent(object_index) == obj_season
 {
 	dist = x - inst_support_4.x;
 }
+
+
+outline_create(shader_outlineW);
+
+initial_depth = depth;

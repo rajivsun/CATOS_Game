@@ -1,20 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_liqueur",
+  "name": "obj_text_drink_name",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"text_y_buff","path":"objects/obj_drinks/obj_drinks.yy",},"value":"20",},
-  ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "LIQUEUR",
-    "path": "folders/Objects/LIQUEUR.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "obj_drinks",
-    "path": "objects/obj_drinks/obj_drinks.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

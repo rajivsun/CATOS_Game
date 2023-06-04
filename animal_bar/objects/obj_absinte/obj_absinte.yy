@@ -4,7 +4,9 @@
   "name": "obj_absinte",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"text_x_buff","path":"objects/obj_drinks/obj_drinks.yy",},"value":"-10",},
+  ],
   "parent": {
     "name": "LIQUEUR",
     "path": "folders/Objects/LIQUEUR.yy",

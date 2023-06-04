@@ -75,6 +75,7 @@
     {"id":{"name":"spr_liqueur_blueberry","path":"sprites/spr_liqueur_blueberry/spr_liqueur_blueberry.yy",},},
     {"id":{"name":"obj_liqueur_apple","path":"objects/obj_liqueur_apple/obj_liqueur_apple.yy",},},
     {"id":{"name":"spr_cranberry_juice","path":"sprites/spr_cranberry_juice/spr_cranberry_juice.yy",},},
+    {"id":{"name":"obj_text_drink_name","path":"objects/obj_text_drink_name/obj_text_drink_name.yy",},},
     {"id":{"name":"spr_gin","path":"sprites/spr_gin/spr_gin.yy",},},
     {"id":{"name":"zhongyi_cactus_a_cute_human_like_white_fox_in_cloth_9ad9ef5c_7bb9_4b43_acb4_c4b21e1964a9","path":"sprites/zhongyi_cactus_a_cute_human_like_white_fox_in_cloth_9ad9ef5c_7bb9_4b43_acb4_c4b21e1964a9/zhongyi_cactus_a_cute_human_like_white_fox_in_cloth_9ad9ef5c_7bb9_4b43_acb4_c4b21e1964a9.yy",},},
     {"id":{"name":"obj_buck","path":"objects/obj_buck/obj_buck.yy",},},
@@ -103,6 +104,7 @@
     {"id":{"name":"spr_salt","path":"sprites/spr_salt/spr_salt.yy",},},
     {"id":{"name":"spr_bar_station","path":"sprites/spr_bar_station/spr_bar_station.yy",},},
     {"id":{"name":"obj_champagne","path":"objects/obj_champagne/obj_champagne.yy",},},
+    {"id":{"name":"shader_outlineW","path":"shaders/shader_outlineW/shader_outlineW.yy",},},
     {"id":{"name":"obj_cranberry_juice","path":"objects/obj_cranberry_juice/obj_cranberry_juice.yy",},},
     {"id":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},},
     {"id":{"name":"obj_coconut_milk","path":"objects/obj_coconut_milk/obj_coconut_milk.yy",},},
@@ -125,6 +127,7 @@
     {"id":{"name":"make_text","path":"scripts/make_text/make_text.yy",},},
     {"id":{"name":"spr_liqueur_banana","path":"sprites/spr_liqueur_banana/spr_liqueur_banana.yy",},},
     {"id":{"name":"spr_portrait_buck","path":"sprites/spr_portrait_buck/spr_portrait_buck.yy",},},
+    {"id":{"name":"outline","path":"scripts/outline/outline.yy",},},
     {"id":{"name":"spr_shaker","path":"sprites/spr_shaker/spr_shaker.yy",},},
     {"id":{"name":"obj_NPC","path":"objects/obj_NPC/obj_NPC.yy",},},
     {"id":{"name":"zhongyi_cactus_ice_cube_pixel_art_e48a343b_cc00_4ba1_9159_bb7a1382b371","path":"sprites/zhongyi_cactus_ice_cube_pixel_art_e48a343b_cc00_4ba1_9159_bb7a1382b371/zhongyi_cactus_ice_cube_pixel_art_e48a343b_cc00_4ba1_9159_bb7a1382b371.yy",},},
@@ -137,6 +140,6 @@
     {"roomId":{"name":"rm_bar","path":"rooms/rm_bar/rm_bar.yy",},},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":false,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
 }
