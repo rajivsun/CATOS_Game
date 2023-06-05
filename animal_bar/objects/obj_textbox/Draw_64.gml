@@ -55,6 +55,10 @@ if accept_key and txt[current_node][page+1][0] != 0
 			{
 				obj_controller.scene = 0;
 			}
+			else if txt[current_node][page+1][1] == "leave"
+			{
+				obj_controller.scene = 2;
+			}
 		}
 	}
 	else // if not typing
@@ -99,7 +103,7 @@ else
 draw_sprite_ext(spr_box,textbox_ind,textbox_x,textbox_y,xscale,yscale,0,c_white,1);
 
 //draw the text
-text_x = textbox_x - 260;
+text_x = textbox_x - 280;
 text_y = textbox_y - 20;
 var _drawtext = string_copy(txt[current_node][page][0],1,draw_char);
 draw_set_valign(fa_top);

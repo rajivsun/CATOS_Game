@@ -89,6 +89,7 @@
     {"name":"spr_rum","order":3,"path":"sprites/spr_rum/spr_rum.yy",},
     {"name":"spr_apple_juice","order":1,"path":"sprites/spr_apple_juice/spr_apple_juice.yy",},
     {"name":"spr_bar_table_top_side","order":16,"path":"sprites/spr_bar_table_top_side/spr_bar_table_top_side.yy",},
+    {"name":"ft_chinese_small","order":4,"path":"fonts/ft_chinese_small/ft_chinese_small.yy",},
     {"name":"spr_bar_table","order":14,"path":"sprites/spr_bar_table/spr_bar_table.yy",},
     {"name":"spr_vodka","order":4,"path":"sprites/spr_vodka/spr_vodka.yy",},
     {"name":"obj_gin","order":7,"path":"objects/obj_gin/obj_gin.yy",},

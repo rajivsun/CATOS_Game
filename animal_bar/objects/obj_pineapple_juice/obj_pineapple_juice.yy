@@ -4,7 +4,9 @@
   "name": "obj_pineapple_juice",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"name","path":"objects/obj_drinks/obj_drinks.yy",},"value":"\"菠萝汁\"",},
+  ],
   "parent": {
     "name": "NON_ALCOHOL",
     "path": "folders/Objects/NON_ALCOHOL.yy",

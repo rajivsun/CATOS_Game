@@ -117,6 +117,7 @@
     {"id":{"name":"spr_rum","path":"sprites/spr_rum/spr_rum.yy",},},
     {"id":{"name":"spr_apple_juice","path":"sprites/spr_apple_juice/spr_apple_juice.yy",},},
     {"id":{"name":"spr_bar_table_top_side","path":"sprites/spr_bar_table_top_side/spr_bar_table_top_side.yy",},},
+    {"id":{"name":"ft_chinese_small","path":"fonts/ft_chinese_small/ft_chinese_small.yy",},},
     {"id":{"name":"buck","path":"sprites/buck/buck.yy",},},
     {"id":{"name":"spr_bar_table","path":"sprites/spr_bar_table/spr_bar_table.yy",},},
     {"id":{"name":"spr_vodka","path":"sprites/spr_vodka/spr_vodka.yy",},},

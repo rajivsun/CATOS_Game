@@ -15,7 +15,7 @@ current_txt = 0;
 current_dialogue = -1;
 position_dialogue[0] = [[obj_buck,room_width/2]]
 position_dialogue[1] = [[obj_lion,room_width/3],[obj_buck,room_width/3*2]]
-
+position_dialogue[2] = [[obj_buck,room_width/2]]
 
 //make_text(txt);
 
@@ -49,4 +49,11 @@ txt3[0] = [
 ["你好，john。你好，阿泰。",obj_lion],
 [2,"drink",obj_lion],
 ];
-all_txt = [txt,txt2,txt3]
+
+txt4[0] = [
+["对了，最近动物城一切都好吗？",noone],
+["说实话，不怎么好。最近动物城里\n出了一件怪事，总有动物莫名失踪。",obj_lion],
+[2,"leave",obj_lion],
+];
+
+all_txt = [txt,txt2,txt3,txt4];

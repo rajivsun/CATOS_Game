@@ -4,7 +4,9 @@
   "name": "obj_liqueur_apple",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"name","path":"objects/obj_drinks/obj_drinks.yy",},"value":"\"苹果利口酒\"",},
+  ],
   "parent": {
     "name": "LIQUEUR",
     "path": "folders/Objects/LIQUEUR.yy",
