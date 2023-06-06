@@ -57,7 +57,8 @@ if accept_key and txt[current_node][page+1][0] != 0
 			}
 			else if txt[current_node][page+1][1] == "leave"
 			{
-				obj_controller.scene = 2;
+				//obj_controller.scene = 2;
+				txt[current_node][page+1][2].state = "leaving";
 			}
 		}
 	}

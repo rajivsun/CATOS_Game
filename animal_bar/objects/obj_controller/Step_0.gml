@@ -27,8 +27,6 @@ else
 var _fx_blur = layer_get_fx("blur");
 fx_set_parameter(_fx_blur,"g_Radius",blur_level);
 
-
-
 switch scene
 {
 	case 0:
@@ -51,6 +49,19 @@ switch scene
 		//	obj.xTo = pos[i][1];
 			
 		//}
+		break;
+		
+	case 2:
+		
+		count ++;
+		if count >= room_speed * 1
+		{
+			obj_door.open_door = true;
+			scene = 1;
+			count = 0;
+			//current_dialogue ++;
+			make_text(all_txt[current_txt]);
+		}
 		break;
 }
 

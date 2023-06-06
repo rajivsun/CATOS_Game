@@ -42,5 +42,15 @@ switch state
 		}
 		state = "talking";
 		break;
+		
+	case "leaving":
+		
+		if alpha <= 0
+		{
+			instance_destroy();
+			obj_controller.scene = 2;
+			obj_controller.current_dialogue ++;
+		}
+		break;
 }
 

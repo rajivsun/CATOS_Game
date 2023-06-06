@@ -15,7 +15,8 @@ current_txt = 0;
 current_dialogue = -1;
 position_dialogue[0] = [[obj_buck,room_width/2]]
 position_dialogue[1] = [[obj_lion,room_width/3],[obj_buck,room_width/3*2]]
-position_dialogue[2] = [[obj_buck,room_width/2]]
+position_dialogue[2] = [[obj_buck,room_width/2]];
+position_dialogue[3] = [[obj_white_fox,room_width/3],[obj_buck,room_width/3*2]];
 
 //make_text(txt);
 
@@ -56,4 +57,9 @@ txt4[0] = [
 [2,"leave",obj_lion],
 ];
 
-all_txt = [txt,txt2,txt3,txt4];
+txt5[0] = [
+["That's such a good idea",obj_buck],
+[2,"door"],
+];
+
+all_txt = [txt,txt2,txt3,txt4,txt5];
