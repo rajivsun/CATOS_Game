@@ -60,6 +60,13 @@ if accept_key and txt[current_node][page+1][0] != 0
 				//obj_controller.scene = 2;
 				txt[current_node][page+1][2].state = "leaving";
 			}
+			else if txt[current_node][page+1][1] == "item"
+			{
+				if !instance_exists(obj_items)
+				{
+					instance_create_layer(x,y,"text",txt[current_node][page+1][2]);
+				}
+			}
 		}
 	}
 	else // if not typing

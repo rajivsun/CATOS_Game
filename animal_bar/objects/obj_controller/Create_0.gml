@@ -10,6 +10,7 @@ day = 0;
 count = 0;
 current_client = noone;
 current_txt = 0;
+dragging_item = noone;
 
 
 current_dialogue = -1;
@@ -42,6 +43,11 @@ txt2[0] = [
 ["是这样的，我前一阵子接到了一个案子。",obj_buck],
 ["有一对红狐夫妻，平日里十分恩爱，\n形影不离，然而妻子却莫名其妙失踪了。",obj_buck],
 ["这是他们。",obj_buck],
+[2,"item",obj_photo_red_fox_couple],
+];
+
+txt2_1[0] = [
+["Thats a lovely couple。",noone],
 [2,"door"],
 ];
 	
@@ -62,4 +68,9 @@ txt5[0] = [
 [2,"door"],
 ];
 
-all_txt = [txt,txt2,txt3,txt4,txt5];
+txt6[0] = [
+["Hi John!",obj_white_fox],
+[2,"drink"],
+];
+
+all_txt = [txt,txt2,txt2_1,txt3,txt4,txt5,txt6];

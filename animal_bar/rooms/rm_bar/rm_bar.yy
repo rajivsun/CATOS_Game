@@ -42,6 +42,7 @@
     {"name":"inst_62BECEAA","path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"inst_7C21FA06","path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"inst_3DBCB55E","path":"rooms/rm_bar/rm_bar.yy",},
+    {"name":"inst_53B4E560","path":"rooms/rm_bar/rm_bar.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -88,6 +89,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A4B9AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bar_table_top","path":"objects/obj_bar_table_top/obj_bar_table_top.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":195.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62BECEAA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bar_table_top_side","path":"objects/obj_bar_table_top_side/obj_bar_table_top_side.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":228.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C21FA06","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bar_table","path":"objects/obj_bar_table/obj_bar_table.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":265.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53B4E560","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shaker_table","path":"objects/obj_shaker_table/obj_shaker_table.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":235.0,"y":264.0,},
       ],"layers":[],"properties":[
         {"name":"g_TintCol","type":1,"value":"#FFB2B2B2",},
       ],"userdefinedDepth":false,"visible":true,},

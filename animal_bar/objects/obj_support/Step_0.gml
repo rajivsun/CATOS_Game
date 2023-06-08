@@ -9,3 +9,7 @@ else
 {
 	x = lerp(x,xstart,0.1);
 }
+
+
+if abs(x - 480) < 1 out = true;
+else out = false

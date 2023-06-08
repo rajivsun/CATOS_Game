@@ -21,4 +21,12 @@ if object_get_parent(object_index) == obj_season
 
 outline_create(shader_outlineW);
 
+// ----------- init -----------
 initial_depth = depth;
+dragging_item = noone;
+start_x = 100;
+start_y = 100;
+mouse_buff_x = 0;
+mouse_buff_y = 0;
+dragging = false;
+click = false;

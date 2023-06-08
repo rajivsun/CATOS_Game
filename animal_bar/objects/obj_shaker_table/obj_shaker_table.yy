@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_support",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_shaker_table",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_support",
-    "path": "sprites/spr_support/spr_support.yy",
+    "name": "spr_shaker_table",
+    "path": "sprites/spr_shaker_table/spr_shaker_table.yy",
   },
   "spriteMaskId": null,
   "visible": true,

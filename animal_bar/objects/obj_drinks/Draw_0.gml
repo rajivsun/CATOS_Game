@@ -24,6 +24,7 @@ if collision_point(mouse_x,mouse_y,object_index,false,false)
 else
 	depth = initial_depth;
 
+//draw_text(x,y+50,click)
 
 t = "咖啡利口酒橘子苹果梅子蓝莓香蕉香槟苦艾酒"        
 t = "橘子汁 苹果汁 葡萄汁 菠萝汁 蔓越莓汁 柠檬汁 椰奶"

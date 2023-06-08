@@ -3,15 +3,20 @@
 
 // ----------- making drinks ----------------------
 
-if make_drinks == true
+if make_drinks == true or instance_exists(obj_items)
 {
-	blur_level = min(blur_level+0.5,5);
+	blur_level = min(blur_level+0.5,10);
 	
 	if keyboard_check_pressed(ord("D"))
 	{
 		make_drinks = false;
 		if instance_exists(current_client)
 			current_client.state = "drinking";
+	}
+	if keyboard_check_pressed(ord("F"))
+	{
+		instance_destroy(obj_items);
+		make_text(all_txt[current_txt]);
 	}
 }
 else
