@@ -3,3 +3,4 @@
 
 draw_self();
 
+//for (var i=0;i<
