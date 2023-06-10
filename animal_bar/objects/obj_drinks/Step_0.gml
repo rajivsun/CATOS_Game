@@ -19,10 +19,10 @@ if ! destroying
 		{
 			x =  inst_support_3.x + dist;
 		}
-		if object_get_parent(object_index) == obj_season
-		{
-			x =  inst_support_4.x + dist;
-		}
+		//if object_get_parent(object_index) == obj_season
+		//{
+		//	x =  inst_support_4.x + dist;
+		//}
 	}
 
 	else
@@ -50,10 +50,10 @@ if ! destroying
 		// release the mouse button
 		if mouse_check_button_released(mb_left) and id == obj_controller.dragging_item
 		{
-
 			if place_meeting(x,y,obj_shaker_table)
 			{
-				destroying = true
+				destroying = true;
+				ds_list_add(obj_shaker_table.ls_drinks,id.name);
 			}
 			else
 			{
