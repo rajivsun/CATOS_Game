@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-virtual_key_add(1488,301,100,100,ord("F"));
+game_set_speed(60, gamespeed_fps);
+virtual_key_add(700,130,70,70,ord("F"))
+
 name_player = "John";
 
 // --------------- init -----------------

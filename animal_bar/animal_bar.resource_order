@@ -24,10 +24,10 @@
     {"name":"LIQUEUR","order":3,"path":"folders/Sprites/LIQUEUR.yy",},
     {"name":"NON_ALCOHOL","order":4,"path":"folders/Sprites/NON_ALCOHOL.yy",},
     {"name":"NPC","order":7,"path":"folders/Sprites/NPC.yy",},
+    {"name":"PHOTO","order":8,"path":"folders/Sprites/PHOTO.yy",},
     {"name":"SEASON","order":5,"path":"folders/Sprites/SEASON.yy",},
     {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":10,"path":"folders/Timelines.yy",},
-    {"name":"PHOTO","order":8,"path":"folders/Sprites/PHOTO.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_controller","order":6,"path":"objects/obj_controller/obj_controller.yy",},

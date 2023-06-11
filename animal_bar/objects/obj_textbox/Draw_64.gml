@@ -81,15 +81,15 @@ if txt[current_node][page][1] == noone
 {
 	textbox_ind = 0;
 	textbox_x = display_get_gui_width()/2;
-	textbox_y = 950;
+	textbox_y = display_get_gui_height()/1080*950;
 	name_to_draw = obj_controller.name_player
 	name_color = c_red;
 }
 else
 {
 	textbox_ind = 1;
-	textbox_x = txt[current_node][page][1].x*4;
-	textbox_y = 850;
+	textbox_x = txt[current_node][page][1].x*display_get_gui_width()/480;
+	textbox_y = display_get_gui_height()/1080*850;
 	name_to_draw = txt[current_node][page][1].name+":"
 	name_color = txt[current_node][page][1].name_color;
 }
@@ -98,21 +98,21 @@ else
 //draw textbox
 if destroying == false
 {
-	xscale = lerp(xscale,4,0.2);
-	yscale = lerp(yscale,4,0.5);
+	xscale = lerp(xscale,display_get_gui_width()/480,0.2);
+	yscale = lerp(yscale,display_get_gui_width()/480,0.5);
 }
 else
 {
-	xscale = lerp(xscale,0,0.2);
-	yscale = lerp(yscale,0,0.5);
+	xscale = lerp(display_get_gui_width()/480,0,0.2);
+	yscale = lerp(display_get_gui_width()/480,0,0.5);
 	if xscale <= 0.1 instance_destroy();
 }
 
 draw_sprite_ext(spr_box,textbox_ind,textbox_x,textbox_y,xscale,yscale,0,c_white,1);
 
 //draw the text
-text_x = textbox_x - 280;
-text_y = textbox_y - 20;
+text_x = textbox_x - display_get_gui_width()/1920*280;
+text_y = textbox_y - display_get_gui_height()/1080*20;
 var _drawtext = string_copy(txt[current_node][page][0],1,draw_char);
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
@@ -120,9 +120,9 @@ if ! destroying
 {
 	draw_set_font(ft_chinese);	
 	draw_set_color(name_color);
-	draw_text_ext(text_x,text_y-57,name_to_draw,line_sep,line_width);
+	draw_text_ext_transformed(text_x,text_y-display_get_gui_height()/1080*57,name_to_draw,line_sep,line_width,display_get_gui_width()/1920,display_get_gui_height()/1080,0);
 	draw_set_color(c_black);
-	draw_text_ext(text_x,text_y,_drawtext,line_sep,line_width);
+	draw_text_ext_transformed(text_x,text_y,_drawtext,line_sep,line_width,display_get_gui_width()/1920,display_get_gui_height()/1080,0);
 	draw_set_color(c_white);
 }
 
