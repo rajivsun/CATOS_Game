@@ -4,9 +4,7 @@
   "name": "obj_liqueur_banana",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"name","path":"objects/obj_drinks/obj_drinks.yy",},"value":"\"香蕉利口酒\"",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "LIQUEUR",
     "path": "folders/Objects/LIQUEUR.yy",

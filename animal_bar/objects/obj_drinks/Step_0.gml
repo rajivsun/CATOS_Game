@@ -53,7 +53,9 @@ if ! destroying
 			if place_meeting(x,y,obj_shaker_table)
 			{
 				destroying = true;
-				ds_list_add(obj_shaker_table.ls_drinks,id.name);
+				if obj_shaker_table.state == "mixing"
+					array_push(obj_shaker_table.ls_drinks,object_index);
+				//ds_list_add(obj_shaker_table.ls_drinks,id.name);
 			}
 			else
 			{

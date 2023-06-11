@@ -4,9 +4,7 @@
   "name": "obj_rum",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"name","path":"objects/obj_drinks/obj_drinks.yy",},"value":"\"朗姆酒\"",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "ALCOHOL",
     "path": "folders/Objects/ALCOHOL.yy",

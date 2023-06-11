@@ -7,7 +7,6 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"text_x_buff","path":"objects/obj_drinks/obj_drinks.yy",},"value":"-10",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"text_length","path":"objects/obj_drinks/obj_drinks.yy",},"value":"40",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"name","path":"objects/obj_drinks/obj_drinks.yy",},"value":"\"苦艾酒\"",},
   ],
   "parent": {
     "name": "LIQUEUR",

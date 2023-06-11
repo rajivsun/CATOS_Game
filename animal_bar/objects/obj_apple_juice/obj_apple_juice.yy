@@ -4,9 +4,7 @@
   "name": "obj_apple_juice",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_drinks","path":"objects/obj_drinks/obj_drinks.yy",},"propertyId":{"name":"name","path":"objects/obj_drinks/obj_drinks.yy",},"value":"\"苹果汁\"",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "NON_ALCOHOL",
     "path": "folders/Objects/NON_ALCOHOL.yy",

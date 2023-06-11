@@ -18,7 +18,7 @@ if collision_point(mouse_x,mouse_y,object_index,false,false)
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
 	draw_set_font(ft_chinese);
-	draw_text_ext_transformed(x+text_x_buff,y+text_y_buff+2,name,10,300,0.25,0.25,0);
+	draw_text_ext_transformed(x+text_x_buff,y+text_y_buff+2,name[0],10,300,0.25,0.25,0);
 	draw_set_color(c_white);
 }
 else

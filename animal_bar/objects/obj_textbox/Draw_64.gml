@@ -82,7 +82,7 @@ if txt[current_node][page][1] == noone
 	textbox_ind = 0;
 	textbox_x = display_get_gui_width()/2;
 	textbox_y = 950;
-	name_to_draw = "熊猫";
+	name_to_draw = obj_controller.name_player
 	name_color = c_red;
 }
 else

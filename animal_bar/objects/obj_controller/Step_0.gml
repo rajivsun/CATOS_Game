@@ -1,9 +1,23 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// ----------- making drinks ----------------------
+// ----------- show items ----------------------
+if instance_exists(obj_items)
+{
+	blur_level_all = min(blur_level_all+0.5,10);
+	if keyboard_check_pressed(ord("F"))
+	{
+		instance_destroy(obj_items);
+		make_text(all_txt[current_txt]);
+	}
+}
+else
+{
+	blur_level_all = max(blur_level_all-0.5,0);
+}
 
-if make_drinks == true or instance_exists(obj_items)
+// ----------- making drinks ----------------------
+if make_drinks == true 
 {
 	blur_level = min(blur_level+0.5,10);
 	
@@ -13,11 +27,7 @@ if make_drinks == true or instance_exists(obj_items)
 		if instance_exists(current_client)
 			current_client.state = "drinking";
 	}
-	if keyboard_check_pressed(ord("F"))
-	{
-		instance_destroy(obj_items);
-		make_text(all_txt[current_txt]);
-	}
+
 }
 else
 {
@@ -28,9 +38,10 @@ else
 	}	
 }
 
-
 var _fx_blur = layer_get_fx("blur");
 fx_set_parameter(_fx_blur,"g_Radius",blur_level);
+var _fx_blur_all = layer_get_fx("blur_all");
+fx_set_parameter(_fx_blur_all,"g_Radius",blur_level_all);
 
 switch scene
 {

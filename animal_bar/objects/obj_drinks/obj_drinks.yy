@@ -31,7 +31,6 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"text_length","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"40","varType":4,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"text_y_buff","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"10","varType":4,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"text_x_buff","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"\"","varType":4,},
   ],
   "solid": false,
   "spriteId": null,
