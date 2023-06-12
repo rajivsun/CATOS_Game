@@ -9,8 +9,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_NPC","path":"objects/obj_NPC/obj_NPC.yy",},"propertyId":{"name":"name_color","path":"objects/obj_NPC/obj_NPC.yy",},"value":"c_olive",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "NPC",
+    "path": "folders/Objects/NPC.yy",
   },
   "parentObjectId": {
     "name": "obj_NPC",

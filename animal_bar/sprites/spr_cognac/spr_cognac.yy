@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_cognac",
   "bbox_bottom": 61,
-  "bbox_left": 0,
-  "bbox_right": 28,
+  "bbox_left": 1,
+  "bbox_right": 29,
   "bbox_top": 14,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 30,
+  "width": 31,
 }

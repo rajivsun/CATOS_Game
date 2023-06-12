@@ -3,7 +3,7 @@
 
 game_set_speed(60, gamespeed_fps);
 virtual_key_add(700,130,70,70,ord("F"))
-
+virtual_key_add(0,400,960,200,vk_space);
 name_player = "John";
 
 // --------------- init -----------------
@@ -16,7 +16,6 @@ count = 0;
 current_client = noone;
 current_txt = 0;
 dragging_item = noone;
-
 
 current_dialogue = -1;
 position_dialogue[0] = [[obj_buck,room_width/2]]

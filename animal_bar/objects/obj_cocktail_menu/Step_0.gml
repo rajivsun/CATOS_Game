@@ -3,7 +3,7 @@
 
 if obj_controller.make_drinks == true
 {
-	x = lerp(x,75,0.1);
+	x = lerp(x,16,0.1);
 }
 else
 {

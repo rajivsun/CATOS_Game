@@ -13,9 +13,17 @@ ls_drinks = [];
 
 all_drinks = [
 [obj_cognac,obj_liqueur_apple,obj_lemon_juice],
+[obj_cognac,obj_liqueur_apple,obj_lemon_juice],
+[obj_cognac,obj_liqueur_apple,obj_lemon_juice],
+[obj_cognac,obj_liqueur_apple,obj_lemon_juice],
+[obj_cognac,obj_liqueur_apple,obj_lemon_juice],
 
 ]
 
 all_drinks_name = [
+["鹿舞风华"],
+["鹿舞风华"],
+["鹿舞风华"],
+["鹿舞风华"],
 ["鹿舞风华"],
 ]
