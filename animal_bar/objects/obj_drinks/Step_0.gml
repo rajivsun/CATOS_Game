@@ -55,7 +55,6 @@ if ! destroying
 				destroying = true;
 				if obj_shaker_table.state == "mixing"
 					array_push(obj_shaker_table.ls_drinks,object_index);
-				//ds_list_add(obj_shaker_table.ls_drinks,id.name);
 			}
 			else
 			{
@@ -67,7 +66,7 @@ if ! destroying
 			click = false;
 			obj_controller.dragging_item = noone;
 		}
-
+		
 		if dragging == true and click == true
 		{
 			var dx = (mouse_x - mouse_xprev);
