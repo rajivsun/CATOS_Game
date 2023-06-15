@@ -14,7 +14,7 @@ ls_drinks = [];
 all_drinks = [
 [obj_cognac,obj_liqueur_apple,obj_lemon_juice],
 [obj_vodka,obj_lemon_juice,obj_liqueur_orange,obj_absinte],
-[obj_vodka,obj_lemon_juice,obj_liqueur_orange,obj_absinte],
+[obj_rum,obj_liqueur_banana,obj_orange_juice,obj_lemon_juice],
 [obj_vodka,obj_coconut_milk,obj_lemon_juice],
 ];
 
