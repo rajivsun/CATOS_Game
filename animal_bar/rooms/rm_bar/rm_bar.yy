@@ -42,6 +42,7 @@
     {"name":"inst_49254997","path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"inst_1C44D5D","path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"inst_233FD57D","path":"rooms/rm_bar/rm_bar.yy",},
+    {"name":"inst_57CE1BF0","path":"rooms/rm_bar/rm_bar.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -87,6 +88,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"bar_table","depth":400,"effectEnabled":false,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A4B9AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bar_table_top","path":"objects/obj_bar_table_top/obj_bar_table_top.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":195.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62BECEAA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bar_table_top_side","path":"objects/obj_bar_table_top_side/obj_bar_table_top_side.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":228.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57CE1BF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_icon_platine","path":"objects/obj_icon_platine/obj_icon_platine.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":24.0,"y":20.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"bar_shadow","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1C44D5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_undertable_shadow","path":"objects/obj_undertable_shadow/obj_undertable_shadow.yy",},"properties":[],"rotation":0.0,"scaleX":7.9375,"scaleY":1.46875,"x":242.0,"y":278.0,},

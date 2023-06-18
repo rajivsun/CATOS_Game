@@ -23,7 +23,7 @@ position_dialogue[1] = [[obj_lion,room_width/3],[obj_buck,room_width/3*2]]
 position_dialogue[2] = [[obj_buck,room_width/2]];
 position_dialogue[3] = [[obj_white_fox,room_width/3],[obj_buck,room_width/3*2]];
 position_dialogue[4] = [[obj_buck,room_width/2]];
-position_dialogue[5] = [[obj_gorilla,room_width/3],[obj_buck,room_width/3*2]];
+position_dialogue[5] = [[obj_redpanda,100],[obj_gorilla,room_width/2],[obj_buck,room_width-100]];
 
 //make_text(txt);
 

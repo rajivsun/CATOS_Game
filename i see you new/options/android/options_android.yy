@@ -49,7 +49,7 @@
   "option_android_orient_portrait_flipped": false,
   "option_android_package_company": "catosgame",
   "option_android_package_domain": "com",
-  "option_android_package_product": "iseeyou",
+  "option_android_package_product": "VOIR",
   "option_android_permission_bluetooth": true,
   "option_android_permission_internet": true,
   "option_android_permission_network_state": false,
