@@ -23,9 +23,12 @@ switch state
 			{
 				count = 0;
 				state = "talking ";
-				with obj_controller
+				if shutup == false
 				{
-					make_text(all_txt[current_txt]);
+					with obj_controller
+					{
+						make_text(all_txt[current_txt]);
+					}
 				}
 			}
 		}
@@ -51,6 +54,9 @@ switch state
 			obj_controller.scene = 2;
 			obj_controller.current_dialogue ++;
 		}
+		break;
+		
+	case "nothing":
 		break;
 }
 

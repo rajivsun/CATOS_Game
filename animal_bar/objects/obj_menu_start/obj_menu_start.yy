@@ -1,18 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_redpanda",
+  "name": "obj_menu_start",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
-  "parentObjectId": {
-    "name": "obj_NPC",
-    "path": "objects/obj_NPC/obj_NPC.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_portrait_redpanda_police",
-    "path": "sprites/spr_portrait_redpanda_police/spr_portrait_redpanda_police.yy",
+    "name": "spr_menu_start",
+    "path": "sprites/spr_menu_start/spr_menu_start.yy",
   },
   "spriteMaskId": null,
   "visible": true,

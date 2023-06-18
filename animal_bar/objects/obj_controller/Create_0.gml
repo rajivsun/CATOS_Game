@@ -18,12 +18,12 @@ current_txt = 0;
 dragging_item = noone;
 
 current_dialogue = -1;
-position_dialogue[0] = [[obj_buck,room_width/2]];
-position_dialogue[1] = [[obj_lion,room_width/3],[obj_buck,room_width/3*2]]
-position_dialogue[2] = [[obj_buck,room_width/2]];
-position_dialogue[3] = [[obj_white_fox,room_width/3],[obj_buck,room_width/3*2]];
-position_dialogue[4] = [[obj_buck,room_width/2]];
-position_dialogue[5] = [[obj_redpanda,100],[obj_gorilla,room_width/2],[obj_buck,room_width-100]];
+position_dialogue[0] = [[obj_buck,room_width/2,true]];
+position_dialogue[1] = [[obj_lion,room_width/3,true],[obj_buck,room_width/3*2,true]]
+position_dialogue[2] = [[obj_buck,room_width/2,true]];
+position_dialogue[3] = [[obj_white_fox,room_width/3,true],[obj_buck,room_width/3*2,true]];
+position_dialogue[4] = [[obj_buck,room_width/2,true]];
+position_dialogue[5] = [[obj_redpanda,100,false],[obj_gorilla,room_width/2,true],[obj_buck,room_width-100,true]];
 
 //make_text(txt);
 
@@ -153,5 +153,6 @@ txt9[0] = [
 ["晚上好先生们。",obj_gorilla],
 [2,"drink",obj_gorilla],
 ];
+
 
 all_txt = [txt,txt2,txt2_1,txt2_2,txt3,txt3_1,txt4,txt5,txt6,txt7,txt8,txt9];
