@@ -120,8 +120,9 @@ if ! destroying
 {
 	draw_set_font(ft_chinese);	
 	draw_set_color(name_color);
+	draw_set_color(#CCBE7A);
 	draw_text_ext_transformed(text_x,text_y-display_get_gui_height()/1080*57,name_to_draw,line_sep,line_width,display_get_gui_width()/1920,display_get_gui_height()/1080,0);
-	draw_set_color(c_black);
+	
 	draw_text_ext_transformed(text_x,text_y,_drawtext,line_sep,line_width,display_get_gui_width()/1920,display_get_gui_height()/1080,0);
 	draw_set_color(c_white);
 }

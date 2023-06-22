@@ -45,7 +45,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"STAIRS","folderPath":"folders/Objects/STAIRS.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sounds","folderPath":"folders/Objects/STAIRS/sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SYSTEM","folderPath":"folders/Objects/SYSTEM.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TEMP","folderPath":"folders/Objects/TEMP.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"WEAPON","folderPath":"folders/Objects/WEAPON.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},

@@ -6,3 +6,4 @@
 //[obj_cognac,obj_liqueur_apple,obj_lemon_juice],
 //]
 
+state = "main"
