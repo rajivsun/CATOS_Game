@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//play music
+audio_play_sound(mc_jazz_1,99,true);
+
+
 game_set_speed(60, gamespeed_fps);
 virtual_key_add(700,130,150,150,ord("F"))
 virtual_key_add(0,400,960,200,vk_space);

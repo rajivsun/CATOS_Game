@@ -136,6 +136,7 @@
     {"name":"spr_liqueur_apple","order":2,"path":"sprites/spr_liqueur_apple/spr_liqueur_apple.yy",},
     {"name":"spr_cocktail_menu_rect","order":28,"path":"sprites/spr_cocktail_menu_rect/spr_cocktail_menu_rect.yy",},
     {"name":"obj_undertable_shadow","order":21,"path":"objects/obj_undertable_shadow/obj_undertable_shadow.yy",},
+    {"name":"spr_cocktail_menu_backsign","order":29,"path":"sprites/spr_cocktail_menu_backsign/spr_cocktail_menu_backsign.yy",},
     {"name":"obj_icon_platine","order":23,"path":"objects/obj_icon_platine/obj_icon_platine.yy",},
     {"name":"spr_liqueur_banana","order":5,"path":"sprites/spr_liqueur_banana/spr_liqueur_banana.yy",},
     {"name":"spr_portrait_buck","order":2,"path":"sprites/spr_portrait_buck/spr_portrait_buck.yy",},
