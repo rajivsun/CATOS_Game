@@ -28,6 +28,7 @@ switch state
 				}
 				state = "mixing";
 				ls_drinks = [];
+				current_cocktail = -1;
 			}
 		}
 		else image_index = 0;

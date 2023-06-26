@@ -6,4 +6,5 @@
 //[obj_cognac,obj_liqueur_apple,obj_lemon_juice],
 //]
 
-state = "main"
+state = "main";
+current_drink = 0;
