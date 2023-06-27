@@ -65,6 +65,7 @@
     {"id":{"name":"obj_liqueur_banana","path":"objects/obj_liqueur_banana/obj_liqueur_banana.yy",},},
     {"id":{"name":"obj_liqueur_orange","path":"objects/obj_liqueur_orange/obj_liqueur_orange.yy",},},
     {"id":{"name":"spr_portrait_redpanda_police","path":"sprites/spr_portrait_redpanda_police/spr_portrait_redpanda_police.yy",},},
+    {"id":{"name":"color_text","path":"notes/color_text/color_text.yy",},},
     {"id":{"name":"spr_cocktails","path":"sprites/spr_cocktails/spr_cocktails.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"spr_coconut_milk","path":"sprites/spr_coconut_milk/spr_coconut_milk.yy",},},

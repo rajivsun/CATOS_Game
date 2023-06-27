@@ -44,6 +44,7 @@
     {"name":"obj_liqueur_banana","order":6,"path":"objects/obj_liqueur_banana/obj_liqueur_banana.yy",},
     {"name":"obj_liqueur_orange","order":1,"path":"objects/obj_liqueur_orange/obj_liqueur_orange.yy",},
     {"name":"spr_portrait_redpanda_police","order":4,"path":"sprites/spr_portrait_redpanda_police/spr_portrait_redpanda_police.yy",},
+    {"name":"color_text","order":5,"path":"notes/color_text/color_text.yy",},
     {"name":"spr_coconut_milk","order":6,"path":"sprites/spr_coconut_milk/spr_coconut_milk.yy",},
     {"name":"obj_cognac","order":3,"path":"objects/obj_cognac/obj_cognac.yy",},
     {"name":"obj_rum","order":5,"path":"objects/obj_rum/obj_rum.yy",},

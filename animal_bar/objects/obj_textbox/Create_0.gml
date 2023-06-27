@@ -35,7 +35,7 @@ page = 0;
 page_number = 0;
 text_length[0] = string_length(txt[0]);
 draw_char = 0;
-text_spd = 0.5;
+text_spd = 0.2;
 setup = false;
 
 // ----------------- portrait enum -------------------
