@@ -21,6 +21,7 @@ switch state
 	case "finish":
 		if current_cocktail = -1
 		{
+			draw_sprite_ext(spr_cocktails_ugly,0,x,y,1,1,0,c_white,1);
 		}
 		else
 		{

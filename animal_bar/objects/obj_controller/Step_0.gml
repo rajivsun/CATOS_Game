@@ -45,6 +45,17 @@ fx_set_parameter(_fx_blur_all,"g_Radius",blur_level_all);
 
 switch scene
 {
+	case -1:
+	
+		count ++;
+		if count >= room_speed * 4
+		{
+			scene = 1;
+			count = 0;		
+			make_text(all_txt[current_txt]);
+		}
+		
+		break;
 	case 0:
 		count++;
 		if count >= room_speed * 2

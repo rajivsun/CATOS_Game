@@ -5,16 +5,16 @@
 audio_play_sound(mc_jazz_1,99,true);
 
 
-game_set_speed(60, gamespeed_fps);
+//game_set_speed(60, gamespeed_fps);
 virtual_key_add(700,130,150,150,ord("F"))
-virtual_key_add(0,400,960,200,vk_space);
+virtual_key_add(0,400,960,200,vk_space)
 name_player = "John";
 
 // --------------- init -----------------
 make_drinks = false;
 blur_level = 0;
 blur_level_all = 0;
-scene = 0;
+scene = -1;
 day = 0;
 count = 0;
 current_client = noone;
@@ -30,6 +30,13 @@ position_dialogue[4] = [[obj_buck,room_width/2,true]];
 position_dialogue[5] = [[obj_redpanda,100,false],[obj_gorilla,room_width/2,true],[obj_buck,room_width-100,true]];
 
 //make_text(txt);
+
+txt_pre_1[0]=
+[
+["来看看今晚的第一位客人是谁。",noone],
+
+[2,"door"],
+]
 
 txt[0] = [
 ["嘿，"+name_player+"。",obj_buck],
@@ -277,4 +284,5 @@ txt10[0] = [
 
 [2,"drink",obj_gorilla],
 ];
-all_txt = [txt,txt2,txt2_1,txt2_2,txt3,txt3_1,txt4,txt5,txt6,txt7,txt8,txt9,txt10];
+
+all_txt = [txt_pre_1,txt,txt2,txt2_1,txt2_2,txt3,txt3_1,txt4,txt5,txt6,txt7,txt8,txt9,txt10];

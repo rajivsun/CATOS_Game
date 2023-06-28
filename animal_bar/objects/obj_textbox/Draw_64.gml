@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 accept_key = keyboard_check_pressed(vk_space);
 
 //setup
@@ -67,6 +68,8 @@ if accept_key and txt[current_node][page+1][0] != 0
 					instance_create_layer(x,y,"text",txt[current_node][page+1][2]);
 				}
 			}
+			instance_destroy();
+			exit;
 		}
 	}
 	else // if not typing
