@@ -18,6 +18,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ALCOHOL","folderPath":"folders/Objects/ALCOHOL.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CUTSCENE","folderPath":"folders/Objects/CUTSCENE.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EFFECT","folderPath":"folders/Objects/EFFECT.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ITEMS","folderPath":"folders/Objects/ITEMS.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PHOTOS","folderPath":"folders/Objects/ITEMS/PHOTOS.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"LIQUEUR","folderPath":"folders/Objects/LIQUEUR.yy",},
@@ -44,8 +46,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CUTSCENE","folderPath":"folders/Objects/CUTSCENE.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EFFECT","folderPath":"folders/Objects/EFFECT.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"vector-set-pixel-isolated-alcohol-260nw-2117943884.webp","CopyToMask":-1,"filePath":"datafiles",},
@@ -205,8 +205,8 @@
     {"id":{"name":"rm_bar","path":"rooms/rm_bar/rm_bar.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_pre","path":"rooms/rm_pre/rm_pre.yy",},},
     {"roomId":{"name":"rm_bar","path":"rooms/rm_bar/rm_bar.yy",},},
+    {"roomId":{"name":"rm_pre","path":"rooms/rm_pre/rm_pre.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
   ],
   "TextureGroups": [

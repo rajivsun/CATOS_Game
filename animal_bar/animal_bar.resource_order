@@ -7,6 +7,8 @@
     {"name":"Notes","order":14,"path":"folders/Notes.yy",},
     {"name":"Objects","order":3,"path":"folders/Objects.yy",},
     {"name":"ALCOHOL","order":3,"path":"folders/Objects/ALCOHOL.yy",},
+    {"name":"CUTSCENE","order":10,"path":"folders/Objects/CUTSCENE.yy",},
+    {"name":"EFFECT","order":11,"path":"folders/Objects/EFFECT.yy",},
     {"name":"ITEMS","order":7,"path":"folders/Objects/ITEMS.yy",},
     {"name":"PHOTOS","order":1,"path":"folders/Objects/ITEMS/PHOTOS.yy",},
     {"name":"LIQUEUR","order":5,"path":"folders/Objects/LIQUEUR.yy",},
@@ -31,8 +33,6 @@
     {"name":"UI","order":8,"path":"folders/Sprites/UI.yy",},
     {"name":"Tile Sets","order":6,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":11,"path":"folders/Timelines.yy",},
-    {"name":"CUTSCENE","order":10,"path":"folders/Objects/CUTSCENE.yy",},
-    {"name":"EFFECT","order":11,"path":"folders/Objects/EFFECT.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_controller","order":2,"path":"objects/obj_controller/obj_controller.yy",},
