@@ -38,7 +38,7 @@ txt_pre_1[0]=
 ]
 
 txt[0] = [
-["嘿，"+name_player+"。",obj_buck],
+["嘿，"+name_player+"。",obj_buck,"laugh"],
 //["哟！让我瞧瞧。这不是大律师阿泰吗？",noone],
 //["好一阵子没见到你了，最近都在忙啥啊？",noone],
 //["哎别提了，最近一直在忙一个\n客户的案子，搞得我心力憔悴。",obj_buck],

@@ -13,10 +13,10 @@ if object_get_parent(object_index) == obj_non_alcohol
 {
 	dist = x - inst_support_3.x;
 }
-//if object_get_parent(object_index) == obj_season
-//{
-//	dist = x - inst_support_4.x;
-//}
+if object_get_parent(object_index) == obj_season
+{
+	dist = y - obj_bar_table.y;
+}
 
 if object_index == obj_tequila name = ["龙舌兰"];
 else if object_index == obj_cognac name = ["白兰地"];

@@ -19,10 +19,10 @@ if ! destroying
 		{
 			x =  inst_support_3.x + dist;
 		}
-		//if object_get_parent(object_index) == obj_season
-		//{
-		//	x =  inst_support_4.x + dist;
-		//}
+		if object_get_parent(object_index) == obj_season
+		{
+			y = obj_bar_table.y + dist;
+		}
 	}
 
 	else

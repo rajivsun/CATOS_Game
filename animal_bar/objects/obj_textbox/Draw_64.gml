@@ -4,11 +4,25 @@
 
 accept_key = keyboard_check_pressed(vk_space);
 
+
+// set character emoj
+var _person = txt[current_node][page][1]
+	
+if array_length(txt[current_node][page]) > 2
+{
+	var _emo = txt[current_node][page][2];
+	with _person
+	{	
+		var _sprite_index = sprite_get_name(spr_idle)+"_"+_emo;
+		sprite_index = asset_get_index(_sprite_index)
+	}
+}
+
 //setup
 if setup == false
 {
 	setup = true;
-	draw_set_font(ft_chinese);	
+	draw_set_font(ft_chinese);
 	//loop through the pages
 	page_number = array_length(txt[current_node]);
 	for (var p = 0; p < page_number; p++)
@@ -34,7 +48,12 @@ if accept_key and txt[current_node][page+1][0] != 0
 		//next page ( if next page is not end, is not action )
 		if page < page_number -1 and txt[current_node][page+1][0] != 1 and txt[current_node][page+1][0] != 2
 		{
+			with _person
+			{
+				sprite_index = spr_idle;
+			}
 			page ++;
+			
 			draw_char = 0;
 		}
 		else if txt[current_node][page+1][0] == 1 // if next page is the end
@@ -114,7 +133,7 @@ else
 draw_sprite_ext(spr_box,textbox_ind,textbox_x,textbox_y,xscale,yscale,0,c_white,1);
 
 //draw the text
-text_x = textbox_x - display_get_gui_width()/1920*280;
+text_x = textbox_x - display_get_gui_width()/1920*300;
 text_y = textbox_y - display_get_gui_height()/1080*20;
 var _drawtext = string_copy(txt[current_node][page][0],1,draw_char);
 draw_set_valign(fa_top);

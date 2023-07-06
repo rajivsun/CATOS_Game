@@ -14,3 +14,5 @@ wait_for_drink = false;
 shutup = false;
 npc_names = "阿泰 阿斯兰 吉儿 威廉 本杰明";
 
+
+spr_idle = sprite_index;
