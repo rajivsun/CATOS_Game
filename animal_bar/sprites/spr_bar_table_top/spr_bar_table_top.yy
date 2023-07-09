@@ -4,7 +4,7 @@
   "name": "spr_bar_table_top",
   "bbox_bottom": 29,
   "bbox_left": 0,
-  "bbox_right": 479,
+  "bbox_right": 799,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -20,7 +20,6 @@
   "height": 30,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cdf2fbf3-0b9a-46da-a465-8ea626b0c6bf","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6486c47a-df75-4c3e-9b04-ed08f651dddb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
@@ -60,7 +59,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 240,
+    "xorigin": 400,
     "yorigin": 0,
   },
   "swatchColours": null,
@@ -71,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 480,
+  "width": 800,
 }

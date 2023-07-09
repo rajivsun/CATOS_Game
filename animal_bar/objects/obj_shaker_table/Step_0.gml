@@ -2,11 +2,12 @@
 // You can write your code in this editor
 
 y = obj_bar_table.y + dist;
+x = obj_bar_table.x;
 
 switch state
 {
 	case "mixing":
-		if place_meeting(x,y,obj_drinks)
+		if place_meeting(x,y,obj_sample)
 		{
 			image_index = 1;
 		}

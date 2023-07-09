@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 y = obj_bar_table.y + dist;
+x = obj_bar_table.x - (obj_bar_table.xstart - xstart);
 
 if collision_point(mouse_x,mouse_y,id,false,false)
 {

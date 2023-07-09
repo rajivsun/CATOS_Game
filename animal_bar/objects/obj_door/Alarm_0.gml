@@ -13,7 +13,7 @@ for (var ii=0;ii<array_length(_current_npc);ii++)
 	show_debug_message(_current_npc[ii]);
 	if !instance_exists(_current_npc[ii][0])
 	{
-		with instance_create_layer(210,0,"NPC",_current_npc[ii][0])
+		with instance_create_layer(_current_npc[ii][1],0,"NPC",_current_npc[ii][0])
 		{
 			if _current_npc[ii][2] == false 
 				shutup = true;

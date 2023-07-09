@@ -110,7 +110,7 @@ if txt[current_node][page][1] == noone
 else
 {
 	textbox_ind = 1;
-	textbox_x = txt[current_node][page][1].x*display_get_gui_width()/480;
+	textbox_x = (txt[current_node][page][1].x - (obj_camera.x-obj_camera.view_w_half))*display_get_gui_width()/480;
 	textbox_y = display_get_gui_height()/1080*850;
 	name_to_draw = txt[current_node][page][1].name+":"
 	name_color = txt[current_node][page][1].name_color;

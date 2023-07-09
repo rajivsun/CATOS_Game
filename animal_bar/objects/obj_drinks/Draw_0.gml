@@ -4,7 +4,8 @@
 
 draw_self();
 
-if collision_point(mouse_x,mouse_y,object_index,false,false) and obj_controller.make_drinks == true
+if collision_point(mouse_x,mouse_y,object_index,false,false) and obj_controller.make_drinks == true 
+and !instance_exists(obj_sample)
 {
 	depth = -999;
 	outline_draw(shader_outlineW);
