@@ -39,3 +39,5 @@ if instance_number(obj_NPC) > 0
 	camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 }
 
+layer_x("Bg",x/5-48);
+layer_x("lights_last",x/5-48);

@@ -4,7 +4,7 @@
 // --------init --------------
 open_door = false;
 current_npc = 0;
-
+dist_relative = layer_get_x("Bg") - x;
 
 //// -------- npc create list --------------
 //npc[0] = [

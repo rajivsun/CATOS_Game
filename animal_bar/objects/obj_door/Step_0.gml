@@ -8,3 +8,5 @@ if open_door == true
 	alarm[0] = 60; // delay to let the client come
 	alarm[1] = 120; // close the door
 }
+
+x = layer_get_x("Bg") - dist_relative
