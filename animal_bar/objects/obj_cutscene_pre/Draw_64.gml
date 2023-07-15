@@ -1,13 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+scale_x += 0.0001;
+scale_y += 0.0001;
+
 // draw cutscene text
 draw_set_font(ft_chinese);
 draw_set_valign(fa_middle);draw_set_halign(fa_center);
 draw_set_alpha(alpha);
-draw_text_transformed(display_get_gui_width()/2,display_get_gui_height()/2,msg,0.6,0.6,0);
+draw_text_transformed(display_get_gui_width()/2,display_get_gui_height()*9/10,msg,0.6,0.6,0);
 draw_set_alpha(1);
 
+draw_sprite_ext(cutscene_image[current_image],0,display_get_gui_width()/2,display_get_gui_height()/2-50,scale_x,scale_y,0,c_white,1);
 //// pass sign
 //if pass = false{
 //	draw_text(1100,50,_skip);

@@ -30,6 +30,12 @@ if current < array_length_1d(text)
 		{		
 			current++;
 			state = 0;
+			if current == 2 or current == 4 or current == 6
+			{
+				current_image ++;
+				scale_x = 1.5;
+				scale_y = 1.5;
+			}
 		}
 	}
 	alpha = timer / duration;
@@ -39,3 +45,5 @@ else
 {
 	fadetoroom(roomgoto,180,c_black,false,false);
 }
+
+
