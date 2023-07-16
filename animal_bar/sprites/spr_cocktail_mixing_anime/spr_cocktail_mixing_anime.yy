@@ -20,7 +20,8 @@
   "height": 270,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a87207e5-b339-4c80-ba12-53814a947c0f","blendMode":0,"displayName":"Layer 5","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"107ad711-5c05-4522-9a48-d998d7b5c2b4","blendMode":0,"displayName":"Layer 9","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2f2771a8-3e5a-42df-86b7-41e2b01974c1","blendMode":0,"displayName":"Layer 5","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e8276e93-969e-4424-881d-873e180cac6e","blendMode":0,"displayName":"Layer 4","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3e1bacfe-d1eb-4fdd-877b-6ad646288ce9","blendMode":0,"displayName":"Layer 3","isLocked":false,"opacity":100.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"60a5b40a-bae0-43f5-8d8f-e0609f5868e0","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":false,},
@@ -30,8 +31,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "MIXING",
+    "path": "folders/Sprites/MIXING.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

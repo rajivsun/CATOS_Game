@@ -31,61 +31,62 @@ if ! destroying
 		//------------ dragging ------------
 		if mouse_check_button_pressed(mb_left) 
 		{
-			//if collision_point(mouse_x,mouse_y,object_index,false,false) && click = false and obj_controller.dragging_item == noone
-			//{
-			//	if dragging == false
-			//	{
-			//		obj_controller.dragging_item = id;
-			//		start_x = x;
-			//		start_y = y;
-			//		dragging = true;
-			//		mouse_xprev = mouse_x;
-			//		mouse_yprev = mouse_y;
-			//		mouse_buff_x = mouse_x - x;
-			//		mouse_buff_y = mouse_y - y;
-			//	}
-			//	click = true;
-			//}
-			if collision_point(mouse_x,mouse_y,object_index,false,false)
+			if collision_point(mouse_x,mouse_y,object_index,false,false) && click = false and obj_controller.dragging_item == noone
 			{
-				with instance_create_layer(mouse_x,mouse_y,"text",obj_sample)
+				if dragging == false
 				{
-					material = other.object_index;
+					obj_controller.dragging_item = id;
+					start_x = x;
+					start_y = y;
+					dragging = true;
+					mouse_xprev = mouse_x;
+					mouse_yprev = mouse_y;
+					mouse_buff_x = mouse_x - x;
+					mouse_buff_y = mouse_y - y;
 				}
+				click = true;
 			}
+			//if collision_point(mouse_x,mouse_y,object_index,false,false)
+			//{
+			//	with instance_create_layer(mouse_x,mouse_y,"text",obj_sample)
+			//	{
+			//		material = other.object_index;
+			//	}
+			//}
 		}
 	
 		// release the mouse button
 		//if mouse_check_button_released(mb_left) and id == obj_controller.dragging_item
-		//{
-		//	if place_meeting(x,y,obj_shaker_table)
-		//	{
-		//		destroying = true;
-		//		if obj_shaker_table.state == "mixing"
-		//			array_push(obj_shaker_table.ls_drinks,object_index);
-		//	}
-		//	else
-		//	{
-		//		x = start_x;
-		//		y = start_y;
-		//		//instance_destroy();
-		//	}
-		//	dragging = false;
-		//	click = false;
-		//	obj_controller.dragging_item = noone;
-		//}
+		if mouse_check_button_pressed(mb_right) and id == obj_controller.dragging_item
+		{
+			if place_meeting(x,y,obj_shaker_table)
+			{
+				destroying = true;
+				if obj_shaker_table.state == "mixing"
+					array_push(obj_shaker_table.ls_drinks,object_index);
+			}
+			else
+			{
+				x = start_x;
+				y = start_y;
+				//instance_destroy();
+			}
+			dragging = false;
+			click = false;
+			obj_controller.dragging_item = noone;
+		}
 		
-		//if dragging == true and click == true
-		//{
-		//	var dx = (mouse_x - mouse_xprev);
-		//	var dy = (mouse_y - mouse_yprev);
+		if dragging == true and click == true
+		{
+			var dx = (mouse_x - mouse_xprev);
+			var dy = (mouse_y - mouse_yprev);
 
-		//	x += dx;
-		//	y += dy;
+			x += dx;
+			y += dy;
 
-		//	mouse_xprev = mouse_x;
-		//	mouse_yprev = mouse_y;
-		//}
+			mouse_xprev = mouse_x;
+			mouse_yprev = mouse_y;
+		}
 	}
 }
 else
