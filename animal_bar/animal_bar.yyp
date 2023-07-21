@@ -95,6 +95,7 @@
     {"id":{"name":"obj_liqueur_plum","path":"objects/obj_liqueur_plum/obj_liqueur_plum.yy",},},
     {"id":{"name":"obj_sirop","path":"objects/obj_sirop/obj_sirop.yy",},},
     {"id":{"name":"spr_card_trio","path":"sprites/spr_card_trio/spr_card_trio.yy",},},
+    {"id":{"name":"spr_hand_holding","path":"sprites/spr_hand_holding/spr_hand_holding.yy",},},
     {"id":{"name":"spr_support_cup","path":"sprites/spr_support_cup/spr_support_cup.yy",},},
     {"id":{"name":"zhongyi_cactus_a_boy_with_a_wolf_and_a_deer_f67c97bf_3ecc_458c_805d_ac457d81970a","path":"sprites/zhongyi_cactus_a_boy_with_a_wolf_and_a_deer_f67c97bf_3ecc_458c_805d_ac457d81970a/zhongyi_cactus_a_boy_with_a_wolf_and_a_deer_f67c97bf_3ecc_458c_805d_ac457d81970a.yy",},},
     {"id":{"name":"spr_liqueur_orange","path":"sprites/spr_liqueur_orange/spr_liqueur_orange.yy",},},
@@ -249,8 +250,8 @@
     {"id":{"name":"rm_bar","path":"rooms/rm_bar/rm_bar.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_bar","path":"rooms/rm_bar/rm_bar.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_pre","path":"rooms/rm_pre/rm_pre.yy",},},
   ],
   "TextureGroups": [
