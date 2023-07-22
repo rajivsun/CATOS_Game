@@ -59,7 +59,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
