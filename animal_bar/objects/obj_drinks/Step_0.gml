@@ -31,28 +31,29 @@ if ! destroying
 		//------------ dragging ------------
 		if mouse_check_button_pressed(mb_left) 
 		{
-			if collision_point(mouse_x,mouse_y,object_index,false,false) && click = false and obj_controller.dragging_item == noone
-			{
-				if dragging == false
-				{
-					obj_controller.dragging_item = id;
-					start_x = x;
-					start_y = y;
-					dragging = true;
-					mouse_xprev = mouse_x;
-					mouse_yprev = mouse_y;
-					mouse_buff_x = mouse_x - x;
-					mouse_buff_y = mouse_y - y;
-				}
-				click = true;
-			}
-			//if collision_point(mouse_x,mouse_y,object_index,false,false)
+			//if collision_point(mouse_x,mouse_y,object_index,false,false) && click = false and obj_controller.dragging_item == noone
 			//{
-			//	with instance_create_layer(mouse_x,mouse_y,"text",obj_sample)
+			//	if dragging == false
 			//	{
-			//		material = other.object_index;
+			//		obj_controller.dragging_item = id;
+			//		start_x = x;
+			//		start_y = y;
+			//		dragging = true;
+			//		mouse_xprev = mouse_x;
+			//		mouse_yprev = mouse_y;
+			//		mouse_buff_x = mouse_x - x;
+			//		mouse_buff_y = mouse_y - y;
+					
 			//	}
+			//	click = true;
 			//}
+			if collision_point(mouse_x,mouse_y,object_index,false,false)
+			{
+				with instance_create_layer(mouse_x,mouse_y,"text",obj_sample)
+				{
+					material = other.object_index;
+				}
+			}
 		}
 	
 		// release the mouse button
@@ -89,6 +90,7 @@ if ! destroying
 		}
 	}
 }
+
 else
 {
 	image_xscale -= 0.1;
