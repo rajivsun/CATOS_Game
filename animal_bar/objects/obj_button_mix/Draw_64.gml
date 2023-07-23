@@ -30,18 +30,20 @@ if state == "mixing"
 	draw_sprite_ext(spr_cocktail_mixing_anime_2,0,display_get_gui_width()/3,anime_y_2,2,2,0,c_white,1);
 	draw_sprite_ext(spr_cocktail_mixing_anime_3,0,display_get_gui_width()/3*2,anime_y_3,2,2,0,c_white,1);
 	
+	
+	// draw hand holding the cocktail
 	draw_set_alpha(alpha_2);
 	draw_rectangle_color(0,0,display_get_gui_width(),display_get_gui_height(),c_black,c_black,c_black,c_black,false)
 	draw_set_alpha(1);
 	
-	draw_sprite_ext(spr_hand_holding,0,display_get_gui_width()/2,anime_y_4,2,2,0,c_white,1);
+	draw_sprite_ext(spr_hand_holding,0,display_get_gui_width()/2+90,anime_y_4,2,2,0,c_white,1);
 	
 	
 	
 }
 else
 {
-	anime_y_1 = -200*2;
+	anime_y_1 = -270*2;
 	anime_y_2 = anime_y_1;
 	anime_y_3 = anime_y_1;
 	anime_y_4 = display_get_gui_height()+100*2;

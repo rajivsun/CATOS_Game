@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_cocktail_mixing_anime_3",
-  "bbox_bottom": 199,
+  "bbox_bottom": 269,
   "bbox_left": 0,
   "bbox_right": 159,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 200,
+  "height": 270,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c4b22789-f6f3-4ed0-a91d-e08f63eb21eb","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
