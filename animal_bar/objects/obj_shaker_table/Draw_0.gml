@@ -6,7 +6,8 @@ draw_sprite_ext(spr_shaker_table,image_index,x,y,1,1,0,c_white,1);
 switch state
 {
 	case "mixing":
-		draw_sprite_ext(spr_shaker,image_index,x,y,1,1,0,c_white,1);
+		draw_sprite_ext(spr_shaker,0,x,y,1,1,0,c_white,1);
+		draw_sprite_ext(spr_shaker,1,x,y,1,1,0,c_white,1);
 
 		for (var i=0;i<array_length(ls_drinks);i++)
 		{

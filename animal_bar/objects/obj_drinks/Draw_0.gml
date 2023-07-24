@@ -1,7 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+if instance_exists(obj_sample)
+{ 
+	if object_index != obj_sample.material
+		draw_self();
+}
+else
 draw_self();
 
 if collision_point(mouse_x,mouse_y,object_index,false,false) and obj_controller.make_drinks == true 

@@ -49,6 +49,7 @@ if ! destroying
 			//}
 			if collision_point(mouse_x,mouse_y,object_index,false,false)
 			{
+				
 				with instance_create_layer(mouse_x,mouse_y,"text",obj_sample)
 				{
 					material = other.object_index;
@@ -58,23 +59,24 @@ if ! destroying
 	
 		// release the mouse button
 		//if mouse_check_button_released(mb_left) and id == obj_controller.dragging_item
-		if mouse_check_button_pressed(mb_right) and id == obj_controller.dragging_item
+		if mouse_check_button_pressed(mb_right) //and id == obj_controller.dragging_item
 		{
-			if place_meeting(x,y,obj_shaker_table)
-			{
-				destroying = true;
-				if obj_shaker_table.state == "mixing"
-					array_push(obj_shaker_table.ls_drinks,object_index);
-			}
-			else
-			{
-				x = start_x;
-				y = start_y;
-				//instance_destroy();
-			}
-			dragging = false;
-			click = false;
-			obj_controller.dragging_item = noone;
+			instance_destroy(obj_sample);
+			//if place_meeting(x,y,obj_shaker_table)
+			//{
+			//	destroying = true;
+			//	if obj_shaker_table.state == "mixing"
+			//		array_push(obj_shaker_table.ls_drinks,object_index);
+			//}
+			//else
+			//{
+			//	x = start_x;
+			//	y = start_y;
+			//	//instance_destroy();
+			//}
+			//dragging = false;
+			//click = false;
+			//obj_controller.dragging_item = noone;
 		}
 		
 		if dragging == true and click == true
