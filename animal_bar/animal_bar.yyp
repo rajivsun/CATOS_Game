@@ -224,6 +224,7 @@
     {"id":{"name":"Sprite9596","path":"sprites/Sprite9596/Sprite9596.yy",},},
     {"id":{"name":"spr_bar_table","path":"sprites/spr_bar_table/spr_bar_table.yy",},},
     {"id":{"name":"spr_vodka","path":"sprites/spr_vodka/spr_vodka.yy",},},
+    {"id":{"name":"spr_portrait_buck_sad","path":"sprites/spr_portrait_buck_sad/spr_portrait_buck_sad.yy",},},
     {"id":{"name":"spr_icon_play_music","path":"sprites/spr_icon_play_music/spr_icon_play_music.yy",},},
     {"id":{"name":"spr_tavern_START","path":"sprites/spr_tavern_START/spr_tavern_START.yy",},},
     {"id":{"name":"obj_gin","path":"objects/obj_gin/obj_gin.yy",},},

@@ -19,6 +19,7 @@ if state == "mixing"
 	{
 		anime_y_4 = lerp(anime_y_4,display_get_gui_height()-100*2,0.1);
 		alpha_2 = lerp(alpha_2,0.8,0.1);
+		alpha_text = lerp(alpha_text,1,0.1);
 	}
 	
 	draw_set_alpha(0.7);
@@ -35,6 +36,11 @@ if state == "mixing"
 	draw_set_alpha(1);
 	
 	draw_sprite_ext(spr_hand_holding,0,display_get_gui_width()/2+90,anime_y_4,2,2,0,c_white,1);
+	
+	// draw options
+	draw_set_valign(fa_middle);
+	draw_set_halign(fa_center);
+	draw_text_color(display_get_gui_width()/4,display_get_gui_height()/2,"SERVE",#E5C55B,#E5C55B,#E5C55B,#E5C55B,alpha_text);
 }
 else
 {
@@ -43,4 +49,5 @@ else
 	anime_y_3 = anime_y_1;
 	anime_y_4 = display_get_gui_height()+100*2;
 	alpha_2 = 0;
+	alpha_text = 0;
 }

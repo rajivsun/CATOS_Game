@@ -180,6 +180,7 @@
     {"name":"Sprite9596","order":20,"path":"sprites/Sprite9596/Sprite9596.yy",},
     {"name":"spr_bar_table","order":20,"path":"sprites/spr_bar_table/spr_bar_table.yy",},
     {"name":"spr_vodka","order":4,"path":"sprites/spr_vodka/spr_vodka.yy",},
+    {"name":"spr_portrait_buck_sad","order":2,"path":"sprites/spr_portrait_buck_sad/spr_portrait_buck_sad.yy",},
     {"name":"spr_icon_play_music","order":7,"path":"sprites/spr_icon_play_music/spr_icon_play_music.yy",},
     {"name":"spr_tavern_START","order":1,"path":"sprites/spr_tavern_START/spr_tavern_START.yy",},
     {"name":"obj_gin","order":7,"path":"objects/obj_gin/obj_gin.yy",},

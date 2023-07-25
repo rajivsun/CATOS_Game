@@ -27,7 +27,6 @@ if make_drinks == true
 		if instance_exists(current_client)
 			current_client.state = "drinking";
 	}
-
 }
 else
 {

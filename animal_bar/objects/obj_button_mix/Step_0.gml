@@ -37,7 +37,21 @@ switch state
 		break;
 		
 	case "mixing":
-	
-		
+		if device_mouse_x_to_gui(0) > 180 and device_mouse_y_to_gui(0) > 220 and device_mouse_x_to_gui(0) < 310 
+		and device_mouse_y_to_gui(0) < 300
+		{
+			if mouse_check_button(mb_left)
+			{
+				with obj_controller
+				{
+					make_drinks = false;
+					if instance_exists(current_client)
+						current_client.state = "drinking";
+				}
+				state = "idle";
+				//ls_drinks = [];
+				//current_cocktail = -1;
+			}
+		}
 		break;
 }
