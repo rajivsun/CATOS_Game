@@ -265,8 +265,8 @@
     {"id":{"name":"rm_bar","path":"rooms/rm_bar/rm_bar.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_bar","path":"rooms/rm_bar/rm_bar.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_pre","path":"rooms/rm_pre/rm_pre.yy",},},
   ],
   "TextureGroups": [
