@@ -9,15 +9,21 @@ switch state
 	case "mixing":
 		if place_meeting(x,y,obj_sample)
 		{
+			y_offset = lerp(y_offset,-10,0.1);
 			image_index = 1;
 		}
-		else image_index = 0;
+		else 
+		{
+			y_offset = lerp(y_offset,0,0.1);
+			image_index = 0;
+		}
 		
 		break;
 		
 	case "finish":
 		if collision_point(mouse_x,mouse_y,id,false,false)
 		{	
+			
 			image_index = 1;
 			if mouse_check_button_pressed(mb_any)
 			{
@@ -32,7 +38,11 @@ switch state
 				current_cocktail = -1;
 			}
 		}
-		else image_index = 0;
+		else 
+		{
+
+			image_index = 0;
+		}
 		break;
 }
 

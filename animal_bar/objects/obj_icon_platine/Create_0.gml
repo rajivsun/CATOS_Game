@@ -16,22 +16,24 @@ alpha_fond = 0;
 music_playing = true
 
 
-
 //play music
 audio_stop_all();
-audio_play_sound(mc_jazz_1,99,true);
+audio_play_sound(mc_jazz_3,99,true);
 // music info 
 music_names = [
+"Bet on it ",
 "Jazz Lounge | Street Food",
 "Ludwig Van Beethoven | Aus Goethe"
 ];
 
 arthor_names = [
+"Silent Partner",
 "Alex Productions",
 "Nesrality",
 ];
 
 music_list = [
+mc_jazz_3,
 mc_jazz_1, 
 mc_jazz_2,
 ];

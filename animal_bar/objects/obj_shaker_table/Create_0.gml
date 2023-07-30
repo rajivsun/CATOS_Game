@@ -6,6 +6,7 @@ dist = y - obj_bar_table.y;
 current_cocktail = -1;
 //ls_drinks = ds_list_create();
 ls_drinks = [];
+y_offset = 0;
 
 //ds_list_add(ls_drinks,"whiskey");
 //ds_list_add(ls_drinks,"orange juice");
