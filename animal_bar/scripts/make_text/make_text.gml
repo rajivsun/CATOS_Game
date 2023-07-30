@@ -9,5 +9,4 @@ function make_text(_txt){
 		}
 		current_txt++;
 	}
-
 }

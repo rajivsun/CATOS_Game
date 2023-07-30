@@ -35,12 +35,22 @@ if state == "mixing"
 	draw_rectangle_color(0,0,display_get_gui_width(),display_get_gui_height(),c_black,c_black,c_black,c_black,false)
 	draw_set_alpha(1);
 	
-	draw_sprite_ext(spr_hand_holding,0,display_get_gui_width()/2+90,anime_y_4,2,2,0,c_white,1);
+	// draw cocktail information
+	var _current_cocktail = obj_shaker_table.current_cocktail;
+	draw_sprite_ext(spr_cocktail_to_draw,_current_cocktail,display_get_gui_width()/2+90,anime_y_4,2,2,0,c_white,1);
+	draw_set_valign(fa_middle);
+	draw_set_halign(fa_center);
+	draw_set_font(ft_chinese);
+	draw_text_transformed_color(display_get_gui_width()/2,display_get_gui_height()/4-55,
+	cocktail_name,1.2,1.2,0,#E5C55B,#E5C55B,#E5C55B,#E5C55B,alpha_text);
+	draw_text_transformed_color(display_get_gui_width()/2,display_get_gui_height()/4,
+	cocktail_description,0.7,0.7,0,c_white,c_white,c_white,c_white,alpha_text);	
 	
 	// draw options
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_center);
-	draw_text_color(display_get_gui_width()/4,display_get_gui_height()/2,"SERVE",#E5C55B,#E5C55B,#E5C55B,#E5C55B,alpha_text);
+	draw_set_font(ft_chinese);
+	draw_text_transformed_color(display_get_gui_width()/4,display_get_gui_height()/2,"SERVE",1.5,1.5,0,#E5C55B,#E5C55B,#E5C55B,#E5C55B,alpha_text);
 }
 else
 {

@@ -17,20 +17,34 @@ switch state
 				image_index = 2;
 				state = "mixing";
 		
-				//with obj_shaker_table
-				//{
+				with obj_shaker_table
+				{
 				//	state = "finish";
-				//	for (var i=0;i<array_length(all_drinks);i++)
-				//	{
-				//		var _intersection = array_intersection(all_drinks[i],ls_drinks)
+					var _get_right_drink = false;
+					// if got the right drink
+					for (var i=0;i<array_length(all_drinks);i++)
+					{
+						var _intersection = array_intersection(all_drinks[i],ls_drinks)
 				
-				//		if array_length(_intersection) == array_length(all_drinks[i])
-				//		{
-				//			show_debug_message("yesssssssssss");
-				//			current_cocktail = i;					
-				//		}
-				//	}
-				//}
+						if array_length(_intersection) == array_length(all_drinks[i])
+						{
+							//show_debug_message("yesssssssssss");
+							other.spr_cocktail_to_draw = spr_cocktail_hands
+							current_cocktail = i;	
+							_get_right_drink = true;
+							other.cocktail_name =obj_shaker_table.all_drinks_name[obj_shaker_table.current_cocktail][0];
+							other.cocktail_description = other.all_cocktail_description[current_cocktail];
+						}
+					}
+					// if dont get the right drink
+					if _get_right_drink == false
+					{
+						other.spr_cocktail_to_draw = spr_cocktails_ugly;
+						current_cocktail = 0;
+						other.cocktail_name = other.bad_drinks_name[0];
+						other.cocktail_description =  other.bad_drinks_description[0];
+					}
+				}
 			}
 		}
 		else image_index = 0;
@@ -47,10 +61,14 @@ switch state
 					make_drinks = false;
 					if instance_exists(current_client)
 						current_client.state = "drinking";
+
 				}
 				state = "idle";
-				//ls_drinks = [];
-				//current_cocktail = -1;
+				with obj_shaker_table
+				{
+					ls_drinks = [];
+					current_cocktail = -1;
+				}
 			}
 		}
 		break;

@@ -31,6 +31,7 @@ switch state
 			draw_set_halign(fa_center);
 			draw_set_font(ft_chinese);
 			draw_text_transformed(x,y-50,all_drinks_name[current_cocktail][0],0.5,0.5,0);
+
 		}
 		break;
 }

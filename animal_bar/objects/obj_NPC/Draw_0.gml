@@ -6,18 +6,18 @@
 if state == "reveal"
 {
 	count_alpha ++;
-	alpha_black = min(alpha_black+1/60,1);
-	if count_alpha >= 30
+	alpha_black = min(alpha_black+1/120,1);
+	if count_alpha >= 60
 	{
-		alpha = min(alpha+0.1,1);
-		count_alpha = 30;
+		alpha = min(alpha+0.05,1);
+		count_alpha = 60;
 	}
 
 }
 else if state == "leaving"
 {
 	count_alpha --;
-	alpha_black = max(alpha_black-1/60,1);
+	alpha_black = max(alpha_black-1/120,1);
 	if count_alpha < 0
 	{
 		alpha = max(alpha-0.1,0);

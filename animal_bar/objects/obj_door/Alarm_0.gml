@@ -17,7 +17,6 @@ for (var ii=0;ii<array_length(_current_npc);ii++)
 		{
 			if _current_npc[ii][2] == false 
 				shutup = true;
-		}
-		
+		}		
 	}
 }

@@ -46,6 +46,7 @@ switch scene
 {
 	case -1:
 	
+		// 
 		count ++;
 		if count >= room_speed * 4
 		{
