@@ -24,8 +24,8 @@ pos2 = 480 * 1/2;
 pos3 = 480 * 5/6;
 pos4 = 480 * 7/6;
 
-current_dialogue = -1
-position_dialogue[0] = [[obj_buck,pos3,true,obj_wolf,pos2]];
+current_dialogue = 0
+position_dialogue[0] = [[obj_buck,pos3,true,obj_wolf,pos2,false]];
 position_dialogue[1] = [[obj_lion,pos2,true],[obj_buck,pos3,true]]
 position_dialogue[2] = [[obj_buck,pos3,true]];
 position_dialogue[3] = [[obj_white_fox,pos2,true],[obj_buck,pos3,true]];
@@ -295,3 +295,4 @@ txt10[0] = [
 ];
 
 all_txt = [txt_pre_1,txt,txt2,txt2_1,txt2_2,txt3,txt3_1,txt4,txt5,txt6,txt7,txt8,txt9,txt10];
+all_txt = [txt,txt2,txt2_1,txt2_2,txt3,txt3_1,txt4,txt5,txt6,txt7,txt8,txt9,txt10];

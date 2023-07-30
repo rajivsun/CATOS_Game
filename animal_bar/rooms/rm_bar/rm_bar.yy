@@ -53,6 +53,8 @@
     {"name":"inst_73E627AD","path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"inst_57CE1BF0","path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"inst_62BECEAA","path":"rooms/rm_bar/rm_bar.yy",},
+    {"name":"inst_415B1193","path":"rooms/rm_bar/rm_bar.yy",},
+    {"name":"inst_7B4EC680","path":"rooms/rm_bar/rm_bar.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -125,7 +127,10 @@
       ],"layers":[],"properties":[
         {"name":"g_TintCol","type":1,"value":"#FF666666",},
       ],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC","depth":1000,"effectEnabled":false,"effectType":"_filter_large_blur","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC","depth":1000,"effectEnabled":false,"effectType":"_filter_large_blur","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_415B1193","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_buck","path":"objects/obj_buck/obj_buck.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":400.0,"y":215.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B4EC680","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wolf","path":"objects/obj_wolf/obj_wolf.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":215.0,},
+      ],"layers":[],"properties":[
         {"name":"g_Radius","type":0,"value":"3",},
         {"name":"g_NoiseTexture","type":2,"value":"_filter_large_blur_noise",},
       ],"userdefinedDepth":false,"visible":true,},
