@@ -6,15 +6,16 @@ draw_sprite_ext(spr_shaker_table,image_index,x,y,1,1,0,c_white,1);
 switch state
 {
 	case "mixing":
-		draw_sprite_ext(spr_shaker,0,x,y,1,1,0,c_white,1);
-		draw_sprite_ext(spr_shaker,1,x,y+y_offset,1,1,0,c_white,1);
+		y_offset_2 = lerp(y_offset_2,0,0.1);
+		draw_sprite_ext(spr_shaker,0,x,y+y_offset_2,1,1,0,c_white,1);
+		draw_sprite_ext(spr_shaker,1,x,y+y_offset+y_offset_2,1,1,0,c_white,1);
 
 		for (var i=0;i<array_length(ls_drinks);i++)
 		{
 			draw_set_valign(fa_middle);
 			draw_set_halign(fa_center);
 			draw_set_font(ft_chinese);
-			draw_text_transformed(x,y-(50+i*20),ls_drinks[i].name[0],0.5,0.5,0);
+			//draw_text_transformed(x,y-(50+i*20),ls_drinks[i].name[0],0.5,0.5,0);
 		}
 		
 		break;

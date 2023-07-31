@@ -4,6 +4,8 @@
 y = obj_bar_table.y + dist;
 x = obj_bar_table.x;
 
+
+
 switch state
 {
 	case "mixing":

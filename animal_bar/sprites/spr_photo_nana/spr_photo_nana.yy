@@ -31,7 +31,7 @@
   "origin": 4,
   "parent": {
     "name": "PHOTO",
-    "path": "folders/Sprites/PHOTO.yy",
+    "path": "folders/Sprites/ITEM/PHOTO.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

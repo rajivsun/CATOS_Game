@@ -55,6 +55,7 @@
     {"name":"inst_62BECEAA","path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"inst_415B1193","path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"inst_7B4EC680","path":"rooms/rm_bar/rm_bar.yy",},
+    {"name":"inst_6860DFCA","path":"rooms/rm_bar/rm_bar.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -68,6 +69,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"text","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76E25CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-49.0,"y":135.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3DBCB55E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_text_drink_name","path":"objects/obj_text_drink_name/obj_text_drink_name.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-41.0,"y":54.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6860DFCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_particle","path":"objects/obj_particle/obj_particle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-14.0,"y":-14.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"drinks","depth":400,"effectEnabled":false,"effectType":"_filter_tintfilter","gridX":48,"gridY":48,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6029B800","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tequila","path":"objects/obj_tequila/obj_tequila.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":887.294,"y":76.0,},

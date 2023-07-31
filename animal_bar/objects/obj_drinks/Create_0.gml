@@ -40,6 +40,16 @@ else if object_index == obj_cranberry_juice name = ["蔓越莓汁"];
 else if object_index == obj_lemon_juice name = ["柠檬汁"];
 else if object_index == obj_coconut_milk name = ["椰奶"];
 
+else if object_index == obj_salt name = ["盐"];
+else if object_index == obj_honey name = ["蜂蜜"];
+else if object_index == obj_sirop name = ["糖浆"];
+else if object_index == obj_soda name = ["苏打水"];
+else if object_index == obj_ice_cube name = ["冰块"];
+else if object_index == obj_menthe name = ["薄荷"];
+else if object_index == obj_cherry name = ["樱桃"];
+else if object_index == obj_cannelle name = ["肉桂"];
+else if object_index == obj_orange_peel name = ["橘皮"];
+
 else name = [""];
 
 outline_create(shader_outlineW);
