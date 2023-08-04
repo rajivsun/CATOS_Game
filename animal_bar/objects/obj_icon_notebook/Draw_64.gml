@@ -2,14 +2,14 @@
 // You can write your code in this editor
 
 
-//if show_platine
-//{
-//	alpha_fond = lerp(alpha_fond,0.7,0.1);
-//	if music_playing == true
-//		rotation_plate += 0.3;
-//	depth = -9999;
+if show_ui
+{
 
-//}
+	alpha_fond = lerp(alpha_fond,0.7,0.1);
+	draw_sprite_ext(spr_ui_notebook,0,0,0,2,2,0,c_white,1);
+	depth = -9999;
+
+}
 //else
 //{
 //	rotation_plate = 0;

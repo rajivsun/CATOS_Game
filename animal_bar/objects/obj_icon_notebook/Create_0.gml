@@ -5,7 +5,7 @@
 // init
 outline_create(shader_outlineW);
 initial_depth = depth;
-show_platine = false;
+show_ui = false;
 rotation_plate = 0;
 vk_quit = virtual_key_add(750,10,100,100,vk_escape);
 vk_next = virtual_key_add(485,233,90,90,vk_left);

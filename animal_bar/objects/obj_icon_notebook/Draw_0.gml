@@ -13,7 +13,7 @@ if obj_controller.make_drinks == false
 		outline_draw(shader_outlineW);
 		if mouse_check_button_pressed(mb_left)
 		{
-			//show_platine = true;
+			show_ui = true;
 		}
 		
 	}

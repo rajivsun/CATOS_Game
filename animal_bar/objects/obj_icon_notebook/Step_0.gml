@@ -4,13 +4,13 @@
 
 x = obj_camera.x - (obj_camera.view_w_half - xstart);
 
-//if show_platine == true
-//{
-//	if keyboard_check_pressed(vk_escape)
-//	{
-//		show_platine = false;
-//	}
-
+if show_ui == true
+{
+	if keyboard_check_pressed(vk_escape)
+	{
+		show_ui = false;
+	}
+}
 //	if keyboard_check_pressed(vk_right)
 //	{
 //		audio_stop_all();

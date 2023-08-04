@@ -232,6 +232,7 @@
     {"id":{"name":"obj_non_alcohol","path":"objects/obj_non_alcohol/obj_non_alcohol.yy",},},
     {"id":{"name":"spr_button_trash","path":"sprites/spr_button_trash/spr_button_trash.yy",},},
     {"id":{"name":"zhongyi_cactus_a_wolf_baby_with_a_dear_baby_6623f3d1_5d0f_41ee_85ed_2ebc4dab0ddc","path":"sprites/zhongyi_cactus_a_wolf_baby_with_a_dear_baby_6623f3d1_5d0f_41ee_85ed_2ebc4dab0ddc/zhongyi_cactus_a_wolf_baby_with_a_dear_baby_6623f3d1_5d0f_41ee_85ed_2ebc4dab0ddc.yy",},},
+    {"id":{"name":"spr_ui_notebook","path":"sprites/spr_ui_notebook/spr_ui_notebook.yy",},},
     {"id":{"name":"spr_rum","path":"sprites/spr_rum/spr_rum.yy",},},
     {"id":{"name":"obj_icon_notebook","path":"objects/obj_icon_notebook/obj_icon_notebook.yy",},},
     {"id":{"name":"obj_photo_nana","path":"objects/obj_photo_nana/obj_photo_nana.yy",},},
