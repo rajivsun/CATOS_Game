@@ -25,8 +25,8 @@ if speed > 0
 	var _turn_amount = angle_difference(image_angle,dir) * acceleration;
 	image_angle -= _turn_amount;
 	
-	var _dust_x = x + lengthdir_x(10,image_angle+180);
-	var _dust_y = y + lengthdir_y(10,image_angle+180);
+	var _dust_x = x + lengthdir_x(20,image_angle+180);
+	var _dust_y = y + lengthdir_y(20,image_angle+180);
 	instance_create_layer(_dust_x+random_range(-4,4),_dust_y+random_range(-4,4),"Player",obj_dust);
 	
 }

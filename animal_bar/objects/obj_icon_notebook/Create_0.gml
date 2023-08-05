@@ -14,6 +14,7 @@ vk_play = virtual_key_add(585,233,90,90,vk_add);
 //virtual_key_show(vk_quit);
 alpha_fond = 0;
 music_playing = true
+y_to = 540;
 
 
 

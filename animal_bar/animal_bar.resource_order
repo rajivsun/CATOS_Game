@@ -184,7 +184,7 @@
     {"name":"obj_pineapple_juice","order":4,"path":"objects/obj_pineapple_juice/obj_pineapple_juice.yy",},
     {"name":"spr_button_trash","order":26,"path":"sprites/spr_button_trash/spr_button_trash.yy",},
     {"name":"zhongyi_cactus_a_wolf_baby_with_a_dear_baby_6623f3d1_5d0f_41ee_85ed_2ebc4dab0ddc","order":10,"path":"sprites/zhongyi_cactus_a_wolf_baby_with_a_dear_baby_6623f3d1_5d0f_41ee_85ed_2ebc4dab0ddc/zhongyi_cactus_a_wolf_baby_with_a_dear_baby_6623f3d1_5d0f_41ee_85ed_2ebc4dab0ddc.yy",},
-    {"name":"spr_ui_notebook","order":38,"path":"sprites/spr_ui_notebook/spr_ui_notebook.yy",},
+    {"name":"spr_ui_notebook","order":12,"path":"sprites/spr_ui_notebook/spr_ui_notebook.yy",},
     {"name":"spr_rum","order":3,"path":"sprites/spr_rum/spr_rum.yy",},
     {"name":"obj_icon_notebook","order":2,"path":"objects/obj_icon_notebook/obj_icon_notebook.yy",},
     {"name":"obj_photo_nana","order":3,"path":"objects/obj_photo_nana/obj_photo_nana.yy",},

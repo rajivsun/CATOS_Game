@@ -6,10 +6,16 @@ x = obj_camera.x - (obj_camera.view_w_half - xstart);
 
 if show_ui == true
 {
+	y_to = lerp(y_to,0,0.2);
 	if keyboard_check_pressed(vk_escape)
 	{
 		show_ui = false;
+		
 	}
+}
+else
+{
+	y_to = lerp(y_to,540,0.2);
 }
 //	if keyboard_check_pressed(vk_right)
 //	{

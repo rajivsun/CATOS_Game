@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_car",
   "bbox_bottom": 73,
-  "bbox_left": 36,
+  "bbox_left": 48,
   "bbox_right": 79,
   "bbox_top": 54,
   "bboxMode": 0,

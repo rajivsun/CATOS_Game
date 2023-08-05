@@ -4,9 +4,10 @@
 
 if show_ui
 {
-
-	alpha_fond = lerp(alpha_fond,0.7,0.1);
-	draw_sprite_ext(spr_ui_notebook,0,0,0,2,2,0,c_white,1);
+	draw_set_alpha(alpha_fond)
+	draw_rectangle_color(0,0,display_get_gui_width(),display_get_gui_height(),c_black,c_black,c_black,c_black,false);
+	draw_set_alpha(1)
+	alpha_fond = lerp(alpha_fond,0.5,0.1);
 	depth = -9999;
 
 }
@@ -19,3 +20,5 @@ if show_ui
 //	draw_rectangle_color(0,0,display_get_gui_width(),display_get_gui_height(),c_black,c_black,c_black,c_black,false);
 //	draw_set_alpha(1)
 //}
+
+draw_sprite_ext(spr_ui_notebook,0,0,y_to,2,2,0,c_white,1);
