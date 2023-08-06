@@ -28,8 +28,8 @@ spr_portrait_hyena_twin_brothers,
 ];
 npc_names = [
 "阿泰" ,
-"阿斯兰",
 "小灰",
+"阿斯兰",
 "吉儿", 
 "威廉", 
 "本杰明",
