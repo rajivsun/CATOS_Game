@@ -17,6 +17,21 @@ else
 {
 	y_to = lerp(y_to,540,0.2);
 }
+
+// scrolling through the characters
+if device_mouse_x_to_gui(0) > 15 and device_mouse_x_to_gui(0) < 380 
+and device_mouse_y_to_gui(0) > 100 and device_mouse_y_to_gui(0) < 600
+{
+	if mouse_wheel_down() and current_npc_index < array_length(character_list)-4
+	{
+		current_npc_index ++;
+	}
+	if mouse_wheel_up() and current_npc_index > 0
+	{
+		current_npc_index --;
+	}
+	
+}
 //	if keyboard_check_pressed(vk_right)
 //	{
 //		audio_stop_all();

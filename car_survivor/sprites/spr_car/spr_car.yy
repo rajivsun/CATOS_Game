@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_car",
-  "bbox_bottom": 73,
-  "bbox_left": 48,
-  "bbox_right": 79,
-  "bbox_top": 54,
+  "bbox_bottom": 74,
+  "bbox_left": 0,
+  "bbox_right": 83,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,7 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9f8fb3ab-92b0-4485-b0a1-1b73caee883d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6268b653-2959-4650-8bf8-bb9bf528adb6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee401b47-eb7d-4ca7-b596-6a3d173131ee",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b3b300b1-401e-4035-93b5-aa8605b766d5",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b65b0b26-6e62-4317-92b2-0ac9264fee87",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"25ea71b2-c852-4bf9-b546-174b6042a58f",},
@@ -25,8 +25,7 @@
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"618ba0d2-00db-4a22-9b1f-d75f1f7d4688","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"601ac0fe-9424-4fa3-ae83-baa2c292e4be","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"35581452-9276-4d21-98e9-b84148473cf0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -61,7 +60,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9f8fb3ab-92b0-4485-b0a1-1b73caee883d","path":"sprites/spr_car/spr_car.yy",},},},"Disabled":false,"id":"4b17790b-aad6-4243-827c-f91069a525d7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6268b653-2959-4650-8bf8-bb9bf528adb6","path":"sprites/spr_car/spr_car.yy",},},},"Disabled":false,"id":"0561029d-dce0-4b86-a1c9-8e83796dd82b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee401b47-eb7d-4ca7-b596-6a3d173131ee","path":"sprites/spr_car/spr_car.yy",},},},"Disabled":false,"id":"393a143f-1b7f-421d-a64b-b27817bf21bc","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b3b300b1-401e-4035-93b5-aa8605b766d5","path":"sprites/spr_car/spr_car.yy",},},},"Disabled":false,"id":"b97439fe-05ec-47ce-ae06-8f166efedf20","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b65b0b26-6e62-4317-92b2-0ac9264fee87","path":"sprites/spr_car/spr_car.yy",},},},"Disabled":false,"id":"06d19987-71c8-43f8-92a1-2dcd2abd4265","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"25ea71b2-c852-4bf9-b546-174b6042a58f","path":"sprites/spr_car/spr_car.yy",},},},"Disabled":false,"id":"21d81fb3-34ea-4bf3-8fbd-7bba4293a8d3","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},

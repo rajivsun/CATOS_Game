@@ -37,11 +37,12 @@
   "resources": [
     {"id":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_dust_small","path":"objects/obj_dust_small/obj_dust_small.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
-    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"obj_dust","path":"objects/obj_dust/obj_dust.yy",},},
     {"id":{"name":"spr_dust","path":"sprites/spr_dust/spr_dust.yy",},},
     {"id":{"name":"ts_test","path":"tilesets/ts_test/ts_test.yy",},},
+    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_tileset_test","path":"sprites/spr_tileset_test/spr_tileset_test.yy",},},
     {"id":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

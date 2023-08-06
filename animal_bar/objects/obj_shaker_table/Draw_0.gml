@@ -15,7 +15,10 @@ switch state
 			draw_set_valign(fa_middle);
 			draw_set_halign(fa_center);
 			draw_set_font(ft_chinese);
-			//draw_text_transformed(x,y-(50+i*20),ls_drinks[i].name[0],0.5,0.5,0);
+			draw_set_alpha(0.7);
+			draw_roundrect_color(x-50,y-58-i*20,x+50,y-42-i*20,c_black,c_black,false)
+			draw_set_alpha(1)
+			draw_text_transformed(x,y-(50+i*20),ls_drinks[i].name[0],0.3,0.3,0);
 		}
 		
 		break;

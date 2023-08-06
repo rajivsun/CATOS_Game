@@ -4,8 +4,8 @@
   "name": "spr_ui_notebook",
   "bbox_bottom": 267,
   "bbox_left": 9,
-  "bbox_right": 186,
-  "bbox_top": 50,
+  "bbox_right": 231,
+  "bbox_top": 21,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -20,6 +20,8 @@
   "height": 270,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9a226210-4622-4e79-8275-0afef52fc06c","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c2a9fe4c-8f91-4011-937d-2419416de822","blendMode":0,"displayName":"Layer 3","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9730a886-42d7-4337-96c4-472e7ff4dee8","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"acc419fc-9213-44c7-b88d-017293a0397b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
@@ -71,5 +73,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 203,
+  "width": 240,
 }

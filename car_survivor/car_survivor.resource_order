@@ -18,10 +18,11 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_dust_small","order":4,"path":"objects/obj_dust_small/obj_dust_small.yy",},
     {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
-    {"name":"spr_enemy","order":3,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"obj_dust","order":3,"path":"objects/obj_dust/obj_dust.yy",},
     {"name":"spr_dust","order":4,"path":"sprites/spr_dust/spr_dust.yy",},
+    {"name":"spr_enemy","order":5,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_tileset_test","order":2,"path":"sprites/spr_tileset_test/spr_tileset_test.yy",},
   ],
 }

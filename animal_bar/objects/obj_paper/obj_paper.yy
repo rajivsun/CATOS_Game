@@ -30,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_paper",
-    "path": "sprites/spr_paper/spr_paper.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

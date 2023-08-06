@@ -17,10 +17,34 @@ music_playing = true
 y_to = 540;
 
 
+character_list = [
+spr_portrait_buck,
+spr_portrait_wolf,
+spr_portrait_lion,
+spr_portrait_white_fox,
+spr_portrait_gorilla_police,
+spr_portrait_redpanda_police,
+spr_portrait_hyena_twin_brothers,
+];
+npc_names = [
+"阿泰" ,
+"阿斯兰",
+"小灰",
+"吉儿", 
+"威廉", 
+"本杰明",
+"黑岩兄弟"
+];
 
+npc_description = [
+"一位意气风发的雄鹿",
+"动物城议会会长",
 
+];
 
-
-
+current_npc_index = 0;
+//current_npc_list = ds_list_create()
+//ds_list_add(current_npc_list,npc_names[0]);
+//ds_list_add(current_npc_list,npc_names[1]);
 
 

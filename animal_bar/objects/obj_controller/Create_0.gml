@@ -5,14 +5,14 @@
 
 //game_set_speed(60, gamespeed_fps);
 virtual_key_add(700,130,150,150,ord("F"))
-virtual_key_add(0,400,960,200,vk_space)
+virtual_key_add(0,400,960,200,vk_space);
+virtual_key_add(400,40,70,70,vk_escape);
 name_player = "John";
 
 // --------------- init -----------------
 make_drinks = false;
 blur_level = 0;
 blur_level_all = 0;
-scene = 1;
 day = 0;
 count = 0;
 current_client = noone;
@@ -24,8 +24,10 @@ pos2 = 480 * 1/2;
 pos3 = 480 * 5/6;
 pos4 = 480 * 7/6;
 
-current_dialogue = 0
-position_dialogue[0] = [[obj_buck,pos3,true,obj_wolf,pos2,false]];
+scene = -1;
+current_dialogue = -1;
+position_dialogue[0] = [[obj_buck,pos3,true]];
+//position_dialogue[0] = [[obj_buck,pos3,true,obj_wolf,pos2,false]];
 position_dialogue[1] = [[obj_lion,pos2,true],[obj_buck,pos3,true]]
 position_dialogue[2] = [[obj_buck,pos3,true]];
 position_dialogue[3] = [[obj_white_fox,pos2,true],[obj_buck,pos3,true]];
@@ -295,4 +297,4 @@ txt10[0] = [
 ];
 
 all_txt = [txt_pre_1,txt,txt2,txt2_1,txt2_2,txt3,txt3_1,txt4,txt5,txt6,txt7,txt8,txt9,txt10];
-all_txt = [txt,txt2,txt2_1,txt2_2,txt3,txt3_1,txt4,txt5,txt6,txt7,txt8,txt9,txt10];
+//all_txt = [txt,txt2,txt2_1,txt2_2,txt3,txt3_1,txt4,txt5,txt6,txt7,txt8,txt9,txt10];
