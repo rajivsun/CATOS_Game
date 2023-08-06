@@ -28,6 +28,7 @@ draw_sprite_ext(spr_ui_notebook,0,0,y_to,2,2,0,c_white,1);
 draw_set_font(ft_chinese);
 draw_set_halign(fa_right);
 draw_set_valign(fa_middle);
+//draw_text_transformed_color(350,65+y_to,"Contact",2,2,0,#FFDC65,#FFDC65,#FFDC65,#FFDC65,1);
 draw_text_transformed(350,65+y_to,"Contact",2,2,0);
 
 for (var i=0;i<4;i++)
@@ -41,6 +42,7 @@ for (var i=0;i<4;i++)
 	draw_set_valign(fa_middle);
 	// character info
 	draw_text_transformed_color(150,155+y_to+i*100,npc_names[i+current_npc_index],0.5,0.5,0,c_black,c_black,c_black,c_black,1);
+	draw_text_transformed_color(150,185+y_to+i*100,npc_description[i+current_npc_index],0.5,0.5,0,c_dkgray,c_dkgray,c_dkgray,c_dkgray,1);
 	
 	// slider
 	var _interval_height = 172/(array_length(character_list)-4)
