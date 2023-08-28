@@ -3,11 +3,14 @@
 
 
 // init
+page = 0;
+page_cocktail = 0;
+current_drink = 0;
 outline_create(shader_outlineW);
 initial_depth = depth;
 show_ui = false;
 rotation_plate = 0;
-vk_quit = virtual_key_add(750,10,100,100,vk_escape);
+vk_quit = virtual_key_add(400,0,100,100,vk_escape);
 vk_next = virtual_key_add(485,233,90,90,vk_left);
 vk_previous = virtual_key_add(687,233,90,90,vk_right);
 vk_play = virtual_key_add(585,233,90,90,vk_add);
@@ -15,7 +18,7 @@ vk_play = virtual_key_add(585,233,90,90,vk_add);
 alpha_fond = 0;
 music_playing = true
 y_to = 540;
-
+y_to_final = -85;
 
 character_list = [
 spr_portrait_buck,

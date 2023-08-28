@@ -58,6 +58,11 @@ switch state
 			{
 				with obj_controller
 				{
+					// hide the menu ui
+					with obj_icon_notebook
+					{
+						show_ui = false;
+					}
 					make_drinks = false;
 					if instance_exists(current_client)
 						current_client.state = "drinking";

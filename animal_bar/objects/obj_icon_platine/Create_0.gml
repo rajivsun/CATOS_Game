@@ -18,7 +18,7 @@ music_playing = true
 
 //play music
 audio_stop_all();
-audio_play_sound(mc_jazz_3,99,true);
+//audio_play_sound(mc_jazz_3,99,true);
 // music info 
 music_names = [
 "Bet on it ",

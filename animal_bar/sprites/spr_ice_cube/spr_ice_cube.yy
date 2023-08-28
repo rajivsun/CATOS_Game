@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_ice_cube",
-  "bbox_bottom": 71,
+  "bbox_bottom": 45,
   "bbox_left": 15,
   "bbox_right": 64,
   "bbox_top": 17,
@@ -20,6 +20,7 @@
   "height": 80,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"13d4dc8b-0cfa-4752-a4c4-66ffd03ab2a6","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a8c57507-16b9-4f82-b209-cf6aa97e6791","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,

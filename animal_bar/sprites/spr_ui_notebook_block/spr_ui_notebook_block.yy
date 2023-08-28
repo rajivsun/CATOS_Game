@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_ui_notebook_block",
-  "bbox_bottom": 110,
+  "bbox_bottom": 99,
   "bbox_left": 21,
   "bbox_right": 160,
   "bbox_top": 66,

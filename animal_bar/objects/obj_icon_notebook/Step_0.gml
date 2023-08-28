@@ -1,16 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 x = obj_camera.x - (obj_camera.view_w_half - xstart);
 
-if show_ui == true
+if show_ui == true and obj_button_mix.state != "mixing"
 {
-	y_to = lerp(y_to,0,0.2);
+	y_to = lerp(y_to,y_to_final,0.2);
 	if keyboard_check_pressed(vk_escape)
 	{
 		show_ui = false;
-		
 	}
 }
 else
@@ -19,8 +17,7 @@ else
 }
 
 // scrolling through the characters
-if device_mouse_x_to_gui(0) > 15 and device_mouse_x_to_gui(0) < 380 
-and device_mouse_y_to_gui(0) > 100 and device_mouse_y_to_gui(0) < 600
+if mouse_collision(15,380,10,500)
 {
 	if mouse_wheel_down() and current_npc_index < array_length(character_list)-4
 	{
@@ -32,27 +29,16 @@ and device_mouse_y_to_gui(0) > 100 and device_mouse_y_to_gui(0) < 600
 	}
 	
 }
-//	if keyboard_check_pressed(vk_right)
-//	{
-//		audio_stop_all();
-//		current_music = min(current_music+1,array_length(music_list)-1);
-//		audio_play_sound(music_list[current_music],99,true);
-//		audio_resume_all();
-//		music_playing = true;
-//	}
-//	if keyboard_check_pressed(vk_left)
-//	{
-//		audio_stop_all();
-//		current_music = max(current_music-1,0);
-//		audio_play_sound(music_list[current_music],99,true);
-//		audio_resume_all();
-//		music_playing = true;
-//	}
-//	if keyboard_check_pressed(vk_add)
-//	{
-//		if music_playing == true
-//			audio_pause_all();
-//		else audio_resume_all();
-//		music_playing = -music_playing;
-//	}
-//}
+
+// change pages
+if mouse_check_button_pressed(mb_left)
+{
+	if mouse_collision(345,380,155,210)
+	{
+		page = 1;
+	}
+	else if mouse_collision(345,380,92,155)
+	{
+		page = 0;
+	}
+}

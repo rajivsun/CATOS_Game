@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+//---init ----
+affection_level = 50;
 y = 214;
 count_alpha = 0;
 count = 0;

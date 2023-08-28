@@ -68,6 +68,11 @@ if accept_key and txt[current_node][page+1][0] != 0
 			if txt[current_node][page+1][1] == "drink"
 			{
 				obj_controller.make_drinks = true;
+				// show the menu ui
+				with obj_icon_notebook
+				{
+					show_ui = true;
+				}
 				obj_controller.current_client = txt[current_node][page+1][2];
 				//txt[current_node][page+1][2].wait_for_drink = true;
 			}

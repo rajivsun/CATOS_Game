@@ -28,9 +28,9 @@ switch state
 			draw_text_transformed(x+30,y+17+i*28,obj_shaker_table.all_drinks_description[i][0],0.3,0.3,0);
 		}	
 		break;
-
 			
 	case "drink":
+		
 		image_index = 1;
 		// back sign
 		draw_sprite_ext(spr_cocktail_menu_backsign,0,x,y-50,1,1,0,c_white,1);

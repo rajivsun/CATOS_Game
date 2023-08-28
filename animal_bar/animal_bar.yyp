@@ -188,6 +188,7 @@
     {"id":{"name":"spr_portrait_gorilla_police","path":"sprites/spr_portrait_gorilla_police/spr_portrait_gorilla_police.yy",},},
     {"id":{"name":"zhongyi_cactus_a_selfie_of_a_boy_and_a_wolf_and_a_deer_58bedfeb_a6ff_473d_a2a9_b864047db5c2","path":"sprites/zhongyi_cactus_a_selfie_of_a_boy_and_a_wolf_and_a_deer_58bedfeb_a6ff_473d_a2a9_b864047db5c2/zhongyi_cactus_a_selfie_of_a_boy_and_a_wolf_and_a_deer_58bedfeb_a6ff_473d_a2a9_b864047db5c2.yy",},},
     {"id":{"name":"obj_orange_peel","path":"objects/obj_orange_peel/obj_orange_peel.yy",},},
+    {"id":{"name":"mouse_function","path":"scripts/mouse_function/mouse_function.yy",},},
     {"id":{"name":"spr_ice_cube","path":"sprites/spr_ice_cube/spr_ice_cube.yy",},},
     {"id":{"name":"spr_bar_table_top","path":"sprites/spr_bar_table_top/spr_bar_table_top.yy",},},
     {"id":{"name":"ice","path":"sprites/ice/ice.yy",},},

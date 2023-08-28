@@ -3,7 +3,7 @@
 
 
 
-if obj_controller.make_drinks == false
+if false == false
 {
 	draw_self();
 	if collision_point(mouse_x,mouse_y,object_index,false,false)
