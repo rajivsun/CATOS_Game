@@ -28,5 +28,14 @@ if collision_circle(x,y,shoot_range,obj_enemy,false,false) and shoot_cd >= shoot
 		direction = point_direction(x,y,_nearest_enemy.x,_nearest_enemy.y);
 		image_angle = direction;
 	}
+
+}
+// pass to night
+if obj_controller.start = true
+{
+	if keyboard_check_pressed(vk_control)
+	{
+		obj_controller.start_wave = true;
+	}
 }
 
