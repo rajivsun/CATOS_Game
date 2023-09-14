@@ -83,28 +83,32 @@ else if page == 1
 			draw_sprite_ext(spr_cocktail_menu_backsign,0,270,y_to+200,2,2,0,c_white,1);
 			// write cocktail name and description
 			draw_set_valign(fa_middle);
-			draw_set_halign(fa_right);
+			draw_set_halign(fa_left);
 			draw_set_font(ft_chinese);
 			draw_set_color(#CCBE7A);
-			draw_text_transformed(300,y_to+250,obj_shaker_table.all_drinks_name[current_drink][0],1,1,0);			
-			draw_sprite_ext(spr_cocktail_only,current_drink,100,y_to+250,1,1,0,c_white,1);
+			draw_text_transformed(70,y_to+220,obj_shaker_table.all_drinks_name[current_drink][0],0.7,0.7,0);			
 			draw_set_color(c_white);
-			draw_text_transformed(x,y-30,obj_shaker_table.all_drinks_description[current_drink][0],0.3,0.3,0);
+			draw_text_transformed(70,y_to+250,obj_shaker_table.all_drinks_description[current_drink][0],0.7,0.7,0);
+			draw_sprite_ext(spr_cocktail_only,current_drink,100,y_to+340,1,1,0,c_white,1);
+			draw_set_color(c_white);
 			
 			// ingredient
 			for (var i = 0;i<array_length(obj_shaker_table.all_drinks[current_drink]);i++)
 			{
-				draw_text_transformed(x+60,y-5+i*15,"·"+obj_shaker_table.all_drinks[current_drink][i].name[0],0.3,0.3,0);
+				draw_set_valign(fa_middle);
+				draw_set_halign(fa_left);
+				draw_text_transformed(160,y_to+300+i*30,"·"+obj_shaker_table.all_drinks[current_drink][i].name[0],0.7,0.7,0);
 			}
 		
-			draw_chinese("left",15,obj_shaker_table.all_drinks_intro[current_drink][0],x,y+60,0.25,#CCBE7A);
+			draw_chinese("left",16,obj_shaker_table.all_drinks_intro[current_drink][0],60,y_to+430,0.5,#CCBE7A);
 		
 			// if click on back button
-			if mouse_x > x + 90 and mouse_x < x + 120 and mouse_y > y -50 and mouse_y < y + 20 -50
+			//if mouse_x > x + 90 and mouse_x < x + 120 and mouse_y > y -50 and mouse_y < y + 20 -50
+			if mouse_collision(268,325,100,155)
 			{
 				if mouse_check_button_pressed(mb_any)
 				{
-					state = "main";
+					page_cocktail = 0
 					break;
 				}
 			}

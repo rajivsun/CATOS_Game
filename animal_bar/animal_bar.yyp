@@ -61,9 +61,12 @@
   "isEcma": false,
   "LibraryEmitters": [
     {"name":"Emitter1","path":"particlelib/Emitter1/Emitter1.yy",},
+    {"name":"Emitter1","path":"particlelib/Emitter1/Emitter1.yy",},
+    {"name":"Emitter1","path":"particlelib/Emitter1/Emitter1.yy",},
+    {"name":"Emitter1","path":"particlelib/Emitter1/Emitter1.yy",},
   ],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
@@ -296,6 +299,7 @@
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_pre","path":"rooms/rm_pre/rm_pre.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":false,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
