@@ -64,9 +64,11 @@
     {"name":"Emitter1","path":"particlelib/Emitter1/Emitter1.yy",},
     {"name":"Emitter1","path":"particlelib/Emitter1/Emitter1.yy",},
     {"name":"Emitter1","path":"particlelib/Emitter1/Emitter1.yy",},
+    {"name":"Emitter1","path":"particlelib/Emitter1/Emitter1.yy",},
+    {"name":"Emitter1","path":"particlelib/Emitter1/Emitter1.yy",},
   ],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
@@ -225,6 +227,7 @@
     {"id":{"name":"obj_icon_dialogue","path":"objects/obj_icon_dialogue/obj_icon_dialogue.yy",},},
     {"id":{"name":"zhongyi_cactus_a_white_fox_2d2b974d_fa5d_4885_b4ed_1dbf83e20792","path":"sprites/zhongyi_cactus_a_white_fox_2d2b974d_fa5d_4885_b4ed_1dbf83e20792/zhongyi_cactus_a_white_fox_2d2b974d_fa5d_4885_b4ed_1dbf83e20792.yy",},},
     {"id":{"name":"obj_bar_table","path":"objects/obj_bar_table/obj_bar_table.yy",},},
+    {"id":{"name":"text_day_1","path":"scripts/text_day_1/text_day_1.yy",},},
     {"id":{"name":"spr_lemon_juice","path":"sprites/spr_lemon_juice/spr_lemon_juice.yy",},},
     {"id":{"name":"obj_menu_start","path":"objects/obj_menu_start/obj_menu_start.yy",},},
     {"id":{"name":"obj_soda","path":"objects/obj_soda/obj_soda.yy",},},

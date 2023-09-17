@@ -176,6 +176,7 @@
     {"name":"obj_icon_dialogue","order":4,"path":"objects/obj_icon_dialogue/obj_icon_dialogue.yy",},
     {"name":"zhongyi_cactus_a_white_fox_2d2b974d_fa5d_4885_b4ed_1dbf83e20792","order":15,"path":"sprites/zhongyi_cactus_a_white_fox_2d2b974d_fa5d_4885_b4ed_1dbf83e20792/zhongyi_cactus_a_white_fox_2d2b974d_fa5d_4885_b4ed_1dbf83e20792.yy",},
     {"name":"obj_bar_table","order":18,"path":"objects/obj_bar_table/obj_bar_table.yy",},
+    {"name":"text_day_1","order":5,"path":"scripts/text_day_1/text_day_1.yy",},
     {"name":"spr_lemon_juice","order":5,"path":"sprites/spr_lemon_juice/spr_lemon_juice.yy",},
     {"name":"obj_menu_start","order":1,"path":"objects/obj_menu_start/obj_menu_start.yy",},
     {"name":"obj_soda","order":4,"path":"objects/obj_soda/obj_soda.yy",},
