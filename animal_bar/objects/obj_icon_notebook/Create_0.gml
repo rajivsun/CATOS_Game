@@ -28,6 +28,13 @@ spr_portrait_white_fox,
 spr_portrait_gorilla_police,
 spr_portrait_redpanda_police,
 spr_portrait_hyena_twin_brothers,
+spr_portrait_null,
+spr_portrait_null,
+spr_portrait_null,
+spr_portrait_null,
+spr_portrait_null,
+spr_portrait_null,
+spr_portrait_null,
 ];
 npc_names = [
 "阿泰" ,
@@ -36,7 +43,14 @@ npc_names = [
 "吉儿", 
 "威廉", 
 "本杰明",
-"黑岩兄弟"
+"黑岩兄弟",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
 ];
 
 npc_description = [
@@ -47,6 +61,13 @@ npc_description = [
 "正义的猩猩警长",
 "红熊猫副警长",
 "恶名昭著的孪生兄弟",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
 ];
 
 current_npc_index = 0;

@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"elevator","order":1,"path":"sprites/elevator/elevator.yy",},
+    {"name":"spr_whole_structure","order":3,"path":"sprites/spr_whole_structure/spr_whole_structure.yy",},
     {"name":"elevator2","order":2,"path":"sprites/elevator2/elevator2.yy",},
   ],
 }

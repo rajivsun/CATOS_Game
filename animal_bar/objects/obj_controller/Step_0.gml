@@ -21,7 +21,7 @@ if make_drinks == true
 {
 
 	blur_level = min(blur_level+0.5,10);
-	
+	obj_icon_notebook.show_ui = true;
 	if keyboard_check_pressed(ord("D"))
 	{
 		make_drinks = false;

@@ -19,7 +19,7 @@ if show_ui
 	}
 }
 
-// ---------- page contact ------------------
+// ---------------------- page contact ----------------------
 if page == 0
 {
 	// draw whats on the notebook
@@ -32,6 +32,11 @@ if page == 0
 
 	for (var i=0;i<4;i++)
 	{
+		
+		if mouse_collision(44,320,90+i*90,151+i*90)
+		{
+			draw_sprite_ext(spr_ui_notebook_block,1,0,40+y_to+i*90,2,2,0,c_white,1);
+		}
 	
 		// draw block
 		draw_sprite_ext(spr_ui_notebook_block,0,0,40+y_to+i*90,2,2,0,c_white,1);
@@ -49,6 +54,7 @@ if page == 0
 		draw_sprite_ext(spr_ui_notebook_slider,0,0,y_to+current_npc_index*_interval_height*2,2,2,0,c_white,1);
 	}
 }
+// ------------------ page of cocktails ------------------
 else if page == 1
 {
 	draw_sprite_ext(spr_ui_notebook,1,0,y_to,2,2,0,c_white,1);

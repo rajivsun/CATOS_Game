@@ -6,7 +6,7 @@ x = obj_camera.x - (obj_camera.view_w_half - xstart);
 if show_ui == true and obj_button_mix.state != "mixing"
 {
 	y_to = lerp(y_to,y_to_final,0.2);
-	if keyboard_check_pressed(vk_escape)
+	if keyboard_check_pressed(vk_escape) and obj_controller.make_drinks == false
 	{
 		show_ui = false;
 	}
@@ -31,9 +31,13 @@ if mouse_collision(15,380,10,500)
 }
 
 // change pages
-if mouse_check_button_pressed(mb_left)
+if obj_controller.make_drinks == true
 {
-	if mouse_collision(345,380,155,210)
+	page = 1;
+}
+else if mouse_check_button_pressed(mb_left)
+{
+	if mouse_collision(345,380,155,210) 
 	{
 		page = 1;
 	}
