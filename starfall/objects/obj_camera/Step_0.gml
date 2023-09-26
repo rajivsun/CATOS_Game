@@ -3,16 +3,16 @@
 if !instance_exists(obj_player) exit;
 
 //update destination
-xTo = follow.x;
-yTo = follow.y;
+xTo = follow.x+(mouse_x-follow.x)/3;
+yTo = follow.y+(mouse_y-follow.y)/3;
 
 //xTo = follow.x + (mouse_x-follow.x)/4;
 //yTo = follow.y + (mouse_y-follow.y)/4;
 
 
 //updata object position
-x += (xTo - x)/5;
-y += (yTo - y)/5;
+x += (xTo - x)/25;
+y += (yTo - y)/25;
 
 x = clamp(x,view_w_half,room_width-view_w_half);
 y = clamp(y,view_h_half,room_height-view_h_half);

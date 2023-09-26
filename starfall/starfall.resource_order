@@ -39,6 +39,7 @@
     {"name":"obj_controller","order":1,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"spr_playerRR","order":1,"path":"sprites/spr_playerRR/spr_playerRR.yy",},
     {"name":"spr_playerU","order":3,"path":"sprites/spr_playerU/spr_playerU.yy",},
+    {"name":"spr_concept","order":11,"path":"sprites/spr_concept/spr_concept.yy",},
     {"name":"obj_mine_driller","order":9,"path":"objects/obj_mine_driller/obj_mine_driller.yy",},
     {"name":"obj_base","order":7,"path":"objects/obj_base/obj_base.yy",},
     {"name":"obj_wall","order":2,"path":"objects/obj_wall/obj_wall.yy",},

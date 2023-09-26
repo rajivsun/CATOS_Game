@@ -35,8 +35,8 @@
     "path": "sprites/spr_playerL/spr_playerL.yy",
   },
   "spriteMaskId": {
-    "name": "spr_playerD",
-    "path": "sprites/spr_playerD/spr_playerD.yy",
+    "name": "spr_playerL",
+    "path": "sprites/spr_playerL/spr_playerL.yy",
   },
   "visible": true,
 }

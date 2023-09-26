@@ -17,7 +17,8 @@ if place_meeting(x,y,obj_coin)
 
 // shooting
 shoot_cd ++;
-if collision_circle(x,y,shoot_range,obj_enemy,false,false) and shoot_cd >= shoot_speed * room_speed
+//if collision_circle(x,y,shoot_range,obj_enemy,false,false) and shoot_cd >= shoot_speed * room_speed
+if mouse_check_button(mb_left) and shoot_cd >= shoot_speed * room_speed
 {
 	var _nearest_enemy = instance_nearest(x,y,obj_enemy)
 	shoot_cd = 0;
@@ -25,10 +26,9 @@ if collision_circle(x,y,shoot_range,obj_enemy,false,false) and shoot_cd >= shoot
 	{
 		speed = 20;
 		damage = other.shoot_dmg;
-		direction = point_direction(x,y,_nearest_enemy.x,_nearest_enemy.y);
+		direction = point_direction(x,y,mouse_x,mouse_y);
 		image_angle = direction;
 	}
-
 }
 // pass to night
 if obj_controller.start = true

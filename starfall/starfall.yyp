@@ -69,6 +69,7 @@
     {"id":{"name":"spr_playerRR","path":"sprites/spr_playerRR/spr_playerRR.yy",},},
     {"id":{"name":"spr_playerD","path":"sprites/spr_playerD/spr_playerD.yy",},},
     {"id":{"name":"spr_playerU","path":"sprites/spr_playerU/spr_playerU.yy",},},
+    {"id":{"name":"spr_concept","path":"sprites/spr_concept/spr_concept.yy",},},
     {"id":{"name":"spr_born_sign","path":"sprites/spr_born_sign/spr_born_sign.yy",},},
     {"id":{"name":"obj_mine_driller","path":"objects/obj_mine_driller/obj_mine_driller.yy",},},
     {"id":{"name":"obj_base","path":"objects/obj_base/obj_base.yy",},},
