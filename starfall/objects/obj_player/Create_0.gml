@@ -1,11 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-shoot_speed = 0.01
+shoot_speed = 0.5
 speedwalk = 2.0;
 shoot_range = 200;
 shoot_dmg = 10;
 hp_max = 100;
+speed_bullet = 50;
 
 
 //---------initialization---------

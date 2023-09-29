@@ -3,3 +3,4 @@
 
 
 damage = 0;
+speed_bullet = 40

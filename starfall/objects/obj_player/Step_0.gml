@@ -22,13 +22,8 @@ if mouse_check_button(mb_left) and shoot_cd >= shoot_speed * room_speed
 {
 	var _nearest_enemy = instance_nearest(x,y,obj_enemy)
 	shoot_cd = 0;
-	with instance_create_layer(x,y,"player",obj_bullet)
-	{
-		speed = 20;
-		damage = other.shoot_dmg;
-		direction = point_direction(x,y,mouse_x,mouse_y);
-		image_angle = direction;
-	}
+
+	shoot_bullet(x,y,speed_bullet,shoot_dmg,point_direction(x,y,mouse_x,mouse_y))
 }
 // pass to night
 if obj_controller.start = true
