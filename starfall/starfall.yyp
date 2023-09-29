@@ -84,6 +84,7 @@
     {"id":{"name":"spr_playerR","path":"sprites/spr_playerR/spr_playerR.yy",},},
     {"id":{"name":"spr_effect_spark","path":"sprites/spr_effect_spark/spr_effect_spark.yy",},},
     {"id":{"name":"obj_gun_tower_bot","path":"objects/obj_gun_tower_bot/obj_gun_tower_bot.yy",},},
+    {"id":{"name":"obj_enemy_dead_body","path":"objects/obj_enemy_dead_body/obj_enemy_dead_body.yy",},},
     {"id":{"name":"obj_particle","path":"objects/obj_particle/obj_particle.yy",},},
     {"id":{"name":"spr_base","path":"sprites/spr_base/spr_base.yy",},},
     {"id":{"name":"obj_dot","path":"objects/obj_dot/obj_dot.yy",},},

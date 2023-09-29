@@ -54,6 +54,7 @@
     {"name":"spr_playerR","order":2,"path":"sprites/spr_playerR/spr_playerR.yy",},
     {"name":"spr_effect_spark","order":3,"path":"sprites/spr_effect_spark/spr_effect_spark.yy",},
     {"name":"obj_gun_tower_bot","order":3,"path":"objects/obj_gun_tower_bot/obj_gun_tower_bot.yy",},
+    {"name":"obj_enemy_dead_body","order":12,"path":"objects/obj_enemy_dead_body/obj_enemy_dead_body.yy",},
     {"name":"obj_particle","order":11,"path":"objects/obj_particle/obj_particle.yy",},
     {"name":"obj_dot","order":9,"path":"objects/obj_dot/obj_dot.yy",},
     {"name":"obj_controller","order":1,"path":"objects/obj_controller/obj_controller.yy",},

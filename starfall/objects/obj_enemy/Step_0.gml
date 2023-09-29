@@ -9,7 +9,7 @@ direction = point_direction(x,y,obj_player.x,obj_player.y);
 if hp <= 0
 {
 	instance_destroy();
-	//instance_create_layer(x,y,"enemy",obj_coin);
+	instance_create_layer(x,y,"enemy",obj_enemy_dead_body);
 }
 
 depth = -y;
