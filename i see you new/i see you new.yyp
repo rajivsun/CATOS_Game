@@ -104,7 +104,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"sd_nosound","path":"sounds/sd_nosound/sd_nosound.yy",},},
@@ -743,6 +743,7 @@
     {"roomId":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
     {"roomId":{"name":"rm_homeF1_arcade","path":"rooms/rm_homeF1_arcade/rm_homeF1_arcade.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":false,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

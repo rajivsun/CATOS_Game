@@ -10,6 +10,7 @@ if hp <= 0
 {
 	instance_destroy();
 	instance_create_layer(x,y,"enemy",obj_enemy_dead_body);
+	part_particles_create(obj_particle_system.particle_system,x,y,obj_particle_system.particletype_explosion,100)
 }
 
 depth = -y;
@@ -23,6 +24,7 @@ else
 	sprite_index = spr_enemy;
 }
 
+image_xscale = sign(obj_player.x - x) ;
 //if (place_meeting(x, y, obj_enemy))
 //{
 //var push = 10;

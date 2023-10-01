@@ -4,6 +4,7 @@
 particle_system = part_system_create_layer("world",false);
 part_system_depth(particle_system,-999999);
 
+
 particletype_smoke = part_type_create();
 part_type_shape(particletype_smoke,pt_shape_spark);
 part_type_size(particletype_smoke,4,4,0,0);

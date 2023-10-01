@@ -23,8 +23,8 @@ else
 }
 // recoil
 recoilAmmount = lerp(recoilAmmount,0,0.3)
-x = xstart - lengthdir_x(recoilAmmount,image_angle)
-y = ystart - lengthdir_y(recoilAmmount,image_angle)
+x = xstart - lengthdir_x(recoilAmmount,image_angle+180)
+y = ystart - lengthdir_y(recoilAmmount,image_angle+180)
 
 if image_angle >= -90 and image_angle <= 90 image_yscale = 1
 else image_yscale = -1
