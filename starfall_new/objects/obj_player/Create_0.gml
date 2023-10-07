@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 shoot_speed = 0.5
-speedwalk = 4;
+speedwalk = 1;
 shoot_range = 200;
 shoot_dmg = 10;
 hp_max = 100;

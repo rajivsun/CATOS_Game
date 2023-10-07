@@ -7,7 +7,7 @@ function create_particle(_repeat,_spr,_scale,_angle=false){
 		{
 			sprite_index = _spr
 			fric = 0.9
-			motion_add(other.image_angle+random_range(-70,70),random_range(-4,-9)) // move the particle
+			motion_add(other.image_angle+random_range(-70,70),random_range(-1,-3)) // move the particle
 			if _angle == false
 			{
 				image_angle = direction	

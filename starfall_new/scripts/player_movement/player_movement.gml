@@ -26,7 +26,7 @@ function player_movement(){
 	{
 		sprite_index = spr_playerL;
 	}
-	image_xscale = -sign(mouse_x - x)
+	image_xscale = -sign(mouse_x - x)*image_yscale
 	//if hs != 0 or vs != 0{
 	//	//image_speed = 1;
 	//	var dir = input_direction;

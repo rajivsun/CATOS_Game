@@ -5,7 +5,7 @@ function shoot_bullet(_x,_y,_spd,_dmg,_dir){
 	{
 		speed = _spd;
 		damage = _dmg;
-		direction = _dir//+random_range(-10,10);
+		direction = _dir+random_range(-2,2);
 		image_angle = direction;
 		image_xscale = max(1,speed/sprite_width);
 	}
