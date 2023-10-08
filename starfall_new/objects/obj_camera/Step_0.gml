@@ -3,8 +3,8 @@
 if !instance_exists(obj_player) exit;
 
 //update destination
-xTo = follow.x+(mouse_x-follow.x)/3;
-yTo = follow.y+(mouse_y-follow.y)/3;
+xTo = follow.x//+(mouse_x-follow.x)/4;
+yTo = follow.y//+(mouse_y-follow.y)/4;
 
 //xTo = follow.x + (mouse_x-follow.x)/4;
 //yTo = follow.y + (mouse_y-follow.y)/4;

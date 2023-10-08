@@ -4,12 +4,17 @@
   "name": "obj_house",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buildings","path":"objects/obj_buildings/obj_buildings.yy",},"propertyId":{"name":"money_need","path":"objects/obj_buildings/obj_buildings.yy",},"value":"[2,2,4]",},
+  ],
   "parent": {
-    "name": "buildings",
-    "path": "folders/Objects/buildings.yy",
+    "name": "BUILDINGS",
+    "path": "folders/Objects/BUILDINGS.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_buildings",
+    "path": "objects/obj_buildings/obj_buildings.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

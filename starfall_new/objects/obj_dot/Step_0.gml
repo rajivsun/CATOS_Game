@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if collision_circle(x,y,30,obj_player,false,false)
+if collision_circle(x,y,collision_range,obj_player,false,false)
 {
 	if money_need <= obj_controller.gold
 	{
@@ -15,3 +15,4 @@ if collision_circle(x,y,30,obj_player,false,false)
 		}
 	}
 }
+

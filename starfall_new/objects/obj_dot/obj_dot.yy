@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_sign_dot",
-    "path": "sprites/spr_sign_dot/spr_sign_dot.yy",
+    "name": "spr_dot",
+    "path": "sprites/spr_dot/spr_dot.yy",
   },
   "spriteMaskId": null,
   "visible": true,

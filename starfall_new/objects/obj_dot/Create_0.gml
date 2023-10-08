@@ -5,3 +5,5 @@
 //sprite_to_draw = spr_base;
 object_to_build = obj_base;
 money_need = 8;
+
+collision_range = 10

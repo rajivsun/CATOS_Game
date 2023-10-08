@@ -9,8 +9,8 @@ part_system_depth(particle_system,-999999);
 particletype_explosion = part_type_create();
 //part_type_shape(particletype_explosion,pt_shape_pixel);
 part_type_sprite(particletype_explosion,spr_effect_break,false,false,false)
-part_type_size(particletype_explosion,0.1,0.2,-0.01,0);
-part_type_life(particletype_explosion,30,30);
+part_type_size(particletype_explosion,0.15,0.2,-0.01,0);
+part_type_life(particletype_explosion,15,20);
 //part_type_alpha3(particletype_explosion,1,1,0);
 part_type_orientation(particletype_explosion,0,359,0,0,0);
 part_type_speed(particletype_explosion,4,5,0,0);

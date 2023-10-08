@@ -8,8 +8,8 @@ shoot_dmg = 10;
 hp_max = 100;
 speed_bullet = 20;
 
-
 //---------initialization---------
+count_night = 0
 hs = 0;
 vs = 0;
 localframe = 0;
@@ -28,3 +28,5 @@ sprRD = spr_playerRD;
 sprRL = spr_playerRL;
 sprRU = spr_playerRU;
 
+
+instance_create_layer(x,y,"player",obj_striker)

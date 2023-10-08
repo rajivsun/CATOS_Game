@@ -5,8 +5,11 @@ if obj_controller.start == true
 {
 	if obj_controller.start_wave == true
 	{
-		instance_create_layer(x+random_range(-50,50),y+random_range(-50,50),"enemy",obj_enemy);
+		instance_create_layer(x+random_range(-50,50),y+random_range(-50,50),"enemy",obj_crawler);
 	}
 }
+
 alarm[0] = 60;
-instance_create_layer(x+random_range(-50,50),y+random_range(-50,50),"enemy",obj_enemy);
+
+
+//instance_create_layer(x+random_range(-50,50),y+random_range(-50,50),"enemy",obj_enemy);

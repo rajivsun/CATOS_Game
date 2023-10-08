@@ -2,9 +2,10 @@
 // You can write your code in this editor
 
 
-if place_meeting(x,y,obj_enemy)
+if collision_circle(x,y,10,obj_enemy,false,false)
 {
-	with instance_place(x,y,obj_enemy)
+	
+	with instance_nearest(x,y,obj_enemy)
 	{
 		hp -= other.damage;
 	}

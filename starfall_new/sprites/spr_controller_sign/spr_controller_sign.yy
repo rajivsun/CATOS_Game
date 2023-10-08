@@ -4,7 +4,7 @@
   "name": "spr_controller_sign",
   "bbox_bottom": 54,
   "bbox_left": 8,
-  "bbox_right": 53,
+  "bbox_right": 55,
   "bbox_top": 8,
   "bboxMode": 0,
   "collisionKind": 1,

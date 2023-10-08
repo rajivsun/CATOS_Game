@@ -4,6 +4,16 @@
 // movement
 direction = point_direction(x,y,obj_player.x,obj_player.y);
 
+// attack
+attack_cd ++
+if collision_circle(x,y,attack_range,obj_player,false,false) and attack_cd >= attack_speed
+{
+	with obj_player
+	{ 
+		hp -= other.dmg 
+	}
+	attack_cd = 0
+}
 
 // dead
 if hp <= 0
@@ -13,23 +23,17 @@ if hp <= 0
 	part_particles_create(obj_particle_system.particle_system,x,y,obj_particle_system.particletype_explosion,100)
 }
 
+// sprite
 depth = -y;
 
 if speed != 0
 {
-	sprite_index = spr_enemy;
+	sprite_index = spr_idle;
 }
 else
 {
-	sprite_index = spr_enemy;
+	sprite_index = spr_idle;
 }
 
 image_xscale = sign(obj_player.x - x) ;
-//if (place_meeting(x, y, obj_enemy))
-//{
-//var push = 10;
-//x -= lengthdir_x(push,point_direction(x,y,other.x,other.y));
-//y-= lengthdir_y(push,point_direction(x,y,other.x,other.y));
-//}
-//else{}
 
